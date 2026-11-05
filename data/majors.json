@@ -1,0 +1,1249 @@
+[
+  {
+    "id": "el-loco",
+    "name": "El Loco",
+    "number": "0",
+    "roman": "0",
+    "type": "Arcano Mayor",
+    "suit": null,
+    "element": "Aire",
+    "astrology": "Urano",
+    "keywords": [
+      "Comienzos",
+      "Espontaneidad",
+      "Inocencia",
+      "Salto de fe",
+      "Libertad"
+    ],
+    "essence": "El inicio del viaje del alma. Confianza ciega en el universo, inocencia sabia y valentía para lanzarse a lo desconocido sin equipaje.",
+    "meaning_upright": "El Loco te invita a dar un salto de fe hacia lo nuevo. Marca el punto cero donde todo es posible. Te pide que confíes en tus impulsos más genuinos, te despojes del miedo al ridículo y comiences esa nueva etapa con el corazón abierto.",
+    "symbols": [
+      {
+        "name": "Precipicio",
+        "desc": "El umbral hacia lo desconocido y el fin de la zona de confort."
+      },
+      {
+        "name": "Perro blanco",
+        "desc": "Instinto leal y protección invisible que advierte sin frenar."
+      },
+      {
+        "name": "Rosa blanca",
+        "desc": "Pureza de corazón e intenciones limpias sin dobleces."
+      },
+      {
+        "name": "Atillo pequeño",
+        "desc": "El equipaje mínimo necesario; no cargar con lastres del pasado."
+      },
+      {
+        "name": "Sol brillante",
+        "desc": "Claridad cósmica y bendición superior que acompaña tus pasos."
+      }
+    ],
+    "light_side": "Optimismo inquebrantable, libertad interior, originalidad y valentía para romper viejos moldes.",
+    "shadow_side": "Imprudencia temeraria, actuar sin medir consecuencias, evasión de responsabilidades e ingenuidad ciega.",
+    "love": "Romance fresco y emocionante, atracción espontánea sin ataduras, superar el miedo al rechazo y permitirse sentir.",
+    "work": "Emprender proyectos innovadores, cambiar radicalmente de rumbo profesional con ilusión y frescura mental.",
+    "spirituality": "Inicio de una iniciación espiritual, sintonía pura con la sincronicidad cósmica y mente de principiante.",
+    "advice": "Da el salto. No esperes a tener todas las respuestas antes de caminar. Confía en el proceso vital.",
+    "reflection_question": "¿Qué estás postergando por miedo a equivocarte o a lo que piensen los demás?",
+    "reversed": {
+      "keywords": [
+        "Temeridad",
+        "Miedo al cambio",
+        "Imprudencia",
+        "Estancamiento",
+        "Falta de rumbo"
+      ],
+      "meaning": "Invertido señala riesgos absurdos e innecesarios por un lado, o parálisis y cobardía ante un cambio necesario por el otro.",
+      "how_to_heal": "Pisa tierra firme. Calcula riesgos reales sin matar tu entusiasmo, pero asegurando un suelo antes de lanzarte."
+    },
+    "img": "assets/cards/el-loco.webp"
+  },
+  {
+    "id": "el-mago",
+    "name": "El Mago",
+    "number": "I",
+    "roman": "I",
+    "type": "Arcano Mayor",
+    "suit": null,
+    "element": "Aire",
+    "astrology": "Mercurio",
+    "keywords": [
+      "Poder personal",
+      "Manifestación",
+      "Recursos",
+      "Enfoque",
+      "Acción consciente"
+    ],
+    "essence": "Tienes todas las herramientas necesarias sobre tu mesa. Canaliza la energía divina para transformar tu realidad aquí y ahora.",
+    "meaning_upright": "El Mago anuncia el momento óptimo para materializar tus objetivos. Posees intelecto, pasión, emoción y recursos prácticos. No necesitas esperar condiciones ideales externas: tú eres el alquimista y cocreador consciente de tu destino.",
+    "symbols": [
+      {
+        "name": "Brazo arriba y brazo abajo",
+        "desc": "'Como es arriba, es abajo': canalización del poder espiritual a la materia."
+      },
+      {
+        "name": "Lemniscata (infinito)",
+        "desc": "Potencial infinito de la mente y conexión constante con la sabiduría universal."
+      },
+      {
+        "name": "4 Elementos en la mesa",
+        "desc": "Voluntad (Bastos), Amor (Copas), Intelecto (Espadas) y Materia (Oros)."
+      },
+      {
+        "name": "Rosas rojas y lirios blancos",
+        "desc": "Equilibrio armónico entre la pasión terrenal y la pureza de intención."
+      }
+    ],
+    "light_side": "Maestría personal, resolución rápida de problemas, carisma comunicativo y autoconfianza creadora.",
+    "shadow_side": "Manipulación psicológica, charlatanería, arrogancia, promesas vacías y uso egoísta del intelecto.",
+    "love": "Atracción magnética irresistible, comunicación fluida, tomar la iniciativa para conquistar o revitalizar el vínculo.",
+    "work": "Capacidad total para cerrar acuerdos, liderar proyectos con éxito y aprovechar todas las herramientas a mano.",
+    "spirituality": "Comprensión de las leyes herméticas y uso responsable del poder mental en la manifestación.",
+    "advice": "Actúa ya. Tienes el conocimiento y los medios para lograr lo que te propones; pon tu voluntad en marcha.",
+    "reflection_question": "¿Qué talento o recurso disponible tienes frente a ti que no estás aprovechando?",
+    "reversed": {
+      "keywords": [
+        "Manipulación",
+        "Dispersión",
+        "Talento bloqueado",
+        "Engaño",
+        "Inseguridad"
+      ],
+      "meaning": "Invertido avisa de dispersión de energía, engaños de terceros o desconfianza en tus propias capacidades.",
+      "how_to_heal": "Enfoca tu mente en un solo objetivo claro y verifica que tus intenciones sean transparentes y éticas."
+    },
+    "img": "assets/cards/el-mago.webp"
+  },
+  {
+    "id": "la-sacerdotisa",
+    "name": "La Sacerdotisa",
+    "number": "II",
+    "roman": "II",
+    "type": "Arcano Mayor",
+    "suit": null,
+    "element": "Agua",
+    "astrology": "La Luna",
+    "keywords": [
+      "Intuición",
+      "Misterio",
+      "Subconsciente",
+      "Sabiduría oculta",
+      "Silencio fértil"
+    ],
+    "essence": "La guardiana de los misterios invisibles. La respuesta no está en el ruido exterior sino en el silencio sagrado de tu templo interior.",
+    "meaning_upright": "La Sacerdotisa te pide bajar el volumen del mundo y escuchar tus corazonadas, tus sueños y tu intuición. Hay factores que aún no son visibles en la superficie. Es tiempo de contemplación, estudio y confianza en lo que sientes sin necesidad de forzar explicaciones.",
+    "symbols": [
+      {
+        "name": "Columnas Boaz y Jachin",
+        "desc": "La dualidad cósmica: luz y sombra, activo y pasivo, consciente e inconsciente."
+      },
+      {
+        "name": "Velo con granadas",
+        "desc": "Fertilidad interior y protección de los secretos sagrados del alma."
+      },
+      {
+        "name": "Corona lunar",
+        "desc": "Conexión con las mareas emocionales y los ciclos naturales de la vida."
+      },
+      {
+        "name": "Rollo sagrado (TORA)",
+        "desc": "Conocimiento profundo de las leyes cósmicas esperando ser descifrado."
+      }
+    ],
+    "light_side": "Intuición clarividente, serenidad inquebrantable, discreción, sabiduría ancestral y calma reflexiva.",
+    "shadow_side": "Aislamiento emocional, frialdad calculada, secretos dañinos, desconfianza enfermiza o pasividad excesiva.",
+    "love": "Conexión de almas profunda y telepática; momento de observar con calma antes de forzar definiciones verbales.",
+    "work": "Estrategia silenciosa, confiar en tus presentimientos sobre personas y negocios, investigar antes de firmar.",
+    "spirituality": "Desarrollo de dones psíquicos y tarot, meditación profunda y reconexión con el subconsciente.",
+    "advice": "Guarda silencio y observa. La verdad saldrá a la luz sin que tengas que forzar nada. Confía en lo que sientes en tu pecho.",
+    "reflection_question": "¿Qué verdad estás percibiendo interiormente que tu mente lógica intenta negar?",
+    "reversed": {
+      "keywords": [
+        "Intuición ignorada",
+        "Secretos tóxicos",
+        "Frialdad",
+        "Superficialidad",
+        "Chismes"
+      ],
+      "meaning": "Invertida advierte que estás desoyendo una voz interior clave, o que te rodean secretos y deshonestidad.",
+      "how_to_heal": "Aléjate del bullicio. Dedica tiempo a la soledad reflexiva, anota tus sueños y vuelve a honrar tu sentir."
+    },
+    "img": "assets/cards/la-sacerdotisa.webp"
+  },
+  {
+    "id": "la-emperatriz",
+    "name": "La Emperatriz",
+    "number": "III",
+    "roman": "III",
+    "type": "Arcano Mayor",
+    "suit": null,
+    "element": "Tierra",
+    "astrology": "Venus",
+    "keywords": [
+      "Abundancia",
+      "Fertilidad",
+      "Nutrición",
+      "Sensualidad",
+      "Creatividad floreciente"
+    ],
+    "essence": "La Gran Madre en plenitud. Todo lo que siembras con ternura, paciencia y cuidado florece y genera frutos abundantes.",
+    "meaning_upright": "La Emperatriz es la carta de la gestación fecunda, la abundancia en todos los planos (ideas, proyectos, relaciones, finanzas) y el gozo sensorial. Te anima a conectar con la belleza, el autocuidado y la prosperidad tangible. Nutre lo que deseas ver crecer.",
+    "symbols": [
+      {
+        "name": "Corona de doce estrellas",
+        "desc": "Dominio sobre las doce constelaciones y los ciclos estacionales del año."
+      },
+      {
+        "name": "Trigo maduro",
+        "desc": "Cosecha segura y recompensa abundante al cuidado dedicado."
+      },
+      {
+        "name": "Río y cascada",
+        "desc": "Flujo continuo de emociones vivas y vitalidad que fertiliza la tierra."
+      },
+      {
+        "name": "Escudo de Venus",
+        "desc": "El poder creador del amor, la armonía, la belleza y la estética."
+      }
+    ],
+    "light_side": "Generosidad cálida, creatividad desbordante, prosperidad material, empatía y disfrute de los placeres sanos.",
+    "shadow_side": "Sobreprotección asfixiante, vanidad superficial, dependencia emocional, descuido físico o indulgencia perezosa.",
+    "love": "Amor pleno, pasión cálida, ternura compartida, posibilidad de convivencia, matrimonio o embarazo deseado.",
+    "work": "Periodo de expansión y prosperidad financiera. Negocios que florecen y generan abundancia sólida.",
+    "spirituality": "Conexión sagrada con la Madre Tierra, gratitud por el plano material como santuario de la vida.",
+    "advice": "Nútrete primero a ti mismo para poder nutrir a tus proyectos. Dale tiempo al fruto para madurar sin angustia.",
+    "reflection_question": "¿Cómo puedes tratarte hoy con mayor compasión, cuidado y merecimiento de abundancia?",
+    "reversed": {
+      "keywords": [
+        "Bloqueo creativo",
+        "Descuido personal",
+        "Sobrecontrol maternal",
+        "Inseguridad",
+        "Escasez"
+      ],
+      "meaning": "Invertida avisa de agotamiento por dar a los demás sin recargar tus propias reservas, o bloqueos artísticos.",
+      "how_to_heal": "Prioriza tu salud y descanso. Llena tu propio pozo interno antes de seguir ofreciendo agua a otros."
+    },
+    "img": "assets/cards/la-emperatriz.webp"
+  },
+  {
+    "id": "el-emperador",
+    "name": "El Emperador",
+    "number": "IV",
+    "roman": "IV",
+    "type": "Arcano Mayor",
+    "suit": null,
+    "element": "Fuego",
+    "astrology": "Aries",
+    "keywords": [
+      "Estructura",
+      "Autoridad",
+      "Estabilidad",
+      "Liderazgo",
+      "Disciplina"
+    ],
+    "essence": "El poder del orden y la razón pragmática. Construye bases sólidas e inamovibles para que tu visión se sostenga en el tiempo.",
+    "meaning_upright": "El Emperador aporta orden donde había caos. Te pide disciplina, límites claros, liderazgo firme y ejecución estratégica. Es momento de ser el soberano de tu propia vida, asumir responsabilidades con madurez y defender lo construido con rectitud.",
+    "symbols": [
+      {
+        "name": "Trono de piedra cúbica",
+        "desc": "Cimientos inamovibles y estabilidad material a prueba de crisis."
+      },
+      {
+        "name": "Cabezas de carnero",
+        "desc": "Determinación inquebrantable, espíritu pionero y audacia de Aries."
+      },
+      {
+        "name": "Cetro de Ankh",
+        "desc": "Símbolo de vida eterna y gobernanza justa sobre las leyes de la tierra."
+      },
+      {
+        "name": "Armadura bajo la túnica",
+        "desc": "Preparación constante para proteger lo valioso y mantener la integridad."
+      }
+    ],
+    "light_side": "Liderazgo ético, fiabilidad, protección a los suyos, claridad de objetivos y disciplina ejemplar.",
+    "shadow_side": "Tiranía autoritaria, terquedad dogmática, frialdad emocional, intolerancia e incapacidad para delegar.",
+    "love": "Relación formal, sólida y leal. Seguridad, planes de futuro compartidos y compromisos serios.",
+    "work": "Consolidación de empresas, ascensos, estructuración de sistemas, éxito financiero mediante planificación.",
+    "spirituality": "La disciplina mental como vía de dominio del ego y servicio honesto al bien común.",
+    "advice": "Toma el mando con firmeza. Establece límites saludables, organiza tus finanzas y pon en orden tus prioridades.",
+    "reflection_question": "¿En qué área de tu vida necesitas imponer mayor orden, disciplina o límites personales?",
+    "reversed": {
+      "keywords": [
+        "Tiranía",
+        "Falta de control",
+        "Rigidez extrema",
+        "Abuso de poder",
+        "Caos operativo"
+      ],
+      "meaning": "Invertido indica o bien un control asfixiante sobre los demás, o bien una falta absoluta de disciplina que engendra caos.",
+      "how_to_heal": "Aprende a escuchar a los demás, flexibiliza tus posturas y recuerda que la verdadera autoridad no necesita gritar."
+    },
+    "img": "assets/cards/el-emperador.webp"
+  },
+  {
+    "id": "el-hierofante",
+    "name": "El Hierofante",
+    "number": "V",
+    "roman": "V",
+    "type": "Arcano Mayor",
+    "suit": null,
+    "element": "Tierra",
+    "astrology": "Tauro",
+    "keywords": [
+      "Tradición",
+      "Sabiduría espiritual",
+      "Mentoría",
+      "Valores éticos",
+      "Instituciones"
+    ],
+    "essence": "El puente entre lo humano y lo divino. Transmite el legado de la sabiduría comprobada, la ética y el aprendizaje guiado.",
+    "meaning_upright": "El Hierofante simboliza la búsqueda de significado, el estudio guiado por maestros o mentores respetados y la alineación con un marco ético sólido. Te sugiere aprender de la tradición, honrar las estructuras comprobadas y profundizar en tus convicciones morales.",
+    "symbols": [
+      {
+        "name": "Corona papal de tres niveles",
+        "desc": "Dominio sobre los tres planos: celestial, terrenal e infernal (mente, emoción, cuerpo)."
+      },
+      {
+        "name": "Llaves cruzadas de San Pedro",
+        "desc": "Apertura de los misterios conscientes e inconscientes."
+      },
+      {
+        "name": "Dos discípulos a sus pies",
+        "desc": "La transmisión pedagógica del conocimiento de maestro a alumno."
+      },
+      {
+        "name": "Gesto de bendición",
+        "desc": "Conexión y mediación sagrada entre el cielo y la asamblea de creyentes."
+      }
+    ],
+    "light_side": "Sabiduría moral, consejo experto, integridad ética, respeto por las raíces y vocación pedagógica.",
+    "shadow_side": "Dogmatismo ciego, fanatismo moralista, hipocresía religiosa, rigidez mental y rechazo al librepensamiento.",
+    "love": "Compromiso formal, bodas, valores compartidos en la pareja, lealtad y respeto mutuo duradero.",
+    "work": "Asesoramiento profesional cualificado, trabajo en instituciones sólidas, formación académica de calidad.",
+    "spirituality": "Estudio de textos sagrados, participación en comunidades de aprendizaje, conexión con guías espirituales.",
+    "advice": "Busca consejo en personas con experiencia comprobada. Apóyate en principios éticos sólidos antes de decidir.",
+    "reflection_question": "¿Qué valores o principios fundamentales no estás dispuesto a negociar en esta circunstancia?",
+    "reversed": {
+      "keywords": [
+        "Dogmatismo",
+        "Rebelión necesaria",
+        "Consejo engañoso",
+        "Ruptura de moldes",
+        "Hipocresía"
+      ],
+      "meaning": "Invertido marca la necesidad de romper con mandatos familiares o dogmas caducos que ya no resuenan con tu verdad.",
+      "how_to_heal": "Cuestiona las normas heredadas. Encuentra tu propia espiritualidad y tu propia brújula moral auténtica."
+    },
+    "img": "assets/cards/el-hierofante.webp"
+  },
+  {
+    "id": "los-enamorados",
+    "name": "Los Enamorados",
+    "number": "VI",
+    "roman": "VI",
+    "type": "Arcano Mayor",
+    "suit": null,
+    "element": "Aire",
+    "astrology": "Géminis",
+    "keywords": [
+      "Amor",
+      "Elección consciente",
+      "Alineación de valores",
+      "Unión del alma",
+      "Dilema moral"
+    ],
+    "essence": "La encrucijada del corazón. Elegir desde la autenticidad y el amor verdadero, reconciliando los opuestos internos.",
+    "meaning_upright": "Los Enamorados representa tanto el amor de pareja y la afinidad profunda como la necesidad de tomar una decisión trascendental basada en tus valores más íntimos. Te desafía a ser honesto contigo mismo y elegir el camino que honre tu alma.",
+    "symbols": [
+      {
+        "name": "Ángel Rafael",
+        "desc": "Sanación, bendición cósmica y guía superior en las decisiones del corazón."
+      },
+      {
+        "name": "Hombre y Mujer (Adán y Eva)",
+        "desc": "Polaridades complementarias: mente consciente y emoción intuitiva reconciliadas."
+      },
+      {
+        "name": "Árbol de la Vida y Árbol de la Ciencia",
+        "desc": "El libre albedrío, la sabiduría y la responsabilidad ante las elecciones."
+      },
+      {
+        "name": "Montaña al fondo",
+        "desc": "El ascenso espiritual que exige superar las tentaciones meramente superficiales."
+      }
+    ],
+    "light_side": "Amor auténtico, afinidad espiritual, elecciones coherentes con el corazón, comunicación abierta y empatía.",
+    "shadow_side": "Dudas paralizantes, deshonestidad sentimental, infidelidad moral a uno mismo, conflictos de valores.",
+    "love": "Encuentro de almas afines, pasión con entendimiento, decisión de apostar por una relación o renovar votos.",
+    "work": "Alianzas laborales armoniosas basadas en la confianza mutua, elección entre dos ofertas o caminos profesionales.",
+    "spirituality": "Integración del ánima y el ánimus interior; elección consciente de vivir desde el amor y no desde el miedo.",
+    "advice": "Elige con el corazón, no por conveniencia o miedo. Cuando tus valores están claros, la decisión es sencilla.",
+    "reflection_question": "¿Qué decisión estás evitando tomar por temor a renunciar a una de las opciones?",
+    "reversed": {
+      "keywords": [
+        "Desalineación",
+        "Decisión equivocada",
+        "Conflicto de pareja",
+        "Dudas dolorosas",
+        "Incoherencia"
+      ],
+      "meaning": "Invertida señala dilemas desgarradores, desunión en la pareja o elecciones tomadas por agradar a otros traicionándote.",
+      "how_to_heal": "Vuelve a tus valores no negociables. Si una relación o camino te obliga a perderte a ti mismo, no es el adecuado."
+    },
+    "img": "assets/cards/los-enamorados.webp"
+  },
+  {
+    "id": "el-carro",
+    "name": "El Carro",
+    "number": "VII",
+    "roman": "VII",
+    "type": "Arcano Mayor",
+    "suit": null,
+    "element": "Agua",
+    "astrology": "Cáncer",
+    "keywords": [
+      "Victoria",
+      "Fuerza de voluntad",
+      "Dirección",
+      "Autocontrol",
+      "Superación de obstáculos"
+    ],
+    "essence": "El triunfo sobre la adversidad mediante la voluntad enfocada. Dirige tus fuerzas contradictorias hacia una meta definida.",
+    "meaning_upright": "El Carro marca avance imparable y victoria tras un periodo de disciplina y esfuerzo. Aunque existan tensiones internas o presiones externas, tu determinación y foco te permitirán triunfar. Toma las riendas, fija el rumbo y no mires atrás.",
+    "symbols": [
+      {
+        "name": "Esfinges blanca y negra",
+        "desc": "Fuerzas opuestas (emoción y razón) que deben ser guiadas por la voluntad consciente."
+      },
+      {
+        "name": "Dosel de estrellas",
+        "desc": "Protección divina y destino trascendente que resguarda al conductor."
+      },
+      {
+        "name": "Ruedas del carro",
+        "desc": "Movimiento dinámico, acción decidida y superación de la inercia."
+      },
+      {
+        "name": "Coraza con lunas crecientes",
+        "desc": "Protección emocional para no dejarse desviar por el desánimo o la crítica."
+      }
+    ],
+    "light_side": "Determinación de hierro, superación de pruebas complejas, motivación alta, autodisciplina y éxito merecido.",
+    "shadow_side": "Agresividad desmedida, autoritarismo destructivo, atropellar a los demás por ganar, frustración descontrolada.",
+    "love": "Superar crisis juntos con determinación; tomar la iniciativa decidida; viajes o mudanzas compartidas en pareja.",
+    "work": "Logro de metas ambiciosas, superación de la competencia con excelencia técnica, avances y ascensos rápidos.",
+    "spirituality": "Dominio de las pulsiones del ego para ponerlas al servicio de la evolución del espíritu.",
+    "advice": "Mantén el enfoque y no te rindas. Tienes la fuerza para superar cualquier obstáculo si no pierdes de vista tu objetivo.",
+    "reflection_question": "¿Hacia dónde estás dirigiendo tu energía actualmente? ¿Estás controlando tú el carro o te dejas llevar?",
+    "reversed": {
+      "keywords": [
+        "Pérdida de control",
+        "Frustración",
+        "Dirección errática",
+        "Agresividad",
+        "Obstáculos insuperables"
+      ],
+      "meaning": "Invertido indica que las riendas se te han escapado de las manos o que estás forzando las cosas con violencia inútil.",
+      "how_to_heal": "Detén la marcha. Reevalúa tus fuerzas y motivos; no intentes avanzar a ciegas si el vehículo no está en condiciones."
+    },
+    "img": "assets/cards/el-carro.webp"
+  },
+  {
+    "id": "la-fuerza",
+    "name": "La Fuerza",
+    "number": "VIII",
+    "roman": "VIII",
+    "type": "Arcano Mayor",
+    "suit": null,
+    "element": "Fuego",
+    "astrology": "Leo",
+    "keywords": [
+      "Valentía serena",
+      "Compasión",
+      "Paciencia",
+      "Autodominio",
+      "Poder interior"
+    ],
+    "essence": "La verdadera fuerza no ruge ni impone: doma a la bestia con caricias, paciencia infinita y amor consciente.",
+    "meaning_upright": "La Fuerza representa la victoria de la dulzura, la resiliencia y el coraje interior sobre la agresión o el pánico instintivo. Te anima a enfrentar tus temores y las situaciones difíciles con paciencia, diplomacia y compasión, dominando tu impulsividad.",
+    "symbols": [
+      {
+        "name": "León domado",
+        "desc": "Los instintos básicos, la ira, el miedo y la pasión indómita reconciliados."
+      },
+      {
+        "name": "Mujer de blanco con flores",
+        "desc": "La pureza de la compasión y el amor que desarma cualquier hostilidad."
+      },
+      {
+        "name": "Lemniscata sobre la cabeza",
+        "desc": "Fuerza espiritual infinita que nace de la armonía interna."
+      },
+      {
+        "name": "Guirnalda que los une",
+        "desc": "Conexión amorosa entre la consciencia superior y el poder animal instintivo."
+      }
+    ],
+    "light_side": "Coraje moral, serenidad en medio de la crisis, empatía profunda, tolerancia y resiliencia ejemplar.",
+    "shadow_side": "Ira descontrolada, debilidad de carácter, rendición ante el miedo, manipulación sutil o crueldad pasiva.",
+    "love": "Paciencia amorosa que sana heridas de pareja, pasión intensa pero respetuosa, lealtad y comprensión profunda.",
+    "work": "Manejo diplomático de negociaciones difíciles, liderazgo cálido que inspira en vez de atemorizar, constancia.",
+    "spirituality": "Integración de la sombra personal con amor y aceptación compasiva, sin reprimir ni castigar.",
+    "advice": "No respondas a la agresividad con más fuego. Sé paciente, firme y compasivo: esa es la victoria definitiva.",
+    "reflection_question": "¿Qué emoción salvaje o impulso reactivo necesitas abrazar y calmar con amor hoy?",
+    "reversed": {
+      "keywords": [
+        "Debilidad",
+        "Furia desmedida",
+        "Inseguridad",
+        "Rendición",
+        "Abatimiento"
+      ],
+      "meaning": "Invertida refleja que la fiera interna (ira, miedo o desesperación) ha tomado el mando, dejándote exhausto y vulnerable.",
+      "how_to_heal": "Detén las reacciones impulsivas. Descansa, respira y busca la calma en tu centro antes de emitir juicio o respuesta."
+    },
+    "img": "assets/cards/la-fuerza.webp"
+  },
+  {
+    "id": "el-ermitano",
+    "name": "El Ermitaño",
+    "number": "IX",
+    "roman": "IX",
+    "type": "Arcano Mayor",
+    "suit": null,
+    "element": "Tierra",
+    "astrology": "Virgo",
+    "keywords": [
+      "Introspección",
+      "Búsqueda interior",
+      "Soledad sabia",
+      "Guía espiritual",
+      "Prudencia"
+    ],
+    "essence": "La lámpara de la verdad interior. Retírate del ruido del mundo para escuchar tu propia voz y alumbrar tu sendero paso a paso.",
+    "meaning_upright": "El Ermitaño marca un periodo fecundo de retiro, estudio y reflexión solitaria. Te invita a buscar tus propias respuestas en lugar de repetir lo que otros dicen. Alumbras tu camino paso a paso con paciencia, acumulando sabiduría auténtica y madurez.",
+    "symbols": [
+      {
+        "name": "Lámpara con estrella de 6 puntas",
+        "desc": "La luz de la sabiduría divina y la prudencia que alumbra un paso a la vez."
+      },
+      {
+        "name": "Báculo de apoyo",
+        "desc": "La experiencia acumulada que sostiene al caminante en terrenos escarpados."
+      },
+      {
+        "name": "Manto gris protector",
+        "desc": "Discreción, aislamiento consciente y protección frente a las vanidades del mundo."
+      },
+      {
+        "name": "Cima nevada",
+        "desc": "La altura espiritual y la perspectiva amplia alcanzada tras un largo esfuerzo solitario."
+      }
+    ],
+    "light_side": "Madurez reflexiva, autenticidad, sabiduría comprobada, independencia de juicio y prudencia.",
+    "shadow_side": "Aislamiento antisocial, amargura, misantropía, miedo al contacto humano, terquedad de viejo ermitaño.",
+    "love": "Momento de introspección para saber qué deseas realmente en el amor; soledad fecunda o madurez en el vínculo.",
+    "work": "Investigación minuciosa, consultoría experta, trabajo independiente que requiere rigor, ética y precisión.",
+    "spirituality": "El camino del místico: silencio, meditación profunda, autodescubrimiento y conexión con el maestro interno.",
+    "advice": "Tómate tu tiempo. No tomes decisiones precipitadas; busca un espacio de calma para conectar con tu verdad.",
+    "reflection_question": "¿Qué verdad sobre ti mismo estás evitando mirar al mantenerte siempre ocupado?",
+    "reversed": {
+      "keywords": [
+        "Aislamiento tóxico",
+        "Terquedad",
+        "Soledad dolorosa",
+        "Desconexión",
+        "Rechazo de ayuda"
+      ],
+      "meaning": "Invertido advierte de un encerramiento excesivo que te está amargando, o de negarte a recibir consejos sabios de otros.",
+      "how_to_heal": "Abre tu puerta. Comparte lo que sientes con una persona de confianza y sal a que te dé el sol."
+    },
+    "img": "assets/cards/el-ermitano.webp"
+  },
+  {
+    "id": "la-rueda-de-la-fortuna",
+    "name": "La Rueda de la Fortuna",
+    "number": "X",
+    "roman": "X",
+    "type": "Arcano Mayor",
+    "suit": null,
+    "element": "Fuego",
+    "astrology": "Júpiter",
+    "keywords": [
+      "Ciclos de la vida",
+      "Destino",
+      "Giros inesperados",
+      "Oportunidad",
+      "Sincronicidad"
+    ],
+    "essence": "La única constante en el universo es el cambio. Quien hoy está abajo mañana estará arriba; encuentra tu centro en el eje que no gira.",
+    "meaning_upright": "La Rueda de la Fortuna anuncia un cambio de ciclo decisivo, golpes de suerte, giros inesperados del destino y nuevas oportunidades. Te recuerda que todo en la existencia es cíclico. Aprovecha el impulso ascendente y mantén tu centro inalterable ante cualquier marea.",
+    "symbols": [
+      {
+        "name": "Esfinge con espada en la cima",
+        "desc": "El equilibrio y la sabiduría que gobierna el misterio de los ciclos cósmicos."
+      },
+      {
+        "name": "Anubis ascendiendo y Tifón descendiendo",
+        "desc": "La continua alternancia entre el renacimiento luminoso y la caída necesaria."
+      },
+      {
+        "name": "Cuatro seres alados en las esquinas",
+        "desc": "Los cuatro evangelistas/signos fijos (Toro, León, Águila, Hombre): estabilidad en medio del cambio."
+      },
+      {
+        "name": "Letras TARO / ROTA en la rueda",
+        "desc": "El orden secreto del cosmos que gira eternamente revelando lecciones."
+      }
+    ],
+    "light_side": "Apertura al cambio, buena fortuna, optimismo ante las vueltas de la vida, sincronías afortunadas.",
+    "shadow_side": "Fatalismo pasivo, resistirse neuróticamente a los cambios inevitables, depender del azar sin esforzarse.",
+    "love": "Giros positivos en el amor, encuentros kármicos inesperados, resolución de ciclos viejos y comienzos prometedores.",
+    "work": "Oportunidades de negocio imprevistas, ascensos, inversiones que dan frutos, cambio favorable de circunstancias.",
+    "spirituality": "Aceptación sabia del karma y del flujo de la vida; situarse en el centro de la rueda donde reina la paz.",
+    "advice": "Súbete a la ola del cambio con flexibilidad. No te apegues a lo que se va; abraza lo nuevo que llega.",
+    "reflection_question": "¿A qué ciclo viejo que ya cumplió su función te estás aferrando por miedo a cambiar?",
+    "reversed": {
+      "keywords": [
+        "Racha difícil",
+        "Resistencia al cambio",
+        "Repetición de patrones",
+        "Estancamiento",
+        "Mala suerte percibida"
+      ],
+      "meaning": "Invertida avisa de contratiempos o la sensación de estar atrapado en un bucle que se repite una y otra vez.",
+      "how_to_heal": "Identifica qué lección no has aprendido para que el patrón deje de repetirse. Acepta lo que no puedes controlar."
+    },
+    "img": "assets/cards/la-rueda-de-la-fortuna.webp"
+  },
+  {
+    "id": "la-justicia",
+    "name": "La Justicia",
+    "number": "XI",
+    "roman": "XI",
+    "type": "Arcano Mayor",
+    "suit": null,
+    "element": "Aire",
+    "astrology": "Libra",
+    "keywords": [
+      "Equilibrio",
+      "Verdad",
+      "Causa y efecto",
+      "Claridad moral",
+      "Decisión justa"
+    ],
+    "essence": "La ley inmutable de la causa y el efecto. Cosechas exactamente lo que sembraste; contempla tu realidad con honestidad implacable.",
+    "meaning_upright": "La Justicia te exige verdad, rectitud y objetividad. Los asuntos pendientes se resolverán de forma equitativa. Te pide que examines tus acciones sin excusas, asumas las consecuencias de tus decisiones y actúes con integridad absoluta.",
+    "symbols": [
+      {
+        "name": "Balanza en la mano izquierda",
+        "desc": "Equilibrio exacto, sopesar pruebas y evidencias con imparcialidad."
+      },
+      {
+        "name": "Espada de doble filo en la mano derecha",
+        "desc": "La verdad tajante que corta ilusiones; castiga la falta y protege al inocente."
+      },
+      {
+        "name": "Trono entre dos columnas",
+        "desc": "Firmeza de la ley cósmica y humana sustentada en cimientos inquebrantables."
+      },
+      {
+        "name": "Pie asomando bajo el manto",
+        "desc": "La acción concreta: la justicia no es solo teoría, se aplica en el mundo material."
+      }
+    ],
+    "light_side": "Honradez impecable, claridad de juicio, equidad, resolución justa de litigios, paz de conciencia.",
+    "shadow_side": "Severidad despiadada, prejuicios inflexibles, hipocresía legalista, culpar a otros o victimismo.",
+    "love": "Honestidad total en la relación, contratos prenupciales, claridad de expectativas mutuas o decisiones equitativas.",
+    "work": "Resolución favorable de contratos o disputas legales, auditorías transparentes, promociones basadas en mérito.",
+    "spirituality": "Comprensión del karma como ley de equilibrio pedagógico y no como castigo vengativo.",
+    "advice": "Sé impecable con la verdad. Actúa con justicia aunque sea incómodo; la transparencia será tu mejor escudo.",
+    "reflection_question": "¿Estás siendo 100% justo y honesto contigo mismo y con los involucrados en esta situación?",
+    "reversed": {
+      "keywords": [
+        "Injusticia",
+        "Falta de honestidad",
+        "Prejuicios",
+        "Litigios complicados",
+        "Evasión de culpa"
+      ],
+      "meaning": "Invertida advierte de tratos injustos, sentencias desfavorables o autoengaño sistemático para no admitir un error.",
+      "how_to_heal": "Asume tu parte de responsabilidad sin culpar a terceros. Corrige el rumbo antes de que las consecuencias escalen."
+    },
+    "img": "assets/cards/la-justicia.webp"
+  },
+  {
+    "id": "el-colgado",
+    "name": "El Colgado",
+    "number": "XII",
+    "roman": "XII",
+    "type": "Arcano Mayor",
+    "suit": null,
+    "element": "Agua",
+    "astrology": "Neptuno",
+    "keywords": [
+      "Nueva perspectiva",
+      "Pausa necesaria",
+      "Rendición sabia",
+      "Sacrificio voluntario",
+      "Iluminación"
+    ],
+    "essence": "Al cambiar la forma de mirar las cosas, las cosas cambian. Detén la lucha y observa el mundo desde otro ángulo.",
+    "meaning_upright": "El Colgado indica un alto en el camino que no debes forzar. No es una derrota, sino una pausa sagrada para ganar una perspectiva completamente nueva e iluminadora. Al soltar el control y rendirte al fluir, lo que parecía un problema se resuelve solo.",
+    "symbols": [
+      {
+        "name": "Posición invertida por el pie",
+        "desc": "Ver el mundo al revés: subvertir las prioridades materiales del ego."
+      },
+      {
+        "name": "Halo de luz alrededor de la cabeza",
+        "desc": "Iluminación espiritual alcanzada mediante la calma y la no resistencia."
+      },
+      {
+        "name": "Pierna formando un 4",
+        "desc": "Anclaje de la materia a un plano superior de consciencia."
+      },
+      {
+        "name": "Árbol con brotes verdes",
+        "desc": "Vida latente: aunque parezca estancamiento, el crecimiento interior es inmenso."
+      },
+      {
+        "name": "Rostro sereno",
+        "desc": "Aceptación pacífica y voluntaria del momento presente, sin agonía."
+      }
+    ],
+    "light_side": "Sabiduría profunda, creatividad disruptiva, capacidad de soltar el ego, paz ante la espera y paciencia.",
+    "shadow_side": "Victimismo crónico, pasividad cobarde, martirio innecesario, postergación eterna por miedo a actuar.",
+    "love": "Momento de dar espacio al otro sin presionar; ver las necesidades de la pareja desde su punto de vista.",
+    "work": "Proyectos en compás de espera fértil; repensar la estrategia por completo antes de volver a invertir tiempo o dinero.",
+    "spirituality": "Trascendencia del apego material; el don de la rendición contemplativa y la visión mística.",
+    "advice": "Deja de pelear contra la corriente. Quédate quieto, observa la situación desde la perspectiva contraria y espera el momento propicio.",
+    "reflection_question": "¿A qué necesidad de controlar el resultado debes renunciar para hallar verdadera paz?",
+    "reversed": {
+      "keywords": [
+        "Resistencia inútil",
+        "Martirio fingido",
+        "Estancamiento terco",
+        "Apatía",
+        "Miedo a soltar"
+      ],
+      "meaning": "Invertido indica que te estás haciendo la víctima o alargando un sacrificio estéril que ya no tiene sentido.",
+      "how_to_heal": "Bájate del árbol. Si la espera ya no aporta claridad, es momento de actuar y desatarte por ti mismo."
+    },
+    "img": "assets/cards/el-colgado.webp"
+  },
+  {
+    "id": "la-muerte",
+    "name": "La Muerte",
+    "number": "XIII",
+    "roman": "XIII",
+    "type": "Arcano Mayor",
+    "suit": null,
+    "element": "Agua",
+    "astrology": "Escorpio",
+    "keywords": [
+      "Transformación",
+      "Fin de ciclo",
+      "Renacimiento",
+      "Soltar el pasado",
+      "Transmutación"
+    ],
+    "essence": "Lo que debe morir, muere para dar paso a la vida nueva. No temas al final, pues toda despedida es la antesala de un renacimiento.",
+    "meaning_upright": "La Muerte no significa muerte física, sino una transformación radical e irreversible. Un ciclo, hábito, relación o etapa ha concluido definitivamente. Intentar revivir lo que ya no tiene vida solo genera sufrimiento. Suelta el pasado para renacer como el fénix.",
+    "symbols": [
+      {
+        "name": "Esqueleto con armadura negra",
+        "desc": "La estructura indestructible del alma que sobrevive a cualquier cambio formal."
+      },
+      {
+        "name": "Rosa blanca en estandarte negro",
+        "desc": "La semilla de pureza y vida inmortal que germina en la oscuridad."
+      },
+      {
+        "name": "Reyes y plebeyos a sus pies",
+        "desc": "La igualdad universal ante el cambio inevitable del tiempo."
+      },
+      {
+        "name": "Sol naciendo entre dos torres",
+        "desc": "La promesa ineludible del nuevo amanecer que sigue a la noche más oscura."
+      }
+    ],
+    "light_side": "Liberación profunda de cargas añejas, coraje para cerrar etapas, transmutación espiritual y regeneración.",
+    "shadow_side": "Apego neurótico a lo caduco, miedo visceral al cambio, luto crónico que impide seguir viviendo, resistencia destructiva.",
+    "love": "Fin definitivo de una relación agotada, o muerte de viejos patrones tóxicos para que la pareja renazca renovada.",
+    "work": "Cierre de un empleo o negocio que ya dio todo de sí; reestructuración completa que abre horizontes inéditos.",
+    "spirituality": "Muerte del ego inferior y renacimiento a una consciencia expandida; el gran rito de paso del alma.",
+    "advice": "Permite que muera lo que ya no tiene vida. Limpia tu espacio, agradece lo vivido y da la bienvenida a lo nuevo con valentía.",
+    "reflection_question": "¿Qué relación, hábito o creencia sabes que ya murió y aún intentas mantener con respiración artificial?",
+    "reversed": {
+      "keywords": [
+        "Resistencia al cambio",
+        "Agonía prolongada",
+        "Miedo a soltar",
+        "Estancamiento tóxico",
+        "Negación"
+      ],
+      "meaning": "Invertida avisa de una resistencia desesperada a aceptar lo inevitable, prolongando una agonía dolorosa e inútil.",
+      "how_to_heal": "Acepta la pérdida con dignidad. El duelo es sagrado; suelta el control y permite que la herida cicatrice para que brote nueva vida."
+    },
+    "img": "assets/cards/la-muerte.webp"
+  },
+  {
+    "id": "la-templanza",
+    "name": "La Templanza",
+    "number": "XIV",
+    "roman": "XIV",
+    "type": "Arcano Mayor",
+    "suit": null,
+    "element": "Fuego",
+    "astrology": "Sagitario",
+    "keywords": [
+      "Alquimia interior",
+      "Moderación",
+      "Sanación",
+      "Paciencia",
+      "Equilibrio armónico"
+    ],
+    "essence": "El arte de mezclar los ingredientes de tu vida en la dosis exacta. Sanación, serenidad y flujo constante entre opuestos.",
+    "meaning_upright": "La Templanza anuncia sanación, paz mental y equilibrio tras momentos de tormenta. Te pide moderación, paciencia y diplomacia. Es el tiempo de combinar ideas distintas, encontrar puntos medios y permitir que los procesos sanadores maduren a su propio ritmo sin precipitación.",
+    "symbols": [
+      {
+        "name": "Ángel con un pie en agua y otro en tierra",
+        "desc": "Equilibrio perfecto entre el plano emocional-intuitivo y el plano terrenal-práctico."
+      },
+      {
+        "name": "Líquido fluyendo entre dos copas",
+        "desc": "Alquimia continua, transmutación serena de energías sin derramar una sola gota."
+      },
+      {
+        "name": "Sendero que sube hacia la montaña dorada",
+        "desc": "El camino de iluminación y elevación espiritual sostenido por la virtud."
+      },
+      {
+        "name": "Triángulo dentro de un cuadrado en el pecho",
+        "desc": "El espíritu divino (3) manifestado en el mundo físico de la materia (4)."
+      }
+    ],
+    "light_side": "Paz interior, capacidad de conciliación, salud recuperada, paciencia sabia, templanza y adaptabilidad.",
+    "shadow_side": "Extremismos, impaciencia destructiva, falta de moderación, mezclas incompatibles o tibieza pasiva.",
+    "love": "Relación equilibrada, comunicación sanadora y serena, reconciliación afectuosa y comprensión mutua profunda.",
+    "work": "Trabajo en equipo armonioso, soluciones negociadas que benefician a todos, estabilidad financiera sostenible.",
+    "spirituality": "Conexión con el ángel guardián, integración pacífica de luces y sombras, estado de gracia y bienestar del alma.",
+    "advice": "Ni todo ni nada: busca el término medio. Modera tus reacciones, bebe de la fuente de la calma y da tiempo al tiempo.",
+    "reflection_question": "¿En qué área de tu vida estás cometiendo excesos o impaciencias que alteran tu paz interior?",
+    "reversed": {
+      "keywords": [
+        "Desbalance",
+        "Excesos",
+        "Falta de paciencia",
+        "Conflicto",
+        "Desarmonía"
+      ],
+      "meaning": "Invertida indica desajustes emocionales o físicos por vivir en extremos, impaciencia y choques estériles.",
+      "how_to_heal": "Restaura hábitos saludables de sueño, comida y pensamiento. Vuelve al centro y evita discusiones acaloradas."
+    },
+    "img": "assets/cards/la-templanza.webp"
+  },
+  {
+    "id": "el-diablo",
+    "name": "El Diablo",
+    "number": "XV",
+    "roman": "XV",
+    "type": "Arcano Mayor",
+    "suit": null,
+    "element": "Tierra",
+    "astrology": "Capricornio",
+    "keywords": [
+      "Apegos",
+      "Sombra",
+      "Adicciones",
+      "Poder material",
+      "Cadenas ilusorias"
+    ],
+    "essence": "Las cadenas del miedo y del deseo desmedido. Reconoce tus dependencias y patrones oscuros para liberarte de su prisión ilusoria.",
+    "meaning_upright": "El Diablo te pone cara a cara con tu sombra: apegos tóxicos, obsesiones materiales, dependencias emocionales o adicciones. Lo más revelador de la carta es que las cadenas alrededor del cuello de las figuras están flojas: tienes el poder de quitártelas en cuanto decidas despertar.",
+    "symbols": [
+      {
+        "name": "Figura con alas de murciélago y cuernos",
+        "desc": "La mente animal atrapada en la ilusión de la separatividad y el miedo."
+      },
+      {
+        "name": "Cadenas flojas al cuello",
+        "desc": "La esclavitud es voluntaria o consentida por comodidad, miedo o ignorancia."
+      },
+      {
+        "name": "Antorcha apuntando hacia abajo",
+        "desc": "Uso destructivo de la energía vital y la pasión al servicio de la autodestrucción."
+      },
+      {
+        "name": "Pedestal cúbico estrecho",
+        "desc": "La prisión de las limitaciones autoimpuestas por la mente terrenal."
+      }
+    ],
+    "light_side": "Consciencia lúcida de la propia sombra, magnetismo sexual saludable, ambición material bien canalizada y perspicacia.",
+    "shadow_side": "Codicia insaciable, manipulación perversa, adicciones destructivas, relaciones de codependencia y cinismo.",
+    "love": "Atracción sexual explosiva pero peligrosa, celos posesivos, dinámicas de poder y chantaje emocional que asfixian.",
+    "work": "Éxito financiero logrado a costa de la ética; contratos leoninos; adicción al trabajo y explotación.",
+    "spirituality": "Descenso al inframundo interior para rescatar la fuerza vital reprimida en la sombra.",
+    "advice": "Mira tus cadenas con honestidad. Nadie te está reteniendo excepto tus propios apegos. Elige tu libertad.",
+    "reflection_question": "¿A qué placer inmediato, hábito o persona tóxica le estás entregando tu libertad y poder?",
+    "reversed": {
+      "keywords": [
+        "Liberación de apegos",
+        "Romper cadenas",
+        "Superar adicciones",
+        "Despertar lúcido",
+        "Fin de la sumisión"
+      ],
+      "meaning": "Invertida es una excelente señal: comienzas a ver la salida de la trampa, rompes adicciones y recuperas tu soberanía.",
+      "how_to_heal": "Corta de raíz con las relaciones o hábitos nocivos. Busca ayuda profesional si es necesario y reclama tu autonomía."
+    },
+    "img": "assets/cards/el-diablo.webp"
+  },
+  {
+    "id": "la-torre",
+    "name": "La Torre",
+    "number": "XVI",
+    "roman": "XVI",
+    "type": "Arcano Mayor",
+    "suit": null,
+    "element": "Fuego",
+    "astrology": "Marte",
+    "keywords": [
+      "Ruptura liberadora",
+      "Caída de ilusiones",
+      "Crisis reveladora",
+      "Despertar abrupto",
+      "Demolición de lo falso"
+    ],
+    "essence": "El rayo de la verdad que destruye las estructuras construidas sobre mentiras. Todo lo falso cae para que solo quede lo auténtico.",
+    "meaning_upright": "La Torre representa un colapso súbito e inesperado de creencias, planes o situaciones que creías seguras pero descansaban sobre bases podridas. Aunque el impacto inicial desconcierta, el rayo es una gracia liberadora: te saca de una jaula de orgullo que tú mismo no te atrevías a derribar.",
+    "symbols": [
+      {
+        "name": "Rayo divino",
+        "desc": "La intervención cósmica de la verdad incontestable que desmantela el ego."
+      },
+      {
+        "name": "Corona desprendida",
+        "desc": "Caída de la soberbia, del falso estatus y de la ilusión de omnipotencia humana."
+      },
+      {
+        "name": "Figuras cayendo al vacío",
+        "desc": "La pérdida forzada de la seguridad artificial ante la realidad pura."
+      },
+      {
+        "name": "Llamas en las ventanas",
+        "desc": "Purificación radical: el fuego consume lo que no tiene raíz sólida."
+      }
+    ],
+    "light_side": "Liberación instantánea de una mentira prolongada, lucidez fulgurante, oportunidad dorada de reconstruir sobre la verdad.",
+    "shadow_side": "Resistencia violenta al colapso, caos emocional, destrucción rencorosa, aferrarse a los escombros.",
+    "love": "Ruptura inevitable de una relación insostenible; secretos que salen a la luz derribando castillos en el aire.",
+    "work": "Pérdida imprevista de empleo o proyecto que ya estaba viciado; crisis que fuerza a reinventarse con creatividad.",
+    "spirituality": "Desmantelamiento radical de la noche oscura del alma; iluminación que surge tras la caída del ego.",
+    "advice": "No intentes sostener las paredes que se caen. Sal del edificio, respira hondo y contempla el terreno despejado para construir algo auténtico.",
+    "reflection_question": "¿Qué estructura en tu vida se está tambaleando porque en el fondo sabes que se construyó sobre una farsa?",
+    "reversed": {
+      "keywords": [
+        "Evitar el colapso inevitable",
+        "Miedo al desastre",
+        "Crisis contenida",
+        "Reconstrucción lenta",
+        "Negación"
+      ],
+      "meaning": "Invertida indica que estás intentando tapar grietas gigantescas con cinta adhesiva, o que la crisis ya pasó y empieza la calma.",
+      "how_to_heal": "Deja que caiga lo que no se sostiene. Cuanto antes aceptes la realidad, antes empezarás a edificar sobre roca firme."
+    },
+    "img": "assets/cards/la-torre.webp"
+  },
+  {
+    "id": "la-estrella",
+    "name": "La Estrella",
+    "number": "XVII",
+    "roman": "XVII",
+    "type": "Arcano Mayor",
+    "suit": null,
+    "element": "Aire",
+    "astrology": "Acuario",
+    "keywords": [
+      "Esperanza",
+      "Fe renovada",
+      "Inspiración",
+      "Sanación cósmica",
+      "Generosidad"
+    ],
+    "essence": "La luz que brilla en la noche tras la tempestad. Confianza absoluta en el porvenir, sanación profunda y guía espiritual serena.",
+    "meaning_upright": "La Estrella es la bendición cósmica que sigue a la caída de La Torre. Trae alivio inmenso, inspiración, optimismo y fe en tu destino. Te recuerda que eres guiado y protegido. Tus heridas están cicatrizando y un horizonte luminoso y lleno de esperanza se abre ante ti.",
+    "symbols": [
+      {
+        "name": "Estrella central de ocho puntas",
+        "desc": "La estrella de Venus y la sabiduría cósmica que ilumina la oscuridad."
+      },
+      {
+        "name": "Siete estrellas menores",
+        "desc": "Los siete chakras alineados y los siete planetas tradicionales en armonía."
+      },
+      {
+        "name": "Doncella desnuda",
+        "desc": "Verdad desnuda, autenticidad sin máscaras, vulnerabilidad sagrada y belleza pura."
+      },
+      {
+        "name": "Agua vertida en tierra y laguna",
+        "desc": "Nutrición fértil del plano material e integración con el subconsciente."
+      },
+      {
+        "name": "Pájaro ibis en el árbol",
+        "desc": "Toth, dios de la sabiduría divina y la comunicación sagrada."
+      }
+    ],
+    "light_side": "Esperanza inquebrantable, claridad espiritual, belleza interior, generosidad desinteresada y paz.",
+    "shadow_side": "Idealismo ingenuo, desconexión de la realidad práctica, desilusión si las cosas no ocurren de inmediato.",
+    "love": "Amor puro, esperanza de reconciliación sana, encuentro con una persona inspiradora, complicidad luminosa.",
+    "work": "Proyectos con gran futuro y propósito ético; reconocimiento por talentos creativos; éxito prometedor.",
+    "spirituality": "Conexión directa con la Fuente divina; meditación cristalina; canalización de ideas para el bien colectivo.",
+    "advice": "Mantén la fe en alto. Lo peor ya quedó atrás. Comparte tu luz con el mundo con generosidad y sin temor.",
+    "reflection_question": "¿Cuál es ese sueño del alma que creías perdido y hoy vuelve a encenderse en tu corazón?",
+    "reversed": {
+      "keywords": [
+        "Pérdida de fe",
+        "Desesperanza",
+        "Pesimismo",
+        "Inspiración apagada",
+        "Desilusión"
+      ],
+      "meaning": "Invertida advierte de un velo de tristeza o pesimismo que te impide ver las estrellas que están brillando sobre tu cabeza.",
+      "how_to_heal": "Recupera el asombro y la gratitud por las pequeñas cosas. No dejes que las heridas pasadas te convenzan de que no mereces brillar."
+    },
+    "img": "assets/cards/la-estrella.webp"
+  },
+  {
+    "id": "la-luna",
+    "name": "La Luna",
+    "number": "XVIII",
+    "roman": "XVIII",
+    "type": "Arcano Mayor",
+    "suit": null,
+    "element": "Agua",
+    "astrology": "Piscis",
+    "keywords": [
+      "Ilusión",
+      "Subconsciente",
+      "Miedos arcaicos",
+      "Intuición salvaje",
+      "Incertidumbre"
+    ],
+    "essence": "El viaje a través de la noche de los sentidos. Nada es lo que parece; atraviesa tus temores más oscuros para alcanzar la luz.",
+    "meaning_upright": "La Luna te sitúa en un paisaje de misterio, dudas, sueños intensos y espejismos. Indica que no tienes toda la información disponible o que tus miedos están distorsionando la realidad. Te pide no tomar decisiones definitivas a ciegas y confiar en tu instinto profundo mientras la niebla se disipa.",
+    "symbols": [
+      {
+        "name": "Luna con rostro lloroso y rayos",
+        "desc": "La fuerza del inconsciente y las ilusiones que distorsionan la visión diurna."
+      },
+      {
+        "name": "Perro y lobo aullando",
+        "desc": "El instinto domesticado y el instinto salvaje inquietos ante lo desconocido."
+      },
+      {
+        "name": "Cangrejo saliendo del agua",
+        "desc": "Los miedos primordiales y traumas antiguos que emergen de las profundidades del alma."
+      },
+      {
+        "name": "Dos torres en el horizonte",
+        "desc": "El umbral peligroso entre lo conocido y los reinos ocultos de la psique."
+      },
+      {
+        "name": "Sendero sinuoso",
+        "desc": "El viaje interior difícil que debe ser transitado con sumo cuidado."
+      }
+    ],
+    "light_side": "Imaginación artística desbordante, intuición extrasensorial, exploración profunda del subconsciente y sueños reveladores.",
+    "shadow_side": "Paranoia, autoengaño, caer en trampas y mentiras ajenas, ataques de pánico o confusión mental crónica.",
+    "love": "Confusión, inseguridades, celos alimentados por la fantasía, secretos o relaciones donde las cosas no están claras.",
+    "work": "Falta de claridad en contratos, ambientes laborales turbios con envidias o rumores; esperar a que se aclare el panorama.",
+    "spirituality": "Trabajo con los sueños, psicomagia, sanación de heridas de la infancia y confrontación de fantasmas internos.",
+    "advice": "No des por hecho lo que tu mente asustada imagina. Espera a que amanezca antes de juzgar; mantente alerta y sereno.",
+    "reflection_question": "¿Qué miedo oculto está distorsionando tu visión y haciéndote ver monstruos donde solo hay sombras?",
+    "reversed": {
+      "keywords": [
+        "Disipación de la niebla",
+        "Superación de temores",
+        "Secretos descubiertos",
+        "Claridad emergente",
+        "Alivio mental"
+      ],
+      "meaning": "Invertida anuncia que la confusión se aclara, las mentiras quedan al descubierto y los temores infundados se disuelven.",
+      "how_to_heal": "Enciende la luz de la razón. Pregunta directamente lo que dudas y contrasta la fantasía con los hechos reales."
+    },
+    "img": "assets/cards/la-luna.webp"
+  },
+  {
+    "id": "el-sol",
+    "name": "El Sol",
+    "number": "XIX",
+    "roman": "XIX",
+    "type": "Arcano Mayor",
+    "suit": null,
+    "element": "Fuego",
+    "astrology": "El Sol",
+    "keywords": [
+      "Éxito rotundo",
+      "Alegría",
+      "Vitalidad",
+      "Claridad radiante",
+      "Verdad triunfante"
+    ],
+    "essence": "La plenitud de la vida. Claridad meridiana, felicidad compartida, éxito brillante y salud vibrante bajo el abrazo del astro rey.",
+    "meaning_upright": "El Sol es una de las cartas más afortunadas y positivas del Tarot. Disipa toda oscuridad y anuncia triunfo, claridad, celebración, vitalidad física y alegría inocente. Todo sale a la luz para bendecirte; tus esfuerzos son coronados con laureles merecidos.",
+    "symbols": [
+      {
+        "name": "Sol radiante con rostro benevolente",
+        "desc": "La fuerza divina nutricia, consciencia despierta y abundancia cósmica."
+      },
+      {
+        "name": "Niño desnudo sobre caballo blanco",
+        "desc": "La inocencia reconquistada, libertad, pureza de espíritu y triunfo sin armaduras."
+      },
+      {
+        "name": "Cuatro girasoles tras el muro",
+        "desc": "Los cuatro elementos madurados y florecidos orientados hacia la luz divina."
+      },
+      {
+        "name": "Estandarte rojo ondeando",
+        "desc": "La energía vital, pasión, entusiasmo y victoria en el mundo material."
+      }
+    ],
+    "light_side": "Felicidad radiante, generosidad cálida, éxito indiscutible, claridad mental, salud física vigorosa y carisma.",
+    "shadow_side": "Orgullo desmedido, egocentrismo cegador, vanidad infantil o deslumbramiento ingenuo.",
+    "love": "Amor feliz y transparente, compromisos dichosos, hijos, complicidad luminosa y dicha compartida sin sombras.",
+    "work": "Éxito absoluto en proyectos, reconocimiento público de tus méritos, prosperidad económica y alianzas excelentes.",
+    "spirituality": "Despertar solar: consciencia plena de unidad con la creación, alegría como práctica espiritual suprema.",
+    "advice": "Sonríe y brilla sin pedir disculpas. Disfruta de tus logros, comparte tu calidez con quienes te rodean y sé feliz.",
+    "reflection_question": "¿Cómo puedes celebrar tus logros de hoy y contagiar tu alegría a los que más la necesitan?",
+    "reversed": {
+      "keywords": [
+        "Optimismo temporalmente nublado",
+        "Retraso en el éxito",
+        "Ego herido",
+        "Falta de entusiasmo"
+      ],
+      "meaning": "Invertido sigue siendo positivo, pero indica que una pequeña nube tapa transitoriamente tu alegría o que el éxito tarda un poco más.",
+      "how_to_heal": "No pierdas la fe. El Sol sigue allí aunque haya neblina; reconecta con las cosas sencillas que te devuelven la sonrisa."
+    },
+    "img": "assets/cards/el-sol.webp"
+  },
+  {
+    "id": "el-juicio",
+    "name": "El Juicio",
+    "number": "XX",
+    "roman": "XX",
+    "type": "Arcano Mayor",
+    "suit": null,
+    "element": "Fuego",
+    "astrology": "Plutón",
+    "keywords": [
+      "Despertar",
+      "Llamado del alma",
+      "Redención",
+      "Renovación total",
+      "Liberación del pasado"
+    ],
+    "essence": "La trompeta de la resurrección. Deja atrás la tumba del pasado y responde con valentía al verdadero llamado de tu vocación.",
+    "meaning_upright": "El Juicio anuncia un despertar espiritual contundente, una segunda oportunidad y la llamada ineludible a vivir tu auténtica misión. Todo lo vivido cobra sentido como aprendizaje. Es momento de perdonar, soltar viejas culpas y levantarte renovado para iniciar una vida más elevada.",
+    "symbols": [
+      {
+        "name": "Ángel Gabriel con trompeta",
+        "desc": "El llamado cósmico irresistible que despierta las almas dormidas a la verdad."
+      },
+      {
+        "name": "Estandarte con cruz roja",
+        "desc": "El punto de encuentro entre lo vertical (espiritual) y lo horizontal (terrenal)."
+      },
+      {
+        "name": "Personas emergiendo de tumbas de piedra",
+        "desc": "Resurrección de la consciencia, liberación de viejos patrones limitantes."
+      },
+      {
+        "name": "Agua y montañas de hielo de fondo",
+        "desc": "La disolución de los bloqueos emocionales cristalizados en el pasado."
+      }
+    ],
+    "light_side": "Claridad de propósito, perdón liberador, absolución moral, vocación clara y renacimiento triunfante.",
+    "shadow_side": "Juicios severos y condenatorios hacia uno mismo o los demás, negarse al llamado, culpa paralizante.",
+    "love": "Reencuentro significativo, perdón sincero que renueva una pareja, decisión madura de dar un salto cualitativo.",
+    "work": "Descubrimiento de la auténtica vocación, segundas oportunidades laborales brillantes, decisiones de carrera decisivas.",
+    "spirituality": "Iluminación súbita, redención kármica y alineación definitiva con el plan del alma.",
+    "advice": "Escucha la llamada de tu corazón y no mires atrás. Perdónate por los errores del pasado: hoy naces a una nueva vida.",
+    "reflection_question": "¿Qué llamado interior estás ignorando por miedo a dejar atrás tu vieja identidad?",
+    "reversed": {
+      "keywords": [
+        "Miedo a cambiar",
+        "Autocrítica despiadada",
+        "Negarse al llamado",
+        "Culpa estéril",
+        "Dudas vocacionales"
+      ],
+      "meaning": "Invertido refleja una voz interior a la que no quieres escuchar por temor a las exigencias del cambio, o autocastigo constante.",
+      "how_to_heal": "Perdónate. Nadie puede avanzar si sigue cargando con las lápidas de su pasado; acepta la gracia de empezar de cero."
+    },
+    "img": "assets/cards/el-juicio.webp"
+  },
+  {
+    "id": "el-mundo",
+    "name": "El Mundo",
+    "number": "XXI",
+    "roman": "XXI",
+    "type": "Arcano Mayor",
+    "suit": null,
+    "element": "Tierra",
+    "astrology": "Saturno",
+    "keywords": [
+      "Culminación exitosa",
+      "Plenitud",
+      "Integración",
+      "Viajes",
+      "Cierre maestro de ciclo"
+    ],
+    "essence": "El viaje del Loco ha concluido con maestría. La danza triunfal de la totalidad, donde espíritu y materia se funden en victoria.",
+    "meaning_upright": "El Mundo es la culminación dichosa de un gran ciclo de aprendizaje, esfuerzo y vida. Representa realización completa, reconocimiento, expansión internacional o viajes, y una profunda sensación de plenitud y paz. Todo encaja a la perfección en su lugar divino.",
+    "symbols": [
+      {
+        "name": "Danzante en el centro de la corona",
+        "desc": "La integración perfecta de los opuestos en éxtasis creador y libertad absoluta."
+      },
+      {
+        "name": "Corona de laurel ovalada",
+        "desc": "Símbolo de triunfo perdurable, eternidad y la matriz cósmica del universo."
+      },
+      {
+        "name": "Cintas rojas en forma de infinito",
+        "desc": "La energía continua que conecta el principio con el fin del viaje del alma."
+      },
+      {
+        "name": "Cuatro querubines en las esquinas",
+        "desc": "Los cuatro elementos completamente dominados y armonizados en la materia."
+      }
+    ],
+    "light_side": "Éxito total, culminación dichosa, sabiduría integrada, satisfacción profunda, apertura al mundo entero.",
+    "shadow_side": "Sentimiento de vacío al terminar una meta, procrastinar el último paso por miedo a cerrar, apego al éxito pasado.",
+    "love": "Plenitud amorosa, pareja consolidada que comparte una vida dichosa, amor maduro que corona años de aprendizaje.",
+    "work": "Alcanzar la cumbre profesional, expansión global de proyectos, contratos internacionales de prestigio, éxito redondo.",
+    "spirituality": "Consciencia cósmica de unidad: sentirte uno con todo lo que existe; paz inefable del alma autorrealizada.",
+    "advice": "Celebra tu triunfo con humildad y alegría. Has completado el ciclo con honores; disfruta del mundo que has co-creado.",
+    "reflection_question": "¿Qué gran ciclo de tu vida estás listo para cerrar y celebrar con gratitud antes de dar el siguiente paso?",
+    "reversed": {
+      "keywords": [
+        "Ciclo inconcluso",
+        "Falta el paso final",
+        "Sensación de vacío",
+        "Retraso en la coronación",
+        "Miedo al cierre"
+      ],
+      "meaning": "Invertido indica que estás a un paso de la meta pero te has detenido, o que te cuesta dar por terminado un proceso.",
+      "how_to_heal": "Da ese último esfuerzo necesario para cerrar el ciclo. Ata los cabos sueltos para poder disfrutar de la victoria completa."
+    },
+    "img": "assets/cards/el-mundo.webp"
+  }
+]

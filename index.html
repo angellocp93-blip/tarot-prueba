@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>78 Mapas Visuales del Tarot | Plataforma Maestra de Estudio y Práctica</title>
+  
+  <!-- Mobile & PWA Optimization -->
+  <meta name="theme-color" content="#090713">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Tarot Mapas">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="assets/card_back.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml" href="assets/card_back.svg">
+</head>
+<body>
+
+  <!-- Top Navigation Header -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand-wrapper" id="brand-home-btn">
+        <div class="brand-icon">✨</div>
+        <div class="brand-titles">
+          <span class="brand-title">78 Mapas del Tarot</span>
+          <span class="brand-sub">Plataforma de Estudio & Práctica</span>
+        </div>
+      </div>
+
+      <!-- Main Navigation Tabs -->
+      <nav class="nav-tabs" id="nav-tabs-container">
+        <button class="nav-btn active" data-tab="tab-mapas">
+          <span>🗺️</span> 78 Mapas Visuales
+        </button>
+        <button class="nav-btn" data-tab="tab-tiradas">
+          <span>🔮</span> 12 Tiradas en Vivo
+        </button>
+        <button class="nav-btn" data-tab="tab-combinaciones">
+          <span>⚡</span> Combinaciones
+        </button>
+        <button class="nav-btn" data-tab="tab-baraja">
+          <span>🖨️</span> Baraja para Imprimir
+        </button>
+        <button class="nav-btn" data-tab="tab-invertidas">
+          <span>🔄</span> Cartas Invertidas
+        </button>
+        <button class="nav-btn" data-tab="tab-practica">
+          <span>🎯</span> App de Práctica
+        </button>
+      </nav>
+
+      <!-- Header Utilities -->
+      <div class="header-actions">
+        <div class="header-search">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="global-search-input" placeholder="Buscar carta, símbolo..." autocomplete="off">
+        </div>
+        <button class="progress-pill" id="btn-mobile-modal" title="Conectar en tu Celular (QR)">
+          <span>📱</span>
+          <span>Móvil</span>
+        </button>
+        <div class="progress-pill" id="header-progress-pill" title="Tu progreso de estudio">
+          <span>⭐</span>
+          <span id="header-progress-text">0/78 (0%)</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Application Body -->
+  <main class="main-wrapper">
+
+    <!-- ====================================================================
+         TAB 1: LOS 78 MAPAS VISUALES (CORE PRODUCT)
+         ==================================================================== -->
+    <section class="tab-pane active" id="tab-mapas">
+      <div class="section-banner">
+        <div class="banner-content">
+          <h1>Los <span class="gold-text">78 Mapas Mentales</span> del Tarot</h1>
+          <p>La estructura visual definitiva: 22 Arcanos Mayores y 56 Menores. Esencia, símbolos ocultos, lado luz, lado sombra, amor, trabajo, espiritualidad y carta invertida en una sola página.</p>
+        </div>
+        <span class="banner-badge">Colección Completa 78 Cartas</span>
+      </div>
+
+      <div class="maps-layout">
+        <!-- Sidebar Selector -->
+        <aside class="cards-sidebar">
+          <div class="filter-pills" id="map-filter-pills">
+            <button class="filter-btn active" data-filter="all">Todos (78)</button>
+            <button class="filter-btn" data-filter="major">Mayores (22)</button>
+            <button class="filter-btn" data-filter="bastos">Bastos 🔥</button>
+            <button class="filter-btn" data-filter="copas">Copas 💧</button>
+            <button class="filter-btn" data-filter="espadas">Espadas 💨</button>
+            <button class="filter-btn" data-filter="oros">Oros 🪙</button>
+            <button class="filter-btn" data-filter="difficult">⭐ Difíciles</button>
+            <button class="filter-btn" data-filter="mastered">✅ Dominadas</button>
+          </div>
+
+          <div class="cards-scroll-list" id="cards-scroll-list">
+            <!-- Populated dynamically via JS -->
+          </div>
+        </aside>
+
+        <!-- Main Map Display -->
+        <div class="map-display-panel" id="map-display-panel">
+          <!-- Action bar -->
+          <div class="map-control-bar">
+            <div class="view-mode-selector">
+              <button class="mode-btn active" data-mode="mindmap">
+                <span>🧠</span> Mapa Mental Interactivo
+              </button>
+              <button class="mode-btn" data-mode="sheet">
+                <span>📄</span> Ficha A4 de Estudio
+              </button>
+              <button class="mode-btn" data-mode="guide">
+                <span>📖</span> Guía de Lectura
+              </button>
+            </div>
+
+            <div class="map-actions">
+              <button class="action-btn" id="btn-star-card" title="Agregar a lo que más me cuesta">
+                <span>⭐</span> Repasar
+              </button>
+              <button class="action-btn" id="btn-check-card" title="Marcar como carta dominada">
+                <span>✅</span> Dominada
+              </button>
+              <button class="action-btn" id="btn-print-map" title="Imprimir este mapa en A4">
+                <span>🖨️</span> Imprimir A4
+              </button>
+            </div>
+          </div>
+
+          <!-- Card Content View Container -->
+          <div id="card-view-container">
+            <!-- Dynamic Card Render (Mindmap, Sheet, or Guide) -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         TAB 2: BONO 1 - GUÍA DE 12 TIRADAS & SIMULADOR EN VIVO
+         ==================================================================== -->
+    <section class="tab-pane" id="tab-tiradas">
+      <div class="section-banner">
+        <div class="banner-content">
+          <h1>Bono 1 · <span class="gold-text">Guía de 12 Tiradas</span> & Mesa Interactiva</h1>
+          <p>Aprende qué significa cada posición paso a paso y practica lecturas reales en el tapete virtual con barajado, cartas en 3D e interpretación instantánea.</p>
+        </div>
+        <span class="banner-badge">12 Métodos de Tirada</span>
+      </div>
+
+      <!-- Spreads Horizontal Bar -->
+      <div class="spreads-selector-bar" id="spreads-selector-bar">
+        <!-- Injected via JS -->
+      </div>
+
+      <!-- Simulator Stage -->
+      <div class="spread-stage-container">
+        <!-- Virtual Mat -->
+        <div class="virtual-mat">
+          <div class="mat-header">
+            <div class="mat-title">
+              <h2 id="active-spread-title">Tirada de 3 Cartas: Pasado, Presente, Futuro</h2>
+            </div>
+            <div class="mat-controls">
+              <label class="reversal-toggle-label">
+                <input type="checkbox" id="allow-reversals-toggle" checked>
+                <span>Permitir cartas invertidas</span>
+              </label>
+              <button class="btn-deal" id="btn-deal-spread">
+                <span>🃏</span> Barajar y Tirar Cartas
+              </button>
+            </div>
+          </div>
+
+          <!-- Mat Card Slots Container -->
+          <div class="mat-slots-area" id="mat-slots-area">
+            <!-- Dynamic Slots Injected by JS -->
+          </div>
+        </div>
+
+        <!-- Right Side Reading Panel -->
+        <aside class="spread-reading-panel">
+          <div class="reading-panel-header">
+            <h3>Interpretación en Tiempo Real</h3>
+          </div>
+          <div id="reading-panel-content">
+            <div class="reading-card-focus">
+              <p class="reading-card-focus-text" style="color: var(--text-muted); font-style: italic;">
+                Haz clic en el botón <b>"Barajar y Tirar Cartas"</b> para repartir las cartas en el tapete. Luego toca cada carta para revelarla y leer su mensaje para esa posición.
+              </p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         TAB 3: BONO 2 - LIBRO Y ORÁCULO DE COMBINACIONES
+         ==================================================================== -->
+    <section class="tab-pane" id="tab-combinaciones">
+      <div class="section-banner">
+        <div class="banner-content">
+          <h1>Bono 2 · <span class="gold-text">Libro de Combinaciones</span> & Oráculo de Pares</h1>
+          <p>Cuando dos cartas salen juntas, el significado se transforma. Descubre la alquimia elemental y consulta cualquier combinación entre las 78 cartas del Tarot.</p>
+        </div>
+        <span class="banner-badge">Dinámica Combinatoria</span>
+      </div>
+
+      <!-- Dynamic Combination Box -->
+      <div class="combo-oracle-box">
+        <div class="combo-selectors-row">
+          <div class="combo-card-picker">
+            <label>Primera Carta (Carta A)</label>
+            <select class="combo-select" id="combo-select-a">
+              <!-- Injected by JS -->
+            </select>
+          </div>
+
+          <div class="combo-plus-sign">+</div>
+
+          <div class="combo-card-picker">
+            <label>Segunda Carta (Carta B)</label>
+            <select class="combo-select" id="combo-select-b">
+              <!-- Injected by JS -->
+            </select>
+          </div>
+        </div>
+
+        <div id="combo-result-display">
+          <!-- Dynamic combo synthesis injected here -->
+        </div>
+      </div>
+
+      <!-- Iconic Combinations Gallery -->
+      <div class="section-banner" style="margin-top: 2rem;">
+        <div class="banner-content">
+          <h2>Combinaciones Emblemáticas del Tarot</h2>
+          <p>Las parejas de cartas más trascendentales y sus lecturas en Amor, Trabajo y Consejo de vida.</p>
+        </div>
+      </div>
+
+      <div class="mindmap-nodes-grid" id="iconic-combos-grid">
+        <!-- Injected by JS -->
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         TAB 4: BONO 3 - BARAJA DE ESTUDIO PARA IMPRIMIR
+         ==================================================================== -->
+    <section class="tab-pane" id="tab-baraja">
+      <div class="section-banner">
+        <div class="banner-content">
+          <h1>Bono 3 · <span class="gold-text">Baraja de Estudio</span> para Imprimir</h1>
+          <p>Las 78 cartas completas en alta definición, listas para explorar en pantalla o imprimir y recortar en casa en hojas formato A4 con guías de corte.</p>
+        </div>
+        <div>
+          <button class="btn-deal" id="btn-print-deck">
+            <span>🖨️</span> Imprimir Baraja Completa (PDF)
+          </button>
+        </div>
+      </div>
+
+      <!-- Printable Deck Gallery Grid -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 1rem;" id="deck-gallery-grid">
+        <!-- Injected by JS -->
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         TAB 5: BONO 4 - GUÍA PRÁCTICA DE CARTAS INVERTIDAS
+         ==================================================================== -->
+    <section class="tab-pane" id="tab-invertidas">
+      <div class="section-banner">
+        <div class="banner-content">
+          <h1>Bono 4 · <span class="gold-text">Cartas Invertidas</span>: Guía Práctica</h1>
+          <p>Aprende los 4 métodos maestros para interpretar cuando una carta sale al revés (bloqueos, interiorización, sombra o redirección) y consulta el compendio de las 78 cartas.</p>
+        </div>
+        <span class="banner-badge">Compendio Completo 78 Cartas</span>
+      </div>
+
+      <!-- 4 Methods Cards -->
+      <div class="mindmap-nodes-grid" style="margin-bottom: 2rem;">
+        <div class="map-node">
+          <div class="node-header">
+            <span class="node-icon">⏳</span>
+            <span class="node-title">1. Energía Bloqueada o Retrasada</span>
+          </div>
+          <p class="node-content">El potencial de la carta está presente pero enfrenta una resistencia externa o demora temporal. No es un 'no', sino un 'todavía no'.</p>
+        </div>
+        <div class="map-node">
+          <div class="node-header">
+            <span class="node-icon">🧘</span>
+            <span class="node-title">2. Interiorización Psicológica</span>
+          </div>
+          <p class="node-content">La lección no se manifiesta en el mundo visible sino en el mundo íntimo del alma: una sanación interior, un cambio de mentalidad o un duelo secreto.</p>
+        </div>
+        <div class="map-node">
+          <div class="node-header">
+            <span class="node-icon">🌑</span>
+            <span class="node-title">3. Polaridad Sombra (Exceso o Falta)</span>
+          </div>
+          <p class="node-content">El arquetipo está en desbalance: o se expresa de forma exagerada y destructiva, o hay una carencia total de esa virtud que te debilita.</p>
+        </div>
+        <div class="map-node">
+          <div class="node-header">
+            <span class="node-icon">🧭</span>
+            <span class="node-title">4. Señal de Redirección</span>
+          </div>
+          <p class="node-content">Una advertencia amorosa del universo que te pide frenar, recalcular el rumbo y evitar un obstáculo evidente antes de que sea tarde.</p>
+        </div>
+      </div>
+
+      <!-- Searchable Inverted Cards Table / Cards -->
+      <div class="mindmap-nodes-grid" id="inverted-dictionary-grid">
+        <!-- Injected via JS -->
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         TAB 6: BONO 5 - APP DE PRÁCTICA (ENTRENADOR DE TAROT)
+         ==================================================================== -->
+    <section class="tab-pane" id="tab-practica">
+      <div class="section-banner">
+        <div class="banner-content">
+          <h1>Super Bono · <span class="gold-text">App de Práctica</span> & Entrenador de Tarot</h1>
+          <p>Tu entrenador interactivo para fijar imágenes en la memoria, ponerte a prueba con quizzes, repasar con tarjetas 3D y medir tu progreso hacia la maestría.</p>
+        </div>
+        <span class="banner-badge">Entrenador Interactivo</span>
+      </div>
+
+      <!-- Practice Mode Buttons -->
+      <div class="practice-modes-grid">
+        <div class="practice-card-btn active" data-submode="quiz">
+          <span class="btn-icon">❓</span>
+          <h3>Adivina la Carta (Quiz)</h3>
+          <p>Preguntas visuales y de significado para fijar las cartas sin memorizar.</p>
+        </div>
+        <div class="practice-card-btn" data-submode="flashcards">
+          <span class="btn-icon">🎴</span>
+          <h3>Tarjetas Flashcards 3D</h3>
+          <p>Repasa carta por carta a tu propio ritmo con animación de volteo.</p>
+        </div>
+        <div class="practice-card-btn" data-submode="progress">
+          <span class="btn-icon">📊</span>
+          <h3>Tu Progreso y Maestría</h3>
+          <p>Revisa tus estadísticas, cartas dominadas y puntos débiles.</p>
+        </div>
+      </div>
+
+      <!-- Practice Sub-Panes -->
+      <div id="practice-quiz-pane" class="practice-subpane">
+        <div class="quiz-container" id="quiz-container">
+          <!-- Injected by JS -->
+        </div>
+      </div>
+
+      <div id="practice-flashcards-pane" class="practice-subpane" style="display: none;">
+        <div class="flashcard-stage" id="flashcard-stage">
+          <!-- Injected by JS -->
+        </div>
+      </div>
+
+      <div id="practice-progress-pane" class="practice-subpane" style="display: none;">
+        <div class="mindmap-nodes-grid" id="progress-summary-grid">
+          <!-- Injected by JS -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Mobile Connection Modal -->
+  <div class="modal-overlay" id="mobile-connect-modal" style="display: none;">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modal-close-btn">&times;</button>
+      <div class="modal-header">
+        <span style="font-size: 2.2rem; display: block; margin-bottom: 0.25rem;">📱</span>
+        <h2 style="font-family: var(--font-serif); color: var(--gold-light);">Abrir en tu Celular</h2>
+        <p style="color: var(--text-muted); font-size: 0.9rem;">Accede desde tu iPhone o Android estando en la misma red Wi-Fi</p>
+      </div>
+
+      <div class="modal-body">
+        <!-- QR Code Container -->
+        <div class="qr-code-box">
+          <img id="qr-code-img" src="" alt="Código QR para celular" style="width: 190px; height: 190px; border-radius: 8px; border: 2px solid var(--gold-primary); background: #fff; padding: 6px;">
+          <p style="font-size: 0.8rem; color: var(--gold-light); margin-top: 0.6rem;">Apunta la cámara de tu celular a este código QR</p>
+        </div>
+
+        <!-- Direct Link Box -->
+        <div class="direct-link-box">
+          <label style="font-size: 0.78rem; color: var(--text-muted); text-transform: uppercase; font-weight: 700;">O escribe este enlace en tu navegador móvil:</label>
+          <div class="link-input-group">
+            <input type="text" id="mobile-url-input" readonly value="http://localhost:8000">
+            <button id="btn-copy-mobile-url" class="btn-deal" style="padding: 0.45rem 0.9rem; font-size: 0.8rem;">Copiar</button>
+          </div>
+        </div>
+
+        <!-- Instructions Guide -->
+        <div class="mobile-instructions-grid">
+          <div class="instruction-col">
+            <h4 style="color: #60a5fa; font-size: 0.9rem; margin-bottom: 0.4rem;">🍎 En iPhone (Safari)</h4>
+            <ol style="font-size: 0.8rem; color: var(--text-muted); padding-left: 1.1rem; line-height: 1.5;">
+              <li>Abre el enlace en Safari.</li>
+              <li>Toca el botón <b>Compartir</b> (icono de cuadrado con flecha hacia arriba).</li>
+              <li>Selecciona <b>"Añadir a pantalla de inicio"</b>.</li>
+              <li>¡Listo! Se abrirá como una App nativa a pantalla completa.</li>
+            </ol>
+          </div>
+
+          <div class="instruction-col">
+            <h4 style="color: #34d399; font-size: 0.9rem; margin-bottom: 0.4rem;">🤖 En Android (Chrome)</h4>
+            <ol style="font-size: 0.8rem; color: var(--text-muted); padding-left: 1.1rem; line-height: 1.5;">
+              <li>Abre el enlace en Chrome.</li>
+              <li>Toca los tres puntos <b>⋮</b> arriba a la derecha.</li>
+              <li>Selecciona <b>"Instalar aplicación"</b> o <b>"Añadir a la pantalla principal"</b>.</li>
+              <li>¡Listo! Tendrás el icono en tu escritorio móvil.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load Database and Application Scripts -->
+  <script src="data/tarot_database.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,19 @@
+{
+  "name": "78 Mapas Visuales del Tarot",
+  "short_name": "Tarot Mapas",
+  "description": "Plataforma de estudio interactivo y entrenador de Tarot",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#090713",
+  "theme_color": "#090713",
+  "icons": [
+    {
+      "src": "assets/card_back.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
+
