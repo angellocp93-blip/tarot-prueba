@@ -2057,3 +2057,19 @@ body {
   animation: fadeIn 0.25s ease-out;
   white-space: nowrap;
 }
+
+/* PDF Generator Spinner */
+.pdf-spinner {
+  width: 24px;
+  height: 24px;
+  border: 3px solid rgba(212, 175, 55, 0.25);
+  border-top-color: #d4af37;
+  border-radius: 50%;
+  animation: spin 0.75s linear infinite;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

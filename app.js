@@ -359,22 +359,92 @@
     }, 500);
   });
 
-  // ==========================================================================
-  // DESCARGA DIRECTA EN PDF CON HTML2PDF
-  // ==========================================================================
-  function generateCardPdf(card) {
-    showToast('⏳', `Generando PDF de ${card.name}...`, 5000);
+  // Preload image as Base64 to guarantee html2canvas never fails or renders blank
+  function getBase64Image(url) {
+    return new Promise((resolve) => {
+      const img = new Image();
+      img.crossOrigin = 'anonymous';
+      img.onload = () => {
+        try {
+          const canvas = document.createElement('canvas');
+          canvas.width = img.naturalWidth || img.width || 300;
+          canvas.height = img.naturalHeight || img.height || 500;
+          const ctx = canvas.getContext('2d');
+          ctx.drawImage(img, 0, 0);
+          const dataURL = canvas.toDataURL('image/png');
+          resolve(dataURL);
+        } catch (e) {
+          resolve(url);
+        }
+      };
+      img.onerror = () => resolve(url);
+      img.src = url;
+    });
+  }
 
-    // Create an offscreen export wrapper matching A4 Landscape perfectly
-    const exportWrapper = document.createElement('div');
-    exportWrapper.style.position = 'fixed';
-    exportWrapper.style.top = '0';
-    exportWrapper.style.left = '-9999px';
-    exportWrapper.style.width = '1080px';
-    exportWrapper.style.background = '#ffffff';
-    exportWrapper.style.zIndex = '-999';
-    exportWrapper.innerHTML = getSheetViewHtml(card);
-    document.body.appendChild(exportWrapper);
+  // ==========================================================================
+  // DESCARGA DIRECTA EN PDF CON HTML2PDF (CAPTURA EN PANTALLA FIABLE)
+  // ==========================================================================
+  async function generateCardPdf(card) {
+    showToast('⏳', `Generando PDF de ${card.name}...`, 8000);
+
+    // Preload image to base64 so html2canvas renders image instantly without blank spots
+    const base64Img = await getBase64Image(card.img);
+
+    // Create rendering overlay in-viewport so html2canvas doesn't calculate negative/empty coords
+    const overlay = document.createElement('div');
+    overlay.id = 'pdf-render-overlay';
+    overlay.style.cssText = `
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(10, 8, 22, 0.95);
+      backdrop-filter: blur(8px);
+      z-index: 999999;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      overflow-y: auto;
+      padding: 30px 15px;
+      box-sizing: border-box;
+    `;
+
+    const statusEl = document.createElement('div');
+    statusEl.style.cssText = `
+      color: #fce99f;
+      font-family: 'Cinzel', Georgia, serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    `;
+    statusEl.innerHTML = `<div class="pdf-spinner"></div> Generando archivo PDF de ${card.name}...`;
+    overlay.appendChild(statusEl);
+
+    const targetBox = document.createElement('div');
+    targetBox.id = 'pdf-render-target';
+    targetBox.style.cssText = `
+      width: 1020px;
+      max-width: 1020px;
+      background: #ffffff !important;
+      color: #1a162b !important;
+      border-radius: 8px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+      overflow: hidden;
+      box-sizing: border-box;
+    `;
+    targetBox.innerHTML = getSheetViewHtml(card, base64Img);
+    overlay.appendChild(targetBox);
+
+    document.body.appendChild(overlay);
+
+    // Wait for DOM reflow
+    await new Promise(r => setTimeout(r, 400));
 
     const safeFilename = `Mapa_Tarot_${card.name.replace(/\s+/g, '_')}.pdf`;
 
@@ -383,37 +453,34 @@
         margin: [6, 6, 6, 6],
         filename: safeFilename,
         image: { type: 'jpeg', quality: 0.98 },
-        html2canvas: { scale: 2, useCORS: true, logging: false },
+        html2canvas: {
+          scale: 2,
+          useCORS: true,
+          logging: false,
+          scrollY: 0,
+          scrollX: 0
+        },
         jsPDF: { unit: 'mm', format: 'a4', orientation: 'landscape' }
       };
 
-      window.html2pdf().set(opt).from(exportWrapper).save().then(() => {
-        document.body.removeChild(exportWrapper);
-        showToast('📥', `¡Descargado: ${safeFilename}!`);
+      try {
+        await window.html2pdf().set(opt).from(targetBox).save();
+        showToast('📥', `¡PDF de ${card.name} descargado!`);
         playMysticChime(660);
-      }).catch(err => {
-        console.error('Error generating PDF with html2pdf:', err);
-        document.body.removeChild(exportWrapper);
-        showToast('⚠️', 'Abriendo diálogo para Guardar como PDF...');
-        const prevMode = appState.mapViewMode;
-        appState.mapViewMode = 'sheet';
-        renderActiveCardView();
+      } catch (err) {
+        console.error('html2pdf error:', err);
+        showToast('⚠️', 'Abriendo visor para Guardar como PDF...');
         window.print();
-        setTimeout(() => {
-          appState.mapViewMode = prevMode;
-          renderActiveCardView();
-        }, 500);
-      });
+      } finally {
+        if (document.body.contains(overlay)) {
+          document.body.removeChild(overlay);
+        }
+      }
     } else {
-      document.body.removeChild(exportWrapper);
-      const prevMode = appState.mapViewMode;
-      appState.mapViewMode = 'sheet';
-      renderActiveCardView();
+      if (document.body.contains(overlay)) {
+        document.body.removeChild(overlay);
+      }
       window.print();
-      setTimeout(() => {
-        appState.mapViewMode = prevMode;
-        renderActiveCardView();
-      }, 500);
     }
   }
 
@@ -675,69 +742,66 @@
   }
 
   // HTML Builder for Sheet view (Used in both Sheet mode and PDF generator)
-  function getSheetViewHtml(card) {
+  function getSheetViewHtml(card, customImgSrc = null) {
+    const imgSrc = customImgSrc || card.img;
     const symbolsList = card.symbols.map(s => `
       <li><b>${s.name}:</b> ${s.desc}</li>
     `).join('');
 
     return `
-      <div class="sheet-container">
-        <div class="sheet-header">
-          <img class="sheet-card-img" src="${card.img}" alt="${card.name}">
+      <div class="sheet-container" style="background: #ffffff; color: #1a162b; padding: 2rem; max-width: 100%;">
+        <div class="sheet-header" style="border-bottom: 2px solid #d4af37; padding-bottom: 1.25rem; margin-bottom: 1.25rem;">
+          <img class="sheet-card-img" src="${imgSrc}" alt="${card.name}" style="width: 120px; height: 200px; border-radius: 6px; object-fit: cover; border: 2px solid #d4af37;">
           <div class="sheet-title-box">
             <span style="font-size: 0.8rem; font-weight: 700; color: #786b99; text-transform: uppercase;">
               ${card.type} · ${card.number} · Elemento ${card.element}
             </span>
-            <h2>${card.name}</h2>
-            <div class="sheet-keywords">${card.keywords.join(' · ')}</div>
-            <div class="sheet-essence"><b>Esencia:</b> "${card.essence}"</div>
+            <h2 style="font-family: 'Cinzel', Georgia, serif; font-size: 1.85rem; color: #120e24; margin: 0.2rem 0;">${card.name}</h2>
+            <div class="sheet-keywords" style="font-size: 0.95rem; color: #936f10; font-weight: 700; margin-bottom: 0.5rem;">${card.keywords.join(' · ')}</div>
+            <div class="sheet-essence" style="font-size: 0.92rem; background: #fbf8eb; padding: 0.65rem 0.85rem; border-radius: 6px; border-left: 4px solid #d4af37; color: #332d4a; line-height: 1.45;"><b>Esencia:</b> "${card.essence}"</div>
           </div>
           <div style="text-align: right; font-size: 0.75rem; color: #888;">
-            <div>78 Mapas Mentales del Tarot</div>
+            <div style="font-weight: 700; color: #936f10;">78 Mapas Mentales del Tarot</div>
             <div>Ficha de Consulta Rápida A4</div>
           </div>
         </div>
 
-        <div class="sheet-grid">
-          <div class="sheet-box">
-            <h3>👁️ Símbolos Visuales Clave</h3>
-            <ul style="padding-left: 1.15rem; display: flex; flex-direction: column; gap: 0.4rem;">
+        <div class="sheet-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem;">
+          <div class="sheet-box" style="background: #f9f9fb; border: 1px solid #e2e0ea; border-radius: 8px; padding: 0.9rem 1.1rem;">
+            <h3 style="font-family: 'Cinzel', Georgia, serif; font-size: 1rem; color: #18132e; border-bottom: 1px solid #d4af37; padding-bottom: 0.35rem; margin-bottom: 0.6rem;">👁️ Símbolos Visuales Clave</h3>
+            <ul style="padding-left: 1.15rem; display: flex; flex-direction: column; gap: 0.35rem; font-size: 0.85rem; color: #3b3552; line-height: 1.45;">
               ${symbolsList}
             </ul>
           </div>
 
-          <div class="sheet-box">
-            <h3>⚖️ Lado Luz y Lado Sombra</h3>
-            <div style="margin-bottom: 0.75rem;">
-              <b style="color: #059669;">☀️ Lado Luz:</b>
-              <p>${card.light_side}</p>
+          <div class="sheet-box" style="background: #f9f9fb; border: 1px solid #e2e0ea; border-radius: 8px; padding: 0.9rem 1.1rem;">
+            <h3 style="font-family: 'Cinzel', Georgia, serif; font-size: 1rem; color: #18132e; border-bottom: 1px solid #d4af37; padding-bottom: 0.35rem; margin-bottom: 0.6rem;">⚖️ Lado Luz y Lado Sombra</h3>
+            <div style="margin-bottom: 0.65rem;">
+              <b style="color: #059669; font-size: 0.88rem;">☀️ Lado Luz:</b>
+              <p style="font-size: 0.85rem; color: #3b3552; margin-top: 0.15rem;">${card.light_side}</p>
             </div>
             <div>
-              <b style="color: #e11d48;">🌑 Lado Sombra:</b>
-              <p>${card.shadow_side}</p>
+              <b style="color: #e11d48; font-size: 0.88rem;">🌑 Lado Sombra:</b>
+              <p style="font-size: 0.85rem; color: #3b3552; margin-top: 0.15rem;">${card.shadow_side}</p>
             </div>
           </div>
 
-          <div class="sheet-box">
-            <h3>💖 Amor y Relaciones</h3>
-            <p>${card.love}</p>
-            <h3 style="margin-top: 1rem;">💼 Trabajo y Finanzas</h3>
-            <p>${card.work}</p>
+          <div class="sheet-box" style="background: #f9f9fb; border: 1px solid #e2e0ea; border-radius: 8px; padding: 0.9rem 1.1rem;">
+            <h3 style="font-family: 'Cinzel', Georgia, serif; font-size: 1rem; color: #18132e; border-bottom: 1px solid #d4af37; padding-bottom: 0.35rem; margin-bottom: 0.6rem;">💖 Amor y Trabajo</h3>
+            <p style="font-size: 0.85rem; color: #3b3552; margin-bottom: 0.65rem;"><b>Amor:</b> ${card.love}</p>
+            <p style="font-size: 0.85rem; color: #3b3552;"><b>Trabajo y Dinero:</b> ${card.work}</p>
           </div>
 
-          <div class="sheet-box">
-            <h3>🧭 Consejo & Carta Invertida</h3>
-            <div style="margin-bottom: 0.75rem;">
-              <b>Acción Recomendada:</b>
-              <p>${card.advice}</p>
+          <div class="sheet-box" style="background: #f9f9fb; border: 1px solid #e2e0ea; border-radius: 8px; padding: 0.9rem 1.1rem;">
+            <h3 style="font-family: 'Cinzel', Georgia, serif; font-size: 1rem; color: #18132e; border-bottom: 1px solid #d4af37; padding-bottom: 0.35rem; margin-bottom: 0.6rem;">🧭 Consejo & Carta Invertida</h3>
+            <div style="margin-bottom: 0.5rem; font-size: 0.85rem; color: #3b3552;">
+              <b>Acción:</b> ${card.advice}
             </div>
-            <div style="margin-bottom: 0.75rem;">
-              <b>Pregunta de Autoindagación:</b>
-              <p style="font-style: italic;">"${card.reflection_question}"</p>
+            <div style="margin-bottom: 0.65rem; font-size: 0.84rem; color: #3b3552; font-style: italic;">
+              <b>Pregunta:</b> "${card.reflection_question}"
             </div>
-            <div style="background: #fdf2f4; border-left: 3px solid #e11d48; padding: 0.5rem 0.75rem; border-radius: 4px;">
-              <b style="color: #be123c;">🔄 Al salir invertida:</b>
-              <p style="font-size: 0.84rem;">${card.reversed.meaning}</p>
+            <div style="background: #fdf2f4; border-left: 3px solid #e11d48; padding: 0.45rem 0.65rem; border-radius: 4px; font-size: 0.82rem; color: #be123c;">
+              <b>🔄 Al salir invertida:</b> ${card.reversed.meaning}
             </div>
           </div>
         </div>
@@ -983,63 +1047,149 @@
 
   // Descargar Informe de Tirada en PDF
   if (btnDownloadSpreadPdf) {
-    btnDownloadSpreadPdf.addEventListener('click', () => {
+    btnDownloadSpreadPdf.addEventListener('click', async () => {
       const spread = TAROT_DB.spreads.find(s => s.id === appState.activeSpreadId);
       if (!spreadDealtCards || spreadDealtCards.length === 0) return;
 
-      showToast('⏳', `Generando PDF de la lectura...`);
+      showToast('⏳', `Generando informe de ${spread.name}...`, 8000);
 
-      const exportDiv = document.createElement('div');
-      exportDiv.style.position = 'fixed';
-      exportDiv.style.top = '0';
-      exportDiv.style.left = '-9999px';
-      exportDiv.style.width = '850px';
-      exportDiv.style.padding = '30px';
-      exportDiv.style.background = '#ffffff';
-      exportDiv.style.color = '#111111';
-      exportDiv.style.fontFamily = 'Arial, sans-serif';
+      // Pre-cargar imágenes en base64 para evitar canvas en blanco
+      const cardBase64List = await Promise.all(spreadDealtCards.map(async (c) => {
+        try {
+          const b64 = await getBase64Image(c.card.img);
+          return { ...c, base64Img: b64 || c.card.img };
+        } catch (e) {
+          return { ...c, base64Img: c.card.img };
+        }
+      }));
 
-      const positionsHtml = spreadDealtCards.map(c => `
-        <div style="border-bottom: 1px solid #ddd; padding: 12px 0; display: flex; gap: 15px; align-items: flex-start;">
-          <img src="${c.card.img}" style="width: 60px; height: 100px; border: 1px solid #d4af37; border-radius: 4px; ${c.isReversed ? 'transform: rotate(180deg);' : ''}">
+      const overlay = document.createElement('div');
+      overlay.id = 'pdf-render-overlay';
+      overlay.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(10, 8, 22, 0.95);
+        backdrop-filter: blur(8px);
+        z-index: 999999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        overflow-y: auto;
+        padding: 30px 15px;
+        box-sizing: border-box;
+      `;
+
+      const statusEl = document.createElement('div');
+      statusEl.style.cssText = `
+        color: #fce99f;
+        font-family: 'Cinzel', Georgia, serif;
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      `;
+      statusEl.innerHTML = `<div class="pdf-spinner"></div> Generando informe PDF de la lectura...`;
+      overlay.appendChild(statusEl);
+
+      const targetBox = document.createElement('div');
+      targetBox.id = 'pdf-render-target';
+      targetBox.style.cssText = `
+        width: 820px;
+        max-width: 820px;
+        background: #ffffff !important;
+        color: #1a162b !important;
+        border-radius: 8px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+        overflow: hidden;
+        box-sizing: border-box;
+        padding: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      `;
+
+      const positionsHtml = cardBase64List.map(c => `
+        <div style="border-bottom: 1px solid #e2e8f0; padding: 14px 0; display: flex; gap: 16px; align-items: flex-start; page-break-inside: avoid;">
+          <img src="${c.base64Img}" style="width: 65px; height: 110px; border: 1.5px solid #d4af37; border-radius: 5px; object-fit: cover; flex-shrink: 0; ${c.isReversed ? 'transform: rotate(180deg);' : ''}">
           <div style="flex: 1;">
-            <b style="color: #997510; font-size: 13px;">Posición ${c.position.pos}: ${c.position.name}</b>
-            <div style="font-size: 11px; color: #666; margin-bottom: 4px;">${c.position.desc}</div>
-            <h4 style="margin: 3px 0; color: #222; font-size: 15px;">${c.card.name} ${c.isReversed ? '(Invertida)' : '(Al Derecho)'}</h4>
-            <p style="font-size: 12px; line-height: 1.45; color: #333; margin: 4px 0;">${c.isReversed ? c.card.reversed.meaning : c.card.meaning_upright}</p>
-            <div style="font-size: 11px; color: #047857; margin-top: 3px;"><b>Consejo:</b> ${c.card.advice}</div>
+            <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 3px;">
+              <b style="color: #997510; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px;">Posición ${c.position.pos}: ${c.position.name}</b>
+              <span style="font-size: 11px; padding: 2px 7px; border-radius: 4px; background: ${c.isReversed ? '#fee2e2; color: #991b1b;' : '#dcfce7; color: #166534;'} font-weight: 600;">
+                ${c.isReversed ? 'Invertida 🔄' : 'Al Derecho ☀️'}
+              </span>
+            </div>
+            <div style="font-size: 11px; color: #64748b; margin-bottom: 6px; font-style: italic;">${c.position.desc}</div>
+            <h4 style="margin: 0 0 6px 0; color: #0f172a; font-size: 16px;">${c.card.name}</h4>
+            <p style="font-size: 12.5px; line-height: 1.5; color: #334155; margin: 0 0 6px 0;">${c.isReversed ? c.card.reversed.meaning : c.card.meaning_upright}</p>
+            <div style="font-size: 11.5px; color: #065f46; background: #ecfdf5; padding: 5px 9px; border-radius: 4px; border-left: 3px solid #10b981;"><b>Consejo:</b> ${c.card.advice}</div>
           </div>
         </div>
       `).join('');
 
-      exportDiv.innerHTML = `
-        <div style="border-bottom: 2px solid #d4af37; padding-bottom: 12px; margin-bottom: 15px;">
-          <h2 style="margin: 0; color: #1a1633; font-size: 22px;">Lectura de Tarot: ${spread.name}</h2>
-          <div style="font-size: 12px; color: #666; margin-top: 4px;">Fecha: ${new Date().toLocaleDateString()} · Plataforma 78 Mapas Mentales</div>
+      targetBox.innerHTML = `
+        <div style="border-bottom: 3px solid #d4af37; padding-bottom: 14px; margin-bottom: 16px; display: flex; justify-content: space-between; align-items: flex-end;">
+          <div>
+            <div style="font-size: 11px; color: #d4af37; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px;">Santuario de Tarot · 78 Mapas Mentales</div>
+            <h1 style="margin: 3px 0 0 0; color: #0f172a; font-size: 24px; font-family: Georgia, serif;">Informe: ${spread.name}</h1>
+          </div>
+          <div style="text-align: right; font-size: 11.5px; color: #64748b;">
+            <div><b>Fecha:</b> ${new Date().toLocaleDateString('es-ES', { year: 'numeric', month: 'long', day: 'numeric' })}</div>
+            <div>${spread.card_count} Arcanos Consultados</div>
+          </div>
+        </div>
+        <div style="font-size: 12.5px; color: #475569; margin-bottom: 16px; background: #f8fafc; padding: 10px 14px; border-radius: 6px; border: 1px solid #e2e8f0;">
+          <b>Propósito de la Tirada:</b> ${spread.desc}
         </div>
         <div>${positionsHtml}</div>
+        <div style="margin-top: 20px; padding-top: 10px; border-top: 1px solid #e2e8f0; font-size: 10.5px; color: #94a3b8; text-align: center;">
+          Generado automáticamente por la Plataforma Interactiva de 78 Mapas Mentales de Tarot.
+        </div>
       `;
 
-      document.body.appendChild(exportDiv);
+      overlay.appendChild(targetBox);
+      document.body.appendChild(overlay);
+
+      // Esperar renderizado y layout del DOM
+      await new Promise(r => setTimeout(r, 450));
+
+      const safeFilename = `Lectura_Tarot_${spread.id}_${Date.now()}.pdf`;
 
       if (window.html2pdf) {
         const opt = {
           margin: [8, 8, 8, 8],
-          filename: `Lectura_${spread.id}.pdf`,
+          filename: safeFilename,
           image: { type: 'jpeg', quality: 0.98 },
-          html2canvas: { scale: 2, useCORS: true },
+          html2canvas: {
+            scale: 2,
+            useCORS: true,
+            logging: false,
+            scrollY: 0,
+            scrollX: 0
+          },
           jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
         };
 
-        window.html2pdf().set(opt).from(exportDiv).save().then(() => {
-          document.body.removeChild(exportDiv);
-          showToast('📥', '¡Lectura descargada en PDF!');
-        }).catch(() => {
-          document.body.removeChild(exportDiv);
+        try {
+          await window.html2pdf().set(opt).from(targetBox).save();
+          showToast('📥', '¡Lectura descargada con éxito!');
+          playMysticChime(660);
+        } catch (err) {
+          console.error('html2pdf spread error:', err);
+          showToast('⚠️', 'Abriendo visor para Guardar como PDF...');
           window.print();
-        });
+        } finally {
+          if (document.body.contains(overlay)) {
+            document.body.removeChild(overlay);
+          }
+        }
       } else {
-        document.body.removeChild(exportDiv);
+        if (document.body.contains(overlay)) {
+          document.body.removeChild(overlay);
+        }
         window.print();
       }
     });
