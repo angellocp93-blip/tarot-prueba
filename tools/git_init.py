@@ -29,3 +29,4 @@ run_git(["status"])
 
 # 5. git commit
 run_git(["commit", "-m", "Initial commit: 78 Mapas Visuales del Tarot - Plataforma de Estudio y Práctica"])
+

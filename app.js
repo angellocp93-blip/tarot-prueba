@@ -1,5 +1,6 @@
 /* ==========================================================================
    78 MAPAS VISUALES DEL TAROT - SISTEMA Y LOGICA DE LA PLATAFORMA
+   Optimizado para Móviles (Android / iPhone) & Generador de PDF
    ========================================================================== */
 
 (function () {
@@ -81,8 +82,22 @@
     } catch (e) {}
   }
 
+  // Toast Notification helper
+  function showToast(icon, message, duration = 3200) {
+    const toast = document.getElementById('toast-notification');
+    if (!toast) return;
+    document.getElementById('toast-icon').textContent = icon;
+    document.getElementById('toast-message').textContent = message;
+    toast.style.display = 'flex';
+    clearTimeout(window._toastTimeout);
+    window._toastTimeout = setTimeout(() => {
+      toast.style.display = 'none';
+    }, duration);
+  }
+
   // DOM Elements cache
   const navTabsContainer = document.getElementById('nav-tabs-container');
+  const mobileBottomNav = document.getElementById('mobile-bottom-nav');
   const tabPanes = document.querySelectorAll('.tab-pane');
   const cardsScrollList = document.getElementById('cards-scroll-list');
   const cardViewContainer = document.getElementById('card-view-container');
@@ -91,9 +106,22 @@
   const headerProgressText = document.getElementById('header-progress-text');
   const headerProgressPill = document.getElementById('header-progress-pill');
 
+  // Mobile Navigator & Drawer
+  const mNavCardName = document.getElementById('m-nav-card-name');
+  const btnPrevCard = document.getElementById('btn-prev-card');
+  const btnNextCard = document.getElementById('btn-next-card');
+  const btnOpenCardDrawer = document.getElementById('btn-open-card-drawer');
+  const cardDrawerOverlay = document.getElementById('card-drawer-overlay');
+  const drawerCloseBtn = document.getElementById('drawer-close-btn');
+  const drawerSearchInput = document.getElementById('drawer-search-input');
+  const drawerFilterPills = document.getElementById('drawer-filter-pills');
+  const drawerCardsGrid = document.getElementById('drawer-cards-grid');
+  let drawerActiveFilter = 'all';
+
   // Map Controls
   const btnStarCard = document.getElementById('btn-star-card');
   const btnCheckCard = document.getElementById('btn-check-card');
+  const btnDownloadPdf = document.getElementById('btn-download-pdf');
   const btnPrintMap = document.getElementById('btn-print-map');
 
   // Spreads Elements
@@ -101,6 +129,7 @@
   const activeSpreadTitle = document.getElementById('active-spread-title');
   const matSlotsArea = document.getElementById('mat-slots-area');
   const btnDealSpread = document.getElementById('btn-deal-spread');
+  const btnDownloadSpreadPdf = document.getElementById('btn-download-spread-pdf');
   const readingPanelContent = document.getElementById('reading-panel-content');
   const allowReversalsToggle = document.getElementById('allow-reversals-toggle');
 
@@ -134,10 +163,16 @@
   }
 
   // ==========================================================================
-  // NAVIGATION & TAB SWITCHING
+  // NAVIGATION & TAB SWITCHING (DESKTOP & MOBILE)
   // ==========================================================================
   function switchTab(targetTabId) {
+    // Desktop tabs
     document.querySelectorAll('.nav-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.tab === targetTabId);
+    });
+
+    // Mobile bottom navigation bar
+    document.querySelectorAll('.mobile-nav-btn').forEach(btn => {
       btn.classList.toggle('active', btn.dataset.tab === targetTabId);
     });
 
@@ -154,6 +189,14 @@
     if (!btn) return;
     switchTab(btn.dataset.tab);
   });
+
+  if (mobileBottomNav) {
+    mobileBottomNav.addEventListener('click', (e) => {
+      const btn = e.target.closest('.mobile-nav-btn');
+      if (!btn) return;
+      switchTab(btn.dataset.tab);
+    });
+  }
 
   document.getElementById('brand-home-btn').addEventListener('click', () => {
     switchTab('tab-mapas');
@@ -234,6 +277,7 @@
     renderCardsSidebar();
     renderActiveCardView();
     updateMapButtonsState();
+    updateMobileNavigator();
     playMysticChime(528);
   }
 
@@ -277,10 +321,11 @@
     const id = appState.selectedCardId;
     if (appState.masteredCards.includes(id)) {
       appState.masteredCards = appState.masteredCards.filter(c => c !== id);
+      showToast('ℹ️', 'Carta desmarcada de dominadas');
     } else {
       appState.masteredCards.push(id);
-      // If mastered, remove from difficult
       appState.difficultCards = appState.difficultCards.filter(c => c !== id);
+      showToast('✅', '¡Carta marcada como dominada!');
       playMysticChime(660);
     }
     saveState();
@@ -292,8 +337,10 @@
     const id = appState.selectedCardId;
     if (appState.difficultCards.includes(id)) {
       appState.difficultCards = appState.difficultCards.filter(c => c !== id);
+      showToast('ℹ️', 'Carta removida de repaso');
     } else {
       appState.difficultCards.push(id);
+      showToast('⭐', 'Carta agregada a "Lo que más te cuesta"');
       playMysticChime(380);
     }
     saveState();
@@ -302,7 +349,6 @@
   });
 
   btnPrintMap.addEventListener('click', () => {
-    // Switch to sheet mode momentarily for clean printing
     const prevMode = appState.mapViewMode;
     appState.mapViewMode = 'sheet';
     renderActiveCardView();
@@ -312,6 +358,184 @@
       renderActiveCardView();
     }, 500);
   });
+
+  // ==========================================================================
+  // DESCARGA DIRECTA EN PDF CON HTML2PDF
+  // ==========================================================================
+  function generateCardPdf(card) {
+    showToast('⏳', `Generando PDF de ${card.name}...`, 5000);
+
+    // Create an offscreen export wrapper matching A4 Landscape perfectly
+    const exportWrapper = document.createElement('div');
+    exportWrapper.style.position = 'fixed';
+    exportWrapper.style.top = '0';
+    exportWrapper.style.left = '-9999px';
+    exportWrapper.style.width = '1080px';
+    exportWrapper.style.background = '#ffffff';
+    exportWrapper.style.zIndex = '-999';
+    exportWrapper.innerHTML = getSheetViewHtml(card);
+    document.body.appendChild(exportWrapper);
+
+    const safeFilename = `Mapa_Tarot_${card.name.replace(/\s+/g, '_')}.pdf`;
+
+    if (window.html2pdf) {
+      const opt = {
+        margin: [6, 6, 6, 6],
+        filename: safeFilename,
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2, useCORS: true, logging: false },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'landscape' }
+      };
+
+      window.html2pdf().set(opt).from(exportWrapper).save().then(() => {
+        document.body.removeChild(exportWrapper);
+        showToast('📥', `¡Descargado: ${safeFilename}!`);
+        playMysticChime(660);
+      }).catch(err => {
+        console.error('Error generating PDF with html2pdf:', err);
+        document.body.removeChild(exportWrapper);
+        showToast('⚠️', 'Abriendo diálogo para Guardar como PDF...');
+        const prevMode = appState.mapViewMode;
+        appState.mapViewMode = 'sheet';
+        renderActiveCardView();
+        window.print();
+        setTimeout(() => {
+          appState.mapViewMode = prevMode;
+          renderActiveCardView();
+        }, 500);
+      });
+    } else {
+      document.body.removeChild(exportWrapper);
+      const prevMode = appState.mapViewMode;
+      appState.mapViewMode = 'sheet';
+      renderActiveCardView();
+      window.print();
+      setTimeout(() => {
+        appState.mapViewMode = prevMode;
+        renderActiveCardView();
+      }, 500);
+    }
+  }
+
+  if (btnDownloadPdf) {
+    btnDownloadPdf.addEventListener('click', () => {
+      const card = getCardById(appState.selectedCardId);
+      generateCardPdf(card);
+    });
+  }
+
+  // ==========================================================================
+  // MOBILE QUICK CARD NAVIGATOR & DRAWER (MODAL)
+  // ==========================================================================
+  function updateMobileNavigator() {
+    if (!mNavCardName) return;
+    const card = getCardById(appState.selectedCardId);
+    mNavCardName.textContent = `${card.name} (${card.type === 'Arcano Mayor' ? card.roman : card.number})`;
+  }
+
+  if (btnPrevCard) {
+    btnPrevCard.addEventListener('click', () => {
+      const cards = TAROT_DB.cards;
+      const idx = cards.findIndex(c => c.id === appState.selectedCardId);
+      const prevIdx = (idx - 1 + cards.length) % cards.length;
+      selectCard(cards[prevIdx].id);
+    });
+  }
+
+  if (btnNextCard) {
+    btnNextCard.addEventListener('click', () => {
+      const cards = TAROT_DB.cards;
+      const idx = cards.findIndex(c => c.id === appState.selectedCardId);
+      const nextIdx = (idx + 1) % cards.length;
+      selectCard(cards[nextIdx].id);
+    });
+  }
+
+  function openCardDrawer() {
+    renderDrawerCardsGrid();
+    cardDrawerOverlay.style.display = 'flex';
+    drawerSearchInput.value = '';
+    playMysticChime(500);
+  }
+
+  function closeCardDrawer() {
+    cardDrawerOverlay.style.display = 'none';
+  }
+
+  if (btnOpenCardDrawer) {
+    btnOpenCardDrawer.addEventListener('click', openCardDrawer);
+  }
+
+  if (drawerCloseBtn) {
+    drawerCloseBtn.addEventListener('click', closeCardDrawer);
+  }
+
+  cardDrawerOverlay.addEventListener('click', (e) => {
+    if (e.target === cardDrawerOverlay) closeCardDrawer();
+  });
+
+  if (drawerFilterPills) {
+    drawerFilterPills.addEventListener('click', (e) => {
+      const btn = e.target.closest('.filter-btn');
+      if (!btn) return;
+      drawerFilterPills.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      drawerActiveFilter = btn.dataset.filter;
+      renderDrawerCardsGrid();
+    });
+  }
+
+  if (drawerSearchInput) {
+    drawerSearchInput.addEventListener('input', () => {
+      renderDrawerCardsGrid();
+    });
+  }
+
+  function renderDrawerCardsGrid() {
+    if (!drawerCardsGrid) return;
+    drawerCardsGrid.innerHTML = '';
+    const filter = drawerActiveFilter;
+
+    let filtered = TAROT_DB.cards.filter(c => {
+      if (filter === 'all') return true;
+      if (filter === 'major') return c.type === 'Arcano Mayor';
+      if (filter === 'bastos') return c.suit === 'Bastos';
+      if (filter === 'copas') return c.suit === 'Copas';
+      if (filter === 'espadas') return c.suit === 'Espadas';
+      if (filter === 'oros') return c.suit === 'Oros';
+      if (filter === 'difficult') return appState.difficultCards.includes(c.id);
+      if (filter === 'mastered') return appState.masteredCards.includes(c.id);
+      return true;
+    });
+
+    const query = drawerSearchInput ? drawerSearchInput.value.trim().toLowerCase() : '';
+    if (query) {
+      filtered = filtered.filter(c => 
+        c.name.toLowerCase().includes(query) ||
+        c.keywords.some(k => k.toLowerCase().includes(query))
+      );
+    }
+
+    filtered.forEach(card => {
+      const isSelected = card.id === appState.selectedCardId;
+      const chip = document.createElement('div');
+      chip.className = `drawer-card-chip ${isSelected ? 'selected' : ''}`;
+      chip.innerHTML = `
+        <img class="drawer-card-thumb" src="${card.img}" alt="${card.name}">
+        <div class="drawer-card-info">
+          <div class="drawer-card-name">${card.name}</div>
+          <div class="drawer-card-type">${card.type === 'Arcano Mayor' ? card.roman : card.suit}</div>
+        </div>
+      `;
+
+      chip.addEventListener('click', () => {
+        selectCard(card.id);
+        closeCardDrawer();
+      });
+
+      drawerCardsGrid.appendChild(chip);
+    });
+  }
 
   // Render the selected card according to active mode
   function renderActiveCardView() {
@@ -337,10 +561,6 @@
         <b>👁️ ${s.name}</b>
         <p>${s.desc}</p>
       </div>
-    `).join('');
-
-    const keywordsBadges = card.keywords.map(k => `
-      <span class="badge-tag tag-gold">${k}</span>
     `).join('');
 
     wrapper.innerHTML = `
@@ -454,77 +674,81 @@
     cardViewContainer.appendChild(wrapper);
   }
 
-  // VISTA 2: FICHA DE ESTUDIO RESUMEN A4
-  function renderSheetView(card) {
-    const wrapper = document.createElement('div');
-    wrapper.className = 'sheet-container';
-
+  // HTML Builder for Sheet view (Used in both Sheet mode and PDF generator)
+  function getSheetViewHtml(card) {
     const symbolsList = card.symbols.map(s => `
       <li><b>${s.name}:</b> ${s.desc}</li>
     `).join('');
 
-    wrapper.innerHTML = `
-      <div class="sheet-header">
-        <img class="sheet-card-img" src="${card.img}" alt="${card.name}">
-        <div class="sheet-title-box">
-          <span style="font-size: 0.8rem; font-weight: 700; color: #786b99; text-transform: uppercase;">
-            ${card.type} · ${card.number} · Elemento ${card.element}
-          </span>
-          <h2>${card.name}</h2>
-          <div class="sheet-keywords">${card.keywords.join(' · ')}</div>
-          <div class="sheet-essence"><b>Esencia:</b> "${card.essence}"</div>
-        </div>
-        <div style="text-align: right; font-size: 0.75rem; color: #888;">
-          <div>78 Mapas Mentales del Tarot</div>
-          <div>Ficha de Consulta Rápida A4</div>
-        </div>
-      </div>
-
-      <div class="sheet-grid">
-        <div class="sheet-box">
-          <h3>👁️ Símbolos Visuales Clave</h3>
-          <ul style="padding-left: 1.15rem; display: flex; flex-direction: column; gap: 0.4rem;">
-            ${symbolsList}
-          </ul>
-        </div>
-
-        <div class="sheet-box">
-          <h3>⚖️ Lado Luz y Lado Sombra</h3>
-          <div style="margin-bottom: 0.75rem;">
-            <b style="color: #059669;">☀️ Lado Luz:</b>
-            <p>${card.light_side}</p>
+    return `
+      <div class="sheet-container">
+        <div class="sheet-header">
+          <img class="sheet-card-img" src="${card.img}" alt="${card.name}">
+          <div class="sheet-title-box">
+            <span style="font-size: 0.8rem; font-weight: 700; color: #786b99; text-transform: uppercase;">
+              ${card.type} · ${card.number} · Elemento ${card.element}
+            </span>
+            <h2>${card.name}</h2>
+            <div class="sheet-keywords">${card.keywords.join(' · ')}</div>
+            <div class="sheet-essence"><b>Esencia:</b> "${card.essence}"</div>
           </div>
-          <div>
-            <b style="color: #e11d48;">🌑 Lado Sombra:</b>
-            <p>${card.shadow_side}</p>
+          <div style="text-align: right; font-size: 0.75rem; color: #888;">
+            <div>78 Mapas Mentales del Tarot</div>
+            <div>Ficha de Consulta Rápida A4</div>
           </div>
         </div>
 
-        <div class="sheet-box">
-          <h3>💖 Amor y Relaciones</h3>
-          <p>${card.love}</p>
-          <h3 style="margin-top: 1rem;">💼 Trabajo y Finanzas</h3>
-          <p>${card.work}</p>
-        </div>
+        <div class="sheet-grid">
+          <div class="sheet-box">
+            <h3>👁️ Símbolos Visuales Clave</h3>
+            <ul style="padding-left: 1.15rem; display: flex; flex-direction: column; gap: 0.4rem;">
+              ${symbolsList}
+            </ul>
+          </div>
 
-        <div class="sheet-box">
-          <h3>🧭 Consejo & Carta Invertida</h3>
-          <div style="margin-bottom: 0.75rem;">
-            <b>Acción Recomendada:</b>
-            <p>${card.advice}</p>
+          <div class="sheet-box">
+            <h3>⚖️ Lado Luz y Lado Sombra</h3>
+            <div style="margin-bottom: 0.75rem;">
+              <b style="color: #059669;">☀️ Lado Luz:</b>
+              <p>${card.light_side}</p>
+            </div>
+            <div>
+              <b style="color: #e11d48;">🌑 Lado Sombra:</b>
+              <p>${card.shadow_side}</p>
+            </div>
           </div>
-          <div style="margin-bottom: 0.75rem;">
-            <b>Pregunta de Autoindagación:</b>
-            <p style="font-style: italic;">"${card.reflection_question}"</p>
+
+          <div class="sheet-box">
+            <h3>💖 Amor y Relaciones</h3>
+            <p>${card.love}</p>
+            <h3 style="margin-top: 1rem;">💼 Trabajo y Finanzas</h3>
+            <p>${card.work}</p>
           </div>
-          <div style="background: #fdf2f4; border-left: 3px solid #e11d48; padding: 0.5rem 0.75rem; border-radius: 4px;">
-            <b style="color: #be123c;">🔄 Al salir invertida:</b>
-            <p style="font-size: 0.84rem;">${card.reversed.meaning}</p>
+
+          <div class="sheet-box">
+            <h3>🧭 Consejo & Carta Invertida</h3>
+            <div style="margin-bottom: 0.75rem;">
+              <b>Acción Recomendada:</b>
+              <p>${card.advice}</p>
+            </div>
+            <div style="margin-bottom: 0.75rem;">
+              <b>Pregunta de Autoindagación:</b>
+              <p style="font-style: italic;">"${card.reflection_question}"</p>
+            </div>
+            <div style="background: #fdf2f4; border-left: 3px solid #e11d48; padding: 0.5rem 0.75rem; border-radius: 4px;">
+              <b style="color: #be123c;">🔄 Al salir invertida:</b>
+              <p style="font-size: 0.84rem;">${card.reversed.meaning}</p>
+            </div>
           </div>
         </div>
       </div>
     `;
+  }
 
+  // VISTA 2: FICHA DE ESTUDIO RESUMEN A4
+  function renderSheetView(card) {
+    const wrapper = document.createElement('div');
+    wrapper.innerHTML = getSheetViewHtml(card);
     cardViewContainer.appendChild(wrapper);
   }
 
@@ -577,7 +801,7 @@
   // ==========================================================================
   // TAB 2: BONO 1 - GUIA DE 12 TIRADAS & SIMULADOR EN VIVO
   // ==========================================================================
-  let spreadDealtCards = []; // { card, isReversed, isFlipped }
+  let spreadDealtCards = []; // { card, isReversed, isFlipped, position }
 
   function renderSpreadsSelector() {
     spreadsSelectorBar.innerHTML = '';
@@ -610,6 +834,7 @@
     // Reset mat slots
     matSlotsArea.innerHTML = '';
     spreadDealtCards = [];
+    if (btnDownloadSpreadPdf) btnDownloadSpreadPdf.style.display = 'none';
 
     // Reset reading panel
     readingPanelContent.innerHTML = `
@@ -668,6 +893,8 @@
       isFlipped: false
     }));
 
+    if (btnDownloadSpreadPdf) btnDownloadSpreadPdf.style.display = 'inline-flex';
+
     // Update slots in mat
     const slots = matSlotsArea.querySelectorAll('.spread-card-slot');
     slots.forEach((slot, idx) => {
@@ -689,10 +916,12 @@
       <div class="reading-card-focus">
         <h4 style="color: #34d399; margin-bottom: 0.4rem;">✨ Mazo Barajado y Repartido</h4>
         <p class="reading-card-focus-text">
-          Las ${spread.card_count} cartas han sido colocadas en el tapete. <b>Haz clic sobre cualquier carta</b> para revelarla y leer su mensaje para esa posición.
+          Las ${spread.card_count} cartas han sido colocadas en el tapete. <b>Toca cada carta</b> para revelarla y leer su mensaje para esa posición.
         </p>
       </div>
     `;
+
+    showToast('🃏', `Cartas repartidas: ${spread.name}`);
   }
 
   function flipSlotCard(index, slotEl, innerEl, cardData) {
@@ -745,13 +974,81 @@
         </div>
       </div>
     `;
+
+    // On mobile, scroll reading panel smoothly into view if offscreen
+    if (window.innerWidth <= 768) {
+      readingPanelContent.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  }
+
+  // Descargar Informe de Tirada en PDF
+  if (btnDownloadSpreadPdf) {
+    btnDownloadSpreadPdf.addEventListener('click', () => {
+      const spread = TAROT_DB.spreads.find(s => s.id === appState.activeSpreadId);
+      if (!spreadDealtCards || spreadDealtCards.length === 0) return;
+
+      showToast('⏳', `Generando PDF de la lectura...`);
+
+      const exportDiv = document.createElement('div');
+      exportDiv.style.position = 'fixed';
+      exportDiv.style.top = '0';
+      exportDiv.style.left = '-9999px';
+      exportDiv.style.width = '850px';
+      exportDiv.style.padding = '30px';
+      exportDiv.style.background = '#ffffff';
+      exportDiv.style.color = '#111111';
+      exportDiv.style.fontFamily = 'Arial, sans-serif';
+
+      const positionsHtml = spreadDealtCards.map(c => `
+        <div style="border-bottom: 1px solid #ddd; padding: 12px 0; display: flex; gap: 15px; align-items: flex-start;">
+          <img src="${c.card.img}" style="width: 60px; height: 100px; border: 1px solid #d4af37; border-radius: 4px; ${c.isReversed ? 'transform: rotate(180deg);' : ''}">
+          <div style="flex: 1;">
+            <b style="color: #997510; font-size: 13px;">Posición ${c.position.pos}: ${c.position.name}</b>
+            <div style="font-size: 11px; color: #666; margin-bottom: 4px;">${c.position.desc}</div>
+            <h4 style="margin: 3px 0; color: #222; font-size: 15px;">${c.card.name} ${c.isReversed ? '(Invertida)' : '(Al Derecho)'}</h4>
+            <p style="font-size: 12px; line-height: 1.45; color: #333; margin: 4px 0;">${c.isReversed ? c.card.reversed.meaning : c.card.meaning_upright}</p>
+            <div style="font-size: 11px; color: #047857; margin-top: 3px;"><b>Consejo:</b> ${c.card.advice}</div>
+          </div>
+        </div>
+      `).join('');
+
+      exportDiv.innerHTML = `
+        <div style="border-bottom: 2px solid #d4af37; padding-bottom: 12px; margin-bottom: 15px;">
+          <h2 style="margin: 0; color: #1a1633; font-size: 22px;">Lectura de Tarot: ${spread.name}</h2>
+          <div style="font-size: 12px; color: #666; margin-top: 4px;">Fecha: ${new Date().toLocaleDateString()} · Plataforma 78 Mapas Mentales</div>
+        </div>
+        <div>${positionsHtml}</div>
+      `;
+
+      document.body.appendChild(exportDiv);
+
+      if (window.html2pdf) {
+        const opt = {
+          margin: [8, 8, 8, 8],
+          filename: `Lectura_${spread.id}.pdf`,
+          image: { type: 'jpeg', quality: 0.98 },
+          html2canvas: { scale: 2, useCORS: true },
+          jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+        };
+
+        window.html2pdf().set(opt).from(exportDiv).save().then(() => {
+          document.body.removeChild(exportDiv);
+          showToast('📥', '¡Lectura descargada en PDF!');
+        }).catch(() => {
+          document.body.removeChild(exportDiv);
+          window.print();
+        });
+      } else {
+        document.body.removeChild(exportDiv);
+        window.print();
+      }
+    });
   }
 
   // ==========================================================================
   // TAB 3: BONO 2 - LIBRO Y ORACULO DE COMBINACIONES
   // ==========================================================================
   function setupCombinationsOracle() {
-    // Populate dropdowns
     comboSelectA.innerHTML = '';
     comboSelectB.innerHTML = '';
 
@@ -1081,6 +1378,7 @@
         appState.masteredCards.push(card.id);
       }
       appState.difficultCards = appState.difficultCards.filter(c => c !== card.id);
+      showToast('✅', `¡${card.name} dominada!`);
       nextFlashcard();
     });
 
@@ -1088,6 +1386,7 @@
       if (!appState.difficultCards.includes(card.id)) {
         appState.difficultCards.push(card.id);
       }
+      showToast('⭐', `¡${card.name} en repaso!`);
       nextFlashcard();
     });
 
@@ -1182,26 +1481,22 @@
   const mobileUrlInput = document.getElementById('mobile-url-input');
   const btnCopyMobileUrl = document.getElementById('btn-copy-mobile-url');
 
-  let detectedMobileUrl = `http://${window.location.hostname || 'localhost'}:8000`;
+  let detectedMobileUrl = window.location.href;
 
-  // Fetch local network IP from server API if available
-  fetch('/api/info')
-    .then(r => r.json())
-    .then(data => {
-      if (data && data.mobile_url) {
-        detectedMobileUrl = data.mobile_url;
-      }
-    })
-    .catch(() => {
-      // If running without server.py, keep hostname or default
-      if (window.location.hostname && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
-        detectedMobileUrl = window.location.href;
-      }
-    });
+  // Try to fetch local network IP if served via server.py
+  if (window.location.protocol.startsWith('http')) {
+    fetch('/api/info')
+      .then(r => r.json())
+      .then(data => {
+        if (data && data.mobile_url && window.location.hostname === 'localhost') {
+          detectedMobileUrl = data.mobile_url;
+        }
+      })
+      .catch(() => {});
+  }
 
   function openMobileModal() {
     mobileUrlInput.value = detectedMobileUrl;
-    // Generate QR code pointing to the mobile URL
     const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=${encodeURIComponent(detectedMobileUrl)}`;
     qrCodeImg.src = qrUrl;
     mobileConnectModal.style.display = 'flex';
@@ -1244,6 +1539,7 @@
     renderCardsSidebar();
     renderActiveCardView();
     updateMapButtonsState();
+    updateMobileNavigator();
     renderSpreadsSelector();
     loadSpreadStage();
     setupCombinationsOracle();
@@ -1262,4 +1558,3 @@
   }
 
 })();
-

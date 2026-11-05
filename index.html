@@ -87,6 +87,17 @@
         <span class="banner-badge">Colección Completa 78 Cartas</span>
       </div>
 
+      <!-- Mobile Quick Card Navigator (Visible on Mobile <= 768px) -->
+      <div class="mobile-card-navigator" id="mobile-card-navigator">
+        <button class="m-nav-arrow" id="btn-prev-card" title="Carta Anterior">◀</button>
+        <button class="m-nav-current-btn" id="btn-open-card-drawer">
+          <span class="m-nav-icon">🃏</span>
+          <span id="m-nav-card-name">El Loco (0)</span>
+          <span class="m-nav-chevron">▾</span>
+        </button>
+        <button class="m-nav-arrow" id="btn-next-card" title="Carta Siguiente">▶</button>
+      </div>
+
       <div class="maps-layout">
         <!-- Sidebar Selector -->
         <aside class="cards-sidebar">
@@ -129,8 +140,11 @@
               <button class="action-btn" id="btn-check-card" title="Marcar como carta dominada">
                 <span>✅</span> Dominada
               </button>
+              <button class="action-btn action-btn-gold" id="btn-download-pdf" title="Descargar informe completo en PDF">
+                <span>📥</span> Descargar PDF
+              </button>
               <button class="action-btn" id="btn-print-map" title="Imprimir este mapa en A4">
-                <span>🖨️</span> Imprimir A4
+                <span>🖨️</span> Imprimir
               </button>
             </div>
           </div>
@@ -187,8 +201,11 @@
 
         <!-- Right Side Reading Panel -->
         <aside class="spread-reading-panel">
-          <div class="reading-panel-header">
+          <div class="reading-panel-header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
             <h3>Interpretación en Tiempo Real</h3>
+            <button class="action-btn action-btn-gold" id="btn-download-spread-pdf" style="display: none; padding: 0.35rem 0.75rem; font-size: 0.78rem;" title="Descargar tirada en PDF">
+              <span>📥</span> Descargar Lectura PDF
+            </button>
           </div>
           <div id="reading-panel-content">
             <div class="reading-card-focus">
@@ -428,7 +445,70 @@
     </div>
   </div>
 
-  <!-- Load Database and Application Scripts -->
+  <!-- Mobile Card Selector Drawer (Modal) -->
+  <div class="card-drawer-overlay" id="card-drawer-overlay" style="display: none;">
+    <div class="card-drawer">
+      <div class="drawer-header">
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <span style="font-size: 1.3rem;">🃏</span>
+          <h3 style="font-family: var(--font-serif); color: var(--gold-light);">Seleccionar Carta (78)</h3>
+        </div>
+        <button class="drawer-close-btn" id="drawer-close-btn">&times;</button>
+      </div>
+
+      <div class="drawer-search">
+        <input type="text" id="drawer-search-input" placeholder="🔍 Buscar carta o palabra clave..." autocomplete="off">
+      </div>
+
+      <div class="filter-pills" id="drawer-filter-pills" style="margin-bottom: 0.85rem;">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="major">Mayores</button>
+        <button class="filter-btn" data-filter="bastos">Bastos 🔥</button>
+        <button class="filter-btn" data-filter="copas">Copas 💧</button>
+        <button class="filter-btn" data-filter="espadas">Espadas 💨</button>
+        <button class="filter-btn" data-filter="oros">Oros 🪙</button>
+        <button class="filter-btn" data-filter="difficult">⭐ Difíciles</button>
+        <button class="filter-btn" data-filter="mastered">✅ Dominadas</button>
+      </div>
+
+      <div class="drawer-cards-grid" id="drawer-cards-grid">
+        <!-- Injected via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Mobile Navigation Bar (Fixed for Smartphones) -->
+  <nav class="mobile-bottom-nav" id="mobile-bottom-nav">
+    <button class="mobile-nav-btn active" data-tab="tab-mapas">
+      <span class="m-icon">🗺️</span>
+      <span class="m-label">Mapas</span>
+    </button>
+    <button class="mobile-nav-btn" data-tab="tab-tiradas">
+      <span class="m-icon">🔮</span>
+      <span class="m-label">Tiradas</span>
+    </button>
+    <button class="mobile-nav-btn" data-tab="tab-combinaciones">
+      <span class="m-icon">⚡</span>
+      <span class="m-label">Combinar</span>
+    </button>
+    <button class="mobile-nav-btn" data-tab="tab-invertidas">
+      <span class="m-icon">🔄</span>
+      <span class="m-label">Invertidas</span>
+    </button>
+    <button class="mobile-nav-btn" data-tab="tab-practica">
+      <span class="m-icon">🎯</span>
+      <span class="m-label">Práctica</span>
+    </button>
+  </nav>
+
+  <!-- Toast Notification for PDF Downloads & Feedback -->
+  <div class="toast-notification" id="toast-notification" style="display: none;">
+    <span id="toast-icon">✨</span>
+    <span id="toast-message">Generando PDF...</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/html2pdf.bundle.min.js"></script>
   <script src="data/tarot_database.js"></script>
   <script src="app.js"></script>
 </body>
