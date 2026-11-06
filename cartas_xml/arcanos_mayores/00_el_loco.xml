@@ -1,124 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <arcano id="el-loco">
-  <numero>0</numero>
+<numero>0</numero>
   <nombre>El Loco</nombre>
   <tipo>Arcano Mayor</tipo>
   <palo>Ninguno</palo>
-  <elemento>Aire</elemento>
+  <elemento>Aire (asociado al Espíritu puro y a Urano)</elemento>
   <astrologia>Urano</astrologia>
 
   <!-- ESENCIA Y PALABRAS CLAVE -->
-  <esencia>El inicio del viaje del alma. Confianza ciega en el universo, inocencia sabia y valentía para lanzarse a lo desconocido sin equipaje.</esencia>
-  <palabras_clave>Comienzos, Espontaneidad, Inocencia, Salto de fe, Libertad</palabras_clave>
+  <esencia>El salto absoluto hacia lo desconocido sostenido por la fe ciega en el cosmos, la inocencia primordial y la libertad absoluta de toda estructura previa.</esencia>
+  <palabras_clave>Libertad, inocencia, espontaneidad, potencial puro, fe.</palabras_clave>
 
   <!-- POLARIDAD: LUZ Y SOMBRA -->
   <polaridad>
-    <lado_luz>Optimismo inquebrantable, libertad interior, originalidad y valentía para romper viejos moldes.</lado_luz>
-    <lado_sombra>Imprudencia temeraria, actuar sin medir consecuencias, evasión de responsabilidades e ingenuidad ciega.</lado_sombra>
+    <lado_luz>Confianza radical en el flujo de la vida, capacidad de vivir plenamente en el presente, apertura mental sin prejuicios, valentía para empezar de nuevo y alegría desapegada.</lado_luz>
+    <lado_sombra>Imprudencia temeraria, irresponsabilidad afectiva y material, ingenuidad infantil, huida crónica de los compromisos y peligro constante de caer al abismo por falta de discernimiento.</lado_sombra>
   </polaridad>
 
   <!-- SÍMBOLOS VISUALES CLAVE -->
   <simbolos_visuales>
     <simbolo>
-      <nombre>Precipicio</nombre>
-      <descripcion>El umbral hacia lo desconocido y el fin de la zona de confort.</descripcion>
+      <nombre>El abismo</nombre>
+      <descripcion>El precipicio insondable que representa el territorio de lo desconocido, el inconsciente colectivo y el riesgo ineludible que todo acto de fe verdadero exige para trascender el ego.</descripcion>
     </simbolo>
     <simbolo>
-      <nombre>Perro blanco</nombre>
-      <descripcion>Instinto leal y protección invisible que advierte sin frenar.</descripcion>
+      <nombre>El perro fiel</nombre>
+      <descripcion>El instinto animal y la voz de la prudencia instintiva que acompaña al peregrino, advirtiéndole del peligro o impulsándole a avanzar cuando la mente duda.</descripcion>
     </simbolo>
     <simbolo>
-      <nombre>Rosa blanca</nombre>
-      <descripcion>Pureza de corazón e intenciones limpias sin dobleces.</descripcion>
+      <nombre>El hatillo colgado al báculo</nombre>
+      <descripcion>La ligereza del equipaje existencial; el viajero lleva consigo lo mínimo indispensable, habiendo renunciado a las cargas del pasado y a las expectativas del futuro.</descripcion>
     </simbolo>
     <simbolo>
-      <nombre>Atillo pequeño</nombre>
-      <descripcion>El equipaje mínimo necesario; no cargar con lastres del pasado.</descripcion>
+      <nombre>La rosa blanca</nombre>
+      <descripcion>La pureza de intenciones, la inocencia incorruptible del alma y la sublimación de los deseos terrestres en una aspiración puramente espiritual.</descripcion>
     </simbolo>
     <simbolo>
-      <nombre>Sol brillante</nombre>
-      <descripcion>Claridad cósmica y bendición superior que acompaña tus pasos.</descripcion>
+      <nombre>El sol radiante</nombre>
+      <descripcion>La gracia divina y la protección cósmica que iluminan los pasos del peregrino, asegurando que el salto al vacío cuenta con el beneplácito del orden universal.</descripcion>
     </simbolo>
   </simbolos_visuales>
 
   <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
   <historia>
-    En las barajas renacentistas más antiguas, como el Tarot Visconti-Sforza del siglo XV, El Loco (Il Matto) era representado como un mendigo andrajoso o un vagabundo con plumas en el pelo, una figura marginal de la sociedad medieval. En el Tarot de Marsella evolucionó hacia el bufón sagrado, aquel que tiene permiso para decir las verdades más crudas ante el rey sin perder la cabeza. A principios del siglo XX, Arthur Edward Waite y Pamela Colman Smith revolucionaron su iconografía: dejó de ser un desterrado para transformarse en un joven solar, místico y radiante, que camina con paso ligero hacia el precipicio cargando solo un fardo diminuto y una rosa blanca, encarnando el salto de fe espiritual.
+    En los juegos de naipes medievales y renacentistas (como el *Tarocchi* de Milán), El Loco (*Il Matto*) ocupaba un estatus singular: una carta comodín sin número fijo (o representada a veces con un cero o un símbolo especial) que podía eludir las jerarquías de los triunfos. Históricamente, evoca la figura del bufón de la corte, el único personaje autorizado para decir la verdad al poder bajo la máscara de la locura. Con el advenimiento del ocultismo moderno en los siglos XVIII y XIX, de la mano de Court de Gébelin, Etteilla y posteriormente la Golden Dawn, El Loco fue redimido de su supuesta banalidad para convertirse en el arquetipo supremo del alma en peregrinación, el punto alfa y omega que antecede y engloba toda manifestación en el viaje de los Arcanos Mayores.
   </historia>
 
   <!-- 2. SIGNIFICADO FUNDAMENTAL -->
   <significado_fundamental>
-    El Loco representa el potencial puro en estado virgen, la energía primigenia antes de cualquier limitación, definición o forma. Es el espíritu libre que confía ciegamente en el flujo universal. Simboliza el inicio sagrado de cualquier viaje vital, la inocencia que no teme equivocarse y el coraje espontáneo de quien sabe que para crear algo nuevo es imprescindible soltar todo equipaje del pasado.
+    El Loco encarna la potencialidad infinita del Cero, el estado prelapsario de la conciencia antes de que el ego se encierre en las murallas de la identidad y el juicio. Desde la psicología analítica de Carl Gustav Jung, representa al *Puer Aeternus* (el niño eterno) y la irrupción espontánea del arquetipo del Inconsciente que disuelve las viejas estructuras psíquicas para permitir la renovación. Es la llamada incesante a la aventura de la individuación, recordándonos que para alcanzar la verdadera sabiduría es menester despojarse de las certezas adquiridas y atreverse a caminar por el filo del precipicio con el corazón abierto y sin red de seguridad.
   </significado_fundamental>
 
   <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
   <posicion_normal>
-    <resumen>Comienzo espontáneo, valentía inocente, libertad sin ataduras y fe ciega en el porvenir.</resumen>
-    <amor>Aparición de un nuevo romance inesperado e ilusionante. Relaciones libres de prejuicios, basadas en la diversión y la autenticidad sin ataduras rígidas ni miedos al pasado.</amor>
-    <dinero_trabajo>Emprender una nueva vocación o proyecto innovador. Disposición a asumir riesgos calculados. Salir de la zona de confort profesional con optimismo y frescura creativa.</dinero_trabajo>
-    <salud>Vitalidad desbordante, ligereza corporal y entusiasmo rejuvenecido. Es recomendable cuidar la distracción física para evitar torceduras o pequeños descuidos por imprudencia.</salud>
-    <espiritualidad>Mente de principiante, conexión directa con la intuición y el alma. Se despierta la capacidad de maravillarse ante la existencia y soltar dogmas asfixiantes.</espiritualidad>
+    <resumen>Un nuevo comienzo lleno de frescura, la disposición a tomar riesgos calculados (o un salto de fe necesario) y una actitud de total apertura ante las sorpresas que depara el destino.</resumen>
+    <amor>Relaciones espontáneas y libres de prejuicios, romances vertiginosos que surgen de la nada, frescura en la pareja y la necesidad de renovar los votos de libertad mutua.</amor>
+    <dinero_trabajo>Emprendimientos disruptivos, cambios radicales de rumbo profesional, disposición a explorar caminos no transitados y proyectos basados en la innovación audaz más que en la seguridad tradicional.</dinero_trabajo>
+    <salud>Vitalidad ligera, recuperación basada en el bienestar anímico, necesidad de conectar con el movimiento al aire libre y liberación de cargas somáticas ligadas al estrés.</salud>
+    <espiritualidad>Un despertar espiritual repentino, el desapego de dogmas rígidos y la vivencia mística de habitar el eterno presente con la confianza absoluta de ser sostenido por el universo.</espiritualidad>
   </posicion_normal>
 
   <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
   <posicion_invertida>
-    <resumen>Imprudencia desmedida, caos, irresponsabilidad o, en el polo opuesto, parálisis por miedo al qué dirán.</resumen>
-    <palabras_clave_al_reves>Temeridad, Miedo al cambio, Imprudencia, Estancamiento, Falta de rumbo</palabras_clave_al_reves>
-    <amor>Inmadurez emocional, promesas vacías, miedo irracional al compromiso o huidas impulsivas cuando la relación exige madurez y responsabilidad afectiva.</amor>
-    <dinero_trabajo>Riesgos ciegos e insensatos. Firmar acuerdos sin leer la letra pequeña, gastos descontrolados o proyectos utópicos que carecen de bases sólidas.</dinero_trabajo>
-    <salud>Agotamiento físico por excesos o desórdenes de horario. Negligencia ante síntomas médicos y tendencia a conductas temerarias.</salud>
-    <espiritualidad>Sensación de pérdida de rumbo existencial. Caer en la ingenuidad espiritual, seguir gurús sin discernimiento o desconectarse de la realidad cotidiana.</espiritualidad>
-    <como_armonizar_desbloquear>Pisa tierra firme. Calcula riesgos reales sin matar tu entusiasmo, pero asegurando un suelo antes de lanzarte.</como_armonizar_desbloquear>
+    <resumen>Imprudencia peligrosa, dispersión caótica de la energía vital, incapacidad para comprometerse con la realidad o un miedo paralizante a dar el paso que el crecimiento exige.</resumen>
+    <palabras_clave_al_reves>Temeridad, insensatez, huida, bloqueo, irresponsabilidad.</palabras_clave_al_reves>
+    <amor>Comportamientos infantiles o inmaduros en el vínculo, miedo patológico al compromiso, relaciones basadas en la evasión mutua o infidelidades por puro capricho impulsivo.</amor>
+    <dinero_trabajo>Decisiones financieras absurdas, falta de planificación laboral, abandono prematuro de proyectos prometedores por aburrimiento o el extremo opuesto: la parálisis total por miedo al fracaso.</dinero_trabajo>
+    <salud>Accidentes producto de la distracción o la falta de cuidado físico, ansiedad crónica generada por la falta de arraigo y problemas derivados de un estilo de vida caótico.</salud>
+    <espiritualidad>Evasión espiritual (usar la metafísica para escapar de los deberes mundanos), confusión doctrinal y desorientación profunda por carecer de un anclaje ético y consciente.</espiritualidad>
+    <como_armonizar_desbloquear>Detenerse a evaluar las consecuencias prácticas de los actos, buscar un equilibrio entre la audacia y la prudencia, y poner los pies firmemente sobre la tierra antes de emprender otra huida.</como_armonizar_desbloquear>
   </posicion_invertida>
 
   <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
   <lo_que_lo_hace_unico>
     <resumen>
-      Es el único arcano de toda la baraja que posee el número Cero (0). Al no tener una posición fija en la secuencia numérica, puede colocarse tanto al inicio absoluto como al final supremo de los Arcanos Mayores.
+      Es el único arquetipo que no posee un lugar numérico rígido, flotando eternamente entre el principio y el fin (el puente dinámico entre El Mundo y la primera casilla), encapsulando la libertad incognoscible del espíritu.
     </resumen>
     <comparativas>
       <comparar carta="El Mago">
-        Mientras El Mago necesita concentrar su voluntad consciente sobre las herramientas dispuestas en la mesa terrenal, El Loco camina sin posesiones ni estrategias preconcebidas, sostenido únicamente por la confianza en lo invisible.
+        Mientras El Mago despliega los elementos sobre la mesa con plena consciencia y pretende dominar el mundo mediante la concentración y el intelecto, El Loco camina sin mesa ni herramientas, entregado por completo al misterio y a la gracia de lo imprevisto.
       </comparar>
-      <comparar carta="El Juicio">
-        A diferencia de El Juicio, que evalúa minuciosamente el pasado y responde a un llamado de resurrección madura, El Loco no carga con memorias ni juicios previos: es el renacimiento perpetuo antes de cualquier evaluación.
+      <comparar carta="El Mundo">
+        Frente a La culminación perfecta, integrada y cíclica de El Mundo (el final del viaje), El Loco representa el instante anterior al nacimiento o el renacimiento inmediato tras el cierre del ciclo, listo para empezar de cero en una espiral evolutiva superior.
       </comparar>
     </comparativas>
   </lo_que_lo_hace_unico>
 
   <!-- 6. CURIOSIDADES DEL ARCANO -->
   <curiosidades>
-    <item>El Joker de la baraja común: El Loco sobrevivió a la evolución de las cartas de juego tradicionales transformándose en el Comodín (Joker). Al igual que en el Tarot, el Joker no tiene un valor fijo; puede ser cualquier carta, rompe las reglas del juego y aporta el elemento de la imprevisibilidad.</item>
-    <item>El viaje del Loco: En el estudio del Tarot, se considera que los otros 21 Arcanos Mayores son personas, lecciones y obstáculos que El Loco se encuentra en su camino. El Tarot entero es la historia de cómo El Loco evoluciona hasta convertirse en El Mundo (XXI).</item>
+    <item>En la baraja de Rider-Waite-Smith, el pequeño perro blanco que acompaña a El Loco ha sido interpretado por los ocultistas como el eco de los demonios internos o como el instinto fiel que intenta salvar al alma de precipitarse al vacío.</item>
+    <item>El número cero que tradicionalmente se le asigna no representa la nada absoluta en términos filosóficos orientales u ocultistas, sino el «Ain Soph» o la plenitud sin límites que contiene todos los números en estado latente.</item>
+    <item>En muchos sistemas de cartomancia tradicional, El Loco es una carta muda o comodín que adquiere el valor de los arcanos que la rodean, simbolizando la plasticidad extrema de la conciencia pura.</item>
   </curiosidades>
 
   <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
   <consejo_y_reflexion>
-    <accion_inmediata>Da el salto. No esperes a tener todas las respuestas antes de caminar. Confía en el proceso vital.</accion_inmediata>
-    <pregunta_para_ti>¿Qué estás postergando por miedo a equivocarte o a lo que piensen los demás?</pregunta_para_ti>
+    <accion_inmediata>Suelta el control excesivo sobre un asunto que te preocupa y permítete improvisar una solución desde la espontaneidad y la alegría.</accion_inmediata>
+    <pregunta_para_ti>¿De qué cargas del pasado te estás negando a desprenderte por miedo a caminar ligero hacia tu propia libertad?</pregunta_para_ti>
   </consejo_y_reflexion>
 
   <!-- 7. UNA HISTORIA INSPIRADA -->
   <historia_inspirada>
-    <titulo>El Reino de las Paredes de Cristal</titulo>
+    <titulo>El peregrino del borde del mundo</titulo>
     <relato>
-      En el Reino de la Constancia, todo estaba perfectamente medido. Las calles eran líneas rectas imperecederas, los ciudadanos despertaban a la misma hora y cada destino estaba escrito en pesados libros de mármol desde el día del nacimiento. En este reino vivía un joven llamado Zephyr.
-Zephyr trabajaba en el Archivo de las Vidas Pasadas, ordenando los pergaminos de los ancestros. Un día, mientras soplaba el polvo de un tomo prohibido, un mapa cayó al suelo. No tenía nombres de ciudades, ni ríos, ni fronteras. Solo tenía un dibujo en el centro: una inmensa espiral dorada que nacía en el borde de un acantilado y se perdía en las nubes, acompañada de una sola palabra escrita con tinta plateada: "VIVE".
-Esa noche, mientras todo el reino dormía el sueño predecible de los justos, Zephyr sintió un latido frenético en su pecho. Miró sus ropas grises de archivero y las rasgó. En su lugar, cosió retazos de telas de colores que guardaba en un viejo baúl: hilos amarillos del sol, verdes de las hojas de otoño y rojos de los atardeceres. Ató un pedazo de pan y un viejo cuaderno en un palo de madera, y sin mirar atrás, abrió las puertas de la ciudad.
-Un pequeño perro callejero, blanco como la espuma del mar, lo vio cruzar el umbral y comenzó a ladrar de alegría, uniéndose a su caminata.
-—¿A dónde vamos, humano loco? —parecía preguntar el perro con sus saltos.
-—No tengo la menor idea —respondió Zephyr, riendo a carcajadas, un sonido que el reino no había escuchado en siglos—. Y eso es lo más hermoso que me ha pasado jamás.
-Caminaron durante días hacia las Montañas del Olvido. A medida que subían, el aire se volvía más puro y el sol más brillante. Zephyr no sentía el cansancio. Encontró una rosa blanca en el camino y la tomó entre sus dedos; su aroma le recordaba que cada segundo era un nacimiento nuevo. El peso del pasado se había evaporado de sus hombros.
-Finalmente, llegaron a la cima del mundo. El sendero se cortaba abruptamente. Abajo, no había rocas, sino un mar espeso de niebla blanca y destellos de luces de colores que danzaban como estrellas atrapadas. Era el Vacío Primordial.
-El perro blanco tiró de su túnica colorida, lanzando un gemido de advertencia. Zephyr miró hacia abajo. Cualquiera habría visto la muerte, pero él vio un lienzo esperando a ser pintado. Miró al cielo, cerró los ojos, estiró los brazos como si fuera un ave a punto de migrar y sonrió con la pureza de quien no conoce el miedo.
-El viento sopló con fuerza, impulsándolo. Zephyr levantó el pie y dio el paso hacia el vacío.
-En el Reino de la Constancia dijeron que se había vuelto loco y que había caído al abismo. Pero en el instante en que el pie de Zephyr tocó el aire, la niebla se transformó en un camino de luz sólida. No cayó; comenzó a volar, iniciando la aventura más grande que el universo jamás hubiera presenciado.
+      Caminaba por los riscos más altos del reino portando únicamente una túnica desgarrada por los zarzales y un hatillo tan pequeño que cabía en la palma de la mano. Los sabios de las ciudades amuralladas lo contemplaban desde sus torres de piedra y exclamaban compungidos: «¡Mirad al insensato! No tiene mapa, ignora las leyes del comercio y camina directo hacia el gran abismo donde rugen las brumas». El peregrino, sin embargo, escuchaba una música sutil que brotaba del fondo del precipicio, una melodía antigua que prometía la aurora. Un cachorro blanco de orejas caídas corría a su lado, mordisqueando a veces el borde de su capa como rogándole prudencia. Al llegar exactamente al borde del despeñadero, allí donde la tierra terminaba y sólo quedaba el cielo abierto y el sol estallando en el cénit, el peregrino no detuvo su marcha ni titubeó. Dio el paso definitivo al vacío. En el instante en que sus pies suspendieron el peso sobre la nada, las brumas se disiparon y comprendió que el abismo no era una caída hacia la muerte, sino el gran vientre del universo que lo invitaba, por fin, a volar.
     </relato>
   </historia_inspirada>
 
   <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
   <audio>
-    <archivo>assets/audio/el-loco.wav</archivo>
+    <archivo>assets\audio\01_el_mago.wav</archivo>
     <titulo>El Loco - El Salto al Vacío Sagrado</titulo>
     <!-- Capítulos con marcas de tiempo (mm:ss) para navegación directa -->
     <capitulos>

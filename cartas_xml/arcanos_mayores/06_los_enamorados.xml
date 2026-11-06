@@ -4,92 +4,106 @@
   <nombre>Los Enamorados</nombre>
   <tipo>Arcano Mayor</tipo>
   <palo>Ninguno</palo>
-  <elemento>Aire</elemento>
+  <elemento>Aire (asociado a Géminis)</elemento>
   <astrologia>Géminis</astrologia>
 
   <!-- ESENCIA Y PALABRAS CLAVE -->
-  <esencia>La encrucijada del corazón. Elegir desde la autenticidad y el amor verdadero, reconciliando los opuestos internos.</esencia>
-  <palabras_clave>Amor, Elección consciente, Alineación de valores, Unión del alma, Dilema moral</palabras_clave>
+  <esencia>La encrucijada sagrada de la libre elección, la integración alquímica de los opuestos internos y la unión consciente basada en el dictado del corazón.</esencia>
+  <palabras_clave>Elección, unión, dualidad, libre albedrío, integración.</palabras_clave>
 
   <!-- POLARIDAD: LUZ Y SOMBRA -->
   <polaridad>
-    <lado_luz>Amor auténtico, afinidad espiritual, elecciones coherentes con el corazón, comunicación abierta y empatía.</lado_luz>
-    <lado_sombra>Dudas paralizantes, deshonestidad sentimental, infidelidad moral a uno mismo, conflictos de valores.</lado_sombra>
+    <lado_luz>Capacidad de tomar decisiones maduras y alineadas con la verdad interior, integración armoniosa de las polaridades (animus/ánima), relaciones basadas en la autenticidad, la transparencia y el respeto mutuo.</lado_luz>
+    <lado_sombra>Indecisión crónica, miedo paralizante a comprometerse, elecciones guiadas por la culpa o la conveniencia, duplicidad, autoengaño y relaciones de codependencia o manipulación.</lado_sombra>
   </polaridad>
 
   <!-- SÍMBOLOS VISUALES CLAVE -->
   <simbolos_visuales>
     <simbolo>
-      <nombre>Ángel Rafael</nombre>
-      <descripcion>Sanación, bendición cósmica y guía superior en las decisiones del corazón.</descripcion>
+      <nombre>El Arcángel Rafael en el cénit</nombre>
+      <descripcion>La bendición celestial, la sanación de la división primordial y la guía espiritual que desciende para sancionar la unión sagrada entre los opuestos.</descripcion>
     </simbolo>
     <simbolo>
-      <nombre>Hombre y Mujer (Adán y Eva)</nombre>
-      <descripcion>Polaridades complementarias: mente consciente y emoción intuitiva reconciliadas.</descripcion>
+      <nombre>La pareja desnuda (Adán y Eva)</nombre>
+      <descripcion>La inocencia recuperada ante el Edén, representando al ánima y al animus en la psicología junguiana, desprovistos de artificios y listos para el reconocimiento mutuo.</descripcion>
     </simbolo>
     <simbolo>
-      <nombre>Árbol de la Vida y Árbol de la Ciencia</nombre>
-      <descripcion>El libre albedrío, la sabiduría y la responsabilidad ante las elecciones.</descripcion>
+      <nombre>El Árbol del Conocimiento con la serpiente</nombre>
+      <descripcion>La tentación del despertar de la conciencia, el precio inevitable del libre albedrío y la sabiduría que surge al atravesar la prueba de la dualidad.</descripcion>
     </simbolo>
     <simbolo>
-      <nombre>Montaña al fondo</nombre>
-      <descripcion>El ascenso espiritual que exige superar las tentaciones meramente superficiales.</descripcion>
+      <nombre>El Árbol de Fuego con doce llamas</nombre>
+      <descripcion>La energía vital y pasional (la kundalini), los signos del zodiaco y el fuego transformador del deseo que arde en la experiencia corpórea.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>La montaña volcánica al fondo</nombre>
+      <descripcion>El desafío trascendente a escalar, simbolizando que toda elección profunda exige la sublimación de los instintos hacia cimas de mayor evolución espiritual.</descripcion>
     </simbolo>
   </simbolos_visuales>
 
   <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
   <historia>
-    En las barajas medievales y de Marsella, la carta mostraba a un joven indeciso entre dos mujeres (que representaban el vicio y la virtud) mientras Cupido apuntaba su flecha desde el cielo. Arthur Edward Waite y Pamela Colman Smith transformaron radicalmente la escena en el Edén primordial: representan a Adán y Eva desnudos bajo las alas protectoras del arcángel Rafael (ángel de la sanación y el aire), con el Árbol de la Vida detrás del hombre y el Árbol del Conocimiento con la serpiente detrás de la mujer, elevando el significado de la elección moral a la integración sagrada de las polaridades masculina y femenina (Hieros Gamos).
+    En los naipes medievales y renacentistas (como el Tarot de Visconti-Sforza y Marsella), esta carta era representada tradicionalmente como «El Enamorado», mostrando a un joven noble situado en una encrucijada entre dos mujeres (habitualmente interpretadas como la virtud y el vicio, o la madre y la esposa) bajo la mirada amenazante de Cupido con su arco presto a disparar. Con la renovación esotérica de los siglos XIX y XX, impulsada por la Golden Dawn y Arthur Edward Waite, la iconografía se transformó radicalmente para evocar el mito edénico de la elección arquetípica ante el arcángel Rafael, desplazando el eje de la simple disyuntiva romántica a la gran prueba metafísica del libre albedrío humano. Numéricamente, el Seis representa el equilibrio dinámico, la belleza de la simetría y la unión armónica de los contrarios tras el periplo formativo del cinco.
   </historia>
 
   <!-- 2. SIGNIFICADO FUNDAMENTAL -->
   <significado_fundamental>
-    Los Enamorados representa el poder del amor auténtico, la alineación de valores, la atracción de almas afines y, crucialmente, la toma de una decisión trascendental basada en el corazón y no en el miedo. Simboliza la reconciliación de opuestos: la mente consciente (el hombre) mira a la mente inconsciente (la mujer), quien a su vez eleva su mirada hacia la supraconsciencia divina (el arcángel).
+    Los Enamorados encarnan el momento crucial en el que la conciencia debe abandonar la pasividad infantil para asumir la responsabilidad absoluta de su destino a través de la elección. Desde la perspectiva de la psicología analítica de Carl Gustav Jung, este arcano simboliza el proceso de integración del contra-sexo (el encuentro con el Ánima en el hombre y el Animus en la mujer), así como la superación de la escisión entre el deseo instintivo y el mandato moral. No se trata meramente del flechazo romántico, sino del reconocimiento del Otro como un espejo sagrado que nos convoca a elegir la integración interior y la autenticidad por encima de la comodidad de la dualidad fragmentada.
   </significado_fundamental>
 
   <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
   <posicion_normal>
-    <resumen>Amor profundo, elecciones alineadas con el alma, reciprocidad emocional, armonía de valores y unión sagrada.</resumen>
-    <amor>Romance apasionado y maduro. Hallar a alguien con quien compartir valores de vida. Comunicación transparente, química magnética y decisiones de futuro en pareja.</amor>
-    <dinero_trabajo>Sociedades laborales armoniosas y fructíferas. Elegir entre dos caminos profesionales guiándose por la verdadera vocación y la ética.</dinero_trabajo>
-    <salud>Vitalidad en equilibrio. Conexión armónica entre cuerpo, mente y emociones. Buenos hábitos gracias al amor propio y el autocuidado.</salud>
-    <espiritualidad>Integración del ánima y el ánimus (Jung). Matrimonio interior entre la razón y la intuición bajo la guía de la consciencia superior.</espiritualidad>
+    <resumen>Un momento decisivo de encrucijada vital donde se requiere una elección consciente, la consolidación de alianzas profundas y la armonía entre el deseo y los valores morales.</resumen>
+    <amor>Vínculos marcados por una profunda afinidad electiva, compromiso maduro, pasión correspondida, reconciliación de diferencias y el inicio de una relación basada en la honestidad y el alma.</amor>
+    <dinero_trabajo>Toma de decisiones profesionales basadas en la vocación genuina, asociaciones comerciales exitosas sustentadas en la confianza mutua y contratos firmados bajo el signo de la equidad.</dinero_trabajo>
+    <salud>Bienestar holístico logrado mediante la concordancia entre la mente y el cuerpo, recuperación del equilibrio vital y sanación a través del afecto y la aceptación emocional.</salud>
+    <espiritualidad>La elección consciente de un camino espiritual impulsado por el amor universal; comprender que el prójimo y el mundo exterior son reflejos de la propia divinidad interior.</espiritualidad>
   </posicion_normal>
 
   <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
   <posicion_invertida>
-    <resumen>Dilemas desgarradores, desalineación de valores, infidelidad, elecciones cobardes o conflicto interno entre deber y deseo.</resumen>
-    <palabras_clave_al_reves>Desalineación, Decisión equivocada, Conflicto de pareja, Dudas dolorosas, Incoherencia</palabras_clave_al_reves>
-    <amor>Desconexión en la pareja, dudas sobre el futuro juntos, tentaciones que quiebran la confianza o permanecer en un vínculo por miedo a la soledad.</amor>
-    <dinero_trabajo>Desacuerdos graves entre socios. Tomar una decisión financiera apresurada que traiciona los propios principios éticos.</dinero_trabajo>
-    <salud>Conflictos emocionales somatizados en el sistema respiratorio o circulatorio. Fatiga provocada por la indecisión constante y la ansiedad.</salud>
-    <espiritualidad>Fragmentación interna. Escuchar las voces del ego en lugar de la verdad del corazón; negar la sombra personal culpando a otros.</espiritualidad>
-    <como_armonizar_desbloquear>Vuelve a tus valores no negociables. Si una relación o camino te obliga a perderte a ti mismo, no es el adecuado.</como_armonizar_desbloquear>
+    <resumen>Parálisis por indecisión, elecciones tomadas desde el miedo o la complacencia externa, ruptura de la armonía interior y conflictos derivados de la falta de compromiso o la duplicidad.</resumen>
+    <palabras_clave_al_reves>Indecisión, conflicto, escisión, codependencia, traición.</palabras_clave_al_reves>
+    <amor>Relaciones basadas en la dependencia emocional, infidelidades, incompatibilidad de valores fundamentales, celos enfermizos o miedo patológico al compromiso a largo plazo.</amor>
+    <dinero_trabajo>Asociaciones comerciales ruinosas por falta de claridad en los acuerdos, contratos engañosos, incapacidad para elegir una dirección profesional y pérdida de rumbo por ambición dividida.</dinero_trabajo>
+    <salud>Somatización de la ansiedad crónica generada por dilemas morales no resueltos, desequilibrios energéticos por represión de los deseos legítimos y fatiga mental extrema.</salud>
+    <espiritualidad>Disociación entre los principios que se pregonan y los actos que se cometen, culpa neurótica por decisiones pasadas y pérdida de fe en el sentido de la propia trayectoria del alma.</espiritualidad>
+    <como_armonizar_desbloquear>Aceptar que toda elección implica la renuncia a una alternativa, alinear la mente con el dictado profundo del corazón y asumir con valentía las consecuencias de la propia libertad.</como_armonizar_desbloquear>
   </posicion_invertida>
 
   <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
   <lo_que_lo_hace_unico>
-    Es la única carta donde la mirada traza un triángulo sagrado: el hombre mira a la mujer, la mujer mira al arcángel y el arcángel bendice a ambos. A diferencia del 2 de Copas (que representa el flechazo o la conexión personal entre dos personas), Los Enamorados es una iniciación mayor: exige elegir qué clase de ser humano quieres ser mediante la persona y los valores que decides abrazar.
+    <resumen>
+      Es el único arquetipo que sitúa al individuo ante el espejo absoluto de la dualidad, obligándolo a trascender la división mediante el acto supremo de la elección consciente y el amor.
+    </resumen>
+    <comparativas>
+      <comparar carta="El Carro">
+        Mientras El Carro impulsa la marcha hacia adelante mediante la disciplina férrea del ego y el dominio marcial de los opuestos en tensión, Los Enamorados detienen al peregrino en la encrucijada para exigirle una rendición íntima y una elección del corazón que va más allá de la mera fuerza de voluntad.
+      </comparar>
+      <comparar carta="El Diablo">
+        Frente a la atadura inconsciente, la compulsión material y la ilusión de esclavitud que representa El Diablo (la sombra de la sexualidad y el apego), Los Enamorados ofrecen la luz de la redención consciente, la libertad de elección y la unión sagrada transfigurada por el espíritu.
+      </comparar>
+    </comparativas>
   </lo_que_lo_hace_unico>
 
   <!-- 6. CURIOSIDADES DEL ARCANO -->
   <curiosidades>
-    <item>El arcángel Rafael: Su nombre en hebreo significa 'Medicina de Dios', indicando que el amor genuino tiene el poder absoluto de sanar cualquier herida del alma.</item>
-    <item>Las doce llamas del árbol del hombre: Representan los doce signos del zodiaco y las pasiones activas de la voluntad.</item>
-    <item>La montaña violeta de fondo: Simboliza la cima de la consciencia espiritual a la que solo se puede ascender cuando los opuestos se reconcilian.</item>
+    <item>En el Tarot de Marsella original, la figura central del joven se halla flanqueada por dos mujeres que tradicionalmente se asociaban con la madre y la amante, simbolizando el eterno conflicto del hombre entre la seguridad del pasado y la llamada del futuro.</item>
+    <item>En la exégesis de la Cábala, Los Enamorados ocupan el sendero que une la esfera de Binah (el entendimiento) con Tiphereth (la belleza y el corazón del árbol), representando la ley del amor como fuerza unificadora del cosmos.</item>
+    <item>Su correspondencia con el signo de Géminis resalta la naturaleza dual, comunicativa y reflexiva del arquetipo, donde el intelecto busca incesantemente su complemento para alcanzar la totalidad.</item>
   </curiosidades>
 
   <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
   <consejo_y_reflexion>
-    <accion_inmediata>Elige con el corazón, no por conveniencia o miedo. Cuando tus valores están claros, la decisión es sencilla.</accion_inmediata>
-    <pregunta_para_ti>¿Qué decisión estás evitando tomar por temor a renunciar a una de las opciones?</pregunta_para_ti>
+    <accion_inmediata>Afronta esa decisión que has estado aplazando; elige con honestidad aquello que resuene con tu integridad más profunda, sin buscar complacer expectativas ajenas.</accion_inmediata>
+    <pregunta_para_ti>¿Estás eligiendo tus vínculos y tus pasos desde el amor y la libertad de tu alma, o te estás decidiendo por el miedo a la soledad y la comodidad de lo conocido?</pregunta_para_ti>
   </consejo_y_reflexion>
 
   <!-- 7. UNA HISTORIA INSPIRADA -->
   <historia_inspirada>
-    <titulo>La Encrucijada de los Dos Espejos</titulo>
+    <titulo>El cruce de los dos senderos</titulo>
     <relato>
-      Al llegar a la cima del monte Horeb, una viajera encontró dos senderos custodiados por un ángel de fuego lila. A la izquierda, un camino pavimentado de oro prometía aplausos, comodidad y la aprobación de todos los reyes. A la derecha, un sendero estrecho de flores silvestres exigía desnudez de alma y verdad innegociable. —¿Cuál de los dos me llevará a la felicidad? —preguntó la viajera temblando. El ángel extendió sus alas y sonrió con compasión infinita: —Ningún camino hace feliz a quien elige con la cabeza llena de miedos ajenos. Elige aquello que, aun si perdieras todo lo material, haría que tu corazón cantara al anochecer. Lo que amas con verdad es tu único y verdadero destino.
+      En los linderos del gran bosque donde los caminos se dividían en dos direcciones opuestas —uno pavimentado con piedras de oro que prometía la seguridad del reino, y el otro serpenteando entre zarzales hacia la bruma de la montaña—, un joven viajero se detuvo con el alma dividida. A su derecha, una voz susurraba las ventajas de lo previsible, la aprobación de la tribu y la ausencia de riesgos; a su izquierda, un fuego sutil palpitaba en la maleza, llamándole a descubrir su verdad más íntima a cambio de perder toda certeza. Mientras dudaba, sintió sobre sus hombros la calidez de una brisa inmensa y, al levantar la vista hacia el cielo, contempló la figura luminosa de un ángel con las alas desplegadas que lo observaba con infinita compasión. Comprendió entonces que el arcángel no iba a decidir por él, ni el destino vendría a salvarlo de la duda. La encrucijada no estaba afuera, sino en el santuario de su propio pecho. Respirando hondo, cerró los ojos a los cantos de sirena de la conveniencia, dio un paso al frente y eligió el sendero de la bruma. En el instante mismo de su elección, sintió que las dos mitades escindidas de su ser se fundían en una sola llama, y el mundo entero cobró, por fin, un sentido luminoso y entero.
     </relato>
   </historia_inspirada>
 

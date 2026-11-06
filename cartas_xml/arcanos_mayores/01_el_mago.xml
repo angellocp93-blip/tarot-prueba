@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <arcano id="el-mago">
-  <numero>I</numero>
+<numero>I</numero>
   <nombre>El Mago</nombre>
   <tipo>Arcano Mayor</tipo>
   <palo>Ninguno</palo>
@@ -109,7 +109,7 @@
 
   <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
   <audio>
-    <archivo>assets/audio/el-mago.wav</archivo>
+    <archivo>assets/audio/01_el_mago.wav</archivo>
     <titulo>El Mago - La Voluntad Creadora y la Alquimia Mental</titulo>
     <!-- Capítulos con marcas de tiempo (mm:ss) para navegación directa -->
     <capitulos>

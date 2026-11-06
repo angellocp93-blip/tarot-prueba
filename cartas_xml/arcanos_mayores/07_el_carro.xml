@@ -4,92 +4,106 @@
   <nombre>El Carro</nombre>
   <tipo>Arcano Mayor</tipo>
   <palo>Ninguno</palo>
-  <elemento>Agua</elemento>
+  <elemento>Agua (asociado a Cáncer y al dinamismo emocional dirigido por la voluntad)</elemento>
   <astrologia>Cáncer</astrologia>
 
   <!-- ESENCIA Y PALABRAS CLAVE -->
-  <esencia>El triunfo sobre la adversidad mediante la voluntad enfocada. Dirige tus fuerzas contradictorias hacia una meta definida.</esencia>
-  <palabras_clave>Victoria, Fuerza de voluntad, Dirección, Autocontrol, Superación de obstáculos</palabras_clave>
+  <esencia>La victoria de la voluntad unificada sobre los impulsos antagónicos y el avance triunfal del ego consciente que dirige su destino con firmeza y dirección.</esencia>
+  <palabras_clave>Victoria, voluntad, control, avance, determinación.</palabras_clave>
 
   <!-- POLARIDAD: LUZ Y SOMBRA -->
   <polaridad>
-    <lado_luz>Determinación de hierro, superación de pruebas complejas, motivación alta, autodisciplina y éxito merecido.</lado_luz>
-    <lado_sombra>Agresividad desmedida, autoritarismo destructivo, atropellar a los demás por ganar, frustración descontrolada.</lado_sombra>
+    <lado_luz>Autodominio absoluto, capacidad de superar cualquier obstáculo mediante la concentración y la disciplina, éxito merecido, avance imparable y alineación perfecta entre las emociones y la dirección mental.</lado_luz>
+    <lado_sombra>Arrogancia desmedida, pérdida de control, tiranía sobre los demás, huida hacia adelante sin rumbo fijo, impulsividad destructiva y accidentes por forzar las situaciones sin escuchar el entorno.</lado_sombra>
   </polaridad>
 
   <!-- SÍMBOLOS VISUALES CLAVE -->
   <simbolos_visuales>
     <simbolo>
-      <nombre>Esfinges blanca y negra</nombre>
-      <descripcion>Fuerzas opuestas (emoción y razón) que deben ser guiadas por la voluntad consciente.</descripcion>
+      <nombre>Las dos esfinges (o caballos) opuestos</nombre>
+      <descripcion>La dualidad de las fuerzas instintivas en tensión (la luz y la sombra, el deseo y la resistencia) que deben ser dominadas y conducidas armónicamente por la autoridad del auriga sin necesidad de riendas físicas.</descripcion>
     </simbolo>
     <simbolo>
-      <nombre>Dosel de estrellas</nombre>
-      <descripcion>Protección divina y destino trascendente que resguarda al conductor.</descripcion>
+      <nombre>El baldaquino estrellado</nombre>
+      <descripcion>El cielo protector y el orden cósmico que cubre al conductor, simbolizando que su victoria terrenal cuenta con el favor de los astros y las leyes superiores del universo.</descripcion>
     </simbolo>
     <simbolo>
-      <nombre>Ruedas del carro</nombre>
-      <descripcion>Movimiento dinámico, acción decidida y superación de la inercia.</descripcion>
+      <nombre>El carro cúbico</nombre>
+      <descripcion>La solidez de la materia conquistada y organizada, representando el vehículo del alma y la estructuración del ego que transita triunfante por el mundo fenoménico.</descripcion>
     </simbolo>
     <simbolo>
-      <nombre>Coraza con lunas crecientes</nombre>
-      <descripcion>Protección emocional para no dejarse desviar por el desánimo o la crítica.</descripcion>
+      <nombre>La coraza con símbolos alquímicos</nombre>
+      <descripcion>La protección inquebrantable frente a las influencias externas, la fortaleza del héroe y la integración de las experiencias vividas en el camino de la individuación.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>El cetro o varita de poder</nombre>
+      <descripcion>El bastón de mando que no necesita golpear, pues la mera autoridad interior y la concentración de la intención dirigen el rumbo absoluto de las bestias.</descripcion>
     </simbolo>
   </simbolos_visuales>
 
   <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
   <historia>
-    Inspirado en los desfiles triunfales de los generales en la Roma imperial y en los 'Trionfi' de Petrarca que dieron origen al Tarot renacentista. En el Tarot de Marsella y Rider-Waite-Smith, el héroe coronado no lleva riendas en sus manos: conduce su carroza cúbica mediante la pura fuerza de su voluntad y su concentración mental. Va protegido por una armadura con lunas crecientes en los hombros y bajo un dosel de estrellas azules, mientras dos esfinges —una blanca y otra negra— tiran en direcciones opuestas, simbolizando el dominio consciente sobre las pasiones e instintos contradictorios de la psique humana.
+    Evolucionando desde las representaciones medievales y renacentistas de los desfiles triunfales de héroes o emperadores en los naipes de tipo Visconti-Sforza y Marsella, El Carro (*Il Carro*) encapsula la conquista del espacio exterior y el triunfo moral. Con el resurgimiento del ocultismo en los siglos XIX y XX, impulsado por Eliphas Lévi y la Orden Hermética del Alba Dorada (Golden Dawn), la iconografía se enriqueció con los misterios herméticos y la sustitución de los caballos por las dos esfinges místicas que tiran en direcciones contrarias. Numéricamente, el Siete representa la culminación tras la prueba, el puente definitivo entre los cuatro elementos materiales y la trinidad espiritual, marcando la salida del héroe a conquistar el mundo tras haber integrado los arcanos precedentes.
   </historia>
 
   <!-- 2. SIGNIFICADO FUNDAMENTAL -->
   <significado_fundamental>
-    El Carro representa la victoria sobre los obstáculos, la autodeterminación inquebrantable, el avance imparable y el triunfo de la mente disciplinada. Enseña que el éxito no depende de la ausencia de conflictos internos o externos, sino de la capacidad de mantener el rumbo firme integrando las fuerzas polares (luz y sombra) hacia un mismo propósito supremo.
+    El Carro encarna la afirmación triunfal del ego heroico que ha logrado unificar sus contradicciones internas y se lanza a la conquista de su destino con decisión y lucidez. Desde la perspectiva de la psicología analítica de Carl Gustav Jung, representa la consolidación de la voluntad consciente y la capacidad del Yo para guiar los opuestos pulsionales (representados por las dos bestias) sin reprimirlos, sino canalizándolos hacia un objetivo superior. Nos enseña que el verdadero éxito no proviene de la fuerza bruta, sino del dominio lúcido de la tensión psíquica y de la habilidad de mantener el timón firme a pesar de las fuerzas centrífugas que amenazan con desestabilizar el vehículo del alma.
   </significado_fundamental>
 
   <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
   <posicion_normal>
-    <resumen>Triunfo, avance acelerado, disciplina férrea, superación de pruebas, viajes exitosos y control emocional.</resumen>
-    <amor>Superar crisis de pareja con madurez y decisión. Conquistar metas conjuntas o tomar las riendas de la propia vida sentimental dejando atrás amores del pasado.</amor>
-    <dinero_trabajo>Victoria en proyectos competitivos, liderazgo indiscutido, consecución de metas ambiciosas y excelente momento para expandir negocios al extranjero.</dinero_trabajo>
-    <salud>Fuerza de voluntad admirable para superar adicciones o adoptar rutinas deportivas exigentes. Recuperación rápida de enfermedades.</salud>
-    <espiritualidad>El alma doma el vehículo del cuerpo y de las emociones. Avance espiritual mediante la autodisciplina y el propósito inquebrantable.</espiritualidad>
+    <resumen>Un momento de avance imparable, éxito rotundo en proyectos complejos gracias al dominio de uno mismo, claridad absoluta de objetivos y victoria sobre los obstáculos mediante la voluntad.</resumen>
+    <amor>Relaciones que avanzan con fuerza y dinamismo, superación conjunta de crisis mediante el diálogo firme, conquista amorosa basada en la seguridad personal y proyectos de futuro compartidos.</amor>
+    <dinero_trabajo>Éxito profesional fulgurante, liderazgo efectivo, consolidación de empresas, cierre exitoso de negociaciones difíciles y reconocimiento merecido al esfuerzo, la estrategia y la competencia.</dinero_trabajo>
+    <salud>Vitalidad desbordante, excelente tono físico y mental, rápida recuperación de dolencias gracias a una actitud combativa, disciplinada y optimista hacia el propio bienestar.</salud>
+    <espiritualidad>La maestría espiritual entendida como el control consciente de los vehículos inferiores por el Ser superior; el peregrino que avanza con coraje por el sendero de su propia individuación.</espiritualidad>
   </posicion_normal>
 
   <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
   <posicion_invertida>
-    <resumen>Pérdida de control, agresión desmedida, choque contra la realidad, falta de dirección o parálisis por sabotaje interno.</resumen>
-    <palabras_clave_al_reves>Pérdida de control, Frustración, Dirección errática, Agresividad, Obstáculos insuperables</palabras_clave_al_reves>
-    <amor>Luchas de poder en la pareja, autoritarismo destructivo o relación que se estrella por no saber frenar los impulsos de orgullo y rencor.</amor>
-    <dinero_trabajo>Proyectos que descarrilan por exceso de arrogancia o falta de planificación. Pérdidas en viajes o disputas legales descontroladas.</dinero_trabajo>
-    <salud>Agotamiento extremo por conducir la propia vida a velocidades insostenibles (burnout). Riesgo de accidentes de tráfico o contracturas musculares agudas.</salud>
-    <espiritualidad>Ego fuera de control. Creer que la fuerza bruta puede sustituir a la gracia divina; desconexión entre lo que se predica y lo que se practica.</espiritualidad>
-    <como_armonizar_desbloquear>Detén la marcha. Reevalúa tus fuerzas y motivos; no intentes avanzar a ciegas si el vehículo no está en condiciones.</como_armonizar_desbloquear>
+    <resumen>Pérdida total de control, agresión desmedida, proyectos que descarrilan por cabezonería ciega, dispersión de la energía en batallas inútiles y soberbia que conduce al colapso.</resumen>
+    <palabras_clave_al_reves>Caos, pérdida de control, agresividad, descarrilamiento, soberbia.</palabras_clave_al_reves>
+    <amor>Luchas de poder insostenibles en la pareja, imposición tiránica de la voluntad sobre el otro, discusiones constantes por falta de escucha y relaciones que se estrellan por orgullo.</amor>
+    <dinero_trabajo>Fracasos estrepitosos por decisiones precipitadas, inversiones arriesgadas sin fundamento, conflictos graves de jerarquía y proyectos que se descontrolan por falta de liderazgo real.</dinero_trabajo>
+    <salud>Agotamiento extremo por estrés crónico, hipertensión, accidentes derivados de la prisa o la distracción, y somatizaciones asociadas a la contención violenta de la ira y la tensión.</salud>
+    <espiritualidad>Soberbia espiritual que cree dominar los misterios por la fuerza del ego, desorientación mística y orgullo que rechaza la guía del corazón en nombre de una razón inflexible.</espiritualidad>
+    <como_armonizar_desbloquear>Detener el avance impulsivo, soltar el control tiránico sobre los acontecimientos, escuchar las emociones contradictorias en lugar de reprimirlas y reorientar el timón con flexibilidad y paciencia.</como_armonizar_desbloquear>
   </posicion_invertida>
 
   <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
   <lo_que_lo_hace_unico>
-    Es el único vehículo triunfal conducido sin riendas físicas: las dos esfinges (una blanca y otra negra) descansan a sus pies y avanzan únicamente por la telepatía y el magnetismo del conductor. A diferencia de El Mago (que prepara el terreno con sus herramientas), El Carro ya está en marcha por el mundo conquistando la victoria en el plano tangible.
+    <resumen>
+      Es el único arquetipo que muestra el movimiento dinámico y triunfal de un vehículo guiado por la pura fuerza de la voluntad, saliendo del recinto cerrado para conquistar activamente el mundo.
+    </resumen>
+    <comparativas>
+      <comparar carta="El Emperador">
+        Mientras El Emperador se mantiene estático, entronizado y legislando dentro de los muros seguros de su palacio de piedra, El Carro abandona la seguridad del castillo para lanzarse al camino abierto, conquistando el territorio mediante el movimiento activo.
+      </comparar>
+      <comparar carta="La Fuerza">
+        Frente al dominio sutil, paciente, visceral y maternal de La Fuerza sobre las pasiones (abriendo las fauces del león con dulzura), El Carro ejerce un dominio mental, estratégico y directivo sobre las fuerzas opuestas mediante la coraza de la disciplina y el poder del auriga.
+      </comparar>
+    </comparativas>
   </lo_que_lo_hace_unico>
 
   <!-- 6. CURIOSIDADES DEL ARCANO -->
   <curiosidades>
-    <item>Las esfinges blanca y negra: Simbolizan las fuerzas opuestas de la misericordia y la severidad cabalística que intentan desviarse pero son domadas por la mente superior.</item>
-    <item>Las lunas en las hombreras: Son las caras de Urim y Tumim del sumo sacerdote hebreo, que indicaban si las decisiones estaban bendecidas por la divinidad.</item>
-    <item>El dosel estrellado: Indica que el guerrero está guiado por las influencias cósmicas celestiales y no solo por sus deseos terrenales.</item>
+    <item>En el Tarot de Marsella tradicional, las dos esfinges que tiran del carro suelen mirar en direcciones diferentes, lo que simboliza el peligro constante de desgarrar el vehículo si el auriga no mantiene una tensión focalizada y perfecta.</item>
+    <item>En la astrología esotérica y cabalística, El Carro está ligado al signo de Cáncer y al sendero de Cheth, que conecta la esfera de Binah con Geburah, representando la construcción de la armadura defensiva y la ley que protege el núcleo del alma.</item>
+    <item>El baldaquino estrellado que cubre al auriga evoca la antigua creencia de que los grandes conquistadores y héroes terrestres estaban directamente protegidos e inspirados por el destino de las esferas celestes.</item>
   </curiosidades>
 
   <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
   <consejo_y_reflexion>
-    <accion_inmediata>Mantén el enfoque y no te rindas. Tienes la fuerza para superar cualquier obstáculo si no pierdes de vista tu objetivo.</accion_inmediata>
-    <pregunta_para_ti>¿Hacia dónde estás dirigiendo tu energía actualmente? ¿Estás controlando tú el carro o te dejas llevar?</pregunta_para_ti>
+    <accion_inmediata>Toma las riendas de ese asunto que has estado postergando; fija una dirección clara y avanza con determinación sin mirar atrás.</accion_inmediata>
+    <pregunta_para_ti>¿Estás conduciendo tu vida hacia donde tu alma desea, o te estás dejando arrastrar ciegamente por fuerzas opuestas que te escinden por dentro?</pregunta_para_ti>
   </consejo_y_reflexion>
 
   <!-- 7. UNA HISTORIA INSPIRADA -->
   <historia_inspirada>
-    <titulo>Las Dos Esfinges de la Puerta de Tebas</titulo>
+    <titulo>El auriga sin riendas</titulo>
     <relato>
-      Antes de coronarse príncipe, el guerrero debía cruzar el Desfiladero de las Sombras conduciendo un carro de bronce tirado por dos leones alados. El león blanco quería volar hacia las nubes de la ilusión; el león negro quería descender a las cavernas del instinto salvaje. El guerrero soltó el látigo y las cadenas. Cerró los ojos, respiró hondo y visualizó el obelisco de la ciudad natal al final del cañón. Fijó su mente con tal pureza en el horizonte que los dos leones, sintiendo la vibración inquebrantable de su pecho, unieron sus lomos y corrieron al unísono como si fueran un solo relámpago. Al llegar a Tebas, la multitud vitoreó: no celebraban la velocidad del carro, sino al hombre que había vencido a su propia tempestad interior.
+      En las llanuras donde los vientos del norte ponían a prueba la temple de los hombres, un joven auriga se cernía sobre un carro de madera cúbica tallada en roble antiguo, tirado por dos bestias de pelaje antagónico: una blanca como la espuma del mar y otra negra como la noche sin luna. Los sabios de la caravana le habían advertido que sin riendas de cuero trenzado las bestias lo desmembrinarían al primer atisbo de duda. El joven, enfundado en una armadura grabada con signos solares, no portaba más armas que su mirada fija en el horizonte y un cetro invisible apretado contra el pecho. Cuando las bestias tiraron cada una hacia un abismo diferente, amenazando con hacer añicos el carruaje, el auriga no gritó ni tiró de fuerza bruta; cerró los ojos un instante, respiró la quietud del cosmos y alineó la pulsación de su propio latido con el ritmo de las estrellas que poblaban el baldaquino sobre su cabeza. Al abrir de nuevo los ojos, un fulgor magnético emanó de su voluntad. Las dos bestias, subyugadas por la fuerza invisible de su ecuanimidad, unieron sus pasos en una sola dirección y el carro despegó como una flecha de luz hacia la cumbre nevada. Comprendió entonces que la verdadera victoria no consistía en someter el mundo con cadenas, sino en integrar la sombra y la luz bajo el gobierno soberano del alma consciente.
     </relato>
   </historia_inspirada>
 

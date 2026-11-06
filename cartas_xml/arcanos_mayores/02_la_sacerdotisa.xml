@@ -1,101 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <arcano id="la-sacerdotisa">
-  <numero>II</numero>
+<numero>II</numero>
   <nombre>La Sacerdotisa</nombre>
   <tipo>Arcano Mayor</tipo>
   <palo>Ninguno</palo>
-  <elemento>Agua</elemento>
+  <elemento>Agua (asociado a la Luna)</elemento>
   <astrologia>La Luna</astrologia>
 
   <!-- ESENCIA Y PALABRAS CLAVE -->
-  <esencia>La guardiana de los misterios invisibles. La respuesta no está en el ruido exterior sino en el silencio sagrado de tu templo interior.</esencia>
-  <palabras_clave>Intuición, Misterio, Subconsciente, Sabiduría oculta, Silencio fértil</palabras_clave>
+  <esencia>El conocimiento velado de los misterios internos, la quietud receptiva y la sabiduría intuitiva que habita en el santuario secreto del inconsciente.</esencia>
+  <palabras_clave>Intuición, misterio, inconsciente, receptividad, sabiduría interior.</palabras_clave>
 
   <!-- POLARIDAD: LUZ Y SOMBRA -->
   <polaridad>
-    <lado_luz>Intuición clarividente, serenidad inquebrantable, discreción, sabiduría ancestral y calma reflexiva.</lado_luz>
-    <lado_sombra>Aislamiento emocional, frialdad calculada, secretos dañinos, desconfianza enfermiza o pasividad excesiva.</lado_sombra>
+    <lado_luz>Conexión profunda con la intuición y el mundo onírico, discernimiento silencioso, respeto por los tiempos de gestación psíquica, capacidad de escucha compasiva y profunda ecuanimidad.</lado_luz>
+    <lado_sombra>Hermetismo excesivo, frialdad emocional, pasividad paralizante, secretos oscuros, represión de los instintos y desconexión de la realidad práctica por exceso de abstracción.</lado_sombra>
   </polaridad>
 
   <!-- SÍMBOLOS VISUALES CLAVE -->
   <simbolos_visuales>
     <simbolo>
-      <nombre>Columnas Boaz y Jachin</nombre>
-      <descripcion>La dualidad cósmica: luz y sombra, activo y pasivo, consciente e inconsciente.</descripcion>
+      <nombre>El Velo de granadas y palmas</nombre>
+      <descripcion>La frontera sagrada entre el mundo profano y los misterios divinos, recordando que los secretos del alma solo se revelan a aquellos con la pureza y la madurez interior requeridas.</descripcion>
     </simbolo>
     <simbolo>
-      <nombre>Velo con granadas</nombre>
-      <descripcion>Fertilidad interior y protección de los secretos sagrados del alma.</descripcion>
+      <nombre>Las columnas Jachin y Boaz</nombre>
+      <descripcion>La dualidad primordial del universo (la fuerza y el establecimiento, la luz y la oscuridad, lo consciente y lo inconsciente) custodiando el umbral del templo de la sabiduría.</descripcion>
     </simbolo>
     <simbolo>
-      <nombre>Corona lunar</nombre>
-      <descripcion>Conexión con las mareas emocionales y los ciclos naturales de la vida.</descripcion>
+      <nombre>El rollo de la Torá</nombre>
+      <descripcion>El conocimiento esotérico y las leyes universales ocultas a la mirada superficial, parcialmente sostenido sobre el regazo como símbolo de una sabiduría que se intuye más que se declama.</descripcion>
     </simbolo>
     <simbolo>
-      <nombre>Rollo sagrado (TORA)</nombre>
-      <descripcion>Conocimiento profundo de las leyes cósmicas esperando ser descifrado.</descripcion>
+      <nombre>La corona lunar</nombre>
+      <descripcion>Las tres fases de la luna (creciente, llena y menguante), que vinculan a La Sacerdotisa con los ciclos de la naturaleza, el poder de la gran Diosa y los ritmos ocultos de la psique.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>El agua estancada tras el velo</nombre>
+      <descripcion>El espejo impasible del inconsciente profundo, donde las emociones no se agitan por el viento del ego, sino que reflejan la verdad prístina del cosmos.</descripcion>
     </simbolo>
   </simbolos_visuales>
 
   <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
   <historia>
-    Originalmente denominada 'La Papisa' (La Papessa) en las cortes italianas del siglo XV, la carta evocaba la legendaria figura medieval de la Papisa Juana, una mujer que según el mito popular gobernó la Iglesia vestida de varón. En el siglo XIX, Antoine Court de Gébelin la asoció con la diosa egipcia Isis, velada ante los no iniciados. Pamela Colman Smith la situó entre las dos columnas del Templo de Salomón —Boaz (oscura) y Jachin (clara)—, vistiendo un manto azul que fluye como agua viva y sosteniendo en su regazo el pergamino de la Tora, fijándola como la guardiana absoluta de los misterios esotéricos y la intuición inconsciente.
+    Heredera directa de las representaciones medievales de la Papisa (asociada popularmente a la leyenda medieval de la Papisa Juana) en los tarots primitivos, La Sacerdotisa sufrió una profunda transformación iconográfica y esotérica con el advenimiento del ocultismo de los siglos XVIII y XIX. Los hermetistas la rebautizaron como la Sacerdotisa de Isis o la Virgen del Velo, conectándola con los misterios de la antigüedad egipcia y grecorromana. Numéricamente, el Dos representa la díada, la primera división que genera el reflejo, la polaridad y el espacio fértil donde la conciencia puede contemplarse a sí misma a través del espejo del silencio.
   </historia>
 
   <!-- 2. SIGNIFICADO FUNDAMENTAL -->
   <significado_fundamental>
-    La Sacerdotisa es el arquetipo de la sabiduría interior, el silencio sagrado, la intuición clarividente y el conocimiento de los planos sutiles. Representa la noche fértil del alma, el útero psíquico donde germinan las verdades antes de salir a la luz. Enseña que no todas las respuestas se hallan en el análisis lógico externo; hay misterios que solo se revelan cuando se aquieta el ego y se escucha la voz interior.
+    La Sacerdotisa encarna el principio de la receptividad absoluta, el silencio fértil y el acceso directo al pozo inagotable del inconsciente. Desde la perspectiva de la psicología analítica de Carl Gustav Jung, representa la personificación del arquetipo del Ánima en su dimensión más profunda y ctónica, así como la función de la intuición introvertida. Nos enseña que la verdad más esclarecedora no se grita en el ágora ni se conquista por la fuerza bruta de la acción exterior, sino que se gesta en el santuario interior mediante la quietud, la paciencia y la escucha atenta de la voz sutil del alma.
   </significado_fundamental>
 
   <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
   <posicion_normal>
-    <resumen>Intuición profunda, serenidad, reserva sabia, secretos revelados y conexión con el subconsciente.</resumen>
-    <amor>Conexión de almas sutil y telepática. Intimidad espiritual basada en el entendimiento sin necesidad de muchas palabras. Posible atracción por alguien enigmático o necesidad de introspección antes de comprometerse.</amor>
-    <dinero_trabajo>Actuar con prudencia y confidencialidad. Excelente momento para el estudio, la investigación profunda o la consultoría. Confía en tus corazonadas antes de firmar acuerdos.</dinero_trabajo>
-    <salud>Equilibrio hormonal, ciclos biológicos y serenidad del sistema nervioso. Se recomienda prestar atención a los sueños y practicar meditación o técnicas de respiración consciente.</salud>
-    <espiritualidad>Despertar del tercer ojo y dones intuitivos. Capacidad para leer entre líneas en el libro de la vida y acceder a la memoria de los registros del alma.</espiritualidad>
+    <resumen>Un periodo consagrado a la introspección, la maduración silenciosa de proyectos, la confianza ciega en la intuición y el descubrimiento de verdades ocultas que exigen paciencia antes de ser reveladas.</resumen>
+    <amor>Vínculos marcados por una profunda sintonía telepática o emocional, relaciones discretas, amor maduro basado en el respeto mutuo al espacio individual y la necesidad de atender las sutilezas no dichas.</amor>
+    <dinero_trabajo>Investigación profunda, análisis estratégico en silencio, planificación prudente sin apresurarse a firmar contratos y la necesidad de confiar en las corazonadas frente a propuestas dudosas.</dinero_trabajo>
+    <salud>Necesidad imperativa de descanso, sanación a través de la tranquilidad mental, equilibrio emocional y atención a los mensajes somáticos que envía el cuerpo en forma de fatiga o necesidad de aislamiento.</salud>
+    <espiritualidad>Iniciación en los misterios interiores, desarrollo de la clarividencia y la intuición, estudio profundo de textos sagrados o esotéricos y comunión íntima con el silencio meditativo.</espiritualidad>
   </posicion_normal>
 
   <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
   <posicion_invertida>
-    <resumen>Secretismo tóxico, frialdad emocional, intuición bloqueada, chismes o desconexión del cuerpo.</resumen>
-    <palabras_clave_al_reves>Intuición ignorada, Secretos tóxicos, Frialdad, Superficialidad, Chismes</palabras_clave_al_reves>
-    <amor>Desconfianza, barreras defensivas infranqueables o secretos no confesados que distancian a la pareja. Sentimiento de aislamiento e incomprensión.</amor>
-    <dinero_trabajo>Información oculta deliberadamente, falta de transparencia en el entorno laboral o tomar decisiones basadas en ilusiones sin contrastar datos reales.</dinero_trabajo>
-    <salud>Alteraciones en los ciclos del sueño, desequilibrios del sistema reproductor femenino o somatización de emociones reprimidas por guardar silencio durante demasiado tiempo.</salud>
-    <espiritualidad>Superstición, miedo a los propios dones psíquicos o desconexión del plano espiritual debido a un escepticismo árido y defensivo.</espiritualidad>
-    <como_armonizar_desbloquear>Aléjate del bullicio. Dedica tiempo a la soledad reflexiva, anota tus sueños y vuelve a honrar tu sentir.</como_armonizar_desbloquear>
+    <resumen>Desconexión radical de la brújula intuitiva, secretismo enfermizo, represión emocional asfixiante, paralización por exceso de pasividad o filtración de ilusiones engañosas provenientes del inconsciente no integrado.</resumen>
+    <palabras_clave_al_reves>Secretismo, frialdad, bloqueo intuitivo, represión, ilusión.</palabras_clave_al_reves>
+    <amor>Secretos inconfesables, distanciamiento afectivo glacial, incapacidad para expresar los sentimientos o manipulación a través del silencio punitivo y la ambigüedad.</amor>
+    <dinero_trabajo>Información oculta que sale a la luz perjudicando proyectos, contratos engañosos con cláusulas invisibles, estancamiento laboral por falta de acción o excesiva desconfianza.</dinero_trabajo>
+    <salud>Somatización de emociones reprimidas, problemas hormonales o ginecológicos asociados al bloqueo del principio femenino, insomnio y pesadillas recurrentes por ansiedad inconsciente.</salud>
+    <espiritualidad>Uso oscuro o sectario del conocimiento oculto, fanatismo dogmático disfrazado de sabiduría mística o autoengaño espiritual que confunde la apatía con la iluminación.</espiritualidad>
+    <como_armonizar_desbloquear>Romper el aislamiento excesivo expresando con claridad lo que se siente, permitir que la luz de la conciencia examine los rincones oscuros de la mente y equilibrar la intuición con el discernimiento práctico.</como_armonizar_desbloquear>
   </posicion_invertida>
 
   <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
   <lo_que_lo_hace_unico>
-    Es la única carta que custodia el umbral entre las dos columnas del templo primordial (la dualidad de la luz y la oscuridad, lo visible y lo invisible). A diferencia de El Hierofante (que enseña dogmas religiosos y doctrinas públicas para las masas), La Sacerdotisa guarda el secreto místico interior: no habla con discursos, sino a través de revelaciones oníricas y silencios sagrados.
+    <resumen>
+      Es la única carta del mazo que custodia el umbral entre lo manifiesto y lo inescrutable, operando como la guardiana silenciosa del tiempo de gestación donde ninguna acción externa puede interferir.
+    </resumen>
+    <comparativas>
+      <comparar carta="El Mago">
+        Mientras El Mago proyecta su energía hacia el exterior para transformar la materia y hablar con elocuencia en el mundo, La Sacerdotisa permanece sentada en el interior del templo, guardando silencio y recordando que toda manifestación válida nace primero de la gestación invisible.
+      </comparar>
+      <comparar carta="La Emperatriz">
+        Frente a la fecundidad exuberante, expansiva y maternal de La Emperatriz, que da a luz la vida en la naturaleza y nutre los frutos visibles, La Sacerdotisa representa la matriz espiritual abstracta, el misterio virginal y la semilla que duerme en el invierno de la mente antes de brotar.
+      </comparar>
+    </comparativas>
   </lo_que_lo_hace_unico>
 
   <!-- 6. CURIOSIDADES DEL ARCANO -->
   <curiosidades>
-    <item>El velo de granadas: El velo bordado con granadas a sus espaldas alude al mito de Perséfone en el Inframundo y a la fertilidad oculta del inconsciente.</item>
-    <item>La luna creciente a sus pies: Simboliza su dominio absoluto sobre las mareas emocionales y la capacidad de iluminar la oscuridad psíquica.</item>
-    <item>El rollo de la TORA: La palabra 'TORA' (parcialmente cubierta por su manto) contiene un juego de letras que forma anagramas sagrados: TARO (Tarot), ROTA (Rueda) y ORAT (Rezar).</item>
+    <item>En las barajas históricas anteriores al siglo XIX, la carta era conocida invariablemente como «La Papisa», haciendo alusión a la leyenda medieval de una mujer disfrazada de varón que llegó al solio pontificio, un símbolo subversivo de poder espiritual femenino que la ortodoxia intentó erradicar.</item>
+    <item>Las letras que figuran en las columnas de la iconografía clásica (B y J) hacen referencia a Boaz y Jachin, las dos pilastras de bronce que erigió el rey Salomón a la entrada del templo de Jerusalén, simbolizando respectivamente el rigor y la clemencia.</item>
+    <item>En la tradición cabalística, La Sacerdotisa se vincula frecuentemente al sendero de Gimel, que une las esferas de Kether y Tiphereth, vehiculando la pureza del vaso que canaliza la gracia celestial hacia el corazón del árbol.</item>
   </curiosidades>
 
   <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
   <consejo_y_reflexion>
-    <accion_inmediata>Guarda silencio y observa. La verdad saldrá a la luz sin que tengas que forzar nada. Confía en lo que sientes en tu pecho.</accion_inmediata>
-    <pregunta_para_ti>¿Qué verdad estás percibiendo interiormente que tu mente lógica intenta negar?</pregunta_para_ti>
+    <accion_inmediata>Detén la prisa por actuar, retírate del ruido exterior durante unas horas y escucha con atención lo que tu intuición te está susurrando desde el silencio.</accion_inmediata>
+    <pregunta_para_ti>¿Qué verdad incómoda estás intentando silenciar bajo capas de lógica superficial por miedo a enfrentar lo que revelaría tu mundo interior?</pregunta_para_ti>
   </consejo_y_reflexion>
 
   <!-- 7. UNA HISTORIA INSPIRADA -->
   <historia_inspirada>
-    <titulo>La Guardiana del Velo Azul</titulo>
+    <titulo>El templo del agua silenciosa</titulo>
     <relato>
-      En la biblioteca más antigua del desierto, los sabios discutían a gritos sobre el origen del universo. Solo una mujer permanecía sentada en el pórtico, mirando el pozo de agua profunda. Un joven se le acercó y le preguntó: —¿Por qué no participas en el debate? ¿Acaso no sabes la verdad? La mujer sonrió en silencio, tomó una hoja seca y la dejó caer sobre la superficie del agua. Las ondas se abrieron mostrando el reflejo exacto de las estrellas de medianoche. —Quien grita la verdad solo convence a su propio orgullo —susurró ella con voz de manantial—. Quien escucha en silencio, se convierte en el espejo del infinito.
+      En lo más profundo de un valle donde los arroyos corrían bajo planchas de hielo transparente vivía una mujer que jamás pronunciaba palabra alguna ante los peregrinos que acudían a consultarla. Se sentaba inmóvil entre dos columnas de basalto oscuro, con un pesado rollo de pergamino cerrado sobre su regazo y una diadema de plata donde la luna parecía prisionera. Los hombres y mujeres de las ciudades llegaban agitando las manos, suplicando respuestas rápidas sobre sus guerras, sus amores y sus monedas. La Sacerdotisa se limitaba a mirarlos con unos ojos tan limpios y profundos como un estanque nocturno, sin emitir veredicto ni consejo apresurado. Desconcertados, muchos se marchaban creyendo que su silencio era desdén. Sin embargo, aquellos que sabían aguardar sentados en el umbral, respetando el curso del crepúsculo, experimentaban de pronto un sutil destello en su interior: las respuestas que buscaban afuera florecían con nitidez cristalina en el fondo de su propia conciencia. Comprendían entonces que la guardiana del templo no ocultaba los misterios por egoísmo, sino porque ninguna revelación externa posee valor si no brota primero del manantial sagrado del alma que ha aprendido a callar.
     </relato>
   </historia_inspirada>
 
   <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
   <audio>
-    <archivo>assets/audio/la-sacerdotisa.mp3</archivo>
+    <archivo>assets\audio\02_la_sacerdotisa.wav</archivo>
     <titulo>La Sacerdotisa - Los Secretos del Agua Silenciosa</titulo>
     <duracion_estimada>4:40 min</duracion_estimada>
   </audio>

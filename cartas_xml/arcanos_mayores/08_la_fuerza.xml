@@ -4,105 +4,106 @@
   <nombre>La Fuerza</nombre>
   <tipo>Arcano Mayor</tipo>
   <palo>Ninguno</palo>
-  <elemento>Fuego</elemento>
+  <elemento>Fuego (asociado a Leo)</elemento>
   <astrologia>Leo</astrologia>
 
   <!-- ESENCIA Y PALABRAS CLAVE -->
-  <esencia>La verdadera fuerza no ruge ni impone: doma a la bestia con caricias, paciencia infinita y amor consciente.</esencia>
-  <palabras_clave>Valentía serena, Compasión, Paciencia, Autodominio, Poder interior</palabras_clave>
+  <esencia>El dominio sutil de los instintos primordiales a través de la paciencia, la compasión y la soberanía del amor sobre la fuerza bruta.</esencia>
+  <palabras_clave>Coraje, dominio, compasión, instinto, paciencia.</palabras_clave>
 
   <!-- POLARIDAD: LUZ Y SOMBRA -->
   <polaridad>
-    <lado_luz>Coraje moral, serenidad en medio de la crisis, empatía profunda, tolerancia y resiliencia ejemplar.</lado_luz>
-    <lado_sombra>Ira descontrolada, debilidad de carácter, rendición ante el miedo, manipulación sutil o crueldad pasiva.</lado_sombra>
+    <lado_luz>Valentía serena, integración armoniosa de la sombra y los impulsos animales, dominio de las pasiones mediante la compasión, resiliencia inquebrantable y fuerza interior magnética que no necesita imponerse por la violencia.</lado_luz>
+    <lado_sombra>Represión violenta de los instintos, tiranía interna, estallidos de ira descontrolada, debilidad disfrazada de falsa bravuconería o miedo paralizante ante la propia energía vital y sexual.</lado_sombra>
   </polaridad>
 
   <!-- SÍMBOLOS VISUALES CLAVE -->
   <simbolos_visuales>
     <simbolo>
-      <nombre>León domado</nombre>
-      <descripcion>Los instintos básicos, la ira, el miedo y la pasión indómita reconciliados.</descripcion>
+      <nombre>La mujer que cierra suavemente las fauces del león</nombre>
+      <descripcion>La supremacía del alma consciente y la ternura inteligente sobre la furia ciega de los instintos, demostrando que la verdadera fuerza reside en la contención amorosa y no en el sometimiento violento.</descripcion>
     </simbolo>
     <simbolo>
-      <nombre>Mujer de blanco con flores</nombre>
-      <descripcion>La pureza de la compasión y el amor que desarma cualquier hostilidad.</descripcion>
+      <nombre>El lemniscata sobre la cabeza</nombre>
+      <descripcion>El símbolo del infinito que corona el intelecto de la figura, indicando que el poder de la doma interior conecta directamente con los ritmos eternos del cosmos y la maestría espiritual.</descripcion>
     </simbolo>
     <simbolo>
-      <nombre>Lemniscata sobre la cabeza</nombre>
-      <descripcion>Fuerza espiritual infinita que nace de la armonía interna.</descripcion>
+      <nombre>Las guirnaldas de rosas y flores</nombre>
+      <descripcion>La cultura, el afecto y la belleza civilizando la naturaleza salvaje; los lazos invisibles del amor que atan y transforman la energía pulsional sin necesidad de cadenas de hierro.</descripcion>
     </simbolo>
     <simbolo>
-      <nombre>Guirnalda que los une</nombre>
-      <descripcion>Conexión amorosa entre la consciencia superior y el poder animal instintivo.</descripcion>
+      <nombre>La túnica blanca</nombre>
+      <descripcion>La pureza de intenciones, la inocencia recuperada y la claridad espiritual del Yo que ha integrado su sombra sin mancharse de rencor ni culpa.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>El león indomable transformado en aliado</nombre>
+      <descripcion>La energía ctónica, la libido junguiana y las pasiones más ardientes del inconsciente que, en lugar de ser eliminadas, son amadas y redimidas al servicio de la evolución anímica.</descripcion>
     </simbolo>
   </simbolos_visuales>
 
   <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
   <historia>
-    En el Tarot de Marsella, La Fuerza ocupaba el número XI y mostraba a una mujer sujetando las fauces abiertas de un león mientras llevaba un sombrero con forma de lemniscata. Waite y la Golden Dawn intercambiaron su posición con La Justicia (colocando La Fuerza en el VIII para alinearla con el signo astrológico de Leo). Pamela Colman Smith suavizó la lucha: la doncella viste de blanco virginal coronada de flores vivas y acaricia las fauces del león rojizo con infinita ternura, demostrando que la verdadera fuerza espiritual no reside en el músculo ni en la violencia, sino en la compasión, la paciencia y el amor incondicional que domestica la fiera de los instintos primarios.
+    En los naipes históricos y renacentistas (como el Tarot de Visconti-Sforza y el Tarot de Marsella), esta carta aparecía numerada tradicionalmente con el XI y mostraba a una figura (a menudo Hércules u otra alegoría masculina) abriendo las fauces de un león por pura fuerza física. Con la reestructuración esotérica de la Golden Dawn y Arthur Edward Waite a principios del siglo XX, la carta pasó a ocupar la posición VIII y su iconografía cambió profundamente: el héroe forzudo fue sustituido por una mujer serena que domina a la bestia con extrema delicadeza, reflejando el triunfo de la gracia espiritual y la psicología moderna sobre la mera brutalidad mecánica.
   </historia>
 
   <!-- 2. SIGNIFICADO FUNDAMENTAL -->
   <significado_fundamental>
-    La Fuerza es el dominio suave del corazón sobre el instinto animal, la valentía moral, la resiliencia compasiva y la paciencia que todo lo vence. Nos enseña que reprimir nuestras pasiones o atacar la agresividad con más violencia solo engendra monstruos mayores; la fiera interior se calma abrazándola con consciencia, entendimiento y ternura serena.
+    La Fuerza encarna la capacidad del ser humano para acoger, comprender y pacificar sus propios impulsos más viscerales sin recurrir a la represión destructiva. Desde la perspectiva de la psicología analítica de Carl Gustav Jung, este arcano representa la integración magistral de la Sombra animal (el león) por parte del Yo consciente, guiado por la sabiduría del Ánima o el espíritu compasivo. Nos enseña que la verdadera fortaleza no se mide por la capacidad de aplastar al adversario o reprimir los afectos, sino por el valor inmenso de mirar de frente a nuestras pasiones y abrazarlas con tanta luz que terminen por transformarse en aliadas de nuestra individuación.
   </significado_fundamental>
 
   <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
   <posicion_normal>
-    <resumen>Coraje sereno, paciencia infinita, autodominio compasivo, sanación de heridas emocionales y victoria del amor sobre el miedo.</resumen>
-    <amor>Vínculo apasionado pero lleno de respeto, paciencia y ternura. Capacidad para resolver desavenencias con empatía y comprensión profunda.</amor>
-    <dinero_trabajo>Superar situaciones de alta presión o conflictos laborales mediante la diplomacia firme, la constancia y el carisma magnético sin recurrir a la agresividad.</dinero_trabajo>
-    <salud>Recuperación vigorosa de la vitalidad, resistencia física sobresaliente y dominio consciente de los apetitos corporales y la ansiedad.</salud>
-    <espiritualidad>La kundalini o fuego vital canalizado hacia la compasión universal. Aceptación amorosa de la propia sombra sin juicio destructivo.</espiritualidad>
+    <resumen>Un periodo de gran resiliencia interior, dominio de las situaciones difíciles mediante la diplomacia y el afecto, valentía serena y un profundo equilibrio entre el cuerpo y el espíritu.</resumen>
+    <amor>Relaciones basadas en la aceptación mutua, la superación de conflictos con paciencia y ternura, pasión madura y saludable, y una profunda lealtad afectiva que disipa cualquier rivalidad.</amor>
+    <dinero_trabajo>Liderazgo inspirador y carismático, gestión exitosa de crisis bajo alta presión gracias a la ecuanimidad, resolución pacífica de disputas laborales y perseverancia constante hacia el éxito.</dinero_trabajo>
+    <salud>Recuperación vigorosa de la salud física y mental, gran vitalidad impulsada por una actitud optimista, y perfecta sintonía entre la energía vital y el descanso consciente.</salud>
+    <espiritualidad>La maestría de transformar los instintos inferiores en aspiraciones sagradas; comprender que la verdadera espiritualidad abraza la materia y la naturaleza en lugar de negarlas.</espiritualidad>
   </posicion_normal>
 
   <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
   <posicion_invertida>
-    <resumen>Pérdida de paciencia, debilidad ante la tentación, ira destructiva, inseguridad paralizante o tiranía emocional.</resumen>
-    <palabras_clave_al_reves>Debilidad, Furia desmedida, Inseguridad, Rendición, Abatimiento</palabras_clave_al_reves>
-    <amor>Discusiones agresivas, reproches hirientes, manipulación a través de la culpa o dejarse avasallar por miedo al conflicto.</amor>
-    <dinero_trabajo>Ceder ante la intimidación en el trabajo o, en el polo opuesto, comportarse como un tirano arrogante con subordinados.</dinero_trabajo>
-    <salud>Agotamiento inmunológico por exceso de ira o rencor acumulado. Caer en excesos adictivos o desórdenes alimenticios por descontrol emocional.</salud>
-    <espiritualidad>Miedo a la propia intensidad vital. Desconexión del poder personal por creerse débil o indigno de respeto.</espiritualidad>
-    <como_armonizar_desbloquear>Detén las reacciones impulsivas. Descansa, respira y busca la calma en tu centro antes de emitir juicio o respuesta.</como_armonizar_desbloquear>
+    <resumen>Pérdida de control sobre los impulsos, duda paralizante sobre la propia capacidad, represión violenta de la ira que estalla de forma destructiva o complejos de inferioridad ocultos bajo una fachada de dureza.</resumen>
+    <palabras_clave_al_reves>Debilidad, rabia reprimida, inseguridad, abuso, descontrol.</palabras_clave_al_reves>
+    <amor>Luchas de poder desgastantes, celos posesivos, explosiones de mal genio por frustración acumulada o relaciones donde uno de los miembros intenta doblegar al otro por la fuerza.</amor>
+    <dinero_trabajo>Agotamiento extremo por intentar sostener situaciones insostenibles, falta de coraje para defender los propios derechos profesionales, o autoritarismo tiránico que genera rechazo generalizado.</dinero_trabajo>
+    <salud>Somatización del estrés crónico, problemas inflamatorios o cardíacos derivados de la rabia contenida, fatiga adrenal y desequilibrios en el sistema inmunológico.</salud>
+    <espiritualidad>Guerra interna contra los propios deseos naturales, culpa neurótica por experimentar pasiones humanas y rechazo dogmático de la propia sombra instintiva.</espiritualidad>
+    <como_armonizar_desbloquear>Dejar de luchar contra los propios defectos con dureza, aprender a escuchar la sabiduría de los instintos y abordar los conflictos cotidianos desde la autocompasión y la paciencia.</como_armonizar_desbloquear>
   </posicion_invertida>
 
   <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
   <lo_que_lo_hace_unico>
     <resumen>
-      Es la única carta donde un ser humano toca a una bestia salvaje no con armas, lanzas o cadenas, sino con caricias y una guirnalda de flores vivas. Representa la alquimia del amor que domestica la fiera de los instintos desde adentro sin doblegarla por violencia.
+      Es el único arquetipo que vence al caos y a la violencia no mediante el uso de armas o murallas, sino a través de un acto supremo de valentía amorosa y contacto físico pacificador.
     </resumen>
     <comparativas>
-      <comparar carta="El Emperador (IV)">
-        El Emperador impone el orden externo mediante leyes, decretos, ejércitos y autoridad punitiva. La Fuerza, en cambio, transforma la naturaleza salvaje desde el corazón a través del amor incondicional, la paciencia y la suavidad inquebrantable.
+      <comparar carta="El Carro">
+        Mientras El Carro domina a las bestias mediante la coraza de la disciplina mental, la estrategia y el avance impositivo del auriga, La Fuerza se detiene cara a cara con el león y lo domestica con la caricia, sustituyendo la coraza por la vulnerabilidad valiente.
       </comparar>
-      <comparar carta="El Mago (I)">
-        Ambos portan la lemniscata (el símbolo del infinito) sobre sus cabezas, pero El Mago canaliza la voluntad activa para manifestar realidades con herramientas sobre la mesa exterior, mientras La Fuerza ejerce la maestría espiritual sobre el mundo instintivo y emocional interior.
-      </comparar>
-      <comparar carta="La Templanza (XIV)">
-        La Templanza modera y trasvasa fluidos pacíficamente para sanar opuestos; La Fuerza se atreve a confrontar directamente y cuerpo a cuerpo a la bestia de las pasiones para abrazarla y convertirla en aliada leal.
+      <comparar carta="El Diablo">
+        Frente a la atadura ciega, el miedo y la esclavitud instintiva que representa El Diablo (donde la bestia interior tiraniza al ser humano), La Fuerza es la redención consciente de esa misma energía animal, liberándola mediante la luz de la consciencia y el afecto.
       </comparar>
     </comparativas>
   </lo_que_lo_hace_unico>
 
   <!-- 6. CURIOSIDADES DEL ARCANO -->
   <curiosidades>
-    <item>La lemniscata sobre su cabeza: Al igual que El Mago, porta el símbolo del infinito, revelando que la suavidad compasiva está conectada con el poder eterno de Dios.</item>
-    <item>El león que lame su mano: Simboliza que el ego y el instinto no deben ser aniquilados, sino integrados como nobles aliados al servicio del alma.</item>
-    <item>El cinturón de rosas: Une a la mujer con el león, representando que el puente entre la mente consciente y la fuerza biológica es la belleza del corazón.</item>
+    <item>En la numerología tradicional del Tarot, la posición de La Fuerza varía entre el arcano VIII y el XI dependiendo de la escuela (Marsella o Rider-Waite), un cambio deliberado introducido por la Golden Dawn para encajar las correspondencias astrológicas de Leo y la justicia cósmica.</item>
+    <item>El león de esta carta está íntimamente ligado al mito de la constelación de Leo y a los trabajos de Hércules, representando específicamente la prueba de la captura del león de Nemea, cuya piel era impenetrable a las armas metálicas.</item>
+    <item>En la exégesis de la Cábala, La Fuerza ocupa el sendero que une la esfera de Chesed (misericordia) con Geburah (severidad), simbolizando la perfecta síntesis alquímica entre el rigor de la ley y el bálsamo del amor.</item>
   </curiosidades>
 
   <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
   <consejo_y_reflexion>
-    <accion_inmediata>No respondas a la agresividad con más fuego. Sé paciente, firme y compasivo: esa es la victoria definitiva.</accion_inmediata>
-    <pregunta_para_ti>¿Qué emoción salvaje o impulso reactivo necesitas abrazar y calmar con amor hoy?</pregunta_para_ti>
+    <accion_inmediata>Aborda ese conflicto difícil o esa resistencia interna que te agota, no con agresividad ni juicio severo, sino con una sobredosis de paciencia y comprensión hacia ti mismo.</accion_inmediata>
+    <pregunta_para_ti>¿Estás intentando aplastar tus propias pasiones e instintos con represión, o tienes el valor de abrazarlos para integrarlos con amor en tu camino?</pregunta_para_ti>
   </consejo_y_reflexion>
 
   <!-- 7. UNA HISTORIA INSPIRADA -->
   <historia_inspirada>
-    <titulo>La Doncella y el Rey de la Selva</titulo>
+    <titulo>La caricia sobre el fuego</titulo>
     <relato>
-      Un león devorador de rebaños bajó de las colinas sembrando el terror. Los caballeros del rey salieron con armaduras de acero y lanzas afiladas; el león los despedazó a todos porque olían a miedo y a sangre. Al atardecer, una tejedora del pueblo caminó descalza hacia la guarida de la bestia. Llevaba en sus manos un cuenco de agua fresca y una trenza de jazmines. El león rugió hasta hacer temblar los robles. La mujer no huyó ni parpadeó; se sentó en una piedra, lo miró a los ojos con la ternura de una madre y le habló de la soledad de la montaña. La bestia, desconcertada ante la ausencia de violencia, se acercó lentamente, agachó la testuz y apoyó su pesada cabeza en el regazo de la doncella. Desde aquel día, el león cuidaba el rebaño: había descubierto que el amor es más invencible que mil espadas.
+      En las estribaciones de la montaña sagrada habitaba una gran bestia de melena encendida y garras afiladas cuyo rugido hacía temblar los cimientos de los poblados vecinos. Los hombres más valientes del valle habían acudido a enfrentarla armados con lanzas de acero y escudos de bronce, pero la furia del animal era inagotable y cada combate solo dejaba tras de sí destrucción y cenizas. Un día, una mujer vestida con una túnica de lino blanco inmaculado descendió sola al desfiladero donde el león aguardaba agazapado. Los aldeanos la observaban desde la distancia conteniendo la respiración, convencidos de que marchaba hacia una muerte segura. La bestia saltó hacia ella con las fauces abiertas dispuestas a desgarrarla; sin embargo, la mujer no retrocedió ni empuñó arma alguna. Con un valor que desafiaba toda lógica terrestre, avanzó un paso y posó sus manos suaves, coronadas por una diadema de sutiles guirnaldas florales, directamente sobre las mandíbulas humeantes del animal. Su mirada no albergaba miedo ni deseo de dominio, sino una infinita compasión. Al instante, el fuego ciego de la bestia se extinguió, sus músculos tensos se relajaron y el león, rendido ante la fuerza invencible del amor, se tendió mansamente a sus pies. Comprendieron entonces los espectadores que las guerras del mundo jamás se vencen con espadas, sino con la inmensa valentía de un alma dispuesta a amar su propia sombra.
     </relato>
   </historia_inspirada>
 

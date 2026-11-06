@@ -4,92 +4,106 @@
   <nombre>La Rueda de la Fortuna</nombre>
   <tipo>Arcano Mayor</tipo>
   <palo>Ninguno</palo>
-  <elemento>Fuego</elemento>
+  <elemento>Fuego (asociado a Júpiter y al dinamismo cíclico)</elemento>
   <astrologia>Júpiter</astrologia>
 
   <!-- ESENCIA Y PALABRAS CLAVE -->
-  <esencia>La única constante en el universo es el cambio. Quien hoy está abajo mañana estará arriba; encuentra tu centro en el eje que no gira.</esencia>
-  <palabras_clave>Ciclos de la vida, Destino, Giros inesperados, Oportunidad, Sincronicidad</palabras_clave>
+  <esencia>El eterno retorno de los ciclos cósmicos, la aceptación fluida del cambio y el reconocimiento de que la fortuna es una danza incesante de ascensos y caídas.</esencia>
+  <palabras_clave>Ciclos, destino, cambio, fortuna, sincronicidad.</palabras_clave>
 
   <!-- POLARIDAD: LUZ Y SOMBRA -->
   <polaridad>
-    <lado_luz>Apertura al cambio, buena fortuna, optimismo ante las vueltas de la vida, sincronías afortunadas.</lado_luz>
-    <lado_sombra>Fatalismo pasivo, resistirse neuróticamente a los cambios inevitables, depender del azar sin esforzarse.</lado_sombra>
+    <lado_luz>Adaptabilidad lúcida ante los giros del destino, comprensión profunda de la impermanencia, capacidad de aprovechar los golpes de suerte con gratitud, alineación con la sincronicidad y paz en el fluir del tiempo.</lado_luz>
+    <lado_sombra>Resistencia neurótica al cambio, fatalismo pasivo que culpa a la mala suerte de los propios errores, soberbia en la bonanza que olvida la caída, o miedo paralizante a la inestabilidad de los ciclos.</lado_sombra>
   </polaridad>
 
   <!-- SÍMBOLOS VISUALES CLAVE -->
   <simbolos_visuales>
     <simbolo>
-      <nombre>Esfinge con espada en la cima</nombre>
-      <descripcion>El equilibrio y la sabiduría que gobierna el misterio de los ciclos cósmicos.</descripcion>
+      <nombre>La rueda giratoria de la fortuna</nombre>
+      <descripcion>El mecanismo eterno del cosmos, el samsara y la ley implacable de los ciclos que recuerda que todo lo que asciende debe descender, y todo lo que cae porta la semilla de un nuevo renacer.</descripcion>
     </simbolo>
     <simbolo>
-      <nombre>Anubis ascendiendo y Tifón descendiendo</nombre>
-      <descripcion>La continua alternancia entre el renacimiento luminoso y la caída necesaria.</descripcion>
+      <nombre>Las figuras mitológicas en ascenso y descenso</nombre>
+      <descripcion>Anubis ascendiendo por la derecha como la intuición que nos eleva y la esfinge coronada en la cúspide como el equilibrio inalterable, frente a Tifón descendiendo por la izquierda como las pruebas de la materia y el inconsciente.</descripcion>
     </simbolo>
     <simbolo>
-      <nombre>Cuatro seres alados en las esquinas</nombre>
-      <descripcion>Los cuatro evangelistas/signos fijos (Toro, León, Águila, Hombre): estabilidad en medio del cambio.</descripcion>
+      <nombre>Las cuatro criaturas aladas con libros</nombre>
+      <descripcion>Los cuatro Evangelistas o los signos fijos del zodiaco (Tauro, Leo, Escorpio, Acuario) que custodian las esquinas del cosmos, aportando un orden eterno e inmutable en medio del movimiento caótico de la rueda.</descripcion>
     </simbolo>
     <simbolo>
-      <nombre>Letras TARO / ROTA en la rueda</nombre>
-      <descripcion>El orden secreto del cosmos que gira eternamente revelando lecciones.</descripcion>
+      <nombre>Las letras alquímicas y divinas (T-A-R-O / R-O-T-A)</nombre>
+      <descripcion>El código cifrado del universo y el secreto del eterno retorno que une la ley sagrada del nombre divino con el giro perpetuo de la existencia.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>La espada de la esfinge</nombre>
+      <descripcion>El discernimiento lúcido y la ecuanimidad que se sitúan en el centro inmóvil del eje, permitiendo al sabio contemplar la tormenta del devenir sin perder el centro de su conciencia.</descripcion>
     </simbolo>
   </simbolos_visuales>
 
   <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
   <historia>
-    Arquetipo medieval presente en manuscritos de los Carmina Burana y en el poema 'Consolación de la Filosofía' de Boecio: la diosa Fortuna giraba su rueda con la inscripción 'Regnabo, Regno, Regnavi, Sum sine regno' (Reinaré, Reino, Reiné, Estoy sin reino). Eliphas Lévi y Arthur Edward Waite la enriquecieron con simbolismo kabbalístico, egipcio y alquímico: colocaron en las cuatro esquinas a las cuatro criaturas querubínicas aladas de la visión de Ezequiel (el Ángel, el Águila, el León y el Toro, que corresponden a los cuatro evangelistas y a los cuatro signos fijos del zodiaco: Acuario, Escorpio, Leo y Tauro), una esfinge en la cima y la serpiente Tifón y Hermanubis en los costados.
+    Heredera directa de la rueda de la diosa romana Fortuna (*Tyché*) y de las representaciones filosóficas medievales de la *Rota Fortunae* inspiradas en Boecio —donde los reyes y mendigos alternaban su suerte en un devenir inexorable—, esta carta ocupaba un lugar central en los naipes primitivos de tipo Visconti-Sforza y Marsella. Con el advenimiento del ocultismo decimonónico y la reforma iconográfica de la Golden Dawn y Arthur Edward Waite, la carta se cargó de profundos símbolos herméticos, astrológicos y cabalísticos. Numéricamente, el Diez representa el retorno a la unidad en una nueva octava superior (1 + 0 = 1), cerrando el primer ciclo evolutivo de los arcanos iniciales para abrir las puertas a una comprensión transpersonal del destino.
   </historia>
 
   <!-- 2. SIGNIFICADO FUNDAMENTAL -->
   <significado_fundamental>
-    La Rueda de la Fortuna es el arquetipo de los ciclos de la vida, el destino en movimiento, las sincronicidades providenciales y el cambio inevitable. Nos recuerda la gran ley cósmica: todo fluye, todo sube y todo baja. Quien se identifica con los bordes de la rueda sufre con cada giro de la fortuna; quien se sitúa en el centro inmóvil de la rueda encuentra la serenidad que trasciende las circunstancias cambiantes del mundo exterior.
+    La Rueda de la Fortuna encarna la ley implacable de la impermanencia y el devenir cíclico que rige tanto los reinos de la naturaleza como los laberintos de la psique humana. Desde la perspectiva de la psicología analítica de Carl Gustav Jung, este arcano representa el momento en que el ego debe enfrentarse a la realidad del Inconsciente Colectivo y al principio de sincronicidad (aquellas coincidencias significativas que escapan al estrecho margen de la causalidad mecánica). Nos enseña que la madurez anímica exige rendir la ilusión de control absoluto sobre el mañana, aceptando que la vida se despliega en espirales de transformación donde cada pérdida es el preludio de una nueva cosecha.
   </significado_fundamental>
 
   <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
   <posicion_normal>
-    <resumen>Giro favorable del destino, golpes de suerte, cambios positivos, oportunidades inesperadas y nuevo ciclo vital.</resumen>
-    <amor>Encuentros fortuitos con fuerte sensación de destino. Giro positivo en la relación, superación de viejas etapas y aire fresco en el romance.</amor>
-    <dinero_trabajo>Ascensos sorpresivos, ganancias imprevistas, éxito en inversiones y apertura de nuevas puertas comerciales gracias a una sincronicidad afortunada.</dinero_trabajo>
-    <salud>Recuperación acelerada, mejora en los biorritmos del cuerpo y vitalidad renovada. Favorable para iniciar nuevos hábitos de vida.</salud>
-    <espiritualidad>Comprensión de las leyes del karma y de la sincronicidad. Darse cuenta de que los acontecimientos aparentemente aleatorios obedecen a un orden inteligente.</espiritualidad>
+    <resumen>Un giro favorable del destino, la llegada de oportunidades repentinas, el inicio de un ciclo de expansión y la superación armoniosa de etapas estancadas gracias a la sincronicidad.</resumen>
+    <amor>Acontecimientos inesperados que dinamizan la relación, encuentros sincrónicos predestinados, renovación del compromiso y capacidad de fluir con naturalidad ante los cambios del vínculo.</amor>
+    <dinero_trabajo>Golpes de suerte profesional, cambios favorables de rumbo laboral, apertura imprevista de nuevos mercados o proyectos que despegan con fuerza gracias a una excelente sincronización temporal.</dinero_trabajo>
+    <salud>Recuperación notable de la vitalidad, mejoría en procesos cíclicos o crónicos y una adaptación armónica a los ritmos naturales y estacionales del cuerpo.</salud>
+    <espiritualidad>Comprensión intuitiva de las leyes del karma y de los ciclos evolutivos del alma; apertura receptiva a las señales del destino y profunda paz ante la impermanencia del mundo.</espiritualidad>
   </posicion_normal>
 
   <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
   <posicion_invertida>
-    <resumen>Racha desfavorable temporal, resistencia inútil al cambio, mala suerte aparente o aferrarse a ciclos ya agotados.</resumen>
-    <palabras_clave_al_reves>Racha difícil, Resistencia al cambio, Repetición de patrones, Estancamiento, Mala suerte percibida</palabras_clave_al_reves>
-    <amor>Inestabilidad emocional, altibajos constantes en la pareja o dificultades para romper con dinámicas tóxicas que se repiten una y otra vez.</amor>
-    <dinero_trabajo>Gastos imprevistos, retrasos en pagos o inversiones que no dan el fruto esperado. No es momento para especulaciones arriesgadas.</dinero_trabajo>
-    <salud>Desequilibrios hormonales pasajeros, mareos o sensibilidad a los cambios estacionales. Necesidad de estabilidad emocional.</salud>
-    <espiritualidad>Sensación de impotencia ante el destino. Culpar a la mala suerte en lugar de asumir la responsabilidad de las propias decisiones pasadas.</espiritualidad>
-    <como_armonizar_desbloquear>Identifica qué lección no has aprendido para que el patrón deje de repetirse. Acepta lo que no puedes controlar.</como_armonizar_desbloquear>
+    <resumen>Rachas de mala suerte o contratiempos imprevistos, resistencia neurótica a aceptar el cambio, repetición de patrones kármicos dolorosos y sensación de impotencia ante las circunstancias externas.</resumen>
+    <palabras_clave_al_reves>Infortunio, estancamiento, resistencia, repetición, contratiempo.</palabras_clave_al_reves>
+    <amor>Dinámicas de pareja estancadas que se repiten como bucles destructivos, mala racha afectiva o resistencia terca a aceptar el final natural de un ciclo amoroso.</amor>
+    <dinero_trabajo>Pérdidas económicas por mala sincronización, proyectos que descarrilan por factores ajenos al control, inestabilidad laboral y temor paralizante ante los cambios del entorno.</dinero_trabajo>
+    <salud>Somatización del estrés generado por la resistencia al cambio, recaídas en dolencias cíclicas y fatiga crónica por intentar nadar contra la corriente del destino.</salud>
+    <espiritualidad>Fatalismo rígido que culpa a los astros o al destino de los propios errores, incapacidad para extraer aprendizajes de las crisis y desconexión absoluta del sentido evolutivo del dolor.</espiritualidad>
+    <como_armonizar_desbloquear>Soltar el control férreo sobre los acontecimientos, aceptar que el cambio es inevitable y observar con honestidad qué patrones repetitivos necesitas trascender para avanzar en tu espiral evolutiva.</como_armonizar_desbloquear>
   </posicion_invertida>
 
   <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
   <lo_que_lo_hace_unico>
-    Es una de las pocas cartas de los Arcanos Mayores donde no figura ningún ser humano en primer plano: solo entidades míticas (la Esfinge, Tifón, Hermanubis y los cuatro querubines leyendo los libros sagrados). A diferencia de La Justicia (que mide las causas y consecuencias humanas lógicas), La Rueda opera desde las leyes cósmicas universales que escapan al control del ego.
+    <resumen>
+      Es el único arquetipo de todo el mazo que representa un mecanismo cósmico en movimiento perpetuo, desprovisto de una figura humana central que intente dirigirlo, evidenciando el devenir impersonal de las leyes universales.
+    </resumen>
+    <comparativas>
+      <comparar carta="El Emperador">
+        Mientras El Emperador erige muros de piedra estáticos e intenta congelar el tiempo mediante leyes rígidas y fronteras inmutables para dominar el territorio, La Rueda de la Fortuna recuerda que todo imperio, estructura y muro está sujeto al curso implacable del tiempo y del cambio cíclico.
+      </comparar>
+      <comparar carta="El Mundo">
+        Frente a la quietud radiante, perfecta e integrada de El Mundo (el triunfo absoluto al final del gran viaje), La Rueda de la Fortuna representa el dinamismo incesante de los ciclos intermedios, el engranaje giratorio que impulsa al alma a través de múltiples giros de experiencia antes de alcanzar la plenitud.
+      </comparar>
+    </comparativas>
   </lo_que_lo_hace_unico>
 
   <!-- 6. CURIOSIDADES DEL ARCANO -->
   <curiosidades>
-    <item>Las letras en la rueda: Alternan las letras hebreas del Tetragrámaton (YHVH) con las latinas T-A-R-O, formando los anagramas TAROT, ROTA (rueda) y TORA (ley).</item>
-    <item>Los cuatro seres alados con libros: En las esquinas estudian los textos sagrados mientras la rueda gira, recordando que el conocimiento permanece mientras la materia cambia.</item>
-    <item>Hermanubis y Tifón: Hermanubis (figura roja con cabeza de chacal) sube por la derecha encarnando la evolución del alma, mientras la serpiente Tifón desciende por la izquierda encarnando la involución material.</item>
+    <item>Las letras inscriptas en los radios de la rueda forman de manera alterada la palabra latina TARO o ROTA, que leída en círculo junto con caracteres hebreos alude al misterio del Tetragramatón y al secreto del devenir temporal.</item>
+    <item>Su regencia astrológica bajo el planeta Júpiter la consagra tradicionalmente como la carta de la gran fortuna, la expansión de la conciencia y la providencia divina que abre puertas inesperadas en el camino.</item>
+    <item>En numerosas tradiciones herméticas, se considera que el centro inmóvil del eje de la rueda representa el punto de quietud espiritual (el Tao o el Ser) desde el cual el iniciado contempla la ilusión cambiante del mundo fenoménico.</item>
   </curiosidades>
 
   <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
   <consejo_y_reflexion>
-    <accion_inmediata>Súbete a la ola del cambio con flexibilidad. No te apegues a lo que se va; abraza lo nuevo que llega.</accion_inmediata>
-    <pregunta_para_ti>¿A qué ciclo viejo que ya cumplió su función te estás aferrando por miedo a cambiar?</pregunta_para_ti>
+    <accion_inmediata>Adapta tus velas al viento del cambio en lugar de resistirte a lo inevitable; aprovecha este momento de movimiento para reorientar tu rumbo con flexibilidad.</accion_inmediata>
+    <pregunta_para_ti>¿Qué ciclo doloroso estás intentando retener por miedo al vacío, impidiendo que la rueda de tu vida gire hacia una nueva y luminosa etapa?</pregunta_para_ti>
   </consejo_y_reflexion>
 
   <!-- 7. UNA HISTORIA INSPIRADA -->
   <historia_inspirada>
-    <titulo>El Eje del Gran Molino</titulo>
+    <titulo>El centro del eje inmóvil</titulo>
     <relato>
-      Un mendigo y un rey caminaban por el mismo sendero cuando una tormenta los obligó a refugiarse en un antiguo molino de viento abandonado. El rey lloraba amargamente porque había perdido su castillo en la guerra; el mendigo reía a carcajadas porque había encontrado un trozo de pan. En medio del silencio, el viejo molinero señaló el gran engranaje de madera que giraba empujado por el vendaval. —Fijaos en los dientes exteriores de la rueda —dijo el molinero—: ahora están en el barro, luego en la cima del cielo, y vuelven a caer. Si os aferráis a los dientes, siempre estaréis mareados de dicha o de pánico. Pero mirad el eje central de hierro: jamás sube ni baja, permanece en calma mientras sostiene todo el peso del mundo. Sed el eje, amigos míos, nunca los dientes.
+      En un valle surcado por un río de aguas rápidas, un anciano astrónomo pasaba las noches contemplando una gigantesca rueda de hierro y madera tallada que los antiguos habían erigido en el corazón del observatorio. La rueda giraba impulsada por un mecanismo invisible, elevando a unos hacia la cumbre iluminada por las estrellas y precipitando a otros hacia la sombra de la fosa inferior entre chirridos metálicos. Los mercaderes y nobles del reino acudían turbados ante el sabio, suplicándole que detuviera la rotación cuando la mala racha los abatía o que asegurara sus tronos en la cúspide para la eternidad. El anciano sonreía con indulgencia, señalándoles el centro exacto de la rueda, un perno de bronce pulido que permanecía en absoluta quietud mientras todo a su alrededor giraba vertiginosamente. «No busquéis detener la rueda ni maldecir al destino cuando os arroje al abismo, forasteros», resonó su voz solemne en la penumbra del templo. «La fortuna no es un favor caprichoso de los dioses, sino el latido inevitable de los ciclos. Quien se aferra al borde exterior de la rueda sufrirá el vértigo de la caída; mas quien aprende a fijar su conciencia en el centro inmóvil del eje descubre que, por muy violenta que sea la tormenta del mundo, su alma permanece siempre en paz, soberana y lista para renacer».
     </relato>
   </historia_inspirada>
 
