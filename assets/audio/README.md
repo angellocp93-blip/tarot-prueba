@@ -2,11 +2,14 @@
 
 Esta carpeta está preparada para alojar los archivos de audio (audiolibros, meditaciones guiadas o lecciones en audio) de cada una de las 78 cartas del Tarot.
 
+> [!TIP]
+> **Formatos compatibles:** La plataforma soporta nativamente archivos **`.wav`** y **`.mp3`** (así como `.m4a` y `.ogg`). Puedes subir cualquiera de las dos extensiones (`el-loco.wav` o `el-loco.mp3`) y el reproductor lo detectará y reproducirá automáticamente.
+
 ---
 
-## 📁 Nomenclatura Exacta de Archivos
+## 📁 Nomenclatura de Archivos (.wav o .mp3)
 
-Para que la plataforma reproduzca automáticamente el audio correspondiente a cada carta sin necesidad de configurar nada, nombra cada archivo con el `id` de la carta seguido de la extensión `.mp3`:
+Para que la plataforma reproduzca automáticamente el audio correspondiente a cada carta sin necesidad de configurar nada, nombra cada archivo con el `id` de la carta seguido de la extensión `.wav` o `.mp3`:
 
 ### 👑 Arcanos Mayores (22 archivos)
 - `el-loco.mp3` - 0. El Loco

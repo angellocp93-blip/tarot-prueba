@@ -77,15 +77,15 @@
         "como_armonizar_desbloquear": "Pisa tierra firme. Calcula riesgos reales sin matar tu entusiasmo, pero asegurando un suelo antes de lanzarte."
       },
       "unique_differentiator": {
-        "summary": "Es el único arcano de toda la baraja que posee el número Cero (0). Al no tener una posición fija en la secuencia numérica, puede colocarse tanto al inicio absoluto como al final supremo de los Arcanos Mayores. Camina sin ataduras ni posesiones, personificando el puente infinito entre la nada y el todo.",
+        "summary": "Es el único arcano de toda la baraja que posee el número Cero (0). Al no tener una posición fija en la secuencia numérica, puede colocarse tanto al inicio absoluto como al final supremo de los Arcanos Mayores.",
         "comparisons": [
           {
-            "card": "El Mago (I)",
-            "difference": "El Mago necesita concentrar su voluntad activa con las cuatro herramientas sobre su mesa de trabajo; El Loco camina ligero con solo un fardo diminuto confiando plenamente en lo que el camino le depare."
+            "card": "El Mago",
+            "difference": "Mientras El Mago necesita concentrar su voluntad consciente sobre las herramientas dispuestas en la mesa terrenal, El Loco camina sin posesiones ni estrategias preconcebidas, sostenido únicamente por la confianza en lo invisible."
           },
           {
-            "card": "El Juicio (XX)",
-            "difference": "El Juicio evalúa minuciosamente el pasado y las acciones vividas para otorgar la resurrección; El Loco se desprende de todo pasado sin juzgarlo, viviendo en un eterno presente virgen."
+            "card": "El Juicio",
+            "difference": "A diferencia de El Juicio, que evalúa minuciosamente el pasado y responde a un llamado de resurrección madura, El Loco no carga con memorias ni juicios previos: es el renacimiento perpetuo antes de cualquier evaluación."
           }
         ]
       },
@@ -98,9 +98,9 @@
         "relato": "En el Reino de la Constancia, todo estaba perfectamente medido. Las calles eran líneas rectas imperecederas, los ciudadanos despertaban a la misma hora y cada destino estaba escrito en pesados libros de mármol desde el día del nacimiento. En este reino vivía un joven llamado Zephyr.\nZephyr trabajaba en el Archivo de las Vidas Pasadas, ordenando los pergaminos de los ancestros. Un día, mientras soplaba el polvo de un tomo prohibido, un mapa cayó al suelo. No tenía nombres de ciudades, ni ríos, ni fronteras. Solo tenía un dibujo en el centro: una inmensa espiral dorada que nacía en el borde de un acantilado y se perdía en las nubes, acompañada de una sola palabra escrita con tinta plateada: \"VIVE\".\nEsa noche, mientras todo el reino dormía el sueño predecible de los justos, Zephyr sintió un latido frenético en su pecho. Miró sus ropas grises de archivero y las rasgó. En su lugar, cosió retazos de telas de colores que guardaba en un viejo baúl: hilos amarillos del sol, verdes de las hojas de otoño y rojos de los atardeceres. Ató un pedazo de pan y un viejo cuaderno en un palo de madera, y sin mirar atrás, abrió las puertas de la ciudad.\nUn pequeño perro callejero, blanco como la espuma del mar, lo vio cruzar el umbral y comenzó a ladrar de alegría, uniéndose a su caminata.\n—¿A dónde vamos, humano loco? —parecía preguntar el perro con sus saltos.\n—No tengo la menor idea —respondió Zephyr, riendo a carcajadas, un sonido que el reino no había escuchado en siglos—. Y eso es lo más hermoso que me ha pasado jamás.\nCaminaron durante días hacia las Montañas del Olvido. A medida que subían, el aire se volvía más puro y el sol más brillante. Zephyr no sentía el cansancio. Encontró una rosa blanca en el camino y la tomó entre sus dedos; su aroma le recordaba que cada segundo era un nacimiento nuevo. El peso del pasado se había evaporado de sus hombros.\nFinalmente, llegaron a la cima del mundo. El sendero se cortaba abruptamente. Abajo, no había rocas, sino un mar espeso de niebla blanca y destellos de luces de colores que danzaban como estrellas atrapadas. Era el Vacío Primordial.\nEl perro blanco tiró de su túnica colorida, lanzando un gemido de advertencia. Zephyr miró hacia abajo. Cualquiera habría visto la muerte, pero él vio un lienzo esperando a ser pintado. Miró al cielo, cerró los ojos, estiró los brazos como si fuera un ave a punto de migrar y sonrió con la pureza de quien no conoce el miedo.\nEl viento sopló con fuerza, impulsándolo. Zephyr levantó el pie y dio el paso hacia el vacío.\nEn el Reino de la Constancia dijeron que se había vuelto loco y que había caído al abismo. Pero en el instante en que el pie de Zephyr tocó el aire, la niebla se transformó en un camino de luz sólida. No cayó; comenzó a volar, iniciando la aventura más grande que el universo jamás hubiera presenciado."
       },
       "audio": {
-        "archivo": "assets/audio/el-loco.mp3",
+        "archivo": "assets/audio/el-loco.wav",
         "titulo": "El Loco - El Salto al Vacío Sagrado",
-        "duracion_estimada": "4:30 min"
+        "duracion_estimada": "14:59 min"
       }
     },
     {
@@ -110,85 +110,101 @@
       "roman": "I",
       "type": "Arcano Mayor",
       "suit": null,
-      "element": "Aire",
+      "element": "Aire (asociado a Mercurio)",
       "astrology": "Mercurio",
       "keywords": [
-        "Poder personal",
-        "Manifestación",
-        "Recursos",
-        "Enfoque",
-        "Acción consciente"
+        "Voluntad",
+        "concentración",
+        "potencial",
+        "alquimia",
+        "iniciación."
       ],
-      "essence": "Tienes todas las herramientas necesarias sobre tu mesa. Canaliza la energía divina para transformar tu realidad aquí y ahora.",
-      "meaning_upright": "Poder de manifestación, maestría de recursos, elocuencia, claridad mental e iniciativa arrolladora.",
+      "essence": "La manifestación consciente de la voluntad y el puente inquebrantable entre el mundo sutil de las ideas y la densidad de la materia.",
+      "meaning_upright": "Un momento cumbre de alto potencial creativo, claridad mental meridiana y capacidad soberana para materializar proyectos mediante la concentración y el uso experto de los recursos disponibles.",
       "symbols": [
         {
-          "name": "Brazo arriba y brazo abajo",
-          "desc": "'Como es arriba, es abajo': canalización del poder espiritual a la materia."
+          "name": "El lemniscata (símbolo del infinito)",
+          "desc": "El flujo eterno de energía que danza sin fricción entre el plano consciente y el inconsciente, representando la eternidad del espíritu manifestándose en los confines del tiempo."
         },
         {
-          "name": "Lemniscata (infinito)",
-          "desc": "Potencial infinito de la mente y conexión constante con la sabiduría universal."
+          "name": "La mesa con los cuatro elementos",
+          "desc": "Bastos, copas, espadas y oros dispuestos sobre el altar terrenal; simbolizan el dominio soberano sobre los cuatro planos de la experiencia humana (fuego, agua, aire y tierra)."
         },
         {
-          "name": "4 Elementos en la mesa",
-          "desc": "Voluntad (Bastos), Amor (Copas), Intelecto (Espadas) y Materia (Oros)."
+          "name": "La varita al cielo y la mano a la tierra",
+          "desc": "La encarnación viva del axioma hermético «como es arriba, es abajo»; el Mago como canalizador vertical que desciende la energía cósmica para plasmarla en la realidad fenoménica."
         },
         {
-          "name": "Rosas rojas y lirios blancos",
-          "desc": "Equilibrio armónico entre la pasión terrenal y la pureza de intención."
+          "name": "Las rosas rojas y los lirios blancos",
+          "desc": "La síntesis alquímica de los opuestos: la pasión vital, el deseo y la sangre (rojo) purificados y equilibrados por la claridad mental y espiritual (blanco)."
+        },
+        {
+          "name": "El óroboros (cinturón de serpiente)",
+          "desc": "El ciclo eterno del renacimiento, la sabiduría ancestral y el dominio de los instintos primordiales e inconscientes al servicio exclusivo de la voluntad creativa del Yo."
         }
       ],
-      "light_side": "Maestría personal, resolución rápida de problemas, carisma comunicativo y autoconfianza creadora.",
-      "shadow_side": "Manipulación psicológica, charlatanería, arrogancia, promesas vacías y uso egoísta del intelecto.",
-      "love": "Atracción magnética, conquista comunicativa y chispa seductora. Se inicia una etapa donde ambas partes tienen el poder de moldear la relación hacia un nuevo nivel de entendimiento y pasión.",
-      "work": "Capacidad resolutiva para convertir ideas en negocios rentables. Momento óptimo para lanzar proyectos, liderar equipos o negociar contratos ventajosos con astucia e inteligencia.",
-      "spirituality": "Consciencia de ser cocreador de la propia realidad. Conexión de la intención interna con la acción externa a través del alineamiento de pensamientos y palabras.",
-      "advice": "Actúa ya. Tienes el conocimiento y los medios para lograr lo que te propones; pon tu voluntad en marcha.",
-      "reflection_question": "¿Qué talento o recurso disponible tienes frente a ti que no estás aprovechando?",
+      "light_side": "Dominio lúcido de los recursos internos y externos, claridad mental inquebrantable, enfoque absoluto, capacidad de manifestación y alineación perfecta entre el deseo y la acción.",
+      "shadow_side": "Manipulación sutil, ilusión vacua, charlatanería, dispersión del talento, ego inflado que cree controlar los misterios superiores sin haber integrado la sombra.",
+      "love": "Iniciación de vínculos basados en una fascinante atracción magnética y una comunicación transparente; madurez para dialogar constructivamente y disipar cualquier malentendido.",
+      "work": "Liderazgo natural, puesta en marcha de emprendimientos audaces, destreza técnica excepcional, dominio absoluto de un oficio y habilidad comercial para cerrar acuerdos altamente ventajosos.",
+      "spirituality": "Toma de conciencia profunda del poder creador de la propia mente; perfecta alineación entre los altos propósitos del alma y las acciones cotidianas (la magia entendida como el arte consciente de vivir).",
+      "advice": "Identifica un talento o recurso que ya posees y ponlo en práctica de inmediato para resolver un asunto que habías postergado por falsas inseguridades.",
+      "reflection_question": "¿Estás utilizando tu poder creativo para manifestar tu verdad más elevada, o te estás distraído seduciendo a los demás con espejismos y promesas vacías?",
       "reversed": {
         "keywords": [
           "Manipulación",
-          "Dispersión",
-          "Talento bloqueado",
-          "Engaño",
-          "Inseguridad"
+          "estafa",
+          "dispersión",
+          "impotencia",
+          "talento desperdiciado."
         ],
-        "meaning": "Manipulación, engaño, uso egoísta de talentos, dispersión o bloqueo de la propia capacidad creadora.",
-        "how_to_heal": "Enfoca tu mente en un solo objetivo claro y verifica que tus intenciones sean transparentes y éticas."
+        "meaning": "Bloqueo energético severo provocado por la dispersión mental, el uso manipulador o egocéntrico de la inteligencia, o una profunda desconexión entre lo que se planea y lo que realmente se ejecuta.",
+        "how_to_heal": "Simplificar el foco mental, comprometerse con una sola tarea a la vez hasta concluirla y realinear la ambición personal bajo los estrictos principios de la ética y el servicio al bien mayor."
       },
       "img": "assets/cards/el-mago.webp",
-      "history": "En las barajas del siglo XV (Tarocchi di Mantegna y Visconti-Sforza), El Mago era 'Il Bagatto', un feriante o titiritero callejero que entretenía al público con trucos de prestidigitación. Con el ocultismo del siglo XVIII (Court de Gébelin y Éliphas Lévi), la figura se transformó en el Hermes Trismegisto del hermetismo. En la versión Rider-Waite-Smith, Pamela Colman Smith lo corona con el símbolo del infinito (lemniscata) y coloca sobre su mesa los cuatro símbolos de los palos (vara, copa, espada y pentáculo), haciéndolo el maestro de los cuatro elementos alquímicos y el puente consciente entre el cielo y la tierra.",
-      "fundamental_meaning": "El Mago es el arquetipo de la voluntad activa, la manifestación consciente y el poder creador. Si El Loco es la energía potencial no dirigida, El Mago es el rayo enfocado en un objetivo claro. Representa el axioma hermético 'Como es arriba, es abajo': su brazo derecho apunta al cosmos y el izquierdo a la tierra, canalizando la energía divina para materializar realidades concretas en el plano físico.",
+      "history": "Evolucionando desde la figura medieval del titiritero o charlatán de feria en los naipes primitivos de tipo Visconti-Sforza hasta el adepto hermético del Renacimiento reinterpretado por el ocultismo decimonónico de Etteilla, Eliphas Levi y la Orden Hermética del Alba Dorada (Golden Dawn), El Mago representa la transición definitiva del Caos al Cosmos. Numéricamente, el Uno es la mónada, el punto de origen absoluto que surge tras la potencialidad pura y vacía del cero (El Loco). Históricamente, este arcano encapsula la secularización del poder divino en la voluntad del ser humano, marcando el nacimiento del ego consciente capaz de operar conscientemente sobre las leyes de la naturaleza.",
+      "fundamental_meaning": "El Mago encarna la emergencia del ego consciente y la fuerza germinal de la voluntad en el gran teatro de la existencia. Desde la perspectiva de la psicología analítica de Carl Gustav Jung, representa la función heroica del Yo que, habiendo emergido del útero indiferenciado del inconsciente colectivo, toma conciencia de las herramientas de su psique. Comprende que posee todo lo necesario sobre su altar interior para iniciar la gran obra de la individuación. No es el creador absoluto del universo, sino el mediador lúcido y responsable que transforma el potencial abstracto en actos concretos mediante el fuego sagrado de la concentración y la intención pura.",
       "normal_position": {
-        "resumen": "Poder de manifestación, maestría de recursos, elocuencia, claridad mental e iniciativa arrolladora.",
-        "amor": "Atracción magnética, conquista comunicativa y chispa seductora. Se inicia una etapa donde ambas partes tienen el poder de moldear la relación hacia un nuevo nivel de entendimiento y pasión.",
-        "dinero_trabajo": "Capacidad resolutiva para convertir ideas en negocios rentables. Momento óptimo para lanzar proyectos, liderar equipos o negociar contratos ventajosos con astucia e inteligencia.",
-        "salud": "Fuerza vital enérgica, excelente coordinación y mente ágil. Recuperación rápida de molestias físicas gracias a una actitud proactiva y hábitos equilibrados.",
-        "espiritualidad": "Consciencia de ser cocreador de la propia realidad. Conexión de la intención interna con la acción externa a través del alineamiento de pensamientos y palabras."
+        "resumen": "Un momento cumbre de alto potencial creativo, claridad mental meridiana y capacidad soberana para materializar proyectos mediante la concentración y el uso experto de los recursos disponibles.",
+        "amor": "Iniciación de vínculos basados en una fascinante atracción magnética y una comunicación transparente; madurez para dialogar constructivamente y disipar cualquier malentendido.",
+        "dinero_trabajo": "Liderazgo natural, puesta en marcha de emprendimientos audaces, destreza técnica excepcional, dominio absoluto de un oficio y habilidad comercial para cerrar acuerdos altamente ventajosos.",
+        "salud": "Vitalidad radiante, agilidad mental sobresaliente y una rápida recuperación física impulsada por una actitud plenamente activa y consciente sobre el propio bienestar.",
+        "espiritualidad": "Toma de conciencia profunda del poder creador de la propia mente; perfecta alineación entre los altos propósitos del alma y las acciones cotidianas (la magia entendida como el arte consciente de vivir)."
       },
       "reversed_position": {
-        "resumen": "Manipulación, engaño, uso egoísta de talentos, dispersión o bloqueo de la propia capacidad creadora.",
-        "amor": "Juegos psicológicos, falsas promesas o encanto superficial que oculta intenciones egocéntricas. Inseguridad encubierta con arrogancia.",
-        "dinero_trabajo": "Proyectos que se quedan en palabras y nunca se ejecutan. Riesgo de estafas, charlatanería o venta de humo. Falta de ética en negociaciones.",
-        "salud": "Agotamiento mental por sobrepensar. Dolores de cabeza, tensión nerviosa o mal uso de la energía física por dispersión constante.",
-        "espiritualidad": "Ego espiritual desmedido. Creerse superior a los demás por conocimientos esotéricos o utilizar la energía para someter voluntades ajenas.",
-        "como_armonizar_desbloquear": "Enfoca tu mente en un solo objetivo claro y verifica que tus intenciones sean transparentes y éticas."
+        "resumen": "Bloqueo energético severo provocado por la dispersión mental, el uso manipulador o egocéntrico de la inteligencia, o una profunda desconexión entre lo que se planea y lo que realmente se ejecuta.",
+        "amor": "Juegos psicológicos perversos, manipulación emocional, insinceridad crónica o incapacidad absoluta para comprometerse afectivamente más allá de la seducción superficial.",
+        "dinero_trabajo": "Proyectos fraudulentos, riesgo de estafas, falta de rigor técnico, caos operativo o una frustrante sensación de inmovilidad a pesar de poseer grandes ideas en potencia.",
+        "salud": "Agotamiento psíquico por rumiación mental excesiva (sobreanalizar cada detalle), somatización de la ansiedad y ruptura del puente de unión entre el cuerpo y la mente.",
+        "espiritualidad": "Uso inflado y mesiánico de la espiritualidad (creerse un gurú infalible), flirteo con prácticas de control ajeno o imposición arrogante de la propia voluntad sobre el libre albedrío de los demás.",
+        "como_armonizar_desbloquear": "Simplificar el foco mental, comprometerse con una sola tarea a la vez hasta concluirla y realinear la ambición personal bajo los estrictos principios de la ética y el servicio al bien mayor."
       },
-      "unique_differentiator": "Es el único arcano mayor que posee sobre su mesa de trabajo las cuatro herramientas sagradas del Tarot (la Vara del Fuego, la Copa del Agua, la Espada del Aire y el Oromiel de la Tierra) listas para ser usadas. A diferencia de La Sacerdotisa (que custodia el misterio en silencio e introspección), El Mago actúa en el mundo exterior, demostrando que todo lo que necesitamos para triunfar ya está a nuestro alcance.",
+      "unique_differentiator": {
+        "summary": "Es la única carta de todo el mazo que exhibe de manera simultánea y abierta sobre su mesa los cuatro elementos menores, proclamando que en su interior late ya la totalidad del viaje evolutivo subsiguiente.",
+        "comparisons": [
+          {
+            "card": "El Loco",
+            "difference": "Mientras El Loco representa el potencial puro, instintivo y carente de dirección que salta al abismo sostenido únicamente por la gracia divina, El Mago ya ha pisado tierra firme, ha abierto los ojos con lucidez y ha tomado las riendas de sus herramientas con plena responsabilidad operativa."
+          },
+          {
+            "card": "La Sacerdotisa",
+            "difference": "Frente a la pasividad receptiva, intuitiva y velada de La Sacerdotisa, que custodia los arcanos en el silencio del santuario interior, El Mago es la acción exteriorizada, el verbo hecho carne y la proyección activa de la luz hacia la manifestación material."
+          }
+        ]
+      },
       "curiosities": [
-        "La lemniscata infinita: La figura en ocho sobre su cabeza representa la eternidad del pensamiento y el flujo continuo de la consciencia divina.",
-        "El cinturón de ouroboros: La serpiente que se muerde la cola en su cintura simboliza la autorrenovación infinita y la protección hermética de su energía vital.",
-        "Las flores rojas y blancas: Las rosas rojas a sus pies encarnan el deseo y la pasión humana, mientras los lirios blancos representan el pensamiento puro y la sabiduría."
+        "En las matrices tradicionales del Tarot de Marsella, la mesa del Mago se muestra deliberadamente con tres patas visibles, un detalle críptico que ha alimentado siglos de especulación esotérica en torno a la pata oculta, símbolo de la dimensión invisible o el arcano inescrutable de la materia.",
+        "Su asociación tradicional con el planeta Mercurio (y con su equivalente mítico y hermético, Hermes Trismegisto) lo consagra como el patrono arquetípico de los alquimistas, traductores, artífices y magos ceremoniales que buscan tender puentes entre mundos distantes.",
+        "En la exégesis cabalística del árbol de la vida, El Mago sella el sendero que une la esfera de Kether (la Corona divina) con Tiphereth o Binah, vehiculado a través de la letra hebrea Beth, cuyo significado literal es «casa» o «morada del espíritu»."
       ],
       "inspired_story": {
-        "titulo": "El Aprendiz de las Cuatro Aguas",
-        "relato": "En el taller del Valle de Hermes, el maestro no enseñaba con palabras, sino señalando la mesa de piedra vacía. 'El mundo no te dará nada que no te atrevas a nombrar', le dijo al joven artesano. El muchacho tomó una rama de roble y sintió el fuego de su vocación; tomó una vasija de barro y sintió el torrente de sus emociones; forjó una hoja de plata y afiló su razón; y recogió un puñado de tierra fértil para sembrar su sustento. Cuando alzó su diestra hacia la estrella del alba y posó la izquierda sobre la arcilla húmeda, la mesa se iluminó: había comprendido que los milagros no caen del cielo, sino que se tejen con las manos de quien sabe unir su voluntad al universo."
+        "titulo": "El alquimista del umbral",
+        "relato": "En las colinas desoladas donde el viento esculpía la roca viva habitaba un joven que guardaba sobre su mesa rústica fragmentos de vidrio soplado, plumas de halcón gris, un cuenco de cerámica con agua de manantial y brasas siempre vivas. Los aldeanos lo contemplaban con recelo y lo llamaban ilusionista, creyendo que su afán era convertir el plomo vil en oro puro para saciar una codicia secreta. Mas el joven jamás miraba el metal con avaricia, sino con la paciencia devota de un cirujano del alma. Una tarde de otoño, un viajero anciano de túnica gastada se le acercó y le preguntó con sorna qué baratijas vendía en aquel páramo. El joven levantó con parsimonia el brazo derecho hacia el firmamento, donde la primera estrella comenzaba a titilar, y con la otra mano señaló las brasas encendidas de su hogar. «No comercio con espejismos, forastero», respondió con voz firme y serena. «Experimento el milagro cotidiano de unir lo invisible con lo tangible. Cada pensamiento consciente es un cincel; cada herramienta sobre esta mesa, un estado de mi propia conciencia. Si mi mente vacila, el oro de mi obra se convierte en ceniza; si mi voluntad es pura e íntegra, el mundo entero se transforma en templo». El viajero guardó un profundo silencio, comprendiendo al fin que la verdadera magia no residía en los trucos de feria de la ilusión, sino en el dominio soberano sobre el propio fuego interior."
       },
       "audio": {
-        "archivo": "assets/audio/el-mago.mp3",
-        "titulo": "El Mago - La Alquimia de la Voluntad",
-        "duracion_estimada": "4:15 min"
+        "archivo": "assets/audio/el-mago.wav",
+        "titulo": "El Mago - La Voluntad Creadora y la Alquimia Mental",
+        "duracion_estimada": "5:00 min"
       }
     },
     {

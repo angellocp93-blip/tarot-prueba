@@ -852,10 +852,42 @@
     const storyText = card.inspired_story?.relato || '';
     const storyParas = storyText.split('\n').filter(p => p.trim().length > 0).map(p => `<p>${p.trim()}</p>`).join('');
 
-    // Audio path
+    // Helper para determinar MIME type según extensión (.wav, .mp3, .m4a, .ogg)
+    function getMimeType(path) {
+      if (!path) return 'audio/mpeg';
+      const p = path.toLowerCase().split('?')[0];
+      if (p.endsWith('.wav')) return 'audio/wav';
+      if (p.endsWith('.mp3')) return 'audio/mpeg';
+      if (p.endsWith('.m4a') || p.endsWith('.mp4') || p.endsWith('.aac')) return 'audio/mp4';
+      if (p.endsWith('.ogg')) return 'audio/ogg';
+      if (p.endsWith('.webm')) return 'audio/webm';
+      return 'audio/mpeg';
+    }
+
+    // Audio path y soporte multiformato (.wav, .mp3, etc.)
     const audioSrc = card.audio?.archivo || `assets/audio/${card.id}.mp3`;
     const audioTitle = card.audio?.titulo || `${card.name} - Audiolibro y Meditación Guiada`;
     const audioDuration = card.audio?.duracion_estimada || '4:00 min';
+
+    // Generar fuentes con fallback automático para WAV y MP3
+    const possibleSources = [];
+    if (card.audio?.archivo) {
+      possibleSources.push({ src: card.audio.archivo, type: getMimeType(card.audio.archivo) });
+    }
+    const defaultSources = [
+      { src: `assets/audio/${card.id}.wav`, type: 'audio/wav' },
+      { src: `assets/audio/${card.id}.mp3`, type: 'audio/mpeg' },
+      { src: `assets/audio/${card.id}.mp3.wav`, type: 'audio/wav' },
+      { src: `assets/audio/${card.id}.m4a`, type: 'audio/mp4' }
+    ];
+    defaultSources.forEach(s => {
+      if (!possibleSources.some(p => p.src.toLowerCase() === s.src.toLowerCase())) {
+        possibleSources.push(s);
+      }
+    });
+    const sourcesHtml = possibleSources
+      .map(s => `<source src="${s.src}" type="${s.type}">`)
+      .join('\n          ');
 
     // Formatear 5. Lo que lo hace único y Comparativas frente a similares
     let uniqueHtml = '';
@@ -913,7 +945,7 @@
         </div>
 
         <audio id="card-audio-element" preload="metadata">
-          <source src="${audioSrc}" type="audio/mpeg">
+          ${sourcesHtml}
           Tu navegador no soporta el reproductor de audio.
         </audio>
 
@@ -1157,7 +1189,7 @@
       audioEl.addEventListener('error', () => {
         if (statusBanner) {
           statusBanner.style.display = 'flex';
-          statusBanner.innerHTML = `<span>ℹ️</span> <span>Audiolibro listo en la plataforma: sube <code>${audioSrc}</code> para escucharlo aquí.</span>`;
+          statusBanner.innerHTML = `<span>ℹ️</span> <span>Audiolibro listo: coloca <code>${card.id}.wav</code> o <code>${card.id}.mp3</code> en <code>assets/audio/</code> para reproducirlo aquí.</span>`;
         }
       });
 
@@ -1174,9 +1206,9 @@
               // Audio file not yet added to repo
               if (statusBanner) {
                 statusBanner.style.display = 'flex';
-                statusBanner.innerHTML = `<span>🎧</span> <span>Audiolibro en espera: agrega el archivo <b>${audioSrc}</b> en GitHub para reproducir.</span>`;
+                statusBanner.innerHTML = `<span>🎧</span> <span>Audiolibro en espera: agrega <b>${card.id}.wav</b> o <b>${card.id}.mp3</b> en <code>assets/audio/</code> en GitHub para reproducir.</span>`;
               }
-              showToast('🎧', `Audiolibro en espera: agrega ${audioSrc}`);
+              showToast('🎧', `Audiolibro en espera: agrega ${card.id}.wav o .mp3`);
             });
           }
         } else {

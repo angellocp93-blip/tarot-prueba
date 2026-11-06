@@ -74,14 +74,14 @@
   <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
   <lo_que_lo_hace_unico>
     <resumen>
-      Es el único arcano de toda la baraja que posee el número Cero (0). Al no tener una posición fija en la secuencia numérica, puede colocarse tanto al inicio absoluto como al final supremo de los Arcanos Mayores. Camina sin ataduras ni posesiones, personificando el puente infinito entre la nada y el todo.
+      Es el único arcano de toda la baraja que posee el número Cero (0). Al no tener una posición fija en la secuencia numérica, puede colocarse tanto al inicio absoluto como al final supremo de los Arcanos Mayores.
     </resumen>
     <comparativas>
-      <comparar carta="El Mago (I)">
-        El Mago necesita concentrar su voluntad activa con las cuatro herramientas sobre su mesa de trabajo; El Loco camina ligero con solo un fardo diminuto confiando plenamente en lo que el camino le depare.
+      <comparar carta="El Mago">
+        Mientras El Mago necesita concentrar su voluntad consciente sobre las herramientas dispuestas en la mesa terrenal, El Loco camina sin posesiones ni estrategias preconcebidas, sostenido únicamente por la confianza en lo invisible.
       </comparar>
-      <comparar carta="El Juicio (XX)">
-        El Juicio evalúa minuciosamente el pasado y las acciones vividas para otorgar la resurrección; El Loco se desprende de todo pasado sin juzgarlo, viviendo en un eterno presente virgen.
+      <comparar carta="El Juicio">
+        A diferencia de El Juicio, que evalúa minuciosamente el pasado y responde a un llamado de resurrección madura, El Loco no carga con memorias ni juicios previos: es el renacimiento perpetuo antes de cualquier evaluación.
       </comparar>
     </comparativas>
   </lo_que_lo_hace_unico>
@@ -118,8 +118,8 @@ En el Reino de la Constancia dijeron que se había vuelto loco y que había caí
 
   <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
   <audio>
-    <archivo>assets/audio/el-loco.mp3</archivo>
+    <archivo>assets/audio/el-loco.wav</archivo>
     <titulo>El Loco - El Salto al Vacío Sagrado</titulo>
-    <duracion_estimada>4:30 min</duracion_estimada>
+    <duracion_estimada>14:59 min</duracion_estimada>
   </audio>
 </arcano>
