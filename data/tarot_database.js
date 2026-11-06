@@ -99,11 +99,11 @@ window.TAROT_DB = {
         "relato": "Caminaba por los riscos más altos del reino portando únicamente una túnica desgarrada por los zarzales y un hatillo tan pequeño que cabía en la palma de la mano. Los sabios de las ciudades amuralladas lo contemplaban desde sus torres de piedra y exclamaban compungidos: «¡Mirad al insensato! No tiene mapa, ignora las leyes del comercio y camina directo hacia el gran abismo donde rugen las brumas». El peregrino, sin embargo, escuchaba una música sutil que brotaba del fondo del precipicio, una melodía antigua que prometía la aurora. Un cachorro blanco de orejas caídas corría a su lado, mordisqueando a veces el borde de su capa como rogándole prudencia. Al llegar exactamente al borde del despeñadero, allí donde la tierra terminaba y sólo quedaba el cielo abierto y el sol estallando en el cénit, el peregrino no detuvo su marcha ni titubeó. Dio el paso definitivo al vacío. En el instante en que sus pies suspendieron el peso sobre la nada, las brumas se disiparon y comprendió que el abismo no era una caída hacia la muerte, sino el gran vientre del universo que lo invitaba, por fin, a volar."
       },
       "audio": {
-        "archivo": "assets\\audio\\01_el_mago.wav",
+        "archivo": "assets/audio/00_el_loco.wav",
         "titulo": "El Loco - El Salto al Vacío Sagrado",
-        "duracion_estimada": "9:05 min",
-        "duracion_calculada": "9:05 min",
-        "duracion_segundos": 545,
+        "duracion_estimada": "10:10 min",
+        "duracion_calculada": "10:10 min",
+        "duracion_segundos": 610,
         "capitulos": [
           {
             "time": "0:00",
@@ -365,7 +365,7 @@ window.TAROT_DB = {
         "relato": "En lo más profundo de un valle donde los arroyos corrían bajo planchas de hielo transparente vivía una mujer que jamás pronunciaba palabra alguna ante los peregrinos que acudían a consultarla. Se sentaba inmóvil entre dos columnas de basalto oscuro, con un pesado rollo de pergamino cerrado sobre su regazo y una diadema de plata donde la luna parecía prisionera. Los hombres y mujeres de las ciudades llegaban agitando las manos, suplicando respuestas rápidas sobre sus guerras, sus amores y sus monedas. La Sacerdotisa se limitaba a mirarlos con unos ojos tan limpios y profundos como un estanque nocturno, sin emitir veredicto ni consejo apresurado. Desconcertados, muchos se marchaban creyendo que su silencio era desdén. Sin embargo, aquellos que sabían aguardar sentados en el umbral, respetando el curso del crepúsculo, experimentaban de pronto un sutil destello en su interior: las respuestas que buscaban afuera florecían con nitidez cristalina en el fondo de su propia conciencia. Comprendían entonces que la guardiana del templo no ocultaba los misterios por egoísmo, sino porque ninguna revelación externa posee valor si no brota primero del manantial sagrado del alma que ha aprendido a callar."
       },
       "audio": {
-        "archivo": "assets\\audio\\02_la_sacerdotisa.wav",
+        "archivo": "assets/audio/02_la_sacerdotisa.wav",
         "titulo": "La Sacerdotisa - Los Secretos del Agua Silenciosa",
         "duracion_estimada": "4:40 min",
         "duracion_calculada": "10:17 min",
@@ -472,7 +472,7 @@ window.TAROT_DB = {
         "relato": "En un valle donde la tierra antaño había sido de piedra estéril y polvo gris, vivía una mujer coronada de estrellas que caminaba descalza sobre los surcos recién abiertos. Los mercaderes que cruzaban el páramo la miraban con extrañeza, pues no portaba armas ni dictaba decretos desde ningún trono de mármol. Ella se limitaba a depositar semillas en la grieta de los riscos, a cantar a los manantiales ocultos y a regar con agua de lluvia las raíces sedientas. Un día, un príncipe acorazado en hierro brillante se detuvo ante ella y le exigió saber bajo qué autoridad transformaba el desierto en un vergel tan exuberante. La Emperatriz sonrió, rozando con sus dedos un rosal silvestre que estalló en pétalos encendidos, y respondió con voz suave: «No hay más autoridad que la vida misma cuando se le permite manifestarse sin miedo. Tu ley esculpe la piedra con espadas; mi ley despierta la espiga con paciencia y amor. Quien aprende a nutrir la tierra de su propia alma descubre que el reino entero florece a sus pies». El príncipe, sintiendo el peso inútil de su armadura, comprendió entonces que la verdadera soberanía no consistía en someter el mundo, sino en amar su infinita capacidad de dar a luz."
       },
       "audio": {
-        "archivo": "assets\\audio\\03_la_emperatriz.wav",
+        "archivo": "assets/audio/03_la_emperatriz.wav",
         "titulo": "La Emperatriz - El Huerto Sagrado de la Vida",
         "duracion_estimada": "4:20 min",
         "duracion_calculada": "10:12 min",

@@ -43,12 +43,26 @@ def probe_audio_duration(card_id, explicit_path=""):
     candidates = []
     if explicit_path:
         candidates.append(explicit_path)
+        candidates.append(explicit_path.replace('\\', '/'))
+        candidates.append(explicit_path.replace('/', '\\'))
+    
+    audio_dir = os.path.join("assets", "audio")
+    id_clean = card_id.lower().replace('_', '-')
+    id_under = card_id.lower().replace('-', '_')
+
     candidates.extend([
-        os.path.join("assets", "audio", f"{card_id}.wav"),
-        os.path.join("assets", "audio", f"{card_id}.mp3"),
-        os.path.join("assets", "audio", f"{card_id}.mp3.wav"),
-        os.path.join("assets", "audio", f"{card_id}.m4a"),
+        os.path.join(audio_dir, f"{card_id}.wav"),
+        os.path.join(audio_dir, f"{card_id}.mp3"),
+        os.path.join(audio_dir, f"{id_under}.wav"),
+        os.path.join(audio_dir, f"{id_under}.mp3"),
     ])
+
+    # Búsqueda automática en assets/audio/ de archivos que coincidan (ej. 00_el_loco.wav)
+    if os.path.isdir(audio_dir):
+        for fname in os.listdir(audio_dir):
+            low = fname.lower().replace('-', '_')
+            if id_under in low:
+                candidates.append(os.path.join(audio_dir, fname))
     
     for c_path in candidates:
         if not os.path.isfile(c_path):
@@ -265,7 +279,7 @@ def sync():
                 # Audio & Chapters (con cálculo automático de duración)
                 audio_node = root.find("audio")
                 if audio_node is not None:
-                    audio_file = get_tag_text(audio_node, "archivo", f"assets/audio/{card_id}.mp3")
+                    audio_file = get_tag_text(audio_node, "archivo", f"assets/audio/{card_id}.mp3").replace('\\', '/')
                     audio_title = get_tag_text(audio_node, "titulo", f"{card['name']} - Audiolibro")
                     est_duration = get_tag_text(audio_node, "duracion_estimada", "")
                     

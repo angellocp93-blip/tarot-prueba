@@ -876,22 +876,33 @@
       return 'audio/mpeg';
     }
 
-    // Audio path y soporte multiformato (.wav, .mp3, etc.)
-    const audioSrc = card.audio?.archivo || `assets/audio/${card.id}.mp3`;
+    // Audio path y soporte multiformato (.wav, .mp3, etc.) con normalización de rutas Windows
+    const rawAudioPath = (card.audio?.archivo || '').replace(/\\/g, '/');
+    const audioSrc = rawAudioPath || `assets/audio/${card.id}.mp3`;
     const audioTitle = card.audio?.titulo || `${card.name} - Audiolibro y Meditación Guiada`;
     const audioDuration = card.audio?.duracion_estimada || '4:00 min';
 
-    // Generar fuentes con fallback automático para WAV y MP3
+    // Generar fuentes con fallback automático para WAV, MP3 y archivos con prefijos numéricos (ej. 00_el_loco.wav)
     const possibleSources = [];
-    if (card.audio?.archivo) {
-      possibleSources.push({ src: card.audio.archivo, type: getMimeType(card.audio.archivo) });
+    if (audioSrc) {
+      possibleSources.push({ src: audioSrc, type: getMimeType(audioSrc) });
     }
+    const cleanId = card.id.replace(/-/g, '_');
     const defaultSources = [
       { src: `assets/audio/${card.id}.wav`, type: 'audio/wav' },
       { src: `assets/audio/${card.id}.mp3`, type: 'audio/mpeg' },
-      { src: `assets/audio/${card.id}.mp3.wav`, type: 'audio/wav' },
-      { src: `assets/audio/${card.id}.m4a`, type: 'audio/mp4' }
+      { src: `assets/audio/${cleanId}.wav`, type: 'audio/wav' },
+      { src: `assets/audio/${cleanId}.mp3`, type: 'audio/mpeg' },
+      { src: `assets/audio/00_${cleanId}.wav`, type: 'audio/wav' },
+      { src: `assets/audio/01_${cleanId}.wav`, type: 'audio/wav' },
+      { src: `assets/audio/02_${cleanId}.wav`, type: 'audio/wav' },
+      { src: `assets/audio/03_${cleanId}.wav`, type: 'audio/wav' },
     ];
+    if (typeof card.number === 'number' || (typeof card.number === 'string' && !isNaN(parseInt(card.number)))) {
+      const numPad = String(parseInt(card.number)).padStart(2, '0');
+      defaultSources.push({ src: `assets/audio/${numPad}_${cleanId}.wav`, type: 'audio/wav' });
+      defaultSources.push({ src: `assets/audio/${numPad}_${cleanId}.mp3`, type: 'audio/mpeg' });
+    }
     defaultSources.forEach(s => {
       if (!possibleSources.some(p => p.src.toLowerCase() === s.src.toLowerCase())) {
         possibleSources.push(s);
