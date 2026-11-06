@@ -11,6 +11,68 @@ el cambio en la plataforma web al instante.
 import json
 import os
 import xml.etree.ElementTree as ET
+import wave
+import subprocess
+
+def parse_time_to_seconds(time_str):
+    if not time_str:
+        return 0
+    t = str(time_str).strip().replace("min", "").replace("s", "").strip()
+    parts = t.split(":")
+    try:
+        if len(parts) == 1:
+            return int(float(parts[0]))
+        elif len(parts) == 2:
+            return int(parts[0]) * 60 + int(float(parts[1]))
+        elif len(parts) == 3:
+            return int(parts[0]) * 3600 + int(parts[1]) * 60 + int(float(parts[2]))
+    except Exception:
+        return 0
+    return 0
+
+def format_seconds_to_time(sec):
+    mins = sec // 60
+    s = sec % 60
+    return f"{mins}:{s:02d}"
+
+def probe_audio_duration(card_id, explicit_path=""):
+    """
+    Intenta calcular automáticamente la duración del archivo de audio buscando
+    en assets/audio/ las extensiones comunes (.wav, .mp3, .m4a).
+    """
+    candidates = []
+    if explicit_path:
+        candidates.append(explicit_path)
+    candidates.extend([
+        os.path.join("assets", "audio", f"{card_id}.wav"),
+        os.path.join("assets", "audio", f"{card_id}.mp3"),
+        os.path.join("assets", "audio", f"{card_id}.mp3.wav"),
+        os.path.join("assets", "audio", f"{card_id}.m4a"),
+    ])
+    
+    for c_path in candidates:
+        if not os.path.isfile(c_path):
+            continue
+        # Intento 1: Archivo WAV nativo
+        if c_path.lower().endswith('.wav'):
+            try:
+                with wave.open(c_path, 'rb') as wf:
+                    fr = wf.getframerate()
+                    if fr > 0:
+                        sec = int(wf.getnframes() / float(fr))
+                        return f"{sec // 60}:{sec % 60:02d} min", sec
+            except Exception:
+                pass
+        # Intento 2: ffprobe si está disponible
+        try:
+            cmd = ['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'default=noprint_wrappers=1:nokey=1', c_path]
+            res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, timeout=2)
+            if res.returncode == 0 and res.stdout.strip():
+                sec = int(float(res.stdout.strip()))
+                return f"{sec // 60}:{sec % 60:02d} min", sec
+        except Exception:
+            pass
+    return None, None
 
 def get_tag_text(root, tag, default=""):
     node = root.find(tag)
@@ -200,13 +262,66 @@ def sync():
                         "relato": get_tag_text(hi_node, "relato", "")
                     }
 
-                # Audio
+                # Audio & Chapters (con cálculo automático de duración)
                 audio_node = root.find("audio")
                 if audio_node is not None:
+                    audio_file = get_tag_text(audio_node, "archivo", f"assets/audio/{card_id}.mp3")
+                    audio_title = get_tag_text(audio_node, "titulo", f"{card['name']} - Audiolibro")
+                    est_duration = get_tag_text(audio_node, "duracion_estimada", "")
+                    
+                    # Calcular duración automáticamente desde el archivo físico si existe
+                    auto_duration_str, auto_duration_sec = probe_audio_duration(card_id, audio_file)
+                    
+                    # Parsear Capítulos si existen
+                    chapters = []
+                    cap_node = audio_node.find("capitulos")
+                    if cap_node is not None:
+                        for item in cap_node.findall("capitulo") + cap_node.findall("item"):
+                            time_val = (
+                                item.attrib.get("tiempo")
+                                or item.attrib.get("time")
+                                or item.attrib.get("min")
+                                or item.attrib.get("timestamp")
+                                or ""
+                            )
+                            if not time_val:
+                                t_node = item.find("tiempo") or item.find("time")
+                                if t_node is not None and t_node.text:
+                                    time_val = t_node.text.strip()
+                            
+                            title_val = (
+                                item.attrib.get("titulo")
+                                or item.attrib.get("nombre")
+                                or item.attrib.get("title")
+                                or ""
+                            )
+                            if not title_val:
+                                t_node = item.find("titulo") or item.find("nombre")
+                                if t_node is not None and t_node.text:
+                                    title_val = t_node.text.strip()
+                                elif item.text:
+                                    title_val = item.text.strip()
+                            
+                            sec_val = parse_time_to_seconds(time_val)
+                            formatted_time = format_seconds_to_time(sec_val)
+                            
+                            if title_val:
+                                chapters.append({
+                                    "time": formatted_time,
+                                    "seconds": sec_val,
+                                    "title": title_val
+                                })
+                    
+                    # Ordenar capítulos cronológicamente
+                    chapters.sort(key=lambda x: x["seconds"])
+                    
                     card["audio"] = {
-                        "archivo": get_tag_text(audio_node, "archivo", f"assets/audio/{card_id}.mp3"),
-                        "titulo": get_tag_text(audio_node, "titulo", f"{card['name']} - Audiolibro"),
-                        "duracion_estimada": get_tag_text(audio_node, "duracion_estimada", "4:00 min")
+                        "archivo": audio_file,
+                        "titulo": audio_title,
+                        "duracion_estimada": est_duration or auto_duration_str or "Por calcular",
+                        "duracion_calculada": auto_duration_str or "",
+                        "duracion_segundos": auto_duration_sec or 0,
+                        "capitulos": chapters
                     }
 
                 parsed_count += 1

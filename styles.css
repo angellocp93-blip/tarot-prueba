@@ -2348,6 +2348,134 @@ body {
   gap: 0.5rem;
 }
 
+/* Audio Chapters & Sections */
+.audio-chapters-section {
+  background: rgba(10, 7, 22, 0.6);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  margin-top: 0.25rem;
+}
+
+.audio-chapters-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.65rem 0.9rem;
+  background: rgba(212, 175, 55, 0.08);
+  cursor: pointer;
+  user-select: none;
+  transition: var(--transition);
+}
+
+.audio-chapters-header:hover {
+  background: rgba(212, 175, 55, 0.16);
+}
+
+.chapters-title-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.86rem;
+  color: var(--gold-light);
+}
+
+.chapters-count-pill {
+  font-size: 0.7rem;
+  background: rgba(212, 175, 55, 0.2);
+  color: var(--gold-primary);
+  padding: 0.1rem 0.45rem;
+  border-radius: var(--radius-full);
+  font-weight: 700;
+}
+
+.chapters-toggle-icon {
+  font-size: 0.85rem;
+  color: var(--gold-light);
+  transition: transform 0.2s ease;
+}
+
+.audio-chapters-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  background: rgba(255, 255, 255, 0.04);
+  max-height: 280px;
+  overflow-y: auto;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.audio-chapters-list.is-collapsed {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.audio-chapter-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 0.9rem;
+  background: rgba(16, 12, 32, 0.85);
+  border: none;
+  color: #cbd5e1;
+  text-align: left;
+  cursor: pointer;
+  font-size: 0.84rem;
+  transition: background 0.15s ease, color 0.15s ease, padding-left 0.15s ease;
+  width: 100%;
+}
+
+.audio-chapter-btn:hover {
+  background: rgba(212, 175, 55, 0.15);
+  color: #ffffff;
+  padding-left: 1.15rem;
+}
+
+.chapter-play-symbol {
+  font-size: 0.75rem;
+  color: var(--gold-light);
+  width: 16px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.chapter-badge {
+  font-family: monospace;
+  font-size: 0.74rem;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: var(--gold-light);
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+  flex-shrink: 0;
+  font-weight: 600;
+}
+
+.chapter-label {
+  flex: 1;
+  line-height: 1.35;
+  color: #e2e8f0;
+}
+
+.audio-chapter-btn.is-active {
+  background: linear-gradient(90deg, rgba(212, 175, 55, 0.28) 0%, rgba(212, 175, 55, 0.08) 100%);
+  border-left: 3px solid var(--gold-primary);
+  color: #fff;
+}
+
+.audio-chapter-btn.is-active .chapter-badge {
+  background: var(--gold-primary);
+  color: #0b0816;
+  border-color: var(--gold-primary);
+  font-weight: 700;
+}
+
+.audio-chapter-btn.is-active .chapter-label {
+  color: var(--gold-light);
+  font-weight: 600;
+}
+
 /* Sections */
 .study-section {
   background: rgba(20, 16, 40, 0.65);

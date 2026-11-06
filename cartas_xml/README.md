@@ -95,26 +95,41 @@ Cada archivo `.xml` cuenta con las siguientes etiquetas limpias y fáciles de ed
     </relato>
   </historia_inspirada>
 
-  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <!-- 8. AUDIOLIBRO Y CAPÍTULOS INTERACTIVOS -->
   <audio>
-    <archivo>assets/audio/el-loco.mp3</archivo>
+    <archivo>assets/audio/el-loco.wav</archivo>
     <titulo>El Salto al Vacío Sagrado - Audio Guía</titulo>
-    <duracion_estimada>4 min</duracion_estimada>
+    <!-- NOTA: La duración se calcula automáticamente desde el archivo de audio (.wav o .mp3) -->
+    <capitulos>
+      <capitulo tiempo="0:00">Introducción y Simbolismo del Precipicio</capitulo>
+      <capitulo tiempo="2:45">Significado en Posición Normal</capitulo>
+      <capitulo tiempo="5:30">Amor, Vocación y Espiritualidad</capitulo>
+      <capitulo tiempo="8:15">Posición Invertida y Advertencias</capitulo>
+      <capitulo tiempo="11:00">Diferencias con otros Arcanos</capitulo>
+      <capitulo tiempo="13:20">Meditación Guiada del Salto Sagrado</capitulo>
+    </capitulos>
   </audio>
 </arcano>
 ```
 
 ---
 
-## ⚡ ¿Cómo Sincronizar tus Cambios con la Web?
+## ⚡ ¿Cómo Sincronizar y Actualizar la Web?
 
-Cuando modifiques cualquier texto en los archivos XML:
-1. Guarda el archivo `.xml`.
-2. Haz doble clic en el archivo **`sincronizar_textos.bat`** en la carpeta principal del proyecto.
-3. El script leerá automáticamente todos los XML y actualizará la base de datos de la plataforma web en 1 segundo.
-4. Para subir los cambios a tu web en GitHub, ejecuta:
-   ```bash
-   git add .
-   git commit -m "Actualizar textos de cartas XML"
-   git push origin main
-   ```
+### Opción 1: Todo en 1 Clic (Recomendado)
+Haz doble clic en **`actualizar_todo.bat`** en la carpeta principal:
+1. Sincroniza todos tus archivos XML modificados.
+2. Calcula automáticamente las duraciones de los audios existentes.
+3. Procesa los capítulos interactivos.
+4. Te pregunta si deseas subir a GitHub de inmediato (`S/N`) y hace el `git push` automáticamente.
+
+### Opción 2: Sincronización Local Rápida
+Haz doble clic en **`sincronizar_textos.bat`** para ver tus cambios de inmediato en tu navegador local (`index.html`).
+
+### Opción 3: Manual por Consola
+```bash
+python tools/sync_xml_to_db.py
+git add .
+git commit -m "Actualizar cartas XML y audiolibros"
+git push origin main
+```

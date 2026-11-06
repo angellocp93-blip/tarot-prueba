@@ -4,6 +4,10 @@ Esta carpeta está preparada para alojar los archivos de audio (audiolibros, med
 
 > [!TIP]
 > **Formatos compatibles:** La plataforma soporta nativamente archivos **`.wav`** y **`.mp3`** (así como `.m4a` y `.ogg`). Puedes subir cualquiera de las dos extensiones (`el-loco.wav` o `el-loco.mp3`) y el reproductor lo detectará y reproducirá automáticamente.
+> 
+> **⏱️ Cálculo Automático de Duración:** Ya no necesitas especificar manualmente la duración en el XML. Al ejecutar la sincronización o al reproducir la carta en la web, el sistema analiza el archivo de audio y calcula su duración exacta al segundo.
+> 
+> **📑 Capítulos y Navegación:** Puedes añadir marcas de tiempo en el XML de cada carta (`<capitulos><capitulo tiempo="2:30">Título</capitulo></capitulos>`). Los oyentes podrán hacer clic en cada capítulo para saltar a ese punto exacto del audio.
 
 ---
 

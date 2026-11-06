@@ -100,7 +100,41 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/el-loco.wav",
         "titulo": "El Loco - El Salto al Vacío Sagrado",
-        "duracion_estimada": "14:59 min"
+        "duracion_estimada": "14:59 min",
+        "duracion_calculada": "14:59 min",
+        "duracion_segundos": 899,
+        "capitulos": [
+          {
+            "time": "0:00",
+            "seconds": 0,
+            "title": "Introducción y Simbolismo del Precipicio"
+          },
+          {
+            "time": "2:45",
+            "seconds": 165,
+            "title": "Significado en Posición Normal"
+          },
+          {
+            "time": "5:30",
+            "seconds": 330,
+            "title": "Amor, Vocación y Espiritualidad"
+          },
+          {
+            "time": "8:15",
+            "seconds": 495,
+            "title": "Posición Invertida: Imprudencia y Miedo"
+          },
+          {
+            "time": "11:00",
+            "seconds": 660,
+            "title": "Diferencias con El Mago y El Juicio"
+          },
+          {
+            "time": "13:20",
+            "seconds": 800,
+            "title": "Meditación del Salto Sagrado"
+          }
+        ]
       }
     },
     {
@@ -204,7 +238,31 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/el-mago.wav",
         "titulo": "El Mago - La Voluntad Creadora y la Alquimia Mental",
-        "duracion_estimada": "5:00 min"
+        "duracion_estimada": "Por calcular",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": [
+          {
+            "time": "0:00",
+            "seconds": 0,
+            "title": "Iniciación y los 4 Elementos sobre el Altar"
+          },
+          {
+            "time": "1:30",
+            "seconds": 90,
+            "title": "El Axioma Hermético: Como es Arriba, es Abajo"
+          },
+          {
+            "time": "3:00",
+            "seconds": 180,
+            "title": "Manifestación en Amor, Trabajo y Salud"
+          },
+          {
+            "time": "4:15",
+            "seconds": 255,
+            "title": "Polaridad Invertida: Charlatanería y Dispersión"
+          }
+        ]
       }
     },
     {
@@ -292,7 +350,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/la-sacerdotisa.mp3",
         "titulo": "La Sacerdotisa - Los Secretos del Agua Silenciosa",
-        "duracion_estimada": "4:40 min"
+        "duracion_estimada": "4:40 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -380,7 +441,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/la-emperatriz.mp3",
         "titulo": "La Emperatriz - El Huerto Sagrado de la Vida",
-        "duracion_estimada": "4:20 min"
+        "duracion_estimada": "4:20 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -468,7 +532,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/el-emperador.mp3",
         "titulo": "El Emperador - El Trono de la Firmeza",
-        "duracion_estimada": "4:25 min"
+        "duracion_estimada": "4:25 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -556,7 +623,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/el-hierofante.mp3",
         "titulo": "El Hierofante - La Tradición de los Misterios",
-        "duracion_estimada": "4:35 min"
+        "duracion_estimada": "4:35 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -644,7 +714,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/los-enamorados.mp3",
         "titulo": "Los Enamorados - La Elección Sagrada del Corazón",
-        "duracion_estimada": "4:45 min"
+        "duracion_estimada": "4:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -732,7 +805,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/el-carro.mp3",
         "titulo": "El Carro - La Victoria de la Voluntad",
-        "duracion_estimada": "4:30 min"
+        "duracion_estimada": "4:30 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -836,7 +912,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/la-fuerza.mp3",
         "titulo": "La Fuerza - La Alquimia de la Ternura",
-        "duracion_estimada": "4:20 min"
+        "duracion_estimada": "4:20 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -924,7 +1003,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/el-ermitano.mp3",
         "titulo": "El Ermitaño - La Linterna del Silencio Interior",
-        "duracion_estimada": "4:40 min"
+        "duracion_estimada": "4:40 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -1012,7 +1094,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/la-rueda-de-la-fortuna.mp3",
         "titulo": "La Rueda de la Fortuna - Los Ciclos del Destino",
-        "duracion_estimada": "4:25 min"
+        "duracion_estimada": "4:25 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -1100,7 +1185,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/la-justicia.mp3",
         "titulo": "La Justicia - La Balanza de la Causa y el Efecto",
-        "duracion_estimada": "4:30 min"
+        "duracion_estimada": "4:30 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -1192,7 +1280,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/el-colgado.mp3",
         "titulo": "El Colgado - La Iluminación en la Rendición",
-        "duracion_estimada": "4:35 min"
+        "duracion_estimada": "4:35 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -1280,7 +1371,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/la-muerte.mp3",
         "titulo": "La Muerte - El Fuego Sagrado del Renacimiento",
-        "duracion_estimada": "4:40 min"
+        "duracion_estimada": "4:40 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -1368,7 +1462,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/la-templanza.mp3",
         "titulo": "La Templanza - La Alquimia de la Paz Interior",
-        "duracion_estimada": "4:30 min"
+        "duracion_estimada": "4:30 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -1456,7 +1553,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/el-diablo.mp3",
         "titulo": "El Diablo - El Espejo de las Cadenas Invisibles",
-        "duracion_estimada": "4:40 min"
+        "duracion_estimada": "4:40 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -1544,7 +1644,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/la-torre.mp3",
         "titulo": "La Torre - El Rayo que Rompe las Prisiones",
-        "duracion_estimada": "4:35 min"
+        "duracion_estimada": "4:35 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -1636,7 +1739,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/la-estrella.mp3",
         "titulo": "La Estrella - El Bálsamo de la Esperanza Cósmica",
-        "duracion_estimada": "4:30 min"
+        "duracion_estimada": "4:30 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -1728,7 +1834,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/la-luna.mp3",
         "titulo": "La Luna - Los Espejismos de la Noche del Alma",
-        "duracion_estimada": "4:45 min"
+        "duracion_estimada": "4:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -1815,7 +1924,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/el-sol.mp3",
         "titulo": "El Sol - El Triunfo de la Inocencia Dorada",
-        "duracion_estimada": "4:20 min"
+        "duracion_estimada": "4:20 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -1903,7 +2015,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/el-juicio.mp3",
         "titulo": "El Juicio - La Llamada Ineludible del Despertar",
-        "duracion_estimada": "4:45 min"
+        "duracion_estimada": "4:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -1991,7 +2106,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/el-mundo.mp3",
         "titulo": "El Mundo - La Danza Cósmica de la Plenitud",
-        "duracion_estimada": "4:45 min"
+        "duracion_estimada": "4:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -2073,7 +2191,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/as-de-bastos.mp3",
         "titulo": "As de Bastos - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -2151,7 +2272,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/dos-de-bastos.mp3",
         "titulo": "Dos de Bastos - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -2229,7 +2353,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/tres-de-bastos.mp3",
         "titulo": "Tres de Bastos - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -2307,7 +2434,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/cuatro-de-bastos.mp3",
         "titulo": "Cuatro de Bastos - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -2385,7 +2515,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/cinco-de-bastos.mp3",
         "titulo": "Cinco de Bastos - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -2463,7 +2596,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/seis-de-bastos.mp3",
         "titulo": "Seis de Bastos - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -2541,7 +2677,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/siete-de-bastos.mp3",
         "titulo": "Siete de Bastos - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -2619,7 +2758,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/ocho-de-bastos.mp3",
         "titulo": "Ocho de Bastos - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -2697,7 +2839,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/nueve-de-bastos.mp3",
         "titulo": "Nueve de Bastos - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -2775,7 +2920,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/diez-de-bastos.mp3",
         "titulo": "Diez de Bastos - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -2853,7 +3001,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/sota-de-bastos.mp3",
         "titulo": "Sota de Bastos - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -2927,7 +3078,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/caballo-de-bastos.mp3",
         "titulo": "Caballo de Bastos - Audiolibro y Meditación Guiada",
-        "duracion_estimada": "4:00 min"
+        "duracion_estimada": "4:00 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -3005,7 +3159,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/reina-de-bastos.mp3",
         "titulo": "Reina de Bastos - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -3083,7 +3240,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/rey-de-bastos.mp3",
         "titulo": "Rey de Bastos - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -3165,7 +3325,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/as-de-copas.mp3",
         "titulo": "As de Copas - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -3243,7 +3406,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/dos-de-copas.mp3",
         "titulo": "Dos de Copas - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -3321,7 +3487,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/tres-de-copas.mp3",
         "titulo": "Tres de Copas - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -3403,7 +3572,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/cuatro-de-copas.mp3",
         "titulo": "Cuatro de Copas - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -3485,7 +3657,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/cinco-de-copas.mp3",
         "titulo": "Cinco de Copas - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -3563,7 +3738,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/seis-de-copas.mp3",
         "titulo": "Seis de Copas - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -3641,7 +3819,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/siete-de-copas.mp3",
         "titulo": "Siete de Copas - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -3723,7 +3904,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/ocho-de-copas.mp3",
         "titulo": "Ocho de Copas - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -3801,7 +3985,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/nueve-de-copas.mp3",
         "titulo": "Nueve de Copas - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -3883,7 +4070,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/diez-de-copas.mp3",
         "titulo": "Diez de Copas - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -3961,7 +4151,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/sota-de-copas.mp3",
         "titulo": "Sota de Copas - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -4039,7 +4232,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/caballo-de-copas.mp3",
         "titulo": "Caballo de Copas - Audiolibro y Meditación Guiada",
-        "duracion_estimada": "4:00 min"
+        "duracion_estimada": "4:00 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -4121,7 +4317,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/reina-de-copas.mp3",
         "titulo": "Reina de Copas - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -4203,7 +4402,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/rey-de-copas.mp3",
         "titulo": "Rey de Copas - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -4285,7 +4487,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/as-de-espadas.mp3",
         "titulo": "As de Espadas - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -4367,7 +4572,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/dos-de-espadas.mp3",
         "titulo": "Dos de Espadas - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -4449,7 +4657,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/tres-de-espadas.mp3",
         "titulo": "Tres de Espadas - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -4531,7 +4742,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/cuatro-de-espadas.mp3",
         "titulo": "Cuatro de Espadas - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -4613,7 +4827,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/cinco-de-espadas.mp3",
         "titulo": "Cinco de Espadas - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -4695,7 +4912,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/seis-de-espadas.mp3",
         "titulo": "Seis de Espadas - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -4777,7 +4997,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/siete-de-espadas.mp3",
         "titulo": "Siete de Espadas - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -4859,7 +5082,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/ocho-de-espadas.mp3",
         "titulo": "Ocho de Espadas - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -4941,7 +5167,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/nueve-de-espadas.mp3",
         "titulo": "Nueve de Espadas - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -5023,7 +5252,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/diez-de-espadas.mp3",
         "titulo": "Diez de Espadas - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -5101,7 +5333,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/sota-de-espadas.mp3",
         "titulo": "Sota de Espadas - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -5175,7 +5410,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/caballo-de-espadas.mp3",
         "titulo": "Caballo de Espadas - Audiolibro y Meditación Guiada",
-        "duracion_estimada": "4:00 min"
+        "duracion_estimada": "4:00 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -5257,7 +5495,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/reina-de-espadas.mp3",
         "titulo": "Reina de Espadas - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -5339,7 +5580,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/rey-de-espadas.mp3",
         "titulo": "Rey de Espadas - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -5421,7 +5665,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/as-de-oros.mp3",
         "titulo": "As de Oros - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -5503,7 +5750,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/dos-de-oros.mp3",
         "titulo": "Dos de Oros - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -5585,7 +5835,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/tres-de-oros.mp3",
         "titulo": "Tres de Oros - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -5663,7 +5916,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/cuatro-de-oros.mp3",
         "titulo": "Cuatro de Oros - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -5745,7 +6001,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/cinco-de-oros.mp3",
         "titulo": "Cinco de Oros - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -5823,7 +6082,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/seis-de-oros.mp3",
         "titulo": "Seis de Oros - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -5905,7 +6167,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/siete-de-oros.mp3",
         "titulo": "Siete de Oros - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -5987,7 +6252,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/ocho-de-oros.mp3",
         "titulo": "Ocho de Oros - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -6069,7 +6337,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/nueve-de-oros.mp3",
         "titulo": "Nueve de Oros - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -6151,7 +6422,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/diez-de-oros.mp3",
         "titulo": "Diez de Oros - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -6229,7 +6503,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/sota-de-oros.mp3",
         "titulo": "Sota de Oros - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -6307,7 +6584,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/caballo-de-oros.mp3",
         "titulo": "Caballo de Oros - Audiolibro y Meditación Guiada",
-        "duracion_estimada": "4:00 min"
+        "duracion_estimada": "4:00 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -6389,7 +6669,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/reina-de-oros.mp3",
         "titulo": "Reina de Oros - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     },
     {
@@ -6471,7 +6754,10 @@ window.TAROT_DB = {
       "audio": {
         "archivo": "assets/audio/rey-de-oros.mp3",
         "titulo": "Rey de Oros - Sabiduría y Reflexión",
-        "duracion_estimada": "3:45 min"
+        "duracion_estimada": "3:45 min",
+        "duracion_calculada": "",
+        "duracion_segundos": 0,
+        "capitulos": []
       }
     }
   ],

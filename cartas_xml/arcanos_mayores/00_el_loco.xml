@@ -120,6 +120,14 @@ En el Reino de la Constancia dijeron que se había vuelto loco y que había caí
   <audio>
     <archivo>assets/audio/el-loco.wav</archivo>
     <titulo>El Loco - El Salto al Vacío Sagrado</titulo>
-    <duracion_estimada>14:59 min</duracion_estimada>
+    <!-- Capítulos con marcas de tiempo (mm:ss) para navegación directa -->
+    <capitulos>
+      <capitulo tiempo="0:00">Introducción y Simbolismo del Precipicio</capitulo>
+      <capitulo tiempo="2:45">Significado en Posición Normal</capitulo>
+      <capitulo tiempo="5:30">Amor, Vocación y Espiritualidad</capitulo>
+      <capitulo tiempo="8:15">Posición Invertida: Imprudencia y Miedo</capitulo>
+      <capitulo tiempo="11:00">Diferencias con El Mago y El Juicio</capitulo>
+      <capitulo tiempo="13:20">Meditación del Salto Sagrado</capitulo>
+    </capitulos>
   </audio>
 </arcano>

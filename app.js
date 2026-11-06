@@ -913,6 +913,36 @@
       uniqueHtml = `<div class="unique-box">${textVal}</div>`;
     }
 
+    // Formatear Capítulos del audiolibro si existen
+    const chapters = card.audio?.capitulos || [];
+    let chaptersHtml = '';
+    if (chapters.length > 0) {
+      chaptersHtml = `
+        <div class="audio-chapters-section">
+          <div class="audio-chapters-header" id="audio-chapters-toggle" title="Clic para expandir o contraer capítulos">
+            <div class="chapters-title-left">
+              <span>📑</span> <b>Capítulos del Audiolibro</b>
+              <span class="chapters-count-pill">${chapters.length} partes</span>
+            </div>
+            <span class="chapters-toggle-icon">▾</span>
+          </div>
+          <div class="audio-chapters-list" id="audio-chapters-list">
+            ${chapters.map((ch, idx) => `
+              <button class="audio-chapter-btn" data-seconds="${ch.seconds}" data-index="${idx}" type="button" title="Reproducir desde ${ch.time}">
+                <span class="chapter-play-symbol">▶</span>
+                <span class="chapter-badge">${ch.time}</span>
+                <span class="chapter-label">${ch.title}</span>
+              </button>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }
+
+    const durationDisplay = card.audio?.duracion_calculada
+      ? `Duración: ${card.audio.duracion_calculada}`
+      : (card.audio?.duracion_estimada ? `Duración aprox. ${card.audio.duracion_estimada}` : 'Calculando duración...');
+
     wrapper.innerHTML = `
       <!-- HERO HEADER -->
       <div class="study-hero-card">
@@ -941,7 +971,9 @@
           <div class="audio-header-title">
             <span>🎧</span> ${audioTitle}
           </div>
-          <span class="audio-header-pill">Duración aprox. ${audioDuration}</span>
+          <span class="audio-header-pill" id="audio-header-pill">
+            <span>⏱️</span> <span id="audio-pill-text">${durationDisplay}</span>
+          </span>
         </div>
 
         <audio id="card-audio-element" preload="metadata">
@@ -967,6 +999,8 @@
           <button class="audio-speed-btn" id="audio-speed-btn" title="Velocidad de reproducción">1.0x</button>
           <button class="audio-vol-btn" id="audio-vol-btn" title="Silenciar / Activar sonido">🔊</button>
         </div>
+
+        ${chaptersHtml}
 
         <div class="audio-status-banner" id="audio-status-banner">
           <span>ℹ️</span>
@@ -1167,7 +1201,14 @@
       activeAudioPlayer = audioEl;
 
       audioEl.addEventListener('loadedmetadata', () => {
-        totalDurationEl.textContent = formatTime(audioEl.duration);
+        if (!isNaN(audioEl.duration) && audioEl.duration > 0) {
+          const formatted = formatTime(audioEl.duration);
+          totalDurationEl.textContent = formatted;
+          const pillText = wrapper.querySelector('#audio-pill-text');
+          if (pillText) {
+            pillText.textContent = `Duración: ${formatted} min`;
+          }
+        }
         if (statusBanner) statusBanner.style.display = 'none';
       });
 
@@ -1176,6 +1217,7 @@
           const pct = (audioEl.currentTime / audioEl.duration) * 100;
           progressFill.style.width = `${pct}%`;
           currentTimeEl.textContent = formatTime(audioEl.currentTime);
+          highlightActiveChapter(audioEl.currentTime);
         }
       });
 
@@ -1184,6 +1226,7 @@
         playIcon.textContent = '▶';
         progressFill.style.width = '0%';
         currentTimeEl.textContent = '0:00';
+        highlightActiveChapter(0);
       });
 
       audioEl.addEventListener('error', () => {
@@ -1191,6 +1234,65 @@
           statusBanner.style.display = 'flex';
           statusBanner.innerHTML = `<span>ℹ️</span> <span>Audiolibro listo: coloca <code>${card.id}.wav</code> o <code>${card.id}.mp3</code> en <code>assets/audio/</code> para reproducirlo aquí.</span>`;
         }
+      });
+
+      // Chapters toggle and navigation
+      const chapterBtns = wrapper.querySelectorAll('.audio-chapter-btn');
+      const chaptersToggle = wrapper.querySelector('#audio-chapters-toggle');
+      const chaptersList = wrapper.querySelector('#audio-chapters-list');
+
+      if (chaptersToggle && chaptersList) {
+        chaptersToggle.addEventListener('click', () => {
+          chaptersList.classList.toggle('is-collapsed');
+          const toggleIcon = chaptersToggle.querySelector('.chapters-toggle-icon');
+          if (toggleIcon) {
+            toggleIcon.textContent = chaptersList.classList.contains('is-collapsed') ? '▸' : '▾';
+          }
+        });
+      }
+
+      function highlightActiveChapter(currTime) {
+        if (!chapters || chapters.length === 0) return;
+        let activeIdx = -1;
+        for (let i = 0; i < chapters.length; i++) {
+          if (currTime >= chapters[i].seconds) {
+            activeIdx = i;
+          } else {
+            break;
+          }
+        }
+        chapterBtns.forEach((btn, idx) => {
+          if (idx === activeIdx) {
+            btn.classList.add('is-active');
+            const sym = btn.querySelector('.chapter-play-symbol');
+            if (sym) sym.textContent = audioEl.paused ? '▶' : '🔊';
+          } else {
+            btn.classList.remove('is-active');
+            const sym = btn.querySelector('.chapter-play-symbol');
+            if (sym) sym.textContent = '▶';
+          }
+        });
+      }
+
+      chapterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const sec = parseFloat(btn.dataset.seconds || 0);
+          audioEl.currentTime = sec;
+          const playPromise = audioEl.play();
+          if (playPromise !== undefined) {
+            playPromise.then(() => {
+              playBtn.classList.add('is-playing');
+              playIcon.textContent = '⏸';
+              if (statusBanner) statusBanner.style.display = 'none';
+              highlightActiveChapter(sec);
+            }).catch(() => {
+              if (statusBanner) {
+                statusBanner.style.display = 'flex';
+                statusBanner.innerHTML = `<span>🎧</span> <span>Audiolibro en espera: agrega <b>${card.id}.wav</b> o <b>${card.id}.mp3</b> en <code>assets/audio/</code> en GitHub para reproducir.</span>`;
+              }
+            });
+          }
+        });
       });
 
       // Play/Pause Click
@@ -1202,6 +1304,7 @@
               playBtn.classList.add('is-playing');
               playIcon.textContent = '⏸';
               if (statusBanner) statusBanner.style.display = 'none';
+              highlightActiveChapter(audioEl.currentTime);
             }).catch(() => {
               // Audio file not yet added to repo
               if (statusBanner) {

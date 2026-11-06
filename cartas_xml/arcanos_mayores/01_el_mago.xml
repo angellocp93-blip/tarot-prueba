@@ -111,6 +111,12 @@
   <audio>
     <archivo>assets/audio/el-mago.wav</archivo>
     <titulo>El Mago - La Voluntad Creadora y la Alquimia Mental</titulo>
-    <duracion_estimada>5:00 min</duracion_estimada>
+    <!-- Capítulos con marcas de tiempo (mm:ss) para navegación directa -->
+    <capitulos>
+      <capitulo tiempo="0:00">Iniciación y los 4 Elementos sobre el Altar</capitulo>
+      <capitulo tiempo="1:30">El Axioma Hermético: Como es Arriba, es Abajo</capitulo>
+      <capitulo tiempo="3:00">Manifestación en Amor, Trabajo y Salud</capitulo>
+      <capitulo tiempo="4:15">Polaridad Invertida: Charlatanería y Dispersión</capitulo>
+    </capitulos>
   </audio>
 </arcano>
