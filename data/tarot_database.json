@@ -76,7 +76,19 @@
         "espiritualidad": "Sensación de pérdida de rumbo existencial. Caer en la ingenuidad espiritual, seguir gurús sin discernimiento o desconectarse de la realidad cotidiana.",
         "como_armonizar_desbloquear": "Pisa tierra firme. Calcula riesgos reales sin matar tu entusiasmo, pero asegurando un suelo antes de lanzarte."
       },
-      "unique_differentiator": "Es el único arcano de toda la baraja que posee el número Cero (0). Al no tener una posición fija en la secuencia numérica, puede colocarse tanto al inicio absoluto como al final supremo de los Arcanos Mayores. A diferencia de El Mago (que necesita concentrar su voluntad con herramientas sobre la mesa) o El Juicio (que evalúa minuciosamente el pasado), El Loco camina sin ataduras ni posesiones, personificando el puente infinito entre la nada y el todo.",
+      "unique_differentiator": {
+        "summary": "Es el único arcano de toda la baraja que posee el número Cero (0). Al no tener una posición fija en la secuencia numérica, puede colocarse tanto al inicio absoluto como al final supremo de los Arcanos Mayores. Camina sin ataduras ni posesiones, personificando el puente infinito entre la nada y el todo.",
+        "comparisons": [
+          {
+            "card": "El Mago (I)",
+            "difference": "El Mago necesita concentrar su voluntad activa con las cuatro herramientas sobre su mesa de trabajo; El Loco camina ligero con solo un fardo diminuto confiando plenamente en lo que el camino le depare."
+          },
+          {
+            "card": "El Juicio (XX)",
+            "difference": "El Juicio evalúa minuciosamente el pasado y las acciones vividas para otorgar la resurrección; El Loco se desprende de todo pasado sin juzgarlo, viviendo en un eterno presente virgen."
+          }
+        ]
+      },
       "curiosities": [
         "El Joker de la baraja común: El Loco sobrevivió a la evolución de las cartas de juego tradicionales transformándose en el Comodín (Joker). Al igual que en el Tarot, el Joker no tiene un valor fijo; puede ser cualquier carta, rompe las reglas del juego y aporta el elemento de la imprevisibilidad.",
         "El viaje del Loco: En el estudio del Tarot, se considera que los otros 21 Arcanos Mayores son personas, lecciones y obstáculos que El Loco se encuentra en su camino. El Tarot entero es la historia de cómo El Loco evoluciona hasta convertirse en El Mundo (XXI)."
@@ -779,7 +791,23 @@
         "espiritualidad": "Miedo a la propia intensidad vital. Desconexión del poder personal por creerse débil o indigno de respeto.",
         "como_armonizar_desbloquear": "Detén las reacciones impulsivas. Descansa, respira y busca la calma en tu centro antes de emitir juicio o respuesta."
       },
-      "unique_differentiator": "Es la única carta donde un ser humano toca a una bestia salvaje no con armas, lanzas o cadenas, sino con caricias y una guirnalda de flores. A diferencia de El Emperador (que impone orden mediante la ley y el castigo), La Fuerza transforma la naturaleza salvaje desde adentro a través del amor incondicional y la presencia serena.",
+      "unique_differentiator": {
+        "summary": "Es la única carta donde un ser humano toca a una bestia salvaje no con armas, lanzas o cadenas, sino con caricias y una guirnalda de flores vivas. Representa la alquimia del amor que domestica la fiera de los instintos desde adentro sin doblegarla por violencia.",
+        "comparisons": [
+          {
+            "card": "El Emperador (IV)",
+            "difference": "El Emperador impone el orden externo mediante leyes, decretos, ejércitos y autoridad punitiva. La Fuerza, en cambio, transforma la naturaleza salvaje desde el corazón a través del amor incondicional, la paciencia y la suavidad inquebrantable."
+          },
+          {
+            "card": "El Mago (I)",
+            "difference": "Ambos portan la lemniscata (el símbolo del infinito) sobre sus cabezas, pero El Mago canaliza la voluntad activa para manifestar realidades con herramientas sobre la mesa exterior, mientras La Fuerza ejerce la maestría espiritual sobre el mundo instintivo y emocional interior."
+          },
+          {
+            "card": "La Templanza (XIV)",
+            "difference": "La Templanza modera y trasvasa fluidos pacíficamente para sanar opuestos; La Fuerza se atreve a confrontar directamente y cuerpo a cuerpo a la bestia de las pasiones para abrazarla y convertirla en aliada leal."
+          }
+        ]
+      },
       "curiosities": [
         "La lemniscata sobre su cabeza: Al igual que El Mago, porta el símbolo del infinito, revelando que la suavidad compasiva está conectada con el poder eterno de Dios.",
         "El león que lame su mano: Simboliza que el ego y el instinto no deben ser aniquilados, sino integrados como nobles aliados al servicio del alma.",

@@ -128,8 +128,56 @@ def sync():
                         "como_armonizar_desbloquear": pi_armonizar
                     }
 
-                # Unique differentiator
-                card["unique_differentiator"] = get_tag_text(root, "lo_que_lo_hace_unico", card.get("unique_differentiator", ""))
+                # Unique differentiator (supports plain text or structured comparisons)
+                unique_node = root.find("lo_que_lo_hace_unico")
+                if unique_node is not None:
+                    comparisons = []
+                    comp_nodes = (
+                        unique_node.findall(".//comparar_con")
+                        + unique_node.findall(".//comparar")
+                        + unique_node.findall(".//comparacion")
+                    )
+                    for comp in comp_nodes:
+                        target_name = comp.attrib.get("carta") or comp.attrib.get("nombre") or comp.attrib.get("id")
+                        if not target_name:
+                            carta_child = comp.find("carta") or comp.find("nombre")
+                            if carta_child is not None and carta_child.text:
+                                target_name = carta_child.text.strip()
+                        
+                        diff_child = comp.find("diferencia") or comp.find("descripcion")
+                        if diff_child is not None and diff_child.text:
+                            diff_text = diff_child.text.strip()
+                        else:
+                            diff_text = "".join(comp.itertext()).strip()
+                            if target_name and diff_text.startswith(target_name):
+                                diff_text = diff_text[len(target_name):].strip().lstrip(":- ").strip()
+                        
+                        if target_name and diff_text:
+                            comparisons.append({
+                                "card": target_name,
+                                "difference": diff_text
+                            })
+
+                    sum_node = unique_node.find("resumen")
+                    if sum_node is None:
+                        sum_node = unique_node.find("descripcion")
+                    if sum_node is None:
+                        sum_node = unique_node.find("esencia_diferencial")
+
+                    if sum_node is not None and sum_node.text:
+                        summary_text = sum_node.text.strip()
+                    elif not comparisons:
+                        summary_text = (unique_node.text or "").strip()
+                    else:
+                        summary_text = (unique_node.text or "").strip()
+
+                    if comparisons:
+                        card["unique_differentiator"] = {
+                            "summary": summary_text,
+                            "comparisons": comparisons
+                        }
+                    else:
+                        card["unique_differentiator"] = summary_text or card.get("unique_differentiator", "")
 
                 # Curiosities
                 cur_node = root.find("curiosidades")
@@ -178,3 +226,4 @@ def sync():
 
 if __name__ == '__main__':
     sync()
+

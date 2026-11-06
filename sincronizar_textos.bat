@@ -14,3 +14,4 @@ echo ========================================================================
 echo Sincronizacion finalizada. Puedes refrescar tu navegador (Ctrl + F5).
 echo ========================================================================
 pause
+

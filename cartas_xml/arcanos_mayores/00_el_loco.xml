@@ -73,7 +73,17 @@
 
   <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
   <lo_que_lo_hace_unico>
-    Es el único arcano de toda la baraja que posee el número Cero (0). Al no tener una posición fija en la secuencia numérica, puede colocarse tanto al inicio absoluto como al final supremo de los Arcanos Mayores. A diferencia de El Mago (que necesita concentrar su voluntad con herramientas sobre la mesa) o El Juicio (que evalúa minuciosamente el pasado), El Loco camina sin ataduras ni posesiones, personificando el puente infinito entre la nada y el todo.
+    <resumen>
+      Es el único arcano de toda la baraja que posee el número Cero (0). Al no tener una posición fija en la secuencia numérica, puede colocarse tanto al inicio absoluto como al final supremo de los Arcanos Mayores. Camina sin ataduras ni posesiones, personificando el puente infinito entre la nada y el todo.
+    </resumen>
+    <comparativas>
+      <comparar carta="El Mago (I)">
+        El Mago necesita concentrar su voluntad activa con las cuatro herramientas sobre su mesa de trabajo; El Loco camina ligero con solo un fardo diminuto confiando plenamente en lo que el camino le depare.
+      </comparar>
+      <comparar carta="El Juicio (XX)">
+        El Juicio evalúa minuciosamente el pasado y las acciones vividas para otorgar la resurrección; El Loco se desprende de todo pasado sin juzgarlo, viviendo en un eterno presente virgen.
+      </comparar>
+    </comparativas>
   </lo_que_lo_hace_unico>
 
   <!-- 6. CURIOSIDADES DEL ARCANO -->

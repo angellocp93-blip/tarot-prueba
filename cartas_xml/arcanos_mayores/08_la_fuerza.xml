@@ -69,7 +69,20 @@
 
   <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
   <lo_que_lo_hace_unico>
-    Es la única carta donde un ser humano toca a una bestia salvaje no con armas, lanzas o cadenas, sino con caricias y una guirnalda de flores. A diferencia de El Emperador (que impone orden mediante la ley y el castigo), La Fuerza transforma la naturaleza salvaje desde adentro a través del amor incondicional y la presencia serena.
+    <resumen>
+      Es la única carta donde un ser humano toca a una bestia salvaje no con armas, lanzas o cadenas, sino con caricias y una guirnalda de flores vivas. Representa la alquimia del amor que domestica la fiera de los instintos desde adentro sin doblegarla por violencia.
+    </resumen>
+    <comparativas>
+      <comparar carta="El Emperador (IV)">
+        El Emperador impone el orden externo mediante leyes, decretos, ejércitos y autoridad punitiva. La Fuerza, en cambio, transforma la naturaleza salvaje desde el corazón a través del amor incondicional, la paciencia y la suavidad inquebrantable.
+      </comparar>
+      <comparar carta="El Mago (I)">
+        Ambos portan la lemniscata (el símbolo del infinito) sobre sus cabezas, pero El Mago canaliza la voluntad activa para manifestar realidades con herramientas sobre la mesa exterior, mientras La Fuerza ejerce la maestría espiritual sobre el mundo instintivo y emocional interior.
+      </comparar>
+      <comparar carta="La Templanza (XIV)">
+        La Templanza modera y trasvasa fluidos pacíficamente para sanar opuestos; La Fuerza se atreve a confrontar directamente y cuerpo a cuerpo a la bestia de las pasiones para abrazarla y convertirla en aliada leal.
+      </comparar>
+    </comparativas>
   </lo_que_lo_hace_unico>
 
   <!-- 6. CURIOSIDADES DEL ARCANO -->

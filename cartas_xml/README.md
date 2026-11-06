@@ -60,10 +60,25 @@ Cada archivo `.xml` cuenta con las siguientes etiquetas limpias y fáciles de ed
     <espiritualidad>Bloqueos internos y cómo sanar o realinear la energía.</espiritualidad>
   </posicion_invertida>
 
-  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES (Opción A: Texto directo) -->
   <lo_que_lo_hace_unico>
     Explicación comparativa clara de qué distingue a esta carta frente a otras cartas semejantes de la baraja...
   </lo_que_lo_hace_unico>
+
+  <!-- O BIEN (Opción B: Lista de comparativas etiquetadas por carta) -->
+  <!--
+  <lo_que_lo_hace_unico>
+    <resumen>Resumen general de su singularidad arquetípica.</resumen>
+    <comparativas>
+      <comparar carta="El Emperador">
+        Explicación de la diferencia frente a El Emperador...
+      </comparar>
+      <comparar carta="El Mago">
+        Explicación de la diferencia frente a El Mago...
+      </comparar>
+    </comparativas>
+  </lo_que_lo_hace_unico>
+  -->
 
   <!-- 6. CURIOSIDADES DEL ARCANO -->
   <curiosidades>

@@ -857,6 +857,30 @@
     const audioTitle = card.audio?.titulo || `${card.name} - Audiolibro y Meditación Guiada`;
     const audioDuration = card.audio?.duracion_estimada || '4:00 min';
 
+    // Formatear 5. Lo que lo hace único y Comparativas frente a similares
+    let uniqueHtml = '';
+    const diffData = card.unique_differentiator;
+    if (diffData && typeof diffData === 'object' && diffData.comparisons && diffData.comparisons.length > 0) {
+      const summaryPart = diffData.summary ? `<div class="unique-box" style="margin-bottom: 1.25rem;">${diffData.summary}</div>` : '';
+      const compItems = diffData.comparisons.map(c => `
+        <div class="comparison-card">
+          <div class="comparison-card-header">
+            <span class="comparison-badge">🆚 Frente a ${c.card}</span>
+          </div>
+          <p class="comparison-card-desc">${c.difference}</p>
+        </div>
+      `).join('');
+      uniqueHtml = `
+        ${summaryPart}
+        <div class="comparisons-grid">
+          ${compItems}
+        </div>
+      `;
+    } else {
+      const textVal = (typeof diffData === 'string' ? diffData : diffData?.summary) || 'Diferenciación arquetípica respecto a cartas afines en la baraja.';
+      uniqueHtml = `<div class="unique-box">${textVal}</div>`;
+    }
+
     wrapper.innerHTML = `
       <!-- HERO HEADER -->
       <div class="study-hero-card">
@@ -1052,9 +1076,7 @@
         <h3 class="study-section-title">
           <span>💎</span> 5. Lo que lo hace Único frente a sus Similares
         </h3>
-        <div class="unique-box">
-          ${card.unique_differentiator || 'Diferenciación arquetípica respecto a cartas afines en la baraja.'}
-        </div>
+        ${uniqueHtml}
       </div>
 
       <!-- 6. CURIOSIDADES DEL ARCANO -->
