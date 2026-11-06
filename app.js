@@ -10,7 +10,7 @@
   const STORAGE_KEY = 'tarot_platform_state_v1';
   let appState = {
     selectedCardId: 'el-loco',
-    mapViewMode: 'mindmap', // 'mindmap' | 'sheet' | 'guide'
+    mapViewMode: 'guide', // 'guide' (Estudio Profundo & Audiolibro con Capítulos) | 'mindmap'
     activeFilter: 'all',
     activeSpreadId: 'pasado-presente-futuro',
     allowReversals: true,
@@ -33,6 +33,11 @@
     }
   } catch (e) {
     console.error('Error loading state from localStorage:', e);
+  }
+
+  // Asegurar que el modo por defecto sea 'guide' (Estudio Profundo & Audiolibro)
+  if (!appState.mapViewMode || appState.mapViewMode === 'sheet' || appState.mapViewMode === 'mindmap') {
+    appState.mapViewMode = 'guide';
   }
 
   function saveState() {
@@ -350,16 +355,18 @@
     renderCardsSidebar();
   });
 
-  btnPrintMap.addEventListener('click', () => {
-    const prevMode = appState.mapViewMode;
-    appState.mapViewMode = 'sheet';
-    renderActiveCardView();
-    window.print();
-    setTimeout(() => {
-      appState.mapViewMode = prevMode;
+  if (btnPrintMap) {
+    btnPrintMap.addEventListener('click', () => {
+      const prevMode = appState.mapViewMode;
+      appState.mapViewMode = 'sheet';
       renderActiveCardView();
-    }, 500);
-  });
+      window.print();
+      setTimeout(() => {
+        appState.mapViewMode = prevMode;
+        renderActiveCardView();
+      }, 500);
+    });
+  }
 
   // Preload image as Base64 to guarantee html2canvas never fails or renders blank
   function getBase64Image(url) {
@@ -606,6 +613,12 @@
     });
   }
 
+  function syncModeButtonsUI() {
+    document.querySelectorAll('.view-mode-selector .mode-btn').forEach(b => {
+      b.classList.toggle('active', b.dataset.mode === appState.mapViewMode);
+    });
+  }
+
   // Render the selected card according to active mode
   function renderActiveCardView() {
     if (activeAudioPlayer) {
@@ -614,13 +627,12 @@
       } catch (e) {}
       activeAudioPlayer = null;
     }
+    syncModeButtonsUI();
     const card = getCardById(appState.selectedCardId);
     cardViewContainer.innerHTML = '';
 
     if (appState.mapViewMode === 'mindmap') {
       renderMindMapView(card);
-    } else if (appState.mapViewMode === 'sheet') {
-      renderSheetView(card);
     } else {
       renderGuideView(card);
     }
@@ -935,6 +947,12 @@
               </button>
             `).join('')}
           </div>
+        </div>
+      `;
+    } else {
+      chaptersHtml = `
+        <div class="audio-chapters-empty" style="font-size: 0.78rem; color: #94a3b8; background: rgba(0,0,0,0.25); border: 1px dashed rgba(212,175,55,0.2); border-radius: 6px; padding: 0.5rem 0.85rem; display: flex; align-items: center; gap: 0.5rem;">
+          <span>📑</span> <span>Capítulos en preparación: agrega <code>&lt;capitulos&gt;</code> en <code>cartas_xml/.../${card.id}.xml</code> para activar marcas de tiempo interactivas.</span>
         </div>
       `;
     }

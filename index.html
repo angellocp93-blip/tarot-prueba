@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=3.0">
   <link rel="icon" type="image/svg+xml" href="assets/card_back.svg">
 </head>
 <body>
@@ -122,14 +122,11 @@
           <!-- Action bar -->
           <div class="map-control-bar">
             <div class="view-mode-selector">
-              <button class="mode-btn active" data-mode="mindmap">
-                <span>🧠</span> Mapa Mental Interactivo
-              </button>
-              <button class="mode-btn" data-mode="sheet">
-                <span>📄</span> Ficha A4 de Estudio
-              </button>
-              <button class="mode-btn" data-mode="guide">
+              <button class="mode-btn active" data-mode="guide">
                 <span>🎧</span> Estudio Profundo & Audiolibro
+              </button>
+              <button class="mode-btn" data-mode="mindmap">
+                <span>🧠</span> Mapa Mental Interactivo
               </button>
             </div>
 
@@ -139,12 +136,6 @@
               </button>
               <button class="action-btn" id="btn-check-card" title="Marcar como carta dominada">
                 <span>✅</span> Dominada
-              </button>
-              <button class="action-btn action-btn-gold" id="btn-download-pdf" title="Descargar informe completo en PDF">
-                <span>📥</span> Descargar PDF
-              </button>
-              <button class="action-btn" id="btn-print-map" title="Imprimir este mapa en A4">
-                <span>🖨️</span> Imprimir
               </button>
             </div>
           </div>
@@ -509,8 +500,8 @@
 
   <!-- Scripts -->
   <script src="assets/html2pdf.bundle.min.js"></script>
-  <script src="data/tarot_database.js"></script>
-  <script src="app.js"></script>
+  <script src="data/tarot_database.js?v=3.0"></script>
+  <script src="app.js?v=3.0"></script>
 </body>
 </html>
 
