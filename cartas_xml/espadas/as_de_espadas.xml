@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="as-de-espadas">
+  <numero>As</numero>
+  <nombre>As de Espadas</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Espadas</palo>
+  <elemento>Aire</elemento>
+  <astrologia>Elemento Aire</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Una mano divina sostiene una espada coronada de olivo y palma. La verdad que corta toda ilusión y disipa las nieblas de la duda.</esencia>
+  <palabras_clave>Claridad mental, Verdad tajante, Victoria intelectual, Nueva idea, Cirugía liberadora</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Mente afilada, discernimiento lúcido, justicia, honestidad y valentía verbal.</lado_luz>
+    <lado_sombra>Crueldad verbal, frialdad despiadada, usar la verdad para herir sin compasión.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Espada erguida</nombre>
+      <descripcion>La fuerza del intelecto y la justicia implacable.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Corona y ramas de laurel</nombre>
+      <descripcion>Victoria de la verdad y paz conquistada.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Paisaje montañoso frío</nombre>
+      <descripcion>Objetividad analítica sin sentimentalismos distorsionadores.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Espadas (Aire) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando As de Espadas en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    As de Espadas representa la manifestación de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales en el grado 1. Enseña a canalizar la energía de Aire con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</resumen>
+    <amor>En los vínculos afectivos, As de Espadas aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Aire.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</resumen>
+    <palabras_clave_al_reves>Confusión mental, Palabras hirientes, Ideas destructivas</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Revisa tus premisas con calma; no tomes decisiones definitivas con la mente nublada.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    La fuerza primordial del intelecto, la verdad cortante y la claridad absoluta. Una mano divina sostiene una espada de doble filo coronada por una corona de laurel y palma.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>De la corona caen seis gotas de yod luminosas, garantizando que la verdad y la justicia proceden de la sabiduría celestial.</item>
+    <item>El paisaje de fondo muestra montañas escarpadas y afiladas bajo un cielo frío y despejado, reflejando la altitud del pensamiento lúcido.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, As de Espadas se asociaba con augurios concretos relacionados con el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Di la verdad con respeto y firmeza. Corta lo que te resta paz mental.</accion_inmediata>
+    <pregunta_para_ti>¿Qué verdad difícil necesitas pronunciar para liberarte de una situación falsa?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Hoja que Corta la Niebla</titulo>
+    <relato>
+      Durante décadas, el tribunal de la corte estuvo paralizado por mentiras entrelazadas y abogados que enredaban las leyes. Un joven juez, cansado de la farsa, desenvainó la espada de acero templado y la clavó en la mesa de roble: 'Basta de palabras que confunden. La verdad no tiene dos versiones; o es verdad o es mentira'. El filo de su honestidad cortó los engaños en un segundo y la luz volvió a reinar en el tribunal. Quien empuña la verdad con pureza no necesita alzar la voz.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/as-de-espadas.mp3</archivo>
+    <titulo>As de Espadas - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="dos-de-espadas">
+  <numero>2</numero>
+  <nombre>Dos de Espadas</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Espadas</palo>
+  <elemento>Aire</elemento>
+  <astrologia>Elemento Aire</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Una mujer con los ojos vendados sostiene dos pesadas espadas cruzadas ante el mar. Negarse a ver la realidad para postergar una elección dolorosa.</esencia>
+  <palabras_clave>Dilema difícil, Ojos vendados, Tregua tensa, Bloqueo mental, Decisión postergada</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Capacidad de sopesar opciones con calma, buscar tregua en conflictos.</lado_luz>
+    <lado_sombra>Parálisis por cobardía, ignorar problemas graves hasta que explotan.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Venda en los ojos</nombre>
+      <descripcion>Negación voluntaria de los hechos para no sufrir.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Espadas en equilibrio sobre el pecho</nombre>
+      <descripcion>Conflicto interno que bloquea el corazón.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Mar con rocas y luna creciente</nombre>
+      <descripcion>Mareas emocionales contenidas a duras penas.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Espadas (Aire) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Dos de Espadas en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Dos de Espadas representa la manifestación de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales en el grado 2. Enseña a canalizar la energía de Aire con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</resumen>
+    <amor>En los vínculos afectivos, Dos de Espadas aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Aire.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</resumen>
+    <palabras_clave_al_reves>Fin de la tregua, Verdad inevitable, Tomar la decisión demorada</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Afronta la decisión con coraje; cualquier opción firme es mejor que la parálisis.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    A diferencia del 2 de Bastos (visión de futuro) o del 2 de Copas (unión afectiva), el 2 de Espadas es el bloqueo defensivo: una mujer con los ojos vendados sostiene dos pesadas espadas cruzadas sobre su pecho protegiendo su corazón.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>El mar a sus espaldas muestra islotes rocosos peligrosos y una luna creciente en el cielo, indicando que la calma es solo una tregua superficial.</item>
+    <item>La venda en sus ojos no fue impuesta por un verdugo, sino colocada por ella misma para no tener que ver una realidad dolorosa.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Dos de Espadas se asociaba con augurios concretos relacionados con el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Quítate la venda. Mira los hechos de frente y decide con valentía.</accion_inmediata>
+    <pregunta_para_ti>¿Qué verdad evidente estás fingiendo no ver por miedo al dolor que causará?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Dama de la Venda Blanca</titulo>
+    <relato>
+      Sentada sobre un banco de piedra frente a los arrecifes, la mujer cruzaba dos espadas de plata sobre su pecho. No quería mirar hacia la derecha (donde el deber le exigía hablar) ni hacia la izquierda (donde el deseo le pedía callar). Creía que manteniéndose inmóvil y ciega con su venda blanca evitaría el dolor del conflicto. Pero el viento nocturno le susurró al oído: 'Bajar las espadas dolerá un instante; mantenerlas en alto te dejará congelada para siempre'. Respiró hondo y comenzó a desatar el nudo de su venda.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/dos-de-espadas.mp3</archivo>
+    <titulo>Dos de Espadas - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

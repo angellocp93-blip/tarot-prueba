@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="ocho-de-oros">
+  <numero>8</numero>
+  <nombre>Ocho de Oros</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Oros</palo>
+  <elemento>Tierra</elemento>
+  <astrologia>Elemento Tierra</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Un artesano trabaja concentrado en su banco tallando pentáculos uno a uno, colgando los terminados en el poste. El amor por el detalle y la mejora continua.</esencia>
+  <palabras_clave>Dedicación, Artesanía minuciosa, Aprendizaje enfocado, Perfeccionamiento, Pasión por el oficio</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Ética de trabajo ejemplar, disciplina constructiva, amor por el oficio, perfeccionamiento.</lado_luz>
+    <lado_sombra>Perfeccionismo neurótico, adicción al trabajo, descuidar la vida afectiva por el detalle.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Artesano con martillo y cincel</nombre>
+      <descripcion>Concentración total y trabajo disciplinado con las propias manos.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Siete pentáculos expuestos y uno en faena</nombre>
+      <descripcion>Progreso visible y compromiso con la excelencia paso a paso.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Pueblo lejano</nombre>
+      <descripcion>Aislamiento temporal fecundo para concentrarse en la obra.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Oros (Tierra) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Ocho de Oros en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Ocho de Oros representa la manifestación de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal en el grado 8. Enseña a canalizar la energía de Tierra con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</resumen>
+    <amor>En los vínculos afectivos, Ocho de Oros aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Tierra.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</resumen>
+    <palabras_clave_al_reves>Trabajo chapucero, Falta de disciplina, Agotamiento por perfeccionismo</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Vuelve a lo básico con paciencia. Los verdaderos logros no se consiguen de la noche a la mañana.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    A diferencia del 3 de Oros (trabajo en equipo), el 8 de Oros es la maestría artesanal individual, la dedicación paciente, el aprendizaje concentrado y la devoción por el trabajo bien hecho.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>El artesano está absorto cincelando una moneda con martillo y cincel, mientras seis monedas ya terminadas cuelgan alineadas en un poste y una séptima descansa en el suelo.</item>
+    <item>La ciudad se ve a lo lejos en el horizonte, indicando que el aprendiz se ha apartado temporalmente de las distracciones urbanas para perfeccionar su oficio.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Ocho de Oros se asociaba con augurios concretos relacionados con la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Pon tu mente y tu corazón en lo que haces. La constancia diaria te convertirá en maestro.</accion_inmediata>
+    <pregunta_para_ti>¿En qué habilidad estás dispuesto a invertir tiempo y práctica diaria para dominarla?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Grabador de las Ocho Estrellas</titulo>
+    <relato>
+      En su pequeño taller a las afueras de la ciudad, el joven orfebre tallaba con paciencia infinita la octava moneda de oro. Llevaba días puliendo la misma arista con una lija de diamante. Un amigo entró corriendo y le dijo: '¿Por qué pierdes tanto tiempo en una moneda que nadie va a mirar con lupa? Entrégala ya y cóbrala'. El artesano sopló el polvo de oro con ternura y contestó: 'Los hombres comunes miran la prisa; los maestros miran el alma que dejas en cada trazo. Cuando amas lo que haces, cada golpe de martillo es una oración'.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/ocho-de-oros.mp3</archivo>
+    <titulo>Ocho de Oros - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

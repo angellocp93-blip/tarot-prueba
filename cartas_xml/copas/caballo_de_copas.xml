@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="caballo-de-copas">
+  <numero>Caballo</numero>
+  <nombre>Caballo de Copas</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Copas</palo>
+  <elemento>Agua</elemento>
+  <astrologia>Elemento Agua</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>El caballero que avanza al paso tranquilo sobre su caballo blanco, ofreciendo su copa con elegancia. El mensajero del amor sincero y la diplomacia.</esencia>
+  <palabras_clave>Caballero romántico, Mensajero del corazón, Oferta sincera, Idealismo, Gracia</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Romanticismo refinado, empatía, diplomacia pacificadora y encanto.</lado_luz>
+    <lado_sombra>Donjuán embaucador, promesas poéticas que no se cumplen, capricho.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Caballo sereno al paso</nombre>
+      <descripcion>Acción templada por el afecto y la cortesía.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Alas en el casco y talones (Hermes)</nombre>
+      <descripcion>Inspiración poética y mediación pacífica.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Copa extendida</nombre>
+      <descripcion>Ofrenda de amor, paz o colaboración sincera.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    El caballero que avanza al paso tranquilo sobre su caballo blanco, ofreciendo su copa con elegancia. El mensajero del amor sincero y la diplomacia.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>El Caballo de Copas es el seductor honorable, el portador de una oferta afectiva o laboral llena de belleza. Actúa con calma, gentileza y elegancia poética.</resumen>
+    <amor>Llegada de un pretendiente romántico, invitación formal de amor, cortejo clásico.</amor>
+    <dinero_trabajo>Ofertas laborales atractivas con propósito humano o artístico; mediaciones con éxito.</dinero_trabajo>
+    <salud>Vitalidad en equilibrio y alineamiento con la energía del arcano.</salud>
+    <espiritualidad>El buscador del Santo Grial; el camino del devoto que sirve con amor.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Invertido advierte de personas que deslumbran con palabras pero huyen del compromiso.</resumen>
+    <palabras_clave_al_reves>Desengaño con un encantador, Promesas vacías, Inestabilidad emocional</palabras_clave_al_reves>
+    <amor>Desafíos o bloqueos en la comunicación afectiva.</amor>
+    <dinero_trabajo>Retrasos temporales o dispersión de esfuerzos.</dinero_trabajo>
+    <salud>Fatiga o somatización de tensiones.</salud>
+    <espiritualidad>Desconexión transitoria de la guía interior.</espiritualidad>
+    <como_armonizar_desbloquear>Pide hechos y no solo hermosas poesías antes de entregar tu confianza.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Haz tu propuesta con gentileza. La diplomacia y el afecto abrirán todas las puertas.</accion_inmediata>
+    <pregunta_para_ti>¿Cómo puedes aportar mayor poesía, dulzura y belleza a tu vida cotidiana?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Lección de Caballo de Copas</titulo>
+    <relato>
+      
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/caballo-de-copas.mp3</archivo>
+    <titulo>Caballo de Copas - Audiolibro y Meditación Guiada</titulo>
+    <duracion_estimada>4:00 min</duracion_estimada>
+  </audio>
+</arcano>

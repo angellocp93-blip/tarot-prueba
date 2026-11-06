@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="la-sacerdotisa">
+  <numero>II</numero>
+  <nombre>La Sacerdotisa</nombre>
+  <tipo>Arcano Mayor</tipo>
+  <palo>Ninguno</palo>
+  <elemento>Agua</elemento>
+  <astrologia>La Luna</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>La guardiana de los misterios invisibles. La respuesta no está en el ruido exterior sino en el silencio sagrado de tu templo interior.</esencia>
+  <palabras_clave>Intuición, Misterio, Subconsciente, Sabiduría oculta, Silencio fértil</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Intuición clarividente, serenidad inquebrantable, discreción, sabiduría ancestral y calma reflexiva.</lado_luz>
+    <lado_sombra>Aislamiento emocional, frialdad calculada, secretos dañinos, desconfianza enfermiza o pasividad excesiva.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Columnas Boaz y Jachin</nombre>
+      <descripcion>La dualidad cósmica: luz y sombra, activo y pasivo, consciente e inconsciente.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Velo con granadas</nombre>
+      <descripcion>Fertilidad interior y protección de los secretos sagrados del alma.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Corona lunar</nombre>
+      <descripcion>Conexión con las mareas emocionales y los ciclos naturales de la vida.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Rollo sagrado (TORA)</nombre>
+      <descripcion>Conocimiento profundo de las leyes cósmicas esperando ser descifrado.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    Originalmente denominada 'La Papisa' (La Papessa) en las cortes italianas del siglo XV, la carta evocaba la legendaria figura medieval de la Papisa Juana, una mujer que según el mito popular gobernó la Iglesia vestida de varón. En el siglo XIX, Antoine Court de Gébelin la asoció con la diosa egipcia Isis, velada ante los no iniciados. Pamela Colman Smith la situó entre las dos columnas del Templo de Salomón —Boaz (oscura) y Jachin (clara)—, vistiendo un manto azul que fluye como agua viva y sosteniendo en su regazo el pergamino de la Tora, fijándola como la guardiana absoluta de los misterios esotéricos y la intuición inconsciente.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    La Sacerdotisa es el arquetipo de la sabiduría interior, el silencio sagrado, la intuición clarividente y el conocimiento de los planos sutiles. Representa la noche fértil del alma, el útero psíquico donde germinan las verdades antes de salir a la luz. Enseña que no todas las respuestas se hallan en el análisis lógico externo; hay misterios que solo se revelan cuando se aquieta el ego y se escucha la voz interior.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Intuición profunda, serenidad, reserva sabia, secretos revelados y conexión con el subconsciente.</resumen>
+    <amor>Conexión de almas sutil y telepática. Intimidad espiritual basada en el entendimiento sin necesidad de muchas palabras. Posible atracción por alguien enigmático o necesidad de introspección antes de comprometerse.</amor>
+    <dinero_trabajo>Actuar con prudencia y confidencialidad. Excelente momento para el estudio, la investigación profunda o la consultoría. Confía en tus corazonadas antes de firmar acuerdos.</dinero_trabajo>
+    <salud>Equilibrio hormonal, ciclos biológicos y serenidad del sistema nervioso. Se recomienda prestar atención a los sueños y practicar meditación o técnicas de respiración consciente.</salud>
+    <espiritualidad>Despertar del tercer ojo y dones intuitivos. Capacidad para leer entre líneas en el libro de la vida y acceder a la memoria de los registros del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Secretismo tóxico, frialdad emocional, intuición bloqueada, chismes o desconexión del cuerpo.</resumen>
+    <palabras_clave_al_reves>Intuición ignorada, Secretos tóxicos, Frialdad, Superficialidad, Chismes</palabras_clave_al_reves>
+    <amor>Desconfianza, barreras defensivas infranqueables o secretos no confesados que distancian a la pareja. Sentimiento de aislamiento e incomprensión.</amor>
+    <dinero_trabajo>Información oculta deliberadamente, falta de transparencia en el entorno laboral o tomar decisiones basadas en ilusiones sin contrastar datos reales.</dinero_trabajo>
+    <salud>Alteraciones en los ciclos del sueño, desequilibrios del sistema reproductor femenino o somatización de emociones reprimidas por guardar silencio durante demasiado tiempo.</salud>
+    <espiritualidad>Superstición, miedo a los propios dones psíquicos o desconexión del plano espiritual debido a un escepticismo árido y defensivo.</espiritualidad>
+    <como_armonizar_desbloquear>Aléjate del bullicio. Dedica tiempo a la soledad reflexiva, anota tus sueños y vuelve a honrar tu sentir.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    Es la única carta que custodia el umbral entre las dos columnas del templo primordial (la dualidad de la luz y la oscuridad, lo visible y lo invisible). A diferencia de El Hierofante (que enseña dogmas religiosos y doctrinas públicas para las masas), La Sacerdotisa guarda el secreto místico interior: no habla con discursos, sino a través de revelaciones oníricas y silencios sagrados.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>El velo de granadas: El velo bordado con granadas a sus espaldas alude al mito de Perséfone en el Inframundo y a la fertilidad oculta del inconsciente.</item>
+    <item>La luna creciente a sus pies: Simboliza su dominio absoluto sobre las mareas emocionales y la capacidad de iluminar la oscuridad psíquica.</item>
+    <item>El rollo de la TORA: La palabra 'TORA' (parcialmente cubierta por su manto) contiene un juego de letras que forma anagramas sagrados: TARO (Tarot), ROTA (Rueda) y ORAT (Rezar).</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Guarda silencio y observa. La verdad saldrá a la luz sin que tengas que forzar nada. Confía en lo que sientes en tu pecho.</accion_inmediata>
+    <pregunta_para_ti>¿Qué verdad estás percibiendo interiormente que tu mente lógica intenta negar?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Guardiana del Velo Azul</titulo>
+    <relato>
+      En la biblioteca más antigua del desierto, los sabios discutían a gritos sobre el origen del universo. Solo una mujer permanecía sentada en el pórtico, mirando el pozo de agua profunda. Un joven se le acercó y le preguntó: —¿Por qué no participas en el debate? ¿Acaso no sabes la verdad? La mujer sonrió en silencio, tomó una hoja seca y la dejó caer sobre la superficie del agua. Las ondas se abrieron mostrando el reflejo exacto de las estrellas de medianoche. —Quien grita la verdad solo convence a su propio orgullo —susurró ella con voz de manantial—. Quien escucha en silencio, se convierte en el espejo del infinito.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/la-sacerdotisa.mp3</archivo>
+    <titulo>La Sacerdotisa - Los Secretos del Agua Silenciosa</titulo>
+    <duracion_estimada>4:40 min</duracion_estimada>
+  </audio>
+</arcano>

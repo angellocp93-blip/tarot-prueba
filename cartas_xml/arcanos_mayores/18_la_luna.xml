@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="la-luna">
+  <numero>XVIII</numero>
+  <nombre>La Luna</nombre>
+  <tipo>Arcano Mayor</tipo>
+  <palo>Ninguno</palo>
+  <elemento>Agua</elemento>
+  <astrologia>Piscis</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>El viaje a través de la noche de los sentidos. Nada es lo que parece; atraviesa tus temores más oscuros para alcanzar la luz.</esencia>
+  <palabras_clave>Ilusión, Subconsciente, Miedos arcaicos, Intuición salvaje, Incertidumbre</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Imaginación artística desbordante, intuición extrasensorial, exploración profunda del subconsciente y sueños reveladores.</lado_luz>
+    <lado_sombra>Paranoia, autoengaño, caer en trampas y mentiras ajenas, ataques de pánico o confusión mental crónica.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Luna con rostro lloroso y rayos</nombre>
+      <descripcion>La fuerza del inconsciente y las ilusiones que distorsionan la visión diurna.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Perro y lobo aullando</nombre>
+      <descripcion>El instinto domesticado y el instinto salvaje inquietos ante lo desconocido.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Cangrejo saliendo del agua</nombre>
+      <descripcion>Los miedos primordiales y traumas antiguos que emergen de las profundidades del alma.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Dos torres en el horizonte</nombre>
+      <descripcion>El umbral peligroso entre lo conocido y los reinos ocultos de la psique.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Sendero sinuoso</nombre>
+      <descripcion>El viaje interior difícil que debe ser transitado con sumo cuidado.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    En las barajas renacentistas se mostraba a astrólogos midiendo las fases de la luna o a mujeres hilando bajo la luz nocturna. El Tarot de Marsella y Rider-Waite-Smith fijaron una de las escenas más cargadas de simbolismo psicoanalítico y mitológico: la luna llena (con un rostro melancólico de perfil dentro de un sol creciente) deja caer gotas de rocío luminiscente sobre la tierra. Desde un estanque primordial emerge un cangrejo de río o langosta (los instintos primarios arcaicos del inconsciente); en la orilla, un perro doméstico y un lobo salvaje aúllan a la luna, mientras un sendero serpenteante cruza entre dos torres oscuras hacia las montañas azules de lo desconocido.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    La Luna es el arquetipo del subconsciente profundo, el mundo de los sueños, las ilusiones, los miedos atávicos y la intuición psíquica. Representa el viaje a través de la noche de la psique humana, donde las sombras se alargan y nada es exactamente lo que parece a simple vista. Nos enseña a no dejarnos engañar por las apariencias ni paralizar por las pesadillas imaginarias, transitando el sendero con discernimiento hasta que amanezca la verdad.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Intuición psíquica aguda, sueños reveladores, confusión emocional, secretos que emergen y necesidad de vencer temores ocultos.</resumen>
+    <amor>Inseguridades, celos infundados, misterios o ilusiones no correspondidas. Conexión telepática intensa pero que requiere comunicación clara para no caer en suposiciones erróneas.</amor>
+    <dinero_trabajo>Falta de claridad en contratos, ambientes laborales turbios o decisiones que no deben tomarse hasta que se disipe la niebla informativa.</dinero_trabajo>
+    <salud>Sensibilidad emocional extrema, alteraciones en los ciclos del sueño (insomnio o pesadillas vívidas) y fluctuaciones hormonales.</salud>
+    <espiritualidad>Contacto profundo con el mundo astral y los mensajes de los sueños. Superación del miedo a la propia oscuridad interior.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Claridad que disipa la confusión, secretos que se revelan, superación de engaños y liberación de miedos y fobias irracionales.</resumen>
+    <palabras_clave_al_reves>Disipación de la niebla, Superación de temores, Secretos descubiertos, Claridad emergente, Alivio mental</palabras_clave_al_reves>
+    <amor>Descubrimiento de la verdad en la relación, fin de la desconfianza o desenmascaramiento de mentiras que permite cerrar un ciclo con dignidad.</amor>
+    <dinero_trabajo>Aclaración de cuentas dudosas, resolución de malentendidos comerciales y salida de una etapa de incertidumbre profesional.</dinero_trabajo>
+    <salud>Recuperación de la estabilidad psicológica, superación de ansiedades o ataques de pánico y regularización del sueño.</salud>
+    <espiritualidad>Distinguir la verdadera intuición espiritual de las simples proyecciones del miedo del ego.</espiritualidad>
+    <como_armonizar_desbloquear>Enciende la luz de la razón. Pregunta directamente lo que dudas y contrasta la fantasía con los hechos reales.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    Es la única carta donde conviven las tres etapas de la evolución animal e instintiva de la psique: el crustáceo en el agua primordial (lo más primitivo e inconsciente), el lobo (el instinto salvaje) y el perro (el instinto domesticado). A diferencia de La Sacerdotisa (que domina el misterio en paz), La Luna muestra la inquietud y el estremecimiento del alma ante las profundidades de lo desconocido.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>El crustáceo que emerge del agua: Simboliza los complejos y memorias reprimidas del inconsciente que ascienden a la superficie para ser vistos y sanados.</item>
+    <item>El perro y el lobo: Representan la dualidad de nuestra propia naturaleza: el lado domesticado y adaptado a la sociedad frente al lado salvaje y primitivo.</item>
+    <item>Las quince gotas de yod: Caen de la luna hacia la tierra, recordando que incluso en medio de la niebla y la noche más confusa, la gracia divina nunca deja de derramarse.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>No des por hecho lo que tu mente asustada imagina. Espera a que amanezca antes de juzgar; mantente alerta y sereno.</accion_inmediata>
+    <pregunta_para_ti>¿Qué miedo oculto está distorsionando tu visión y haciéndote ver monstruos donde solo hay sombras?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Aullido del Valle Brumoso</titulo>
+    <relato>
+      Un caminante debía cruzar el Valle de las Dos Torres a medianoche para llegar a la ciudad del Sol. Apenas entró en la niebla, las sombras de las piedras parecían gigantes armados y el rumor del viento sonaba a carcajadas burlonas. A su lado, un perro blanco temblaba y un lobo negro enseñaba los dientes hacia el estanque de fango donde un cangrejo agitaba sus tenazas. El caminante sintió el hielo del pánico en su nuca y estuvo a punto de salir huyendo. Pero recordó el consejo de la abuela: 'La noche nunca ataca; solo refleja lo que temes llevar dentro'. Se detuvo, cerró los ojos y abrazó al perro y acarició el lomo del lobo. Cuando abrió los ojos, la luna llena sonrió tras la niebla: los gigantes eran solo cipreses y el sendero de piedras brillaba como plata pura. Avanzó paso a paso, sabiendo que la oscuridad no se combate: se atraviesa con paso firme.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/la-luna.mp3</archivo>
+    <titulo>La Luna - Los Espejismos de la Noche del Alma</titulo>
+    <duracion_estimada>4:45 min</duracion_estimada>
+  </audio>
+</arcano>

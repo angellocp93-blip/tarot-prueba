@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="tres-de-copas">
+  <numero>3</numero>
+  <nombre>Tres de Copas</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Copas</palo>
+  <elemento>Agua</elemento>
+  <astrologia>Elemento Agua</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Tres doncellas brindando en círculo entre uvas y flores. La dicha de la amistad leal, el apoyo mutuo y la fiesta de la vida.</esencia>
+  <palabras_clave>Celebración, Amistad, Comunión, Alegría compartida, Hermandad</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Amistad leal, alegría contagiosa, generosidad fraterna y colaboración.</lado_luz>
+    <lado_sombra>Chismes en grupos de amigos, superficialidad festiva, exclusión de otros.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Tres copas en alto</nombre>
+      <descripcion>Gratitud compartida y unión fraterna.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Frutas y flores en la tierra</nombre>
+      <descripcion>Abundancia gozada en comunidad.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Copas (Agua) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Tres de Copas en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Tres de Copas representa la manifestación de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón en el grado 3. Enseña a canalizar la energía de Agua con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</resumen>
+    <amor>En los vínculos afectivos, Tres de Copas aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Agua.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</resumen>
+    <palabras_clave_al_reves>Distanciamiento de amigos, Chismes de grupo, Fiestas vacías</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Aléjate de habladurías y busca la cercanía sincera de corazón a corazón.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    A diferencia del 4 de Bastos (celebración estructurada del hogar), el 3 de Copas es la hermandad espontánea, la dicha compartida entre amigas, la danza del agradecimiento y la abundancia de la cosecha.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>Tres mujeres con vestidos de colores vivos (rosa, blanco y oro) brindan con sus copas entrelazadas en una ronda de danza sagrada.</item>
+    <item>A sus pies abundan racimos de uvas maduras y calabazas, celebrando los frutos de la amistad y la colaboración afectiva.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Tres de Copas se asociaba con augurios concretos relacionados con las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Celebra con tus amigos. Agradece la presencia de quienes te apoyan incondicionalmente.</accion_inmediata>
+    <pregunta_para_ti>¿A qué amigo querido hace tiempo que no llamas para decirle cuánto lo valoras?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Danza de las Tres Hermanas</titulo>
+    <relato>
+      Tres doncellas cosecharon las vides en las colinas de Toscana. Al llenar los últimos cestos, alzaron sus copas hacia el cielo dorado del atardecer y bailaron descalzas entre los sarmientos. No competían por ver quién había trabajado más ni quién merecía el mayor elogio: celebraban que estaban juntas, vivas y bendecidas por la tierra fértil. En su risa cristalina resonaba la verdad suprema: la alegría cuando se comparte no se divide; se multiplica al infinito.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/tres-de-copas.mp3</archivo>
+    <titulo>Tres de Copas - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

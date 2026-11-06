@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="el-hierofante">
+  <numero>V</numero>
+  <nombre>El Hierofante</nombre>
+  <tipo>Arcano Mayor</tipo>
+  <palo>Ninguno</palo>
+  <elemento>Tierra</elemento>
+  <astrologia>Tauro</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>El puente entre lo humano y lo divino. Transmite el legado de la sabiduría comprobada, la ética y el aprendizaje guiado.</esencia>
+  <palabras_clave>Tradición, Sabiduría espiritual, Mentoría, Valores éticos, Instituciones</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Sabiduría moral, consejo experto, integridad ética, respeto por las raíces y vocación pedagógica.</lado_luz>
+    <lado_sombra>Dogmatismo ciego, fanatismo moralista, hipocresía religiosa, rigidez mental y rechazo al librepensamiento.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Corona papal de tres niveles</nombre>
+      <descripcion>Dominio sobre los tres planos: celestial, terrenal e infernal (mente, emoción, cuerpo).</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Llaves cruzadas de San Pedro</nombre>
+      <descripcion>Apertura de los misterios conscientes e inconscientes.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Dos discípulos a sus pies</nombre>
+      <descripcion>La transmisión pedagógica del conocimiento de maestro a alumno.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Gesto de bendición</nombre>
+      <descripcion>Conexión y mediación sagrada entre el cielo y la asamblea de creyentes.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    Conocido originalmente como 'El Papa' en el Tarot de Marsella, representaba la máxima autoridad eclesiástica de la cristiandad medieval. Arthur Edward Waite cambió su nombre por 'El Hierofante' (el intérprete de los misterios sagrados en los ritos griegos de Eleusis), despojándolo del dogma católico exclusivo para elevarlo a custodio universal de la tradición iniciática. Aparece sentado entre dos pilares, portando la tiara papal de tres coronas y la cruz de tres brazos, bendiciendo a dos sacerdotes arrodillados sobre un tablero de llaves cruzadas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    El Hierofante es el puente entre lo divino y lo humano, el maestro espiritual, la sabiduría ancestral transmitida por linajes y el compromiso con valores éticos elevados. Representa la educación, las instituciones respetables, el consejo sabio de mentores y la necesidad de pertenecer a una comunidad con principios compartidos.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Sabiduría tradicional, consejo espiritual, matrimonio o alianza sagrada, aprendizaje con mentores y fidelidad a los propios principios.</resumen>
+    <amor>Compromiso formal, boda, unión basada en valores espirituales compartidos y respeto mutuo duradero.</amor>
+    <dinero_trabajo>Éxito a través de métodos probados, formación académica, respaldo de instituciones serias y trabajo ético impecable.</dinero_trabajo>
+    <salud>Recurrir a la medicina tradicional o a profesionales de comprobada experiencia. Bienestar a través de rutinas equilibradas.</salud>
+    <espiritualidad>Estudio de textos sagrados, integración en una tradición o escuela filosófica y búsqueda de un maestro o guía espiritual verídico.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Dogmatismo asfixiante, hipocresía moral, fanatismo religioso, rebelión contra normas absurdas o malos consejos de falsos gurús.</resumen>
+    <palabras_clave_al_reves>Dogmatismo, Rebelión necesaria, Consejo engañoso, Ruptura de moldes, Hipocresía</palabras_clave_al_reves>
+    <amor>Presión familiar o social que ahoga la relación. Romper con tradiciones obsoletas o descubrir doble moral en la pareja.</amor>
+    <dinero_trabajo>Burocracia paralizante, resistencia al cambio en la empresa o escándalos institucionales por falta de transparencia.</dinero_trabajo>
+    <salud>Terapias dudosas recomendadas por charlatanes. Negarse a seguir tratamientos médicos contrastados por prejuicios ideológicos.</salud>
+    <espiritualidad>Ruptura liberadora con dogmas religiosos impuestos. Búsqueda de un camino espiritual propio fuera de las iglesias convencionales.</espiritualidad>
+    <como_armonizar_desbloquear>Cuestiona las normas heredadas. Encuentra tu propia espiritualidad y tu propia brújula moral auténtica.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    A sus pies descansan dos llaves de oro y plata cruzadas que abren los misterios del cielo y de la tierra, y dos acólitos visten túnicas con motivos florales (rosas rojas y lirios blancos), simbolizando la enseñanza directa de maestro a discípulo. A diferencia de La Sacerdotisa (que guarda el saber en secreto e intuición solitaria), El Hierofante exterioriza la sabiduría y la enseña públicamente a la comunidad.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>Las tres coronas de la tiara: Simbolizan su autoridad sobre los tres mundos: el material, el astral y el espiritual.</item>
+    <item>El gesto de bendición: Su mano derecha levanta dos dedos hacia arriba y dos hacia abajo, el signo esotérico de la bendición que conecta lo esotérico con lo exotérico.</item>
+    <item>Las llaves de San Pedro: Una es de oro (sol/espíritu) y la otra de plata (luna/alma), recordando que solo la unión de ambas abre las puertas del conocimiento supremo.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Busca consejo en personas con experiencia comprobada. Apóyate en principios éticos sólidos antes de decidir.</accion_inmediata>
+    <pregunta_para_ti>¿Qué valores o principios fundamentales no estás dispuesto a negociar en esta circunstancia?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Guardián de las Dos Llaves</titulo>
+    <relato>
+      Un joven monje pasó diez años memorizando cada salmo de la gran abadía. Orgulloso, acudió al viejo abad y le dijo: 'He aprendido cada palabra de los códices sagrados; ya soy un maestro'. El anciano tomó dos llaves oxidadas y las arrojó al lodo del patio. 'Tráemelas limpias', ordenó. El joven se arrodilló, se ensució las vestiduras y frotó las llaves contra su propio pecho hasta que brillaron. 'Ahora mira tus manos', dijo el abad sonriendo: 'Están llenas de tierra. La doctrina que no se ensucia sirviendo al prójimo no es más que polvo de biblioteca. Solo quien baja al barro merece abrir las puertas del cielo'.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/el-hierofante.mp3</archivo>
+    <titulo>El Hierofante - La Tradición de los Misterios</titulo>
+    <duracion_estimada>4:35 min</duracion_estimada>
+  </audio>
+</arcano>

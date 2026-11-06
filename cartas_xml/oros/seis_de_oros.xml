@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="seis-de-oros">
+  <numero>6</numero>
+  <nombre>Seis de Oros</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Oros</palo>
+  <elemento>Tierra</elemento>
+  <astrologia>Elemento Tierra</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Un mercader próspero sostiene una balanza con una mano mientras reparte monedas con la otra a dos personas humildes. La economía sagrada de la reciprocidad.</esencia>
+  <palabras_clave>Generosidad, Dar y recibir, Caridad justa, Equilibrio financiero, Mecenazgo</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Generosidad noble, filantropía, solvencia para ayudar, gratitud al recibir.</lado_luz>
+    <lado_sombra>Condescendencia soberbia, dar para humillar o crear dependencias, clientelismo.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Balanza en equilibrio</nombre>
+      <descripcion>Justicia distributiva y discernimiento al otorgar recursos.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Monedas entregadas con la mano derecha</nombre>
+      <descripcion>Generosidad activa y bendición material compartida.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Oros (Tierra) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Seis de Oros en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Seis de Oros representa la manifestación de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal en el grado 6. Enseña a canalizar la energía de Tierra con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</resumen>
+    <amor>En los vínculos afectivos, Seis de Oros aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Tierra.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</resumen>
+    <palabras_clave_al_reves>Deudas impagadas, Egoísmo, Caridad humillante o interesada</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Sé claro en los acuerdos económicos con amigos o familiares para evitar resentimientos.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    La generosidad justa y la redistribución equilibrada: un mercader próspero reparte monedas a dos suplicantes arrodillados mientras sostiene una balanza en su mano izquierda para dar a cada uno según su necesidad real.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>La balanza en su mano garantiza que su caridad no es un capricho humillante ni un acto de condescendencia egoísta, sino un acto de justicia distributiva.</item>
+    <item>Las seis monedas están repartidas en el aire entre el donante y los receptores, simbolizando el circuito sagrado del dar y el recibir.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Seis de Oros se asociaba con augurios concretos relacionados con la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Comparte con generosidad si tienes abundancia; y si necesitas ayuda, recíbela con dignidad.</accion_inmediata>
+    <pregunta_para_ti>¿Estás en este momento en posición de dar con nobleza o de recibir con humildad?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Mercader de la Balanza Justa</titulo>
+    <relato>
+      Un sabio comerciante bajó a la plaza del mercado con una bolsa de monedas y una pequeña balanza de bronce. Se le acercaron dos hombres necesitados: uno tenía una familia enferma y el otro necesitaba herramientas para volver a labrar su tierra. El mercader pesó las monedas con cuidado y entregó a cada uno exactamente lo que requería para volver a ponerse en pie. 'La caridad que solo regala sobras humilla al que recibe', les dijo con una sonrisa afectuosa; 'la verdadera generosidad es la que te da el andamio para que vuelvas a caminar por tus propios medios'.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/seis-de-oros.mp3</archivo>
+    <titulo>Seis de Oros - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

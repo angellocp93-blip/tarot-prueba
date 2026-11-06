@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="diez-de-oros">
+  <numero>10</numero>
+  <nombre>Diez de Oros</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Oros</palo>
+  <elemento>Tierra</elemento>
+  <astrologia>Elemento Tierra</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Tres generaciones de una familia y sus perros descansan bajo el arco blasonado de una mansión donde los diez pentáculos forman el Árbol de la Vida. Plenitud total.</esencia>
+  <palabras_clave>Legado familiar, Prosperidad duradera, Patrimonio generacional, Raíces sólidas, Estabilidad plena</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Solidez patrimonial inquebrantable, legado perdurable, armonía familiar, generosidad.</lado_luz>
+    <lado_sombra>Disputas por herencias, mandatos familiares asfixiantes, dinero que divide a la familia.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Diez pentáculos en el Árbol de la Cábala</nombre>
+      <descripcion>Manifestación perfecta de la riqueza divina en el plano terrenal.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Anciano sabio con manto bordado</nombre>
+      <descripcion>Patriarca que contempla con satisfacción el fruto de toda una vida.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Pareja, niño y perros jugando</nombre>
+      <descripcion>Armonía intergeneracional, lealtad y futuro garantizado.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Oros (Tierra) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Diez de Oros en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Diez de Oros representa la manifestación de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal en el grado 10. Enseña a canalizar la energía de Tierra con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</resumen>
+    <amor>En los vínculos afectivos, Diez de Oros aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Tierra.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</resumen>
+    <palabras_clave_al_reves>Disputas por herencias, Pérdida de patrimonio, Ruptura con la familia</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Pon los papeles en regla y no permitas que la avaricia envenene los afectos familiares.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    La cumbre de la prosperidad familiar, la herencia multigeneracional y la estabilidad patrimonial consolidada: tres generaciones conviven en el arco señorial de un palacio junto a sus fieles perros.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>Un anciano venerado cubierto con una capa de motivos mágicos acaricia a dos perros de caza mientras su hijo, su nuera y su nieto juegan bajo el arco de piedra.</item>
+    <item>Las diez monedas están dispuestas según el patrón exacto del Árbol de la Vida de la Cábala (las diez Sephiroth), demostrando que la materia ha sido plenamente consagrada a la armonía divina.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Diez de Oros se asociaba con augurios concretos relacionados con la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Construye para el largo plazo. Piensa en el legado que dejarás a quienes vienen detrás de ti.</accion_inmediata>
+    <pregunta_para_ti>¿Qué legado de valores y estabilidad estás construyendo hoy para tu futuro?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Legado del Patriarca en el Arco de Piedra</titulo>
+    <relato>
+      Bajo el arco de entrada de la antigua casona señorial, el abuelo descansaba cubierto con una manta de lana bordada. A sus pies dormitaban sus dos fieles lebreles y unos metros más allá su hijo conversaba con su esposa mientras el nieto pequeño perseguía a una paloma en el patio. El anciano contempló las diez monedas de oro grabadas en el dintel de piedra y sintió una paz infinita en el pecho: su verdadero legado no eran las tierras ni los títulos nobiliarios, sino la raíz sólida de una familia unida que continuaría su memoria con amor y dignidad por generaciones.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/diez-de-oros.mp3</archivo>
+    <titulo>Diez de Oros - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

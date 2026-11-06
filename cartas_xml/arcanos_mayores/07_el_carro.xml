@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="el-carro">
+  <numero>VII</numero>
+  <nombre>El Carro</nombre>
+  <tipo>Arcano Mayor</tipo>
+  <palo>Ninguno</palo>
+  <elemento>Agua</elemento>
+  <astrologia>Cáncer</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>El triunfo sobre la adversidad mediante la voluntad enfocada. Dirige tus fuerzas contradictorias hacia una meta definida.</esencia>
+  <palabras_clave>Victoria, Fuerza de voluntad, Dirección, Autocontrol, Superación de obstáculos</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Determinación de hierro, superación de pruebas complejas, motivación alta, autodisciplina y éxito merecido.</lado_luz>
+    <lado_sombra>Agresividad desmedida, autoritarismo destructivo, atropellar a los demás por ganar, frustración descontrolada.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Esfinges blanca y negra</nombre>
+      <descripcion>Fuerzas opuestas (emoción y razón) que deben ser guiadas por la voluntad consciente.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Dosel de estrellas</nombre>
+      <descripcion>Protección divina y destino trascendente que resguarda al conductor.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Ruedas del carro</nombre>
+      <descripcion>Movimiento dinámico, acción decidida y superación de la inercia.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Coraza con lunas crecientes</nombre>
+      <descripcion>Protección emocional para no dejarse desviar por el desánimo o la crítica.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    Inspirado en los desfiles triunfales de los generales en la Roma imperial y en los 'Trionfi' de Petrarca que dieron origen al Tarot renacentista. En el Tarot de Marsella y Rider-Waite-Smith, el héroe coronado no lleva riendas en sus manos: conduce su carroza cúbica mediante la pura fuerza de su voluntad y su concentración mental. Va protegido por una armadura con lunas crecientes en los hombros y bajo un dosel de estrellas azules, mientras dos esfinges —una blanca y otra negra— tiran en direcciones opuestas, simbolizando el dominio consciente sobre las pasiones e instintos contradictorios de la psique humana.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    El Carro representa la victoria sobre los obstáculos, la autodeterminación inquebrantable, el avance imparable y el triunfo de la mente disciplinada. Enseña que el éxito no depende de la ausencia de conflictos internos o externos, sino de la capacidad de mantener el rumbo firme integrando las fuerzas polares (luz y sombra) hacia un mismo propósito supremo.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Triunfo, avance acelerado, disciplina férrea, superación de pruebas, viajes exitosos y control emocional.</resumen>
+    <amor>Superar crisis de pareja con madurez y decisión. Conquistar metas conjuntas o tomar las riendas de la propia vida sentimental dejando atrás amores del pasado.</amor>
+    <dinero_trabajo>Victoria en proyectos competitivos, liderazgo indiscutido, consecución de metas ambiciosas y excelente momento para expandir negocios al extranjero.</dinero_trabajo>
+    <salud>Fuerza de voluntad admirable para superar adicciones o adoptar rutinas deportivas exigentes. Recuperación rápida de enfermedades.</salud>
+    <espiritualidad>El alma doma el vehículo del cuerpo y de las emociones. Avance espiritual mediante la autodisciplina y el propósito inquebrantable.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Pérdida de control, agresión desmedida, choque contra la realidad, falta de dirección o parálisis por sabotaje interno.</resumen>
+    <palabras_clave_al_reves>Pérdida de control, Frustración, Dirección errática, Agresividad, Obstáculos insuperables</palabras_clave_al_reves>
+    <amor>Luchas de poder en la pareja, autoritarismo destructivo o relación que se estrella por no saber frenar los impulsos de orgullo y rencor.</amor>
+    <dinero_trabajo>Proyectos que descarrilan por exceso de arrogancia o falta de planificación. Pérdidas en viajes o disputas legales descontroladas.</dinero_trabajo>
+    <salud>Agotamiento extremo por conducir la propia vida a velocidades insostenibles (burnout). Riesgo de accidentes de tráfico o contracturas musculares agudas.</salud>
+    <espiritualidad>Ego fuera de control. Creer que la fuerza bruta puede sustituir a la gracia divina; desconexión entre lo que se predica y lo que se practica.</espiritualidad>
+    <como_armonizar_desbloquear>Detén la marcha. Reevalúa tus fuerzas y motivos; no intentes avanzar a ciegas si el vehículo no está en condiciones.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    Es el único vehículo triunfal conducido sin riendas físicas: las dos esfinges (una blanca y otra negra) descansan a sus pies y avanzan únicamente por la telepatía y el magnetismo del conductor. A diferencia de El Mago (que prepara el terreno con sus herramientas), El Carro ya está en marcha por el mundo conquistando la victoria en el plano tangible.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>Las esfinges blanca y negra: Simbolizan las fuerzas opuestas de la misericordia y la severidad cabalística que intentan desviarse pero son domadas por la mente superior.</item>
+    <item>Las lunas en las hombreras: Son las caras de Urim y Tumim del sumo sacerdote hebreo, que indicaban si las decisiones estaban bendecidas por la divinidad.</item>
+    <item>El dosel estrellado: Indica que el guerrero está guiado por las influencias cósmicas celestiales y no solo por sus deseos terrenales.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Mantén el enfoque y no te rindas. Tienes la fuerza para superar cualquier obstáculo si no pierdes de vista tu objetivo.</accion_inmediata>
+    <pregunta_para_ti>¿Hacia dónde estás dirigiendo tu energía actualmente? ¿Estás controlando tú el carro o te dejas llevar?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>Las Dos Esfinges de la Puerta de Tebas</titulo>
+    <relato>
+      Antes de coronarse príncipe, el guerrero debía cruzar el Desfiladero de las Sombras conduciendo un carro de bronce tirado por dos leones alados. El león blanco quería volar hacia las nubes de la ilusión; el león negro quería descender a las cavernas del instinto salvaje. El guerrero soltó el látigo y las cadenas. Cerró los ojos, respiró hondo y visualizó el obelisco de la ciudad natal al final del cañón. Fijó su mente con tal pureza en el horizonte que los dos leones, sintiendo la vibración inquebrantable de su pecho, unieron sus lomos y corrieron al unísono como si fueran un solo relámpago. Al llegar a Tebas, la multitud vitoreó: no celebraban la velocidad del carro, sino al hombre que había vencido a su propia tempestad interior.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/el-carro.mp3</archivo>
+    <titulo>El Carro - La Victoria de la Voluntad</titulo>
+    <duracion_estimada>4:30 min</duracion_estimada>
+  </audio>
+</arcano>

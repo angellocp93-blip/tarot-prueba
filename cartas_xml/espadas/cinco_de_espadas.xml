@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="cinco-de-espadas">
+  <numero>5</numero>
+  <nombre>Cinco de Espadas</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Espadas</palo>
+  <elemento>Aire</elemento>
+  <astrologia>Elemento Aire</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Un hombre sonríe con suficiencia recogiendo tres espadas ajenas mientras dos figuras derrotadas se alejan llorando. Ganar la batalla perdiendo la guerra.</esencia>
+  <palabras_clave>Victoria pírrica, Derrota moral, Conflicto mezquino, Orgullo dañino, Retirada sabia</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Saber cuándo retirarse de una discusión destructiva; proteger la propia dignidad.</lado_luz>
+    <lado_sombra>Hostilidad, cinismo, traición, abusar del poder para aplastar a otros.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Hombre con sonrisa burlona</nombre>
+      <descripcion>La victoria mezquina del ego que saborea el dolor ajeno.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Dos figuras cabizbajas al fondo</nombre>
+      <descripcion>Amargura, traición y ruptura de la confianza mutua.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Cielo con nubes desgarradas</nombre>
+      <descripcion>Ambiente tenso y hostil tras la pelea.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Espadas (Aire) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Cinco de Espadas en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Cinco de Espadas representa la manifestación de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales en el grado 5. Enseña a canalizar la energía de Aire con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</resumen>
+    <amor>En los vínculos afectivos, Cinco de Espadas aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Aire.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</resumen>
+    <palabras_clave_al_reves>Deseo de reconciliación, Reconocer el daño causado, Fin de la hostilidad</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Pide disculpas con humildad y repara los daños morales cometidos.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    A diferencia del 5 de Bastos (competencia leal), el 5 de Espadas es la victoria pírrica: un hombre sonríe con desdén recogiendo las espadas de sus rivales derrotados, que se alejan llorando humillados al fondo.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>El cielo muestra nubes desgarradas y agitadas por un viento hostil, simbolizando la amargura que deja la soberbia y la falta de empatía.</item>
+    <item>Ha ganado la discusión y el botín, pero ha perdido la confianza, la amistad y el respeto de todos sus compañeros.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Cinco de Espadas se asociaba con augurios concretos relacionados con el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Elige la paz antes que tener la razón. Retírate antes de causar heridas imborrables.</accion_inmediata>
+    <pregunta_para_ti>¿Estás dispuesto a destruir un vínculo valioso solo por el capricho de tener la última palabra?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Victoria Amarga del Campo de Duelo</titulo>
+    <relato>
+      El espadachín se burló a carcajadas de sus dos contrincantes mientras recogía sus armas caídas en el lodo. Les había ganado la partida con trucos sucios y palabras hirientes. Pero al volverse para celebrar su triunfo, descubrió que estaba completamente solo en medio del páramo: nadie le aplaudía, nadie le esperaba en la posada y sus amigos se alejaban cabizbajos jurando no volver a hablarle jamás. Comprendió con un nudo en la garganta que ganar humillando a los demás es la peor de todas las derrotas.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/cinco-de-espadas.mp3</archivo>
+    <titulo>Cinco de Espadas - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

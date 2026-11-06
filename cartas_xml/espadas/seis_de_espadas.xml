@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="seis-de-espadas">
+  <numero>6</numero>
+  <nombre>Seis de Espadas</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Espadas</palo>
+  <elemento>Aire</elemento>
+  <astrologia>Elemento Aire</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Un barquero traslada a una madre y su hijo encapuchados hacia una orilla serena, llevando seis espadas clavadas en la barca. Marchar hacia la paz.</esencia>
+  <palabras_clave>Transición necesaria, Aguas más calmas, Viaje de sanación, Dejar atrás la tormenta, Esperanza sobria</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Superación de crisis, mudanzas favorables, recuperación gradual de la paz.</lado_luz>
+    <lado_sombra>Llevar el rencor a la nueva etapa, resistencia a soltar el drama del pasado.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Barquero remando</nombre>
+      <descripcion>Guía segura y esfuerzo constante hacia la estabilidad.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Agua rizada a la derecha y calma a la izquierda</nombre>
+      <descripcion>Transición de la crisis a la serenidad mental.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Seis espadas clavadas en la madera</nombre>
+      <descripcion>Los problemas se trasladan pero ya no hieren.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Espadas (Aire) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Seis de Espadas en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Seis de Espadas representa la manifestación de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales en el grado 6. Enseña a canalizar la energía de Aire con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</resumen>
+    <amor>En los vínculos afectivos, Seis de Espadas aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Aire.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</resumen>
+    <palabras_clave_al_reves>Viaje accidentado, Regreso al conflicto, Atascado en la crisis</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Confía en el proceso de cambio y acepta la ayuda de quienes saben guiarte.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    A diferencia del 8 de Copas (marcha solitaria a pie), el 6 de Espadas es la travesía hacia la sanación: un barquero transporta a una madre y a su hijo en una barca con seis espadas clavadas en la proa, dejando atrás aguas turbulentas hacia una orilla serena.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>A la derecha de la barca el agua está agitada y con olas; a la izquierda, el agua se vuelve calma como un espejo, confirmando la mejoría.</item>
+    <item>Las seis espadas viajan en la barca, simbolizando que no se puede borrar el pasado de golpe, pero sí se puede navegar con él hacia la paz.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Seis de Espadas se asociaba con augurios concretos relacionados con el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Sigue remando. La orilla de la paz está cerca; no mires atrás con pesar.</accion_inmediata>
+    <pregunta_para_ti>¿Qué peso emocional del pasado estás cargando en tu barca que puedes soltar?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Barca de las Aguas Tranquilas</titulo>
+    <relato>
+      Cubiertos con mantas oscuras, la madre y el niño permanecían en silencio mientras el barquero empujaba su pértiga en el fondo del río. Dejaban atrás la ciudad en llamas donde habían sufrido tanto dolor. Al principio, las olas mecían la barca con violencia y el miedo atenazaba sus gargantas; pero a medida que avanzaban hacia la otra orilla, las aguas se volvieron mansas y el sol comenzó a asomar tras los cipreses. Las heridas del pasado aún viajaban con ellos, pero la tormenta había quedado atrás para siempre.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/seis-de-espadas.mp3</archivo>
+    <titulo>Seis de Espadas - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

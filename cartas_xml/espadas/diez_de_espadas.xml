@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="diez-de-espadas">
+  <numero>10</numero>
+  <nombre>Diez de Espadas</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Espadas</palo>
+  <elemento>Aire</elemento>
+  <astrologia>Elemento Aire</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Un hombre yace en el suelo atravesado por diez espadas, pero en el horizonte el cielo negro comienza a dar paso a la luz dorada del sol. Lo peor ya pasó.</esencia>
+  <palabras_clave>Final inevitable, Tocar fondo, Traición consumada, Nuevo amanecer, Fin del sufrimiento</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Liberación tras tocar fondo; ya no hay nada que temer porque todo se reveló.</lado_luz>
+    <lado_sombra>Dramatismo exagerado, regodearse en la condición de víctima, rencor eterno.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Diez espadas a lo largo de la columna</nombre>
+      <descripcion>Cierre total y drástico; el ciclo mental ha muerto definitivamente.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Manto rojo bajo el cuerpo</nombre>
+      <descripcion>La dignidad y la vida que permanecen a pesar del golpe.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Amanecer dorado en el mar lejano</nombre>
+      <descripcion>La certeza ineludible de que la noche oscura ha concluido.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Espadas (Aire) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Diez de Espadas en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Diez de Espadas representa la manifestación de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales en el grado 10. Enseña a canalizar la energía de Aire con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</resumen>
+    <amor>En los vínculos afectivos, Diez de Espadas aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Aire.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</resumen>
+    <palabras_clave_al_reves>Renacer de las cenizas, Alivio inmenso, Recuperación de la esperanza</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>El dolor ya cumplió su función. Sacúdete el polvo y camina hacia la luz dorada.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    El fondo absoluto del sufrimiento mental y el fin definitivo de una pesadilla: un hombre yace boca abajo atravesado por diez espadas, pero en el horizonte el cielo negro comienza a iluminarse con una franja de oro radiante sobre el mar en calma.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>Su mano derecha forma el gesto de la bendición sagrada, revelando que en la muerte del ego reside la liberación del alma.</item>
+    <item>El cielo es negro arriba pero amanece amarillo abajo: lo peor ya ha pasado y a partir de este instante solo se puede subir.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Diez de Espadas se asociaba con augurios concretos relacionados con el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Acepta que terminó. No intentes revivir lo que murió; levántate y mira el nuevo amanecer.</accion_inmediata>
+    <pregunta_para_ti>¿Estás listo para dejar de hablar de tus heridas y empezar a construir tu nueva vida?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Amanecer tras la Décima Hoja</titulo>
+    <relato>
+      El viajero cayó tendido sobre la arena del páramo tras recibir el último golpe de la adversidad. Creía que aquel era el final amargo de su existencia y cerró los ojos aceptando su destino. Pero pasaron las horas y descubrió que el dolor ya no aumentaba: había tocado el fondo más profundo de la prueba. Cuando abrió los ojos, vio una franja de oro puro naciendo en el horizonte del mar. La pesadilla había terminado definitivamente; ya no había nada más que temer, porque quien ha muerto a sus ilusiones renace libre para siempre.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/diez-de-espadas.mp3</archivo>
+    <titulo>Diez de Espadas - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

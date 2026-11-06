@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="el-sol">
+  <numero>XIX</numero>
+  <nombre>El Sol</nombre>
+  <tipo>Arcano Mayor</tipo>
+  <palo>Ninguno</palo>
+  <elemento>Fuego</elemento>
+  <astrologia>El Sol</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>La plenitud de la vida. Claridad meridiana, felicidad compartida, éxito brillante y salud vibrante bajo el abrazo del astro rey.</esencia>
+  <palabras_clave>Éxito rotundo, Alegría, Vitalidad, Claridad radiante, Verdad triunfante</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Felicidad radiante, generosidad cálida, éxito indiscutible, claridad mental, salud física vigorosa y carisma.</lado_luz>
+    <lado_sombra>Orgullo desmedido, egocentrismo cegador, vanidad infantil o deslumbramiento ingenuo.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Sol radiante con rostro benevolente</nombre>
+      <descripcion>La fuerza divina nutricia, consciencia despierta y abundancia cósmica.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Niño desnudo sobre caballo blanco</nombre>
+      <descripcion>La inocencia reconquistada, libertad, pureza de espíritu y triunfo sin armaduras.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Cuatro girasoles tras el muro</nombre>
+      <descripcion>Los cuatro elementos madurados y florecidos orientados hacia la luz divina.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Estandarte rojo ondeando</nombre>
+      <descripcion>La energía vital, pasión, entusiasmo y victoria en el mundo material.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    En las barajas medievales y de Marsella solía mostrar a dos niños gemelos vestidos con taparrabos abrazándose bajo una lluvia de rayos solares. Pamela Colman Smith y Arthur Edward Waite simplificaron y elevaron la escena a una belleza sublime: un niño pequeño radiante y totalmente desnudo monta sin silla ni riendas sobre un dócil caballo blanco (símbolo de la inocencia y el dominio de los instintos), llevando en su mano izquierda un gran estandarte rojo fuego que ondea con júbilo. Al fondo, sobre un muro de piedra protector, florecen cuatro grandes girasoles dorados bajo un sol inmenso de rostro sereno y compasivo rodeado de rayos rectos y ondulados.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    El Sol es el arquetipo de la iluminación, la alegría pura, el éxito supremo, la vitalidad radiante, la claridad de la verdad y el renacimiento de la inocencia. Es la carta más positiva de toda la baraja del Tarot. Tras superar la noche incierta de La Luna, amanece el día radiante donde todo se ve con absoluta transparencia. Nos enseña a recuperar el corazón de niño, a celebrar la vida con júbilo y a irradiar calidez y generosidad sin pedir nada a cambio.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Éxito absoluto, alegría desbordante, vitalidad física, claridad de objetivos, triunfo merecido y plenitud compartida.</resumen>
+    <amor>Felicidad plena en la pareja, romance cálido y transparente, boda, nacimientos deseados y armonía total en el hogar.</amor>
+    <dinero_trabajo>Triunfo en proyectos, ascensos de gran visibilidad, prosperidad económica floreciente y reconocimiento público indiscutible.</dinero_trabajo>
+    <salud>Vitalidad sobresaliente, energía solar desbordante, longevidad y curación total de dolencias pasadas.</salud>
+    <espiritualidad>Consciencia crística o solar despierta. Percepción de la unidad de toda la vida y alegría sincera por la existencia de los demás.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Éxito demorado pero no cancelado, exceso de orgullo o vanidad, dificultad momentánea para ver el lado positivo o nubes pasajeras.</resumen>
+    <palabras_clave_al_reves>Optimismo temporalmente nublado, Retraso en el éxito, Ego herido, Falta de entusiasmo</palabras_clave_al_reves>
+    <amor>Pequeños roces por egocentrismo, exigencias de protagonismo en la pareja o felicidad que se demora por dudas menores.</amor>
+    <dinero_trabajo>Logros que tardan un poco más en manifestarse de lo esperado o exceso de optimismo que pasa por alto detalles operativos.</dinero_trabajo>
+    <salud>Insolación, fatiga temporal por exceso de actividad o necesidad de recargar energías al aire libre.</salud>
+    <espiritualidad>Ego espiritual que busca aplausos externos en lugar de cultivar la humildad silenciosa del corazón.</espiritualidad>
+    <como_armonizar_desbloquear>No pierdas la fe. El Sol sigue allí aunque haya neblina; reconecta con las cosas sencillas que te devuelven la sonrisa.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    Es el único arcano donde el triunfador supremo no es un rey armado ni un sabio venerable, sino un niño desnudo que monta a pelo sobre un caballo blanco. A diferencia de El Carro (que necesita armadura y control férreo para triunfar), El Sol triunfa mediante la absoluta inocencia y la gracia sin esfuerzo: su fuerza es la pureza de su corazón.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>Los cuatro girasoles sobre el muro: Representan los cuatro elementos de la naturaleza plenamente purificados y florecidos al calor del espíritu divino.</item>
+    <item>La pluma roja en la cabeza del niño: Es la misma pluma roja que llevaba El Loco en su sombrero al inicio del viaje (0), confirmando que El Sol es El Loco que ha alcanzado la iluminación.</item>
+    <item>Los rayos rectos y ondulados: Los rectos simbolizan la luz del intelecto y la verdad, mientras los ondulados representan el calor del amor y la compasión.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Sonríe y brilla sin pedir disculpas. Disfruta de tus logros, comparte tu calidez con quienes te rodean y sé feliz.</accion_inmediata>
+    <pregunta_para_ti>¿Cómo puedes celebrar tus logros de hoy y contagiar tu alegría a los que más la necesitan?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Niño del Corcel Blanco</titulo>
+    <relato>
+      Durante un siglo entero, los reyes del reino intentaron derrotar al Dragón de la Tristeza que vivía en las colinas. Enviaron ejércitos con catapultas, sabios con conjuros y mercenarios con arcos de acero; todos volvían derrotados y con el alma oscurecida. Una mañana de primavera, las puertas de la ciudad se abrieron y un niño de cuatro años salió cabalgando sobre un potro blanco. Iba descalzo, riendo a carcajadas mientras agitaba una tela roja al viento como si fuera una cometa. Subió a la cueva del dragón y, en lugar de empuñar un arma, le ofreció una manzana silvestre y se echó a reír con tal pureza que el eco hizo vibrar las rocas. El dragón salió de la cueva, pero al sentir el rayo del sol en los ojos del niño, sus escamas oscuras se desprendieron como ceniza seca, transformándose en una bandada de mariposas de oro. La oscuridad nunca necesitó que la combatieran: solo estaba esperando que alguien encendiera la luz con alegría.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/el-sol.mp3</archivo>
+    <titulo>El Sol - El Triunfo de la Inocencia Dorada</titulo>
+    <duracion_estimada>4:20 min</duracion_estimada>
+  </audio>
+</arcano>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="los-enamorados">
+  <numero>VI</numero>
+  <nombre>Los Enamorados</nombre>
+  <tipo>Arcano Mayor</tipo>
+  <palo>Ninguno</palo>
+  <elemento>Aire</elemento>
+  <astrologia>Géminis</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>La encrucijada del corazón. Elegir desde la autenticidad y el amor verdadero, reconciliando los opuestos internos.</esencia>
+  <palabras_clave>Amor, Elección consciente, Alineación de valores, Unión del alma, Dilema moral</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Amor auténtico, afinidad espiritual, elecciones coherentes con el corazón, comunicación abierta y empatía.</lado_luz>
+    <lado_sombra>Dudas paralizantes, deshonestidad sentimental, infidelidad moral a uno mismo, conflictos de valores.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Ángel Rafael</nombre>
+      <descripcion>Sanación, bendición cósmica y guía superior en las decisiones del corazón.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Hombre y Mujer (Adán y Eva)</nombre>
+      <descripcion>Polaridades complementarias: mente consciente y emoción intuitiva reconciliadas.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Árbol de la Vida y Árbol de la Ciencia</nombre>
+      <descripcion>El libre albedrío, la sabiduría y la responsabilidad ante las elecciones.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Montaña al fondo</nombre>
+      <descripcion>El ascenso espiritual que exige superar las tentaciones meramente superficiales.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    En las barajas medievales y de Marsella, la carta mostraba a un joven indeciso entre dos mujeres (que representaban el vicio y la virtud) mientras Cupido apuntaba su flecha desde el cielo. Arthur Edward Waite y Pamela Colman Smith transformaron radicalmente la escena en el Edén primordial: representan a Adán y Eva desnudos bajo las alas protectoras del arcángel Rafael (ángel de la sanación y el aire), con el Árbol de la Vida detrás del hombre y el Árbol del Conocimiento con la serpiente detrás de la mujer, elevando el significado de la elección moral a la integración sagrada de las polaridades masculina y femenina (Hieros Gamos).
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Los Enamorados representa el poder del amor auténtico, la alineación de valores, la atracción de almas afines y, crucialmente, la toma de una decisión trascendental basada en el corazón y no en el miedo. Simboliza la reconciliación de opuestos: la mente consciente (el hombre) mira a la mente inconsciente (la mujer), quien a su vez eleva su mirada hacia la supraconsciencia divina (el arcángel).
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Amor profundo, elecciones alineadas con el alma, reciprocidad emocional, armonía de valores y unión sagrada.</resumen>
+    <amor>Romance apasionado y maduro. Hallar a alguien con quien compartir valores de vida. Comunicación transparente, química magnética y decisiones de futuro en pareja.</amor>
+    <dinero_trabajo>Sociedades laborales armoniosas y fructíferas. Elegir entre dos caminos profesionales guiándose por la verdadera vocación y la ética.</dinero_trabajo>
+    <salud>Vitalidad en equilibrio. Conexión armónica entre cuerpo, mente y emociones. Buenos hábitos gracias al amor propio y el autocuidado.</salud>
+    <espiritualidad>Integración del ánima y el ánimus (Jung). Matrimonio interior entre la razón y la intuición bajo la guía de la consciencia superior.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Dilemas desgarradores, desalineación de valores, infidelidad, elecciones cobardes o conflicto interno entre deber y deseo.</resumen>
+    <palabras_clave_al_reves>Desalineación, Decisión equivocada, Conflicto de pareja, Dudas dolorosas, Incoherencia</palabras_clave_al_reves>
+    <amor>Desconexión en la pareja, dudas sobre el futuro juntos, tentaciones que quiebran la confianza o permanecer en un vínculo por miedo a la soledad.</amor>
+    <dinero_trabajo>Desacuerdos graves entre socios. Tomar una decisión financiera apresurada que traiciona los propios principios éticos.</dinero_trabajo>
+    <salud>Conflictos emocionales somatizados en el sistema respiratorio o circulatorio. Fatiga provocada por la indecisión constante y la ansiedad.</salud>
+    <espiritualidad>Fragmentación interna. Escuchar las voces del ego en lugar de la verdad del corazón; negar la sombra personal culpando a otros.</espiritualidad>
+    <como_armonizar_desbloquear>Vuelve a tus valores no negociables. Si una relación o camino te obliga a perderte a ti mismo, no es el adecuado.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    Es la única carta donde la mirada traza un triángulo sagrado: el hombre mira a la mujer, la mujer mira al arcángel y el arcángel bendice a ambos. A diferencia del 2 de Copas (que representa el flechazo o la conexión personal entre dos personas), Los Enamorados es una iniciación mayor: exige elegir qué clase de ser humano quieres ser mediante la persona y los valores que decides abrazar.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>El arcángel Rafael: Su nombre en hebreo significa 'Medicina de Dios', indicando que el amor genuino tiene el poder absoluto de sanar cualquier herida del alma.</item>
+    <item>Las doce llamas del árbol del hombre: Representan los doce signos del zodiaco y las pasiones activas de la voluntad.</item>
+    <item>La montaña violeta de fondo: Simboliza la cima de la consciencia espiritual a la que solo se puede ascender cuando los opuestos se reconcilian.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Elige con el corazón, no por conveniencia o miedo. Cuando tus valores están claros, la decisión es sencilla.</accion_inmediata>
+    <pregunta_para_ti>¿Qué decisión estás evitando tomar por temor a renunciar a una de las opciones?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Encrucijada de los Dos Espejos</titulo>
+    <relato>
+      Al llegar a la cima del monte Horeb, una viajera encontró dos senderos custodiados por un ángel de fuego lila. A la izquierda, un camino pavimentado de oro prometía aplausos, comodidad y la aprobación de todos los reyes. A la derecha, un sendero estrecho de flores silvestres exigía desnudez de alma y verdad innegociable. —¿Cuál de los dos me llevará a la felicidad? —preguntó la viajera temblando. El ángel extendió sus alas y sonrió con compasión infinita: —Ningún camino hace feliz a quien elige con la cabeza llena de miedos ajenos. Elige aquello que, aun si perdieras todo lo material, haría que tu corazón cantara al anochecer. Lo que amas con verdad es tu único y verdadero destino.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/los-enamorados.mp3</archivo>
+    <titulo>Los Enamorados - La Elección Sagrada del Corazón</titulo>
+    <duracion_estimada>4:45 min</duracion_estimada>
+  </audio>
+</arcano>

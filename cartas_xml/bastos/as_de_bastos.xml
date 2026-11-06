@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="as-de-bastos">
+  <numero>As</numero>
+  <nombre>As de Bastos</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Bastos</palo>
+  <elemento>Fuego</elemento>
+  <astrologia>Elemento Fuego</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>La semilla ardiente de una nueva idea o proyecto. Fuerza motriz pura lista para encender tu camino.</esencia>
+  <palabras_clave>Inspiración, Chispa, Nueva pasión, Energía vital, Comienzo</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Entusiasmo contagioso, valentía para iniciar, proactividad e inspiración.</lado_luz>
+    <lado_sombra>Impulsividad descontrolada, arranques sin constancia, quemarse antes de empezar.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Mano de las nubes</nombre>
+      <descripcion>Don divino de la energía del fuego.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Brotes verdes</nombre>
+      <descripcion>Fertilidad y crecimiento vital.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Castillo lejano</nombre>
+      <descripcion>Meta noble a conquistar.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Bastos (Fuego) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de la voluntad, la creatividad, la pasión y el impulso de acción. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando As de Bastos en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    As de Bastos representa la manifestación de la voluntad, la creatividad, la pasión y el impulso de acción en el grado 1. Enseña a canalizar la energía de Fuego con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de la voluntad, la creatividad, la pasión y el impulso de acción.</resumen>
+    <amor>En los vínculos afectivos, As de Bastos aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Fuego.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de la voluntad, la creatividad, la pasión y el impulso de acción.</resumen>
+    <palabras_clave_al_reves>Falta de energía, Demoras, Proyectos abortados</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Reconecta con tus motivos profundos antes de forzar acciones vacías.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    A diferencia del As de Espadas (chispa mental) o del As de Oros (semilla material), el As de Bastos es el fuego puro de la pasión y la energía creadora primigenia sin condicionamientos.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>La mano que emerge de la nube es la 'Yad' divina, que ofrece la vara florecida como un don cósmico gratuito.</item>
+    <item>Las hojas que caen al aire son yods hebreas que representan la fecundación de la tierra por el fuego divino.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, As de Bastos se asociaba con augurios concretos relacionados con la voluntad, la creatividad, la pasión y el impulso de acción.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Aprovecha la chispa mientras arde. Da el primer paso con valentía.</accion_inmediata>
+    <pregunta_para_ti>¿Qué proyecto hace latir tu corazón y aún no te atreves a empezar?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Primera Chispa en la Forja</titulo>
+    <relato>
+      En la noche más fría del invierno, un herrero contemplaba su fragua apagada creyendo que ya nada volvería a fundirse. De pronto, un relámpago cayó sobre el roble del patio y una pequeña rama encendida voló hasta sus manos. Al soplarla con fe, el fuego devoró la leña y el taller entero se llenó de un calor dorado. Aquella noche forjó su mejor obra, comprendiendo que un solo segundo de entusiasmo verdadero puede encender toda una vida.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/as-de-bastos.mp3</archivo>
+    <titulo>As de Bastos - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="la-estrella">
+  <numero>XVII</numero>
+  <nombre>La Estrella</nombre>
+  <tipo>Arcano Mayor</tipo>
+  <palo>Ninguno</palo>
+  <elemento>Aire</elemento>
+  <astrologia>Acuario</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>La luz que brilla en la noche tras la tempestad. Confianza absoluta en el porvenir, sanación profunda y guía espiritual serena.</esencia>
+  <palabras_clave>Esperanza, Fe renovada, Inspiración, Sanación cósmica, Generosidad</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Esperanza inquebrantable, claridad espiritual, belleza interior, generosidad desinteresada y paz.</lado_luz>
+    <lado_sombra>Idealismo ingenuo, desconexión de la realidad práctica, desilusión si las cosas no ocurren de inmediato.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Estrella central de ocho puntas</nombre>
+      <descripcion>La estrella de Venus y la sabiduría cósmica que ilumina la oscuridad.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Siete estrellas menores</nombre>
+      <descripcion>Los siete chakras alineados y los siete planetas tradicionales en armonía.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Doncella desnuda</nombre>
+      <descripcion>Verdad desnuda, autenticidad sin máscaras, vulnerabilidad sagrada y belleza pura.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Agua vertida en tierra y laguna</nombre>
+      <descripcion>Nutrición fértil del plano material e integración con el subconsciente.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Pájaro ibis en el árbol</nombre>
+      <descripcion>Toth, dios de la sabiduría divina y la comunicación sagrada.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    En las barajas primitivas italianas se la llamaba 'La Stella' y mostraba a una figura femenina guiada por una estrella brillante o sosteniendo una estrella en sus manos. Pamela Colman Smith y Arthur Edward Waite la consagraron como una de las imágenes más poéticas del mazo: una doncella totalmente desnuda se arrodilla en la orilla de un estanque bajo un cielo nocturno dominado por una gran estrella dorada de ocho puntas y siete estrellas menores. Con dos jarras de agua viva, derrama una corriente en la tierra fértil (que se divide en cinco riachuelos) y otra corriente en el propio estanque, mientras un pájaro sagrado (el ibis de Thot) reposa en un árbol cercano.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    La Estrella es el arquetipo de la esperanza renovada, la fe inquebrantable, la inspiración cósmica, la serenidad y la generosidad desinteresada. Aparece inmediatamente después del colapso de La Torre para recordarnos que cuando todo lo falso se ha derrumbado, el alma recupera su desnudez pura y se conecta con la fuente inagotable de la gracia divina. Es la luz en la noche que nos asegura que el universo conspira a nuestro favor.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Esperanza brillante, fe renovada, sanación profunda, inspiración artística, claridad mental y paz de espíritu.</resumen>
+    <amor>Amor puro, reconciliación idílica, confianza mutua restaurada y conexión de almas que comparten ideales elevados y belleza compartida.</amor>
+    <dinero_trabajo>Oportunidades profesionales prometedoras, proyectos creativos exitosos, reconocimiento por vocación genuina y generosidad financiera.</dinero_trabajo>
+    <salud>Recuperación milagrosa o acelerada, purificación del organismo, bienestar emocional radiante y revitalización del sistema nervioso.</salud>
+    <espiritualidad>Conexión directa con la guía cósmica y los planos celestiales. Sensación profunda de estar en el lugar correcto en el momento perfecto.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Pérdida transitoria de la fe, pesimismo, desilusión, falta de inspiración o esperar pasivamente sin actuar.</resumen>
+    <palabras_clave_al_reves>Pérdida de fe, Desesperanza, Pesimismo, Inspiración apagada, Desilusión</palabras_clave_al_reves>
+    <amor>Falta de ilusión en la pareja, dudas sobre el porvenir o idealizar excesivamente a personas inaccesibles desatendiendo la realidad.</amor>
+    <dinero_trabajo>Proyectos que avanzan con lentitud, desánimo ante contratiempos temporales o promesas profesionales que se demoran.</dinero_trabajo>
+    <salud>Tendencia al desánimo, tristeza o apatía física por falta de descanso y desconexión de la naturaleza.</salud>
+    <espiritualidad>Sensación de vacío o abandono divino. Olvidar que la noche más oscura siempre es la que precede a la aurora.</espiritualidad>
+    <como_armonizar_desbloquear>Recupera el asombro y la gratitud por las pequeñas cosas. No dejes que las heridas pasadas te convenzan de que no mereces brillar.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    La doncella está completamente desnuda, sin velos, máscaras ni adornos, personificando la verdad prístina y la total vulnerabilidad sagrada. A diferencia de La Luna (cargada de miedos y espejismos) y El Sol (gloria radiante diurna), La Estrella es la serenidad nocturna silenciosa: no deslumbra con su luz, pero guía con certeza absoluta a quien mira hacia el firmamento.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>La estrella de ocho puntas: Representa la octava esfera cósmica, el planeta Venus como lucero del alba y la regeneración espiritual perpetua.</item>
+    <item>Los cinco riachuelos en la tierra: Simbolizan los cinco sentidos humanos que son fertilizados y purificados por el agua de la consciencia divina.</item>
+    <item>El ibis sagrado en el árbol: El pájaro que reposa en el árbol del fondo es el ibis consagrado a Thot (dios egipcio de la sabiduría y la escritura).</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Mantén la fe en alto. Lo peor ya quedó atrás. Comparte tu luz con el mundo con generosidad y sin temor.</accion_inmediata>
+    <pregunta_para_ti>¿Cuál es ese sueño del alma que creías perdido y hoy vuelve a encenderse en tu corazón?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>Las Dos Jarras del Estanque de Plata</titulo>
+    <relato>
+      Tras el gran terremoto que redujo la ciudad a cenizas, una muchacha caminó descalza hacia el manantial del bosque. Llevaba dos jarras de arcilla azul. Los supervivientes le gritaban desde los escombros: '¡Guarda el agua para ti! ¡Vienen años de sequía!'. La doncella no contestó con palabras; se despojó de sus mantos polvorientos, se arrodilló sobre la hierba húmeda y comenzó a verter una jarra en la tierra seca y la otra en el estanque. '¿Por qué la derramas en el barro?', le preguntó un anciano quejumbroso. Ella levantó la mirada hacia la gran estrella de la noche y sonrió con dulzura infinita: 'El agua que se acapara por miedo se pudre en la vasija; el agua que se entrega con fe pura hace que hasta el desierto más árido vuelva a florecer'.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/la-estrella.mp3</archivo>
+    <titulo>La Estrella - El Bálsamo de la Esperanza Cósmica</titulo>
+    <duracion_estimada>4:30 min</duracion_estimada>
+  </audio>
+</arcano>

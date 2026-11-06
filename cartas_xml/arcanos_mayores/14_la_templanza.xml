@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="la-templanza">
+  <numero>XIV</numero>
+  <nombre>La Templanza</nombre>
+  <tipo>Arcano Mayor</tipo>
+  <palo>Ninguno</palo>
+  <elemento>Fuego</elemento>
+  <astrologia>Sagitario</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>El arte de mezclar los ingredientes de tu vida en la dosis exacta. Sanación, serenidad y flujo constante entre opuestos.</esencia>
+  <palabras_clave>Alquimia interior, Moderación, Sanación, Paciencia, Equilibrio armónico</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Paz interior, capacidad de conciliación, salud recuperada, paciencia sabia, templanza y adaptabilidad.</lado_luz>
+    <lado_sombra>Extremismos, impaciencia destructiva, falta de moderación, mezclas incompatibles o tibieza pasiva.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Ángel con un pie en agua y otro en tierra</nombre>
+      <descripcion>Equilibrio perfecto entre el plano emocional-intuitivo y el plano terrenal-práctico.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Líquido fluyendo entre dos copas</nombre>
+      <descripcion>Alquimia continua, transmutación serena de energías sin derramar una sola gota.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Sendero que sube hacia la montaña dorada</nombre>
+      <descripcion>El camino de iluminación y elevación espiritual sostenido por la virtud.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Triángulo dentro de un cuadrado en el pecho</nombre>
+      <descripcion>El espíritu divino (3) manifestado en el mundo físico de la materia (4).</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    Una de las cuatro virtudes cardinales presentes en el Tarot desde el siglo XV. En la tradición alquímica medieval, representa la 'Solve et Coagula' (disuelve y coagula): la mezcla armoniosa de los fluidos vitales. Arthur Edward Waite y Pamela Colman Smith la encarnan en el arcángel Miguel o Rafael, un ser andrógino con alas de fuego radiante que sostiene dos copas de oro y trasvasa un chorro de agua viva de una copa a otra sin derramar una sola gota. Un pie descansa en el agua del inconsciente y el otro en la tierra firme de la realidad, mientras un sendero asciende hacia una corona resplandeciente en la montaña.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    La Templanza es el arquetipo de la alquimia interior, la armonía, la moderación sabia, la curación de los opuestos y la paciencia divina. Enseña el arte de mezclar el fuego y el agua, la pasión y la razón, la acción y la calma en las proporciones perfectas. Es la paz que surge tras la tormenta de La Muerte, la reintegración del alma en un estado superior de equilibrio y gracia.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Paz interior, sanación, moderación, reconciliación, adaptabilidad y paciencia que conduce al éxito duradero.</resumen>
+    <amor>Relación armoniosa, afecto sereno, comprensión mutua y perdón sincero. Reconciliación tras disputas y comunicación fluida.</amor>
+    <dinero_trabajo>Negociaciones equilibradas, acuerdos justos entre partes encontradas, progreso financiero sostenible y ambiente laboral tranquilo.</dinero_trabajo>
+    <salud>Excelente balance en los fluidos del cuerpo (circulatorio y linfático). Recuperación serena de la salud y bienestar físico y emocional.</salud>
+    <espiritualidad>Contacto con el ángel guardián o guía espiritual. Canalización armónica de la energía universal en la vida diaria.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Excesos, impaciencia destructiva, falta de balance, descontrol emocional o mezclas incompatibles que generan conflicto.</resumen>
+    <palabras_clave_al_reves>Desbalance, Excesos, Falta de paciencia, Conflicto, Desarmonía</palabras_clave_al_reves>
+    <amor>Desencuentros por falta de empatía, discusiones amargas, exigencias desmedidas o frialdad alternada con estallidos dramáticos.</amor>
+    <dinero_trabajo>Decisiones apresuradas por impaciencia, mala administración financiera por gastos compulsivos o proyectos que chocan por incompatibilidad de visiones.</dinero_trabajo>
+    <salud>Deshidratación, problemas digestivos por desórdenes alimenticios o recaídas por no respetar los tiempos naturales de convalecencia.</salud>
+    <espiritualidad>Inquietud espiritual constante. Buscar experiencias místicas extremas olvidando el valor de la paz cotidiana.</espiritualidad>
+    <como_armonizar_desbloquear>Restaura hábitos saludables de sueño, comida y pensamiento. Vuelve al centro y evita discusiones acaloradas.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    Es la única carta donde un fluido desafía la gravedad física: el agua fluye diagonalmente de una copa inferior a una superior sin perder una gota. Tiene un pie en la tierra y otro en el agua, simbolizando el perfecto puente entre la materia y el espíritu. A diferencia de La Estrella (que vierte el agua en la tierra para nutrirla), La Templanza conserva y destila el agua entre dos vasijas sagradas.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>El triángulo en el cuadrado de su pecho: Es el septenario sagrado (3 + 4 = 7), el triángulo del espíritu manifestándose dentro del cuadrado de la materia.</item>
+    <item>El iris amarillo en la orilla: La flor de iris hace referencia a la diosa Iris, mensajera del arcoíris que unía el cielo con la tierra tras el diluvio.</item>
+    <item>El sol con forma de corona: En la cima de las montañas lejanas, el sol brilla como una corona regia prometiendo la iluminación a quien transita con paciencia el sendero.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Ni todo ni nada: busca el término medio. Modera tus reacciones, bebe de la fuente de la calma y da tiempo al tiempo.</accion_inmediata>
+    <pregunta_para_ti>¿En qué área de tu vida estás cometiendo excesos o impaciencias que alteran tu paz interior?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Trasvase de las Dos Copas</titulo>
+    <relato>
+      Un maestro de alquimia convocó a sus dos alumnos más brillantes. Al primero le dio una jarra de aceite hirviendo y le ordenó apagarla arrojando un balde de agua helada; el aceite estalló en llamas quemando el cobertizo. Al segundo alumno le dio las mismas vasijas y le pidió pacificarlas. El segundo joven no arrojó el agua de golpe: tomó una pluma de cisne y fue dejando caer gota a gota el agua sobre el aceite caliente, cantando una oración de serenidad. Poco a poco, el vapor ascendió como incienso fragante y el aceite se volvió un ungüento dorado y curativo. —La fuerza bruta separa los mundos —dijo el maestro sonriendo—; solo la paciencia alquímica convierte el veneno en bálsamo sagrado.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/la-templanza.mp3</archivo>
+    <titulo>La Templanza - La Alquimia de la Paz Interior</titulo>
+    <duracion_estimada>4:30 min</duracion_estimada>
+  </audio>
+</arcano>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="rey-de-oros">
+  <numero>Rey</numero>
+  <nombre>Rey de Oros</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Oros</palo>
+  <elemento>Tierra</elemento>
+  <astrologia>Elemento Tierra</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>El rey sentado en su trono decorado con cabezas de toros y viñedos, con cetro en mano y el pie sobre los tesoros de su castillo. El soberano del éxito material.</esencia>
+  <palabras_clave>Maestría financiera, Éxito material consolidado, Pragmatismo sabio, Generosidad protectora, Estabilidad regia</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Maestría financiera sobresaliente, fiabilidad incondicional, generosidad protectora.</lado_luz>
+    <lado_sombra>Codicia insaciable, medir el valor de las personas por su cuenta bancaria, rigidez.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Trono decorado con toros (Tauro)</nombre>
+      <descripcion>Fuerza telúrica, tenacidad y fecundidad material inquebrantable.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Manto con racimos de uvas maduras</nombre>
+      <descripcion>Cosecha abundante y disfrute de los mejores placeres terrenales.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Castillo y murallas a la espalda</nombre>
+      <descripcion>Imperio económico sólido construido piedra a piedra.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Oros (Tierra) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Rey de Oros en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Rey de Oros representa la manifestación de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal en el grado 14. Enseña a canalizar la energía de Tierra con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</resumen>
+    <amor>En los vínculos afectivos, Rey de Oros aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Tierra.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</resumen>
+    <palabras_clave_al_reves>Quiebra por soberbia, Avaricia destructiva, Corrupción material</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Vuelve a la ética en los negocios; el verdadero éxito deja un rastro de honestidad y paz.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    La máxima autoridad en el plano material: el monarca de la estabilidad financiera, el maestro de los negocios prósperos y el señor del éxito consolidado. Sentado en un trono adornado con cabezas de toros, su manto está estampado con racimos de uvas maduras.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>Su pie calzado con armadura pisa la cabeza de un toro de piedra, simbolizando su dominio absoluto sobre el signo de Tauro y las riquezas de la tierra.</item>
+    <item>Detrás de él se alza un imponente castillo con jardines florecientes, demostrando que su imperio ha sido construido con paciencia y visión a largo plazo.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Rey de Oros se asociaba con augurios concretos relacionados con la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Actúa con madurez práctica. Consolida tus cimientos y disfruta con sensatez de lo ganado.</accion_inmediata>
+    <pregunta_para_ti>¿Estás utilizando tus recursos materiales para construir seguridad o solo para alimentar el ego?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Monarca del Viñedo Imperial</titulo>
+    <relato>
+      El Rey de la Ciudad Blanca no necesitaba dictar leyes severas ni amenazar con guardias para que su pueblo prosperara. Había trazado canales de riego que convertían los pantanos en arrozales y fundado gremios que enseñaban oficios a cada huérfano del reino. Sentado en su trono de piedra entre viñedos de uva moscatel, sostenía su cetro y su moneda con la calma de un roble milenario. Su mayor orgullo no era la corona de oro que llevaba en la cabeza, sino saber que en todo su territorio ningún niño se acostaba sin pan y que cada trabajador recibía el fruto justo de su esfuerzo.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/rey-de-oros.mp3</archivo>
+    <titulo>Rey de Oros - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

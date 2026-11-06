@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="el-diablo">
+  <numero>XV</numero>
+  <nombre>El Diablo</nombre>
+  <tipo>Arcano Mayor</tipo>
+  <palo>Ninguno</palo>
+  <elemento>Tierra</elemento>
+  <astrologia>Capricornio</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Las cadenas del miedo y del deseo desmedido. Reconoce tus dependencias y patrones oscuros para liberarte de su prisión ilusoria.</esencia>
+  <palabras_clave>Apegos, Sombra, Adicciones, Poder material, Cadenas ilusorias</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Consciencia lúcida de la propia sombra, magnetismo sexual saludable, ambición material bien canalizada y perspicacia.</lado_luz>
+    <lado_sombra>Codicia insaciable, manipulación perversa, adicciones destructivas, relaciones de codependencia y cinismo.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Figura con alas de murciélago y cuernos</nombre>
+      <descripcion>La mente animal atrapada en la ilusión de la separatividad y el miedo.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Cadenas flojas al cuello</nombre>
+      <descripcion>La esclavitud es voluntaria o consentida por comodidad, miedo o ignorancia.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Antorcha apuntando hacia abajo</nombre>
+      <descripcion>Uso destructivo de la energía vital y la pasión al servicio de la autodestrucción.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Pedestal cúbico estrecho</nombre>
+      <descripcion>La prisión de las limitaciones autoimpuestas por la mente terrenal.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    Presente en los tarots renacentistas como un monstruo bufonesco y grotesco. Éliphas Lévi en el siglo XIX lo reinterpretó como el Baphomet del ocultismo templario: la figura hermafrodita con cuernos de macho cabrío, alas de murciélago y una antorcha encendida. Pamela Colman Smith y Waite lo sentaron sobre un pedestal cúbico o yunque de piedra. A sus pies, encadenados por el cuello, se encuentran un hombre y una mujer desnudos con pequeños cuernos y colas; sin embargo, un detalle visual magistral revela la verdad: las cadenas que los aprisionan son tan anchas y holgadas que podrían quitárselas de la cabeza en cualquier instante con solo desearlo.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    El Diablo es el arquetipo de la sombra junguiana, el apego material, las adicciones, el poder de los instintos reprimidos y la trampa de la ilusión. Nos confronta con aquellas cadenas invisibles que nosotros mismos hemos forjado: el miedo al dinero, la obsesión sexual, el rencor o la culpa. No es una entidad maligna externa, sino el espejo de nuestra propia ignorancia que nos hace creer que somos prisioneros cuando en realidad somos libres.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Apego desmedido, tentación magnética, ataduras ilusorias, sexualidad instintiva, obsesión material y confrontación con la sombra.</resumen>
+    <amor>Pasión carnal irresistible, magnetismo erótico intenso pero con riesgo de dependencia emocional, celos obsesivos y manipulación.</amor>
+    <dinero_trabajo>Gran ambición de riquezas, éxito material a corto plazo, pero con riesgo de prácticas poco éticas, avaricia o explotación laboral.</dinero_trabajo>
+    <salud>Adicciones (alcohol, drogas, azúcar, pantallas), obsesiones compulsivas o exceso de estrés derivado del apego al dinero y al estatus.</salud>
+    <espiritualidad>Confrontación con el lado oscuro de la mente. Darse cuenta de que el poder del miedo solo existe porque nosotros le entregamos nuestra energía.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Ruptura de cadenas, liberación de adicciones, superación de relaciones tóxicas, despertar de la ilusión y recuperación del poder personal.</resumen>
+    <palabras_clave_al_reves>Liberación de apegos, Romper cadenas, Superar adicciones, Despertar lúcido, Fin de la sumisión</palabras_clave_al_reves>
+    <amor>Terminar con un vínculo destructivo o una dependencia afectiva. Recuperación de la dignidad y fin de chantajes emocionales.</amor>
+    <dinero_trabajo>Rechazar tratos corruptos, saldar deudas asfixiantes y liberarse de la esclavitud de un empleo deshumanizante.</dinero_trabajo>
+    <salud>Desintoxicación exitosa, superación de conductas autodestructivas y recuperación del autocontrol corporal y mental.</salud>
+    <espiritualidad>Integración consciente de la sombra. Reconocer los propios impulsos oscuros sin miedo para transmutarlos en luz creadora.</espiritualidad>
+    <como_armonizar_desbloquear>Corta de raíz con las relaciones o hábitos nocivos. Busca ayuda profesional si es necesario y reclama tu autonomía.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    Es la parodia exacta de la carta de Los Enamorados (VI): el arcángel celestial Rafael es sustituido por el macho cabrío cornudo, y Adán y Eva, antes bendecidos en libertad, ahora aparecen encadenados al pedestal pero con cadenas holgadas que revelan que su prisión es voluntaria. A diferencia de La Torre (que rompe las prisiones con un rayo exterior), El Diablo exige que reconozcamos nuestras propias complicidades con el carcelero.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>Las cadenas holgadas: Los eslabones alrededor del cuello de los amantes son tan grandes que podrían quitárselos deslizando las manos, simbolizando que nos esclavizamos por comodidad o miedo a la libertad.</item>
+    <item>La antorcha hacia abajo: El Diablo sostiene la antorcha encendida apuntando hacia la tierra, quemando la cola del hombre, simbolizando el desperdicio del fuego espiritual en pasiones bajas.</item>
+    <item>El pentagrama invertido: Sobre su frente luce la estrella de cinco puntas invertida, donde la materia y los instintos gobiernan sobre el espíritu.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Mira tus cadenas con honestidad. Nadie te está reteniendo excepto tus propios apegos. Elige tu libertad.</accion_inmediata>
+    <pregunta_para_ti>¿A qué placer inmediato, hábito o persona tóxica le estás entregando tu libertad y poder?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>Las Cadenas de Terciopelo</titulo>
+    <relato>
+      En la cueva del Rey de Bronce, los esclavos picaban oro noche y día. Todos llevaban pesados collares de hierro atados al trono del gigante cornudo. Un joven cautivo, cansado de sangrar por unos gramos de polvo dorado, levantó la mano para rascarse el cuello adolorido. Para su asombro, descubrió que el collar no estaba cerrado con candado: era un aro abierto, forrado por dentro con terciopelo suave para que no raspase la piel. El gigante de bronce lo miró fijamente y le dijo con una risotada cavernosa: '¿Por qué no huyes? La puerta del túnel siempre ha estado abierta'. El joven miró el oro brillante en el suelo y luego la fría noche estrellada en la entrada. Tragó saliva y comprendió el gran secreto: el carcelero nunca lo había encerrado; había sido su propia codicia quien lo había mantenido de rodillas. Arrojó el collar y salió corriendo hacia la aurora.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/el-diablo.mp3</archivo>
+    <titulo>El Diablo - El Espejo de las Cadenas Invisibles</titulo>
+    <duracion_estimada>4:40 min</duracion_estimada>
+  </audio>
+</arcano>

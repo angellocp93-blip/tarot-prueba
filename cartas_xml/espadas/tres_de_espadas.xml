@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="tres-de-espadas">
+  <numero>3</numero>
+  <nombre>Tres de Espadas</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Espadas</palo>
+  <elemento>Aire</elemento>
+  <astrologia>Elemento Aire</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Un corazón atravesado por tres espadas bajo nubes de lluvia y truenos. El dolor de una ruptura, una traición o una verdad amarga que quiebra ilusiones.</esencia>
+  <palabras_clave>Dolor del corazón, Desamor, Traición, Verdad dolorosa, Sanación necesaria</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Sanación a través del desahogo, aprender de las decepciones, resiliencia.</lado_luz>
+    <lado_sombra>Rumiar amargura eterna, autocompasión destructiva, rencor enquistado.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Corazón perforado</nombre>
+      <descripcion>Pena profunda, tristeza y duelo emocional.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Tres espadas cruzadas</nombre>
+      <descripcion>Pensamientos dolorosos, palabras hirientes y traición.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Lluvia y nubes de tormenta</nombre>
+      <descripcion>Catarsis necesaria para lavar el dolor del alma.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Espadas (Aire) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Tres de Espadas en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Tres de Espadas representa la manifestación de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales en el grado 3. Enseña a canalizar la energía de Aire con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</resumen>
+    <amor>En los vínculos afectivos, Tres de Espadas aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Aire.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</resumen>
+    <palabras_clave_al_reves>Superación del dolor, Cicatrización, Perdón liberador</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Perdona para liberarte a ti mismo, no por el otro. Abre tu corazón de nuevo.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    Una de las imágenes más emblemáticas del dolor humano: un corazón rojo puro atravesado por tres espadas de acero bajo un cielo gris de lluvia y tormenta incesante.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>No hay figuras humanas en la carta: el dolor del desamor, la traición o la pérdida se experimenta como una herida universal del alma.</item>
+    <item>Las tres espadas representan el choque destructivo entre el pensamiento, la palabra hiriente y la acción desleal.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Tres de Espadas se asociaba con augurios concretos relacionados con el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Permítete llorar y desahogar tu pena. La tormenta pasará y tu corazón sanará más sabio.</accion_inmediata>
+    <pregunta_para_ti>¿A qué dolor del pasado te sigues aferrando mediante el rencor?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Corazón Bajo la Lluvia Gris</titulo>
+    <relato>
+      El joven sentía que su pecho sangraba tras escuchar las palabras frías y desleales de quien más amaba en el mundo. La lluvia caía sobre sus hombros empapándolo hasta los huesos y el dolor era tan agudo que creyó que moriría allí mismo. Un anciano médico se acercó y le dijo con infinita piedad: 'Llora todo lo que tengas que llorar, muchacho. El corazón roto no es el final de tu historia; es la prueba de que fuiste capaz de amar con verdad. Las heridas del acero purifican el alma de quien sabe perdonar'.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/tres-de-espadas.mp3</archivo>
+    <titulo>Tres de Espadas - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

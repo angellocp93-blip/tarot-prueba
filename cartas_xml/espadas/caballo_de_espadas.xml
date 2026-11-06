@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="caballo-de-espadas">
+  <numero>Caballo</numero>
+  <nombre>Caballo de Espadas</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Espadas</palo>
+  <elemento>Aire</elemento>
+  <astrologia>Elemento Aire</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>El caballero galopa a toda velocidad con su espada en ristre contra el viento huracanado. Valentía fulgurante, ideas tajantes y avance sin titubeos.</esencia>
+  <palabras_clave>Impulso intelectual, Ataque rápido, Directo al grano, Valentía implacable, Fanatismo</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Rapidez resolutiva admirable, coraje para enfrentar injusticias, elocuencia brillante.</lado_luz>
+    <lado_sombra>Crueldad implacable, fanatismo ciego, arrasar sentimientos ajenos sin piedad.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Caballo al galope desenfrenado</nombre>
+      <descripcion>Fuerza mental arrolladora que no admite demoras.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Espada apuntando al frente</nombre>
+      <descripcion>Enfoque implacable en el objetivo intelectual.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    El caballero galopa a toda velocidad con su espada en ristre contra el viento huracanado. Valentía fulgurante, ideas tajantes y avance sin titubeos.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>El Caballo de Espadas se lanza a la batalla con determinación implacable para defender una verdad o resolver una crisis. Es rápido, directo y brillante, pero puede ser insensible y atropellar a quienes ama.</resumen>
+    <amor>Discusiones intensas y acaloradas; declaraciones de intenciones sin anestesia.</amor>
+    <dinero_trabajo>Resolución exprés de crisis empresariales, auditorías feroces, victorias legales rápidas.</dinero_trabajo>
+    <salud>Vitalidad en equilibrio y alineamiento con la energía del arcano.</salud>
+    <espiritualidad>El guerrero de la verdad que desmantela supersticiones con la espada de la razón.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Invertido avisa de choques frontales por arrogancia o argumentos fallidos por exceso de prisa.</resumen>
+    <palabras_clave_al_reves>Fracaso por precipitación, Violencia verbal, Fanatismo derrotado</palabras_clave_al_reves>
+    <amor>Desafíos o bloqueos en la comunicación afectiva.</amor>
+    <dinero_trabajo>Retrasos temporales o dispersión de esfuerzos.</dinero_trabajo>
+    <salud>Fatiga o somatización de tensiones.</salud>
+    <espiritualidad>Desconexión transitoria de la guía interior.</espiritualidad>
+    <como_armonizar_desbloquear>Frena la lengua. Escucha los argumentos contrarios antes de lanzarte al ataque.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Actúa con prontitud y decisión, pero no olvides que enfrente tienes seres humanos con corazón.</accion_inmediata>
+    <pregunta_para_ti>¿Estás atropellando a los demás en tu prisa por imponer tu punto de vista?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Lección de Caballo de Espadas</titulo>
+    <relato>
+      
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/caballo-de-espadas.mp3</archivo>
+    <titulo>Caballo de Espadas - Audiolibro y Meditación Guiada</titulo>
+    <duracion_estimada>4:00 min</duracion_estimada>
+  </audio>
+</arcano>

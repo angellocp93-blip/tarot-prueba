@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="caballo-de-bastos">
+  <numero>Caballo</numero>
+  <nombre>Caballo de Bastos</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Bastos</palo>
+  <elemento>Fuego</elemento>
+  <astrologia>Elemento Fuego</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>El caballero al galope sobre su corcel de fuego. Audacia sin límites, pasión desbordante y velocidad para conquistar metas.</esencia>
+  <palabras_clave>Impulso ardiente, Aventura, Audacia, Movimiento veloz, Carisma</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Valentía indomable, magnetismo conquistador, espíritu pionero.</lado_luz>
+    <lado_sombra>Imprudencia, agresividad temperamental, promesas vacías.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Corcel encabritado</nombre>
+      <descripcion>Fuerza indomable que busca avanzar sin frenos.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Túnica de fuego</nombre>
+      <descripcion>Pasión en constante movimiento activo.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    El caballero al galope sobre su corcel de fuego. Audacia sin límites, pasión desbordante y velocidad para conquistar metas.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>El Caballo de Bastos es pura acción, magnetismo y aventura. Trae mudanzas, viajes rápidos, avances decididos y una energía arrolladora.</resumen>
+    <amor>Pasión electrizante, aventura ardiente pero potencialmente inestable.</amor>
+    <dinero_trabajo>Emprendimientos audaces, ventas exitosas y viajes comerciales dinámicos.</dinero_trabajo>
+    <salud>Vitalidad en equilibrio y alineamiento con la energía del arcano.</salud>
+    <espiritualidad>El viaje heroico del buscador que avanza con fervor hacia la verdad.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Invertido avisa de arrebatos de cólera o frenazos por exceso de velocidad.</resumen>
+    <palabras_clave_al_reves>Frustración colérica, Frenazo brusco, Agresividad tóxica</palabras_clave_al_reves>
+    <amor>Desafíos o bloqueos en la comunicación afectiva.</amor>
+    <dinero_trabajo>Retrasos temporales o dispersión de esfuerzos.</dinero_trabajo>
+    <salud>Fatiga o somatización de tensiones.</salud>
+    <espiritualidad>Desconexión transitoria de la guía interior.</espiritualidad>
+    <como_armonizar_desbloquear>Tira de las riendas. Respira hondo y templa tu carácter.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Lánzate con decisión, pero asegúrate de ver el camino antes de acelerar.</accion_inmediata>
+    <pregunta_para_ti>¿Estás canalizando tu pasión a una meta clara o quemando energía en vano?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Lección de Caballo de Bastos</titulo>
+    <relato>
+      
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/caballo-de-bastos.mp3</archivo>
+    <titulo>Caballo de Bastos - Audiolibro y Meditación Guiada</titulo>
+    <duracion_estimada>4:00 min</duracion_estimada>
+  </audio>
+</arcano>

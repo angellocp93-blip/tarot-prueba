@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="el-mago">
+  <numero>I</numero>
+  <nombre>El Mago</nombre>
+  <tipo>Arcano Mayor</tipo>
+  <palo>Ninguno</palo>
+  <elemento>Aire</elemento>
+  <astrologia>Mercurio</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Tienes todas las herramientas necesarias sobre tu mesa. Canaliza la energía divina para transformar tu realidad aquí y ahora.</esencia>
+  <palabras_clave>Poder personal, Manifestación, Recursos, Enfoque, Acción consciente</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Maestría personal, resolución rápida de problemas, carisma comunicativo y autoconfianza creadora.</lado_luz>
+    <lado_sombra>Manipulación psicológica, charlatanería, arrogancia, promesas vacías y uso egoísta del intelecto.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Brazo arriba y brazo abajo</nombre>
+      <descripcion>'Como es arriba, es abajo': canalización del poder espiritual a la materia.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Lemniscata (infinito)</nombre>
+      <descripcion>Potencial infinito de la mente y conexión constante con la sabiduría universal.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>4 Elementos en la mesa</nombre>
+      <descripcion>Voluntad (Bastos), Amor (Copas), Intelecto (Espadas) y Materia (Oros).</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Rosas rojas y lirios blancos</nombre>
+      <descripcion>Equilibrio armónico entre la pasión terrenal y la pureza de intención.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    En las barajas del siglo XV (Tarocchi di Mantegna y Visconti-Sforza), El Mago era 'Il Bagatto', un feriante o titiritero callejero que entretenía al público con trucos de prestidigitación. Con el ocultismo del siglo XVIII (Court de Gébelin y Éliphas Lévi), la figura se transformó en el Hermes Trismegisto del hermetismo. En la versión Rider-Waite-Smith, Pamela Colman Smith lo corona con el símbolo del infinito (lemniscata) y coloca sobre su mesa los cuatro símbolos de los palos (vara, copa, espada y pentáculo), haciéndolo el maestro de los cuatro elementos alquímicos y el puente consciente entre el cielo y la tierra.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    El Mago es el arquetipo de la voluntad activa, la manifestación consciente y el poder creador. Si El Loco es la energía potencial no dirigida, El Mago es el rayo enfocado en un objetivo claro. Representa el axioma hermético 'Como es arriba, es abajo': su brazo derecho apunta al cosmos y el izquierdo a la tierra, canalizando la energía divina para materializar realidades concretas en el plano físico.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Poder de manifestación, maestría de recursos, elocuencia, claridad mental e iniciativa arrolladora.</resumen>
+    <amor>Atracción magnética, conquista comunicativa y chispa seductora. Se inicia una etapa donde ambas partes tienen el poder de moldear la relación hacia un nuevo nivel de entendimiento y pasión.</amor>
+    <dinero_trabajo>Capacidad resolutiva para convertir ideas en negocios rentables. Momento óptimo para lanzar proyectos, liderar equipos o negociar contratos ventajosos con astucia e inteligencia.</dinero_trabajo>
+    <salud>Fuerza vital enérgica, excelente coordinación y mente ágil. Recuperación rápida de molestias físicas gracias a una actitud proactiva y hábitos equilibrados.</salud>
+    <espiritualidad>Consciencia de ser cocreador de la propia realidad. Conexión de la intención interna con la acción externa a través del alineamiento de pensamientos y palabras.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Manipulación, engaño, uso egoísta de talentos, dispersión o bloqueo de la propia capacidad creadora.</resumen>
+    <palabras_clave_al_reves>Manipulación, Dispersión, Talento bloqueado, Engaño, Inseguridad</palabras_clave_al_reves>
+    <amor>Juegos psicológicos, falsas promesas o encanto superficial que oculta intenciones egocéntricas. Inseguridad encubierta con arrogancia.</amor>
+    <dinero_trabajo>Proyectos que se quedan en palabras y nunca se ejecutan. Riesgo de estafas, charlatanería o venta de humo. Falta de ética en negociaciones.</dinero_trabajo>
+    <salud>Agotamiento mental por sobrepensar. Dolores de cabeza, tensión nerviosa o mal uso de la energía física por dispersión constante.</salud>
+    <espiritualidad>Ego espiritual desmedido. Creerse superior a los demás por conocimientos esotéricos o utilizar la energía para someter voluntades ajenas.</espiritualidad>
+    <como_armonizar_desbloquear>Enfoca tu mente en un solo objetivo claro y verifica que tus intenciones sean transparentes y éticas.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    Es el único arcano mayor que posee sobre su mesa de trabajo las cuatro herramientas sagradas del Tarot (la Vara del Fuego, la Copa del Agua, la Espada del Aire y el Oromiel de la Tierra) listas para ser usadas. A diferencia de La Sacerdotisa (que custodia el misterio en silencio e introspección), El Mago actúa en el mundo exterior, demostrando que todo lo que necesitamos para triunfar ya está a nuestro alcance.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>La lemniscata infinita: La figura en ocho sobre su cabeza representa la eternidad del pensamiento y el flujo continuo de la consciencia divina.</item>
+    <item>El cinturón de ouroboros: La serpiente que se muerde la cola en su cintura simboliza la autorrenovación infinita y la protección hermética de su energía vital.</item>
+    <item>Las flores rojas y blancas: Las rosas rojas a sus pies encarnan el deseo y la pasión humana, mientras los lirios blancos representan el pensamiento puro y la sabiduría.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Actúa ya. Tienes el conocimiento y los medios para lograr lo que te propones; pon tu voluntad en marcha.</accion_inmediata>
+    <pregunta_para_ti>¿Qué talento o recurso disponible tienes frente a ti que no estás aprovechando?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Aprendiz de las Cuatro Aguas</titulo>
+    <relato>
+      En el taller del Valle de Hermes, el maestro no enseñaba con palabras, sino señalando la mesa de piedra vacía. 'El mundo no te dará nada que no te atrevas a nombrar', le dijo al joven artesano. El muchacho tomó una rama de roble y sintió el fuego de su vocación; tomó una vasija de barro y sintió el torrente de sus emociones; forjó una hoja de plata y afiló su razón; y recogió un puñado de tierra fértil para sembrar su sustento. Cuando alzó su diestra hacia la estrella del alba y posó la izquierda sobre la arcilla húmeda, la mesa se iluminó: había comprendido que los milagros no caen del cielo, sino que se tejen con las manos de quien sabe unir su voluntad al universo.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/el-mago.mp3</archivo>
+    <titulo>El Mago - La Alquimia de la Voluntad</titulo>
+    <duracion_estimada>4:15 min</duracion_estimada>
+  </audio>
+</arcano>

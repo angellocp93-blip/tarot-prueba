@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="la-fuerza">
+  <numero>VIII</numero>
+  <nombre>La Fuerza</nombre>
+  <tipo>Arcano Mayor</tipo>
+  <palo>Ninguno</palo>
+  <elemento>Fuego</elemento>
+  <astrologia>Leo</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>La verdadera fuerza no ruge ni impone: doma a la bestia con caricias, paciencia infinita y amor consciente.</esencia>
+  <palabras_clave>Valentía serena, Compasión, Paciencia, Autodominio, Poder interior</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Coraje moral, serenidad en medio de la crisis, empatía profunda, tolerancia y resiliencia ejemplar.</lado_luz>
+    <lado_sombra>Ira descontrolada, debilidad de carácter, rendición ante el miedo, manipulación sutil o crueldad pasiva.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>León domado</nombre>
+      <descripcion>Los instintos básicos, la ira, el miedo y la pasión indómita reconciliados.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Mujer de blanco con flores</nombre>
+      <descripcion>La pureza de la compasión y el amor que desarma cualquier hostilidad.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Lemniscata sobre la cabeza</nombre>
+      <descripcion>Fuerza espiritual infinita que nace de la armonía interna.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Guirnalda que los une</nombre>
+      <descripcion>Conexión amorosa entre la consciencia superior y el poder animal instintivo.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    En el Tarot de Marsella, La Fuerza ocupaba el número XI y mostraba a una mujer sujetando las fauces abiertas de un león mientras llevaba un sombrero con forma de lemniscata. Waite y la Golden Dawn intercambiaron su posición con La Justicia (colocando La Fuerza en el VIII para alinearla con el signo astrológico de Leo). Pamela Colman Smith suavizó la lucha: la doncella viste de blanco virginal coronada de flores vivas y acaricia las fauces del león rojizo con infinita ternura, demostrando que la verdadera fuerza espiritual no reside en el músculo ni en la violencia, sino en la compasión, la paciencia y el amor incondicional que domestica la fiera de los instintos primarios.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    La Fuerza es el dominio suave del corazón sobre el instinto animal, la valentía moral, la resiliencia compasiva y la paciencia que todo lo vence. Nos enseña que reprimir nuestras pasiones o atacar la agresividad con más violencia solo engendra monstruos mayores; la fiera interior se calma abrazándola con consciencia, entendimiento y ternura serena.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Coraje sereno, paciencia infinita, autodominio compasivo, sanación de heridas emocionales y victoria del amor sobre el miedo.</resumen>
+    <amor>Vínculo apasionado pero lleno de respeto, paciencia y ternura. Capacidad para resolver desavenencias con empatía y comprensión profunda.</amor>
+    <dinero_trabajo>Superar situaciones de alta presión o conflictos laborales mediante la diplomacia firme, la constancia y el carisma magnético sin recurrir a la agresividad.</dinero_trabajo>
+    <salud>Recuperación vigorosa de la vitalidad, resistencia física sobresaliente y dominio consciente de los apetitos corporales y la ansiedad.</salud>
+    <espiritualidad>La kundalini o fuego vital canalizado hacia la compasión universal. Aceptación amorosa de la propia sombra sin juicio destructivo.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Pérdida de paciencia, debilidad ante la tentación, ira destructiva, inseguridad paralizante o tiranía emocional.</resumen>
+    <palabras_clave_al_reves>Debilidad, Furia desmedida, Inseguridad, Rendición, Abatimiento</palabras_clave_al_reves>
+    <amor>Discusiones agresivas, reproches hirientes, manipulación a través de la culpa o dejarse avasallar por miedo al conflicto.</amor>
+    <dinero_trabajo>Ceder ante la intimidación en el trabajo o, en el polo opuesto, comportarse como un tirano arrogante con subordinados.</dinero_trabajo>
+    <salud>Agotamiento inmunológico por exceso de ira o rencor acumulado. Caer en excesos adictivos o desórdenes alimenticios por descontrol emocional.</salud>
+    <espiritualidad>Miedo a la propia intensidad vital. Desconexión del poder personal por creerse débil o indigno de respeto.</espiritualidad>
+    <como_armonizar_desbloquear>Detén las reacciones impulsivas. Descansa, respira y busca la calma en tu centro antes de emitir juicio o respuesta.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    Es la única carta donde un ser humano toca a una bestia salvaje no con armas, lanzas o cadenas, sino con caricias y una guirnalda de flores. A diferencia de El Emperador (que impone orden mediante la ley y el castigo), La Fuerza transforma la naturaleza salvaje desde adentro a través del amor incondicional y la presencia serena.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>La lemniscata sobre su cabeza: Al igual que El Mago, porta el símbolo del infinito, revelando que la suavidad compasiva está conectada con el poder eterno de Dios.</item>
+    <item>El león que lame su mano: Simboliza que el ego y el instinto no deben ser aniquilados, sino integrados como nobles aliados al servicio del alma.</item>
+    <item>El cinturón de rosas: Une a la mujer con el león, representando que el puente entre la mente consciente y la fuerza biológica es la belleza del corazón.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>No respondas a la agresividad con más fuego. Sé paciente, firme y compasivo: esa es la victoria definitiva.</accion_inmediata>
+    <pregunta_para_ti>¿Qué emoción salvaje o impulso reactivo necesitas abrazar y calmar con amor hoy?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Doncella y el Rey de la Selva</titulo>
+    <relato>
+      Un león devorador de rebaños bajó de las colinas sembrando el terror. Los caballeros del rey salieron con armaduras de acero y lanzas afiladas; el león los despedazó a todos porque olían a miedo y a sangre. Al atardecer, una tejedora del pueblo caminó descalza hacia la guarida de la bestia. Llevaba en sus manos un cuenco de agua fresca y una trenza de jazmines. El león rugió hasta hacer temblar los robles. La mujer no huyó ni parpadeó; se sentó en una piedra, lo miró a los ojos con la ternura de una madre y le habló de la soledad de la montaña. La bestia, desconcertada ante la ausencia de violencia, se acercó lentamente, agachó la testuz y apoyó su pesada cabeza en el regazo de la doncella. Desde aquel día, el león cuidaba el rebaño: había descubierto que el amor es más invencible que mil espadas.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/la-fuerza.mp3</archivo>
+    <titulo>La Fuerza - La Alquimia de la Ternura</titulo>
+    <duracion_estimada>4:20 min</duracion_estimada>
+  </audio>
+</arcano>

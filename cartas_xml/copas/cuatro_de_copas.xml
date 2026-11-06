@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="cuatro-de-copas">
+  <numero>4</numero>
+  <nombre>Cuatro de Copas</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Copas</palo>
+  <elemento>Agua</elemento>
+  <astrologia>Elemento Agua</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Un joven meditabundo bajo el árbol ignora la copa que le ofrece una mano divina. Apatía y ceguera ante las bendiciones presentes.</esencia>
+  <palabras_clave>Apatía, Aburrimiento, Oportunidad ignorada, Descontento, Contemplación</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Introspección necesaria, pausa reflexiva antes de comprometerse.</lado_luz>
+    <lado_sombra>Desagradecimiento crónico, apatía depresiva, amargura y desdén.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Hombre de brazos cruzados</nombre>
+      <descripcion>Postura de cerrazón y rechazo al entorno.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Tres copas en el suelo</nombre>
+      <descripcion>Logros o afectos pasados que ya no motivan.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Cuarta copa en la nube</nombre>
+      <descripcion>Oportunidad nueva ignorada por ensimismamiento.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Copas (Agua) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Cuatro de Copas en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Cuatro de Copas representa la manifestación de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón en el grado 4. Enseña a canalizar la energía de Agua con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</resumen>
+    <amor>En los vínculos afectivos, Cuatro de Copas aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Agua.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</resumen>
+    <palabras_clave_al_reves>Despertar del letargo, Aceptación de ayuda, Nueva motivación</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Agradece lo que sí tienes hoy y ponte en marcha con renovada ilusión.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    A diferencia del Ermitaño (retiro sabio voluntario), el 4 de Copas es la apatía emocional, el aburrimiento y el desdén: un joven sentado bajo un árbol rechaza una copa divina que le ofrece una mano en la nube por estar absorto en su propio desgano.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>El joven tiene los brazos cruzados y la mirada baja contemplando las tres copas vacías del suelo, ciego ante la cuarta copa que flota a su lado.</item>
+    <item>El árbol bajo el que descansa no le ofrece refugio fértil, sino que refleja su propio ensimismamiento estéril.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Cuatro de Copas se asociaba con augurios concretos relacionados con las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Levanta la mirada. Hay una copa llena de bendiciones frente a ti; recíbela.</accion_inmediata>
+    <pregunta_para_ti>¿Qué oportunidad o gesto de afecto estás ignorando por quedarte rumiando el pasado?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Príncipe Bajo el Roble Seco</titulo>
+    <relato>
+      Un joven noble pasaba los días suspirando bajo un roble del jardín real. Nada le agradaba: los manjares le parecían insípidos y la música le sonaba a ruido. De pronto, una mano de luz brillante emergió de una nube a su lado ofreciéndole una copa que rebosaba el néctar de la felicidad eterna. Pero el joven ni siquiera giró la cabeza: estaba demasiado ocupado quejándose de sus viejas penas pasadas. Comprendió demasiado tarde que el universo no puede llenar un cuenco que está cerrado con el candado de la desidia.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/cuatro-de-copas.mp3</archivo>
+    <titulo>Cuatro de Copas - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

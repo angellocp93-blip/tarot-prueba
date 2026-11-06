@@ -2073,3 +2073,569 @@ body {
 @keyframes spin {
   to { transform: rotate(360deg); }
 }
+
+/* ==========================================================================
+   ESTUDIO PROFUNDO DEL ARCANO & REPRODUCTOR DE AUDIOLIBRO
+   ========================================================================== */
+
+.study-view-container {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 0.5rem 0.5rem 3rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.85rem;
+  color: var(--text-main);
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Hero Header */
+.study-hero-card {
+  background: linear-gradient(135deg, rgba(30, 24, 60, 0.85) 0%, rgba(13, 10, 28, 0.95) 100%);
+  border: 1px solid var(--gold-primary);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.6), var(--gold-glow);
+  position: relative;
+  overflow: hidden;
+}
+
+.study-hero-card::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(212, 175, 55, 0.08) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.study-card-img-wrap {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.study-card-img {
+  width: 125px;
+  height: 215px;
+  border-radius: 8px;
+  border: 2px solid var(--gold-primary);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.7);
+  object-fit: cover;
+  display: block;
+}
+
+.study-hero-info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.study-meta-badges {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.study-badge {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-full);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.study-badge-type {
+  background: rgba(212, 175, 55, 0.15);
+  border: 1px solid var(--gold-primary);
+  color: var(--gold-light);
+}
+
+.study-badge-element {
+  background: rgba(99, 102, 241, 0.18);
+  border: 1px solid #818cf8;
+  color: #c7d2fe;
+}
+
+.study-badge-astro {
+  background: rgba(236, 72, 153, 0.18);
+  border: 1px solid #f472b6;
+  color: #fbcfe8;
+}
+
+.study-card-title {
+  font-family: var(--font-serif);
+  font-size: 2.2rem;
+  color: var(--gold-light);
+  line-height: 1.15;
+  margin: 0.2rem 0;
+}
+
+.study-keywords-row {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin-top: 0.2rem;
+}
+
+.study-kw-chip {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: #e2e8f0;
+}
+
+.study-essence-box {
+  background: rgba(0, 0, 0, 0.3);
+  border-left: 3px solid var(--gold-primary);
+  padding: 0.65rem 0.85rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #cbd5e1;
+  margin-top: 0.5rem;
+}
+
+/* Mystic Audio Player */
+.mystic-audio-card {
+  background: linear-gradient(135deg, #16112c 0%, #0d0a1b 100%);
+  border: 1px solid var(--gold-primary);
+  border-radius: var(--radius-md);
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(212, 175, 55, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.audio-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.audio-header-title {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  color: var(--gold-light);
+  font-weight: 700;
+}
+
+.audio-header-pill {
+  font-size: 0.72rem;
+  background: rgba(212, 175, 55, 0.15);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  color: var(--gold-light);
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-full);
+}
+
+.audio-controls-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.audio-play-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--gold-primary) 0%, var(--gold-dark) 100%);
+  border: none;
+  color: #0b0816;
+  font-size: 1.25rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4);
+  transition: var(--transition);
+  flex-shrink: 0;
+}
+
+.audio-play-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.6);
+}
+
+.audio-play-btn.is-playing {
+  animation: pulseGold 1.5s infinite;
+}
+
+@keyframes pulseGold {
+  0% { box-shadow: 0 0 0 0 rgba(212, 175, 55, 0.6); }
+  70% { box-shadow: 0 0 0 14px rgba(212, 175, 55, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(212, 175, 55, 0); }
+}
+
+.audio-scrubber-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.audio-time-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-family: monospace;
+}
+
+.audio-progress-bar {
+  width: 100%;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 3px;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+}
+
+.audio-progress-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: linear-gradient(90deg, #d4af37, #fce99f);
+  border-radius: 3px;
+  width: 0%;
+  pointer-events: none;
+}
+
+.audio-speed-btn, .audio-vol-btn {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--gold-light);
+  font-size: 0.78rem;
+  padding: 0.35rem 0.65rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.audio-speed-btn:hover, .audio-vol-btn:hover {
+  background: rgba(212, 175, 55, 0.2);
+  border-color: var(--gold-primary);
+}
+
+.audio-status-banner {
+  background: rgba(0, 0, 0, 0.35);
+  border-left: 3px solid #818cf8;
+  padding: 0.6rem 0.85rem;
+  border-radius: 4px;
+  font-size: 0.82rem;
+  color: #c7d2fe;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Sections */
+.study-section {
+  background: rgba(20, 16, 40, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.15rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.study-section-title {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  color: var(--gold-light);
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+  padding-bottom: 0.65rem;
+  margin: 0;
+}
+
+.study-prose {
+  font-size: 0.96rem;
+  line-height: 1.7;
+  color: #e2e8f0;
+}
+
+/* Polarity Grid */
+.polarity-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.polarity-card {
+  padding: 1.15rem;
+  border-radius: var(--radius-sm);
+}
+
+.polarity-card.light {
+  background: rgba(16, 185, 129, 0.08);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  border-left: 4px solid #10b981;
+}
+
+.polarity-card.shadow {
+  background: rgba(244, 63, 94, 0.08);
+  border: 1px solid rgba(244, 63, 94, 0.3);
+  border-left: 4px solid #f43f5e;
+}
+
+.polarity-card h4 {
+  margin: 0 0 0.4rem 0;
+  font-size: 1rem;
+  font-family: var(--font-serif);
+}
+
+.polarity-card.light h4 { color: #34d399; }
+.polarity-card.shadow h4 { color: #fb7185; }
+
+/* Symbols Grid */
+.study-symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.study-symbol-item {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 6px;
+  padding: 0.85rem;
+}
+
+.study-symbol-item b {
+  color: var(--gold-light);
+  display: block;
+  font-size: 0.92rem;
+  margin-bottom: 0.3rem;
+}
+
+.study-symbol-item p {
+  font-size: 0.85rem;
+  color: #cbd5e1;
+  line-height: 1.45;
+  margin: 0;
+}
+
+/* Vital Planes Grid (Amor, Trabajo, Salud, Espiritualidad) */
+.vital-planes-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.plane-card {
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  padding: 1.15rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.plane-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-serif);
+  font-size: 0.98rem;
+  color: var(--gold-light);
+  font-weight: 700;
+}
+
+.plane-card-text {
+  font-size: 0.9rem;
+  color: #cbd5e1;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.vital-planes-grid.reversed .plane-card {
+  border-color: rgba(251, 113, 133, 0.25);
+  background: rgba(244, 63, 94, 0.04);
+}
+
+.vital-planes-grid.reversed .plane-card-header {
+  color: #fca5a5;
+}
+
+/* Heal Box */
+.heal-box {
+  background: rgba(16, 185, 129, 0.1);
+  border: 1px solid #10b981;
+  border-left: 5px solid #10b981;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: #d1fae5;
+}
+
+.heal-box b {
+  color: #34d399;
+}
+
+/* Unique Differentiator Box */
+.unique-box {
+  background: linear-gradient(135deg, rgba(67, 56, 202, 0.25) 0%, rgba(30, 27, 75, 0.45) 100%);
+  border: 1px solid #818cf8;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: #e0e7ff;
+}
+
+.unique-box b {
+  color: #a5b4fc;
+}
+
+/* Curiosities List */
+.curiosities-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.curiosities-list li {
+  position: relative;
+  padding-left: 1.85rem;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: #cbd5e1;
+}
+
+.curiosities-list li::before {
+  content: "✦";
+  position: absolute;
+  left: 0.25rem;
+  color: var(--gold-primary);
+  font-size: 1.1rem;
+}
+
+/* Advice & Reflection */
+.advice-reflection-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.advice-card, .reflection-card {
+  padding: 1.25rem;
+  border-radius: 8px;
+}
+
+.advice-card {
+  background: rgba(212, 175, 55, 0.1);
+  border: 1px solid var(--gold-primary);
+  border-left: 4px solid var(--gold-primary);
+}
+
+.advice-card h4 {
+  color: var(--gold-light);
+  margin: 0 0 0.4rem 0;
+  font-family: var(--font-serif);
+}
+
+.reflection-card {
+  background: rgba(99, 102, 241, 0.1);
+  border: 1px solid #6366f1;
+  border-left: 4px solid #6366f1;
+}
+
+.reflection-card h4 {
+  color: #a5b4fc;
+  margin: 0 0 0.4rem 0;
+  font-family: var(--font-serif);
+}
+
+/* Parable Story Card */
+.parable-card {
+  background: linear-gradient(135deg, rgba(28, 22, 54, 0.8) 0%, rgba(15, 12, 32, 0.95) 100%);
+  border: 1px solid var(--gold-primary);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6), inset 0 0 20px rgba(212, 175, 55, 0.05);
+}
+
+.parable-title {
+  font-family: var(--font-serif);
+  font-size: 1.6rem;
+  color: var(--gold-light);
+  margin: 0 0 1.25rem 0;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.parable-text {
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 0.98rem;
+  line-height: 1.85;
+  color: #f1f5f9;
+  text-align: justify;
+}
+
+.parable-text p {
+  margin-bottom: 1rem;
+}
+
+.parable-text p:first-of-type::first-letter {
+  font-size: 2.8rem;
+  float: left;
+  line-height: 0.8;
+  padding-right: 0.6rem;
+  padding-top: 0.2rem;
+  color: var(--gold-primary);
+  font-family: var(--font-serif);
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .study-hero-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.25rem;
+  }
+  .study-card-img {
+    width: 105px;
+    height: 180px;
+  }
+  .study-card-title {
+    font-size: 1.7rem;
+  }
+  .study-meta-badges, .study-keywords-row {
+    justify-content: center;
+  }
+  .polarity-grid, .vital-planes-grid, .advice-reflection-grid {
+    grid-template-columns: 1fr;
+  }
+  .parable-card {
+    padding: 1.25rem;
+  }
+}

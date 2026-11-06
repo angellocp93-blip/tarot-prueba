@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="reina-de-copas">
+  <numero>Reina</numero>
+  <nombre>Reina de Copas</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Copas</palo>
+  <elemento>Agua</elemento>
+  <astrologia>Elemento Agua</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>La reina sentada al borde del mar contemplando su copa misteriosa con querubines. El santuario del corazón compasivo y la intuición clarividente.</esencia>
+  <palabras_clave>Madurez emocional, Compasión infinita, Intuición profunda, Escucha sanadora, Empatía</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Empatía sanadora, intuición certera, amor incondicional y dulzura sabia.</lado_luz>
+    <lado_sombra>Dependencia afectiva asfixiante, chantaje emocional velado, histeria.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Copa cerrada con cruz y querubines</nombre>
+      <descripcion>Misterios sagrados del corazón y secretos del alma bien custodiados.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Trono decorado con conchas y sirenas</nombre>
+      <descripcion>Reinado sobre las aguas del subconsciente.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Pies sobre guijarros en el agua</nombre>
+      <descripcion>Contacto directo con el flujo de las emociones.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Copas (Agua) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Reina de Copas en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Reina de Copas representa la manifestación de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón en el grado 13. Enseña a canalizar la energía de Agua con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</resumen>
+    <amor>En los vínculos afectivos, Reina de Copas aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Agua.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</resumen>
+    <palabras_clave_al_reves>Desborde emocional, Manipulación con el victimismo, Frialdad por heridas</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Pon límites sanos a tu compasión; no puedes salvar a nadie a costa de hundirte.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    La soberana de la empatía y la clarividencia. Sentada en un trono de conchas marinas a la orilla del océano, contempla fijamente una copa de oro cerrada y profusamente ornamentada con querubines.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>Es la única carta de copas donde el cáliz está totalmente cerrado con una tapa hexagonal, simbolizando los misterios íntimos del alma que solo se abren al amor verdadero.</item>
+    <item>Sus pies no tocan el agua directamente, sino que descansan sobre guijarros pulidos por las mareas, demostrando equilibrio entre la mente y las emociones.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Reina de Copas se asociaba con augurios concretos relacionados con las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Escucha con el corazón sin juzgar. Tu presencia amorosa es medicina para quienes sufren.</accion_inmediata>
+    <pregunta_para_ti>¿Estás cuidando de tus propias necesidades afectivas al mismo tiempo que cuidas a otros?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Reina del Cáliz Sellado</titulo>
+    <relato>
+      En su trono de coral blanco, la Reina contemplaba el cáliz dorado que guardaba las lágrimas y los anhelos de su pueblo. Podía adivinar las penas de quien se acercaba antes de que abriera la boca y curar el dolor más hondo con solo posar su mano en el hombro del afligido. 'El corazón humano es un cáliz sagrado', solía susurrar mirando las olas; 'no se debe abrir ante cualquiera, pero quien sabe amarlo con respeto encuentra en él un tesoro infinito'.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/reina-de-copas.mp3</archivo>
+    <titulo>Reina de Copas - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

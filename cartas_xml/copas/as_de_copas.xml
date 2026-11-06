@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="as-de-copas">
+  <numero>As</numero>
+  <nombre>As de Copas</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Copas</palo>
+  <elemento>Agua</elemento>
+  <astrologia>Elemento Agua</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>El manantial del corazón desbordándose en bendiciones. Apertura total a la ternura, la intuición y el amor divino.</esencia>
+  <palabras_clave>Amor incondicional, Despertar emocional, Paz interior, Compasión, Plenitud</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Amor generoso, intuición afinada, compasión sanadora y alegría profunda.</lado_luz>
+    <lado_sombra>Vulnerabilidad extrema, desborde dramático, apego dependiente.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Copa desbordante</nombre>
+      <descripcion>Generosidad emocional infinita del corazón.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Paloma con hostia</nombre>
+      <descripcion>Paz divina y presencia del espíritu.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Cinco chorros de agua</nombre>
+      <descripcion>Los cinco sentidos purificados por el amor.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Copas (Agua) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando As de Copas en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    As de Copas representa la manifestación de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón en el grado 1. Enseña a canalizar la energía de Agua con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</resumen>
+    <amor>En los vínculos afectivos, As de Copas aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Agua.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</resumen>
+    <palabras_clave_al_reves>Bloqueo afectivo, Amor no correspondido, Tristeza reprimida</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>No cierres tu corazón por desengaños viejos; cúrate con ternura.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    Es la fuente primordial del amor incondicional y la gracia emocional. Cinco torrentes de agua viva fluyen inagotables del cáliz sagrado hacia un estanque cubierto de flores de loto.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>Una paloma blanca desciende del cielo sosteniendo en su pico una hostia sagrada marcada con la cruz, bendiciendo el cáliz.</item>
+    <item>La copa está grabada con una letra 'W' (o 'M' invertida), aludiendo al Santo Grial y a la presencia maternal del espíritu divino.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, As de Copas se asociaba con augurios concretos relacionados con las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Abre tu corazón sin miedo. Permítete amar y recibir afecto plenamente.</accion_inmediata>
+    <pregunta_para_ti>¿Qué herida pasada estás listo para bañar en compasión y perdonar?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Manantial del Santo Grial</titulo>
+    <relato>
+      En un claro secreto del bosque de Brocelianda, una copa de oro flotaba sobre las aguas de un estanque cristalino. No estaba llena de vino terrenal, sino de la gracia celestial que apaga la sed del alma. Un caballero herido en mil batallas se arrodilló y bebió de sus aguas: en ese instante, el veneno del rencor que carcomía su pecho se disolvió como la sal en el mar. Había comprendido que el amor verdadero no se mendiga; brota desde adentro como un manantial que jamás se agota.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/as-de-copas.mp3</archivo>
+    <titulo>As de Copas - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

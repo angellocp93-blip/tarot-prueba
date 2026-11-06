@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="cinco-de-copas">
+  <numero>5</numero>
+  <nombre>Cinco de Copas</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Copas</palo>
+  <elemento>Agua</elemento>
+  <astrologia>Elemento Agua</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Una figura enlutada llora tres copas derramadas, sin ver que a su espalda quedan dos copas intactas. Llora tu pérdida, pero no olvides lo que vive.</esencia>
+  <palabras_clave>Duelo, Pérdida, Arrepentimiento, Esperanza intacta, Mirar hacia adelante</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Aceptación madura del duelo, honrar las pérdidas para poder sanar.</lado_luz>
+    <lado_sombra>Victimismo desesperado, aferrarse a la culpa o al rencor del pasado.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Tres copas volcadas en el suelo</nombre>
+      <descripcion>Lo que se perdió y no volverá a ser igual.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Dos copas en pie a la espalda</nombre>
+      <descripcion>Lo que sobrevive: afectos, recursos y esperanza.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Puente sobre el río hacia el castillo</nombre>
+      <descripcion>El camino de regreso al hogar y la sanación.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Copas (Agua) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Cinco de Copas en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Cinco de Copas representa la manifestación de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón en el grado 5. Enseña a canalizar la energía de Agua con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</resumen>
+    <amor>En los vínculos afectivos, Cinco de Copas aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Agua.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</resumen>
+    <palabras_clave_al_reves>Sanación del duelo, Aceptar la pérdida y avanzar, Reconciliación</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Abraza a quienes siguen contigo y permítete sonreír de nuevo.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    A diferencia del 3 de Espadas (dolor agudo por traición), el 5 de Copas es el duelo por lo perdido, pero con un detalle redentor crucial: tres copas están derramadas en el suelo, pero dos copas intactas permanecen de pie a sus espaldas.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>La figura viste un manto negro de luto y duelo, mirando con dolor el vino derramado sobre la tierra.</item>
+    <item>Al fondo, un puente de piedra cruza el río hacia un castillo seguro, recordándole que el camino hacia el hogar sigue abierto.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Cinco de Copas se asociaba con augurios concretos relacionados con las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Date permiso para llorar, pero luego date la vuelta: la vida no ha terminado.</accion_inmediata>
+    <pregunta_para_ti>¿Qué bendiciones o personas valiosas siguen a tu lado mientras lloras lo perdido?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>Las Dos Copas a la Espalda</titulo>
+    <relato>
+      El viajero lloraba desconsolado a la orilla del río negro. El vino de sus tres copas más preciadas se había derramado en el barro y creía que su vida estaba irremediablemente arruinada. Un caminante se detuvo a su lado y le tocó suavemente el hombro cubierto por el manto oscuro: '¿Por qué lloras por el vino que la tierra ya bebió? Date la vuelta'. El hombre giró el rostro con lágrimas en los ojos y vio dos copas de oro intactas, colmadas de néctar dulce detrás de él. El puente estaba allí: el dolor era real, pero la esperanza aún estaba viva.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/cinco-de-copas.mp3</archivo>
+    <titulo>Cinco de Copas - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

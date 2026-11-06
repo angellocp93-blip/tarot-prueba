@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="ocho-de-copas">
+  <numero>8</numero>
+  <nombre>Ocho de Copas</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Copas</palo>
+  <elemento>Agua</elemento>
+  <astrologia>Elemento Agua</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Una figura con manto rojo camina de noche apoyada en su cayado, alejándose de ocho copas ordenadas. Partir en busca de algo más profundo.</esencia>
+  <palabras_clave>Retirada consciente, Dejar atrás lo seguro, Búsqueda de sentido, Viaje del alma, Evolución</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Valentía para soltar, honestidad con el propio vacío, búsqueda trascendente.</lado_luz>
+    <lado_sombra>Escapismo crónico, huir cada vez que una relación exige compromiso.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Ocho copas en pie dejadas atrás</nombre>
+      <descripcion>Logros materiales o afectivos que ya cumplieron su ciclo.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Luna y sol eclipsados</nombre>
+      <descripcion>Momento de profunda transformación de consciencia.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Montañas escarpadas hacia donde va</nombre>
+      <descripcion>El sendero espiritual exigente pero luminoso.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Copas (Agua) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Ocho de Copas en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Ocho de Copas representa la manifestación de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón en el grado 8. Enseña a canalizar la energía de Agua con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</resumen>
+    <amor>En los vínculos afectivos, Ocho de Copas aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Agua.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</resumen>
+    <palabras_clave_al_reves>Miedo a partir, Quedarse en lo que daña, Regreso arrepentido</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Confía en tus pies. El camino se abrirá en cuanto des el primer paso hacia tu verdad.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    A diferencia de La Muerte (donde el ciclo termina por fuerza mayor), el 8 de Copas es la renuncia voluntaria: una persona da la espalda a ocho copas perfectamente apiladas y camina hacia las montañas buscando algo más elevado.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>La luna en el cielo combina un eclipse entre el sol y la luna creciente, simbolizando que la partida ocurre en un momento de alineación espiritual profunda.</item>
+    <item>La figura viste una capa roja y se apoya en un báculo de peregrino, indicando que no huye por cobardía, sino que inicia una búsqueda sagrada.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Ocho de Copas se asociaba con augurios concretos relacionados con las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Si ya no eres feliz allí, ten el valor de marcharte con dignidad.</accion_inmediata>
+    <pregunta_para_ti>¿Qué situación en tu vida sigues sosteniendo solo por costumbre aunque esté vacía?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Partida hacia las Altas Cumbres</titulo>
+    <relato>
+      Tenía una casa hermosa, ocho copas de oro sobre la mesa y el respeto de sus conciudadanos. Sin embargo, cada medianoche sentía un vacío en el pecho que nada de lo material podía llenar. Una noche de luna clara, se puso su capa roja, tomó su báculo y salió sin hacer ruido por el sendero pedregoso que sube a las montañas. No despreciaba lo vivido; simplemente sabía que hay una hora en la vida donde lo bueno debe ser abandonado para poder encontrar lo sublime.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/ocho-de-copas.mp3</archivo>
+    <titulo>Ocho de Copas - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

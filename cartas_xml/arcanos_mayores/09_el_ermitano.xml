@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="el-ermitano">
+  <numero>IX</numero>
+  <nombre>El Ermitaño</nombre>
+  <tipo>Arcano Mayor</tipo>
+  <palo>Ninguno</palo>
+  <elemento>Tierra</elemento>
+  <astrologia>Virgo</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>La lámpara de la verdad interior. Retírate del ruido del mundo para escuchar tu propia voz y alumbrar tu sendero paso a paso.</esencia>
+  <palabras_clave>Introspección, Búsqueda interior, Soledad sabia, Guía espiritual, Prudencia</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Madurez reflexiva, autenticidad, sabiduría comprobada, independencia de juicio y prudencia.</lado_luz>
+    <lado_sombra>Aislamiento antisocial, amargura, misantropía, miedo al contacto humano, terquedad de viejo ermitaño.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Lámpara con estrella de 6 puntas</nombre>
+      <descripcion>La luz de la sabiduría divina y la prudencia que alumbra un paso a la vez.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Báculo de apoyo</nombre>
+      <descripcion>La experiencia acumulada que sostiene al caminante en terrenos escarpados.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Manto gris protector</nombre>
+      <descripcion>Discreción, aislamiento consciente y protección frente a las vanidades del mundo.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Cima nevada</nombre>
+      <descripcion>La altura espiritual y la perspectiva amplia alcanzada tras un largo esfuerzo solitario.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    En las barajas del Renacimiento (Visconti-Sforza y Marsella), El Ermitaño solía portar un reloj de arena, identificándolo como 'El Tiempo' o el dios Saturno (Cronos), señor de la vejez y la paciencia. Con el tiempo, el reloj fue sustituido por una lámpara o linterna encendida. Arthur Edward Waite y Pamela Colman Smith lo colocaron en la cima solitaria de una cumbre nevada: un anciano venerado cubierto por una túnica gris, sosteniendo el báculo de oro del peregrino y alzando la linterna que alberga en su interior la estrella de seis puntas (el Sello de Salomón), convirtiéndolo en el faro místico que ilumina el sendero para los buscadores que ascienden detrás de él.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    El Ermitaño es el arquetipo del sabio interior, la búsqueda de la verdad esencial, la introspección silenciosa y el retiro fecundo. Enseña que para escuchar la voz del alma es necesario acallar el bullicio del mundo exterior. No representa la soledad trágica ni el abandono, sino la bendita soledad elegida (solitud) donde se forja la sabiduría que luego servirá para guiar a la humanidad.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Búsqueda interior, introspección fecunda, guía sabia, madurez reflexiva, prudencia y luz en medio de la oscuridad.</resumen>
+    <amor>Tiempo de reflexión personal antes de comprometerse. Profundización emocional en la pareja a través del respeto mutuo de los espacios íntimos. Madurez afectiva que no depende de la aprobación constante del otro.</amor>
+    <dinero_trabajo>Análisis minucioso, asesoramiento por parte de expertos veteranos, investigación académica o trabajo independiente concentrado. Evitar prisas financieras.</dinero_trabajo>
+    <salud>Longevidad, necesidad de descanso reparador, desintoxicación del estrés urbano y cuidado de las articulaciones y la columna vertebral.</salud>
+    <espiritualidad>Conexión directa con la chispa divina interior a través de la meditación, el retiro y el estudio filosófico profundo. Convertirse en la propia luz.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Aislamiento destructivo, misantropía amargada, soledad no deseada, terquedad de viejo ermitaño o rechazo a recibir ayuda.</resumen>
+    <palabras_clave_al_reves>Aislamiento tóxico, Terquedad, Soledad dolorosa, Desconexión, Rechazo de ayuda</palabras_clave_al_reves>
+    <amor>Frialdad afectiva, alejamiento emocional que desgasta la relación, encierro en uno mismo o miedo patológico a abrir el corazón.</amor>
+    <dinero_trabajo>Falta de trabajo en equipo, hermetismo perjudicial en la oficina o retrasos excesivos en proyectos por perfeccionismo paralizante.</dinero_trabajo>
+    <salud>Problemas relacionados con el sedentarismo, depresión por aislamiento social, deterioro de la vista o dolencias crónicas desatendidas.</salud>
+    <espiritualidad>Arrogancia intelectual. Creer que nadie está a la altura de su nivel espiritual o perderse en filosofías áridas sin contacto con la compasión humana.</espiritualidad>
+    <como_armonizar_desbloquear>Abre tu puerta. Comparte lo que sientes con una persona de confianza y sal a que te dé el sol.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    Es el único arcano que se encuentra ya en la cumbre nevada más alta, pero en lugar de descansar victorioso, se gira hacia el abismo y eleva su linterna para alumbrar el camino a quienes aún están escalando en la oscuridad. A diferencia de El Hierofante (que predica ante multitudes en templos de piedra), El Ermitaño enseña desde el silencio de la montaña a quien realmente esté dispuesto a buscar la verdad.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>La estrella de seis puntas en la linterna: Es la Estrella de David o Sello de Salomón, que une el triángulo del fuego con el del agua, simbolizando la verdad cósmica que ilumina las tinieblas.</item>
+    <item>El báculo de la mano izquierda: Representa la columna vertebral y el soporte de la experiencia vivida, sostenido con la mano receptiva del inconsciente.</item>
+    <item>La nieve inmaculada: Simboliza la mente pacificada y libre de los deseos mundanos que nublan la visión clara.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Tómate tu tiempo. No tomes decisiones precipitadas; busca un espacio de calma para conectar con tu verdad.</accion_inmediata>
+    <pregunta_para_ti>¿Qué verdad sobre ti mismo estás evitando mirar al mantenerte siempre ocupado?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Linterna de la Cumbre Helada</titulo>
+    <relato>
+      Un joven monje subió a la montaña más alta del Tíbet buscando al anciano de la leyenda. Lo halló sentado al borde del risco, sosteniendo una pequeña llama en una lámpara de vidrio. 'Maestro', suplicó el joven con los labios morados de frío, 'enséñame la doctrina secreta para salvar al mundo'. El anciano no se movió; le pasó la linterna y le dijo: 'Baja la mirada hacia el sendero por el que viniste'. El joven miró hacia abajo: en medio de la ventisca nocturna, decenas de peregrinos avanzaban a ciegas guiados por el destello lejano de aquella diminuta lámpara. 'No intentes salvar al mundo con palabras grandilocuentes', murmuró el anciano. 'Basta con que mantengas tu propia luz encendida en la noche más oscura; los demás encontrarán el camino'.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/el-ermitano.mp3</archivo>
+    <titulo>El Ermitaño - La Linterna del Silencio Interior</titulo>
+    <duracion_estimada>4:40 min</duracion_estimada>
+  </audio>
+</arcano>

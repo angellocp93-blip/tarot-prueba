@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="nueve-de-espadas">
+  <numero>9</numero>
+  <nombre>Nueve de Espadas</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Espadas</palo>
+  <elemento>Aire</elemento>
+  <astrologia>Elemento Aire</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Una persona sentada en su cama en plena noche con el rostro oculto entre las manos mientras nueve espadas cuelgan en la pared oscura. La pesadilla de la mente.</esencia>
+  <palabras_clave>Ansiedad, Insomnio, Pesadillas, Culpa lacerante, Tormento mental</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Tocar fondo para buscar ayuda psicológica, catarsis profunda que libera el dolor.</lado_luz>
+    <lado_sombra>Paranoia obsesiva, ataques de pánico, autoflagelación mental destructiva.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Persona llorando en la cama</nombre>
+      <descripcion>Angustia nocturna, culpa y sensación de soledad abrumadora.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Nueve espadas en la pared</nombre>
+      <descripcion>Pensamientos repetitivos y catastróficos que hieren la psique.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Colcha con rosas y símbolos astrológicos</nombre>
+      <descripcion>La vida y la belleza siguen existiendo fuera del dolor mental.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Espadas (Aire) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Nueve de Espadas en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Nueve de Espadas representa la manifestación de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales en el grado 9. Enseña a canalizar la energía de Aire con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</resumen>
+    <amor>En los vínculos afectivos, Nueve de Espadas aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Aire.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</resumen>
+    <palabras_clave_al_reves>Superación de la pesadilla, Alivio de la ansiedad, Buscar apoyo profesional</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Comparte tu angustia con un profesional o amigo de confianza; la soledad agranda los monstruos.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    El tormento de la mente nocturna: una figura sentada en su cama con la cabeza entre las manos, consumida por la angustia, el insomnio, la culpa o las pesadillas, mientras nueve espadas cuelgan en la pared sobre ella.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>El cobertor de la cama está decorado con rosas rojas y signos del zodiaco, recordando que la vida real sigue siendo hermosa a pesar del dolor mental.</item>
+    <item>Las espadas no tocan a la persona: representan pensamientos obsesivos y temores imaginarios que torturan más que la propia realidad.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Nueve de Espadas se asociaba con augurios concretos relacionados con el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Respira. La mente asustada exagera todo en la oscuridad. Habla con alguien y enciende la luz.</accion_inmediata>
+    <pregunta_para_ti>¿Qué pensamiento catastrófico te está quitando el sueño y qué pruebas reales tienes de él?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Noche de los Nueve Fantasmas</titulo>
+    <relato>
+      A las tres de la madrugada, el anciano se despertó con el corazón desbocado. En la penumbra de su habitación, cada error del pasado parecía una espada suspendida sobre su cabeza lista para caer. Se tapó la cara con las manos y lloró de angustia creyendo que todo estaba perdido. Pero cuando el primer rayo de sol cruzó la ventana, los monstruos se disolvieron en polvo dorado y el canto de los gorriones llenó la estancia. Comprendió el gran secreto: la noche agranda los fantasmas, pero el sol siempre devuelve las cosas a su tamaño real.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/nueve-de-espadas.mp3</archivo>
+    <titulo>Nueve de Espadas - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

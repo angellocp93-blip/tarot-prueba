@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="reina-de-espadas">
+  <numero>Reina</numero>
+  <nombre>Reina de Espadas</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Espadas</palo>
+  <elemento>Aire</elemento>
+  <astrologia>Elemento Aire</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>La soberana del aire sentada en su trono de querubines y mariposas extiende su mano izquierda y alza la espada recta. La verdad sin máscaras ni sensiblerías.</esencia>
+  <palabras_clave>Claridad implacable, Objetividad, Independencia, Discernimiento, Límites claros</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Discernimiento magistral, honestidad intachable, independencia personal y dignidad.</lado_luz>
+    <lado_sombra>Amargura defensiva, frialdad glacial, cinismo castrador y juicio implacable.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Espada vertical inquebrantable</nombre>
+      <descripcion>Juicio objetivo y defensa de la justicia sin dobleces.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Mano extendida</nombre>
+      <descripcion>Apertura a la verdad y disposición a dialogar con franqueza.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Manto con nubes y querubín en el trono</nombre>
+      <descripcion>Dominio de las alturas intelectuales y claridad aérea.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Espadas (Aire) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Reina de Espadas en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Reina de Espadas representa la manifestación de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales en el grado 13. Enseña a canalizar la energía de Aire con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</resumen>
+    <amor>En los vínculos afectivos, Reina de Espadas aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Aire.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</resumen>
+    <palabras_clave_al_reves>Frialdad castradora, Rencor por heridas pasadas, Aislamiento cínico</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Baja la espada un momento; no todos quieren engañarte. Permite que el afecto te ablande.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    La soberana del discernimiento lúcido y la independencia moral. Sentada de perfil en su trono esculpido con mariposas, alza una espada vertical con su mano derecha mientras su mano izquierda invita al diálogo honesto.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>Su rostro severo pero sereno refleja a alguien que ha sufrido mucho pero ha transformado el dolor en sabiduría incorruptible.</item>
+    <item>Las mariposas en su trono simbolizan la metamorfosis del pensamiento a través de la superación del sufrimiento.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Reina de Espadas se asociaba con augurios concretos relacionados con el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Sé claro y directo. Pon límites con respeto y no permitas que nadie manipule tu criterio.</accion_inmediata>
+    <pregunta_para_ti>¿Qué límite claro necesitas marcar hoy para proteger tu dignidad y paz mental?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Dama del Veredicto Justo</titulo>
+    <relato>
+      En la sala de audiencias, la Reina no se dejaba conmover por lamentos teatrales ni por halagos cortesanos. Su mirada gris leía el alma de los litigantes como un libro abierto. Con su mano alzada pedía silencio y con una sola frase certera desarmaba la mentira más elaborada. Sin embargo, cuando una viuda pobre se arrodilló temblando, la Reina bajó de su trono, la tomó de la mano y le ofreció cobijo: había aprendido que la verdadera justicia que no está templada por la compasión no es más que tiranía fría.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/reina-de-espadas.mp3</archivo>
+    <titulo>Reina de Espadas - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

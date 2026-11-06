@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="el-emperador">
+  <numero>IV</numero>
+  <nombre>El Emperador</nombre>
+  <tipo>Arcano Mayor</tipo>
+  <palo>Ninguno</palo>
+  <elemento>Fuego</elemento>
+  <astrologia>Aries</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>El poder del orden y la razón pragmática. Construye bases sólidas e inamovibles para que tu visión se sostenga en el tiempo.</esencia>
+  <palabras_clave>Estructura, Autoridad, Estabilidad, Liderazgo, Disciplina</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Liderazgo ético, fiabilidad, protección a los suyos, claridad de objetivos y disciplina ejemplar.</lado_luz>
+    <lado_sombra>Tiranía autoritaria, terquedad dogmática, frialdad emocional, intolerancia e incapacidad para delegar.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Trono de piedra cúbica</nombre>
+      <descripcion>Cimientos inamovibles y estabilidad material a prueba de crisis.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Cabezas de carnero</nombre>
+      <descripcion>Determinación inquebrantable, espíritu pionero y audacia de Aries.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Cetro de Ankh</nombre>
+      <descripcion>Símbolo de vida eterna y gobernanza justa sobre las leyes de la tierra.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Armadura bajo la túnica</nombre>
+      <descripcion>Preparación constante para proteger lo valioso y mantener la integridad.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    Heredero directo de los césares romanos y los reyes francos medievales, El Emperador representaba en el Tarot del Renacimiento la soberanía terrenal, la corona y la ley feudal. En el Tarot de Marsella viste armadura y porta el cetro imperial. Arthur Edward Waite y Pamela Colman Smith le confirieron una presencia pétrea y adusta: sentado en un trono macizo de granito rojo adornado con cuatro cabezas de carnero (símbolo de Aries), vestido con cota de malla y sosteniendo el cetro de la cruz ansada (Ankh egipcia) y el orbe del mundo, representando el poder de la estructura, la ley y la conquista civilizatoria.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    El Emperador encarna el principio paterno, la autoridad legítima, la estructura sólida, la disciplina y el orden protector. Si La Emperatriz es la fuerza orgánica y fértil de la naturaleza, El Emperador es el arquitecto que canaliza esa fuerza mediante límites saludables, construyendo ciudades, leyes e imperios donde la vida puede desarrollarse con seguridad. Enseña a liderar la propia vida con firmeza moral y constancia.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Liderazgo firme, estabilidad económica, disciplina constructiva, protección y capacidad ejecutiva.</resumen>
+    <amor>Relación madura, comprometida y con bases sólidas a largo plazo. Sentimiento de protección, lealtad y proyectos familiares estables.</amor>
+    <dinero_trabajo>Posición de mando, ascensos por mérito propio y consolidación de empresas o patrimonios. Dominio de la estrategia financiera y orden presupuestario impecable.</dinero_trabajo>
+    <salud>Constitución física resistente, buena disciplina con el ejercicio y hábitos regulares. Fortaleza ósea y vigor muscular.</salud>
+    <espiritualidad>Dominio del propio carácter y templanza ante las tentaciones. Comprender que la disciplina espiritual es el andamio necesario para edificar la iluminación interior.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Tiranía, terquedad rígida, autoritarismo, abuso de poder o, por el contrario, cobardía e inmadurez ejecutiva.</resumen>
+    <palabras_clave_al_reves>Tiranía, Falta de control, Rigidez extrema, Abuso de poder, Caos operativo</palabras_clave_al_reves>
+    <amor>Control posesivo, celos, frialdad emocional o imposición machista de reglas que asfixian la libertad de la pareja.</amor>
+    <dinero_trabajo>Conflictos con jefes o figuras de autoridad. Bancarrota por mala gestión o rigidez mental que impide adaptarse a los cambios del mercado.</dinero_trabajo>
+    <salud>Hipertensión, cefaleas intensas, contracturas crónicas en el cuello o accidentes por exceso de tensión y orgullo obstinado.</salud>
+    <espiritualidad>Dogmatismo dogmático, rigidez moral hipócrita o incapacidad para aceptar que existen misterios que escapan a la razón y al control humano.</espiritualidad>
+    <como_armonizar_desbloquear>Aprende a escuchar a los demás, flexibiliza tus posturas y recuerda que la verdadera autoridad no necesita gritar.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    Es el único soberano del mazo sentado sobre un trono de roca sólida tallada con cabezas de carnero, con una montaña árida a sus espaldas que demuestra que su poder se ha forjado en la adversidad más dura. A diferencia de El Rey de Oros (que busca ante todo el bienestar material y el lujo), El Emperador es un guerrero civilizador que antepone el deber, la justicia y la defensa de su territorio por encima de cualquier comodidad personal.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>El cetro Ankh: En su mano derecha sostiene la cruz ansada egipcia, revelando que su autoridad sobre la materia está consagrada a la preservación de la vida inmortal.</item>
+    <item>La armadura bajo la túnica roja: Demuestra que, aunque esté sentado en paz, el verdadero líder nunca baja la guardia y siempre está preparado para proteger a su pueblo.</item>
+    <item>Las cuatro cabezas de carnero: Hacen referencia al signo de Aries, el primer signo del zodiaco, regido por Marte, principio del fuego creador y la iniciativa incansable.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Toma el mando con firmeza. Establece límites saludables, organiza tus finanzas y pon en orden tus prioridades.</accion_inmediata>
+    <pregunta_para_ti>¿En qué área de tu vida necesitas imponer mayor orden, disciplina o límites personales?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Muralla de Piedra Viva</titulo>
+    <relato>
+      Cuando las hordas del caos amenazaron el valle fértil, todos buscaron al hombre de la montaña. Lo encontraron tallando bloques de granito con sus propias manos heridas. '¿Por qué no usas la magia para salvarnos?', le gritaron desesperados. El hombre no soltó el cincel. Miró a los aldeanos a los ojos y dijo con voz de trueno contenido: 'La magia sin cimientos es un sueño que el primer viento derriba. Si queréis un reino que dure mil años, dejad de pedir milagros y aprended a colocar la primera piedra con vuestra propia sangre'. Aquel día, los aldeanos aprendieron la disciplina; y el valle nunca fue conquistado.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/el-emperador.mp3</archivo>
+    <titulo>El Emperador - El Trono de la Firmeza</titulo>
+    <duracion_estimada>4:25 min</duracion_estimada>
+  </audio>
+</arcano>

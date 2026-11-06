@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="la-muerte">
+  <numero>XIII</numero>
+  <nombre>La Muerte</nombre>
+  <tipo>Arcano Mayor</tipo>
+  <palo>Ninguno</palo>
+  <elemento>Agua</elemento>
+  <astrologia>Escorpio</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Lo que debe morir, muere para dar paso a la vida nueva. No temas al final, pues toda despedida es la antesala de un renacimiento.</esencia>
+  <palabras_clave>Transformación, Fin de ciclo, Renacimiento, Soltar el pasado, Transmutación</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Liberación profunda de cargas añejas, coraje para cerrar etapas, transmutación espiritual y regeneración.</lado_luz>
+    <lado_sombra>Apego neurótico a lo caduco, miedo visceral al cambio, luto crónico que impide seguir viviendo, resistencia destructiva.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Esqueleto con armadura negra</nombre>
+      <descripcion>La estructura indestructible del alma que sobrevive a cualquier cambio formal.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Rosa blanca en estandarte negro</nombre>
+      <descripcion>La semilla de pureza y vida inmortal que germina en la oscuridad.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Reyes y plebeyos a sus pies</nombre>
+      <descripcion>La igualdad universal ante el cambio inevitable del tiempo.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Sol naciendo entre dos torres</nombre>
+      <descripcion>La promesa ineludible del nuevo amanecer que sigue a la noche más oscura.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    En las barajas medievales y de Marsella solía llamarse 'El Arcano Sin Nombre' (para no invocar la tragedia de la Peste Negra) y mostraba a un esqueleto segador cortando cabezas y miembros coronados en un campo negro. Arthur Edward Waite y Pamela Colman Smith revolucionaron profundamente su simbolismo: transformaron al esqueleto en un caballero con armadura negra que monta un caballo blanco puro (símbolo de vida renovada), portando un estandarte negro con la rosa mística de cinco pétalos (la vida indestructible). Ante él caen reyes y prelados, pero al fondo, entre dos torres, amanece un sol dorado y radiante sobre el río del renacimiento.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    La Muerte es el arquetipo de la transformación radical, el fin inevitable de un ciclo para dar paso a lo nuevo, la muda de piel y la liberación profunda. No alude a la muerte física biológica, sino al desprendimiento de estructuras, apegos, identidades caducas y relaciones que han agotado su propósito vital. Para que la primavera florezca, las hojas secas del otoño deben morir y regresar a la tierra como abono.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Fin de un ciclo, transformación profunda, renacimiento, desapego liberador y apertura a lo nuevo.</resumen>
+    <amor>Cierre definitivo de relaciones tóxicas o transformación profunda de la dinámica de pareja. Morir a viejos rencores para renacer en un amor más auténtico.</amor>
+    <dinero_trabajo>Cambio de rumbo profesional radical. Liquidación de viejos proyectos que ya no aportan para fundar una nueva etapa próspera.</dinero_trabajo>
+    <salud>Eliminación de toxinas, superación de una crisis física y regeneración celular. Fin de un período de convalecencia.</salud>
+    <espiritualidad>La noche oscura del alma que precede al despertar. Disolución del falso ego (muerte iniciática) y nacimiento del ser esencial.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Resistencia agónica al cambio, miedo al duelo, aferrarse a lo que ya está muerto y prolongación innecesaria del sufrimiento.</resumen>
+    <palabras_clave_al_reves>Resistencia al cambio, Agonía prolongada, Miedo a soltar, Estancamiento tóxico, Negación</palabras_clave_al_reves>
+    <amor>Permanecer en una relación zombi que produce dolor por miedo a la soledad. Negación a soltar a un ex.</amor>
+    <dinero_trabajo>Mantener vivo un negocio en quiebra por orgullo, estancamiento profesional por temor al desempleo.</dinero_trabajo>
+    <salud>Enfermedades crónicas agravadas por no cambiar hábitos destructivos. Somatización de duelos no resueltos ni llorados.</salud>
+    <espiritualidad>Terror a lo desconocido. Vivir en un letargo espiritual por no atreverse a cuestionar las viejas creencias caducas.</espiritualidad>
+    <como_armonizar_desbloquear>Acepta la pérdida con dignidad. El duelo es sagrado; suelta el control y permite que la herida cicatrice para que brote nueva vida.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    Lleva en su estandarte la Rosa Mística de cinco pétalos blanca sobre fondo negro, símbolo de la regeneración y de la quintaesencia inmortal. A diferencia de La Torre (que destruye repentinamente mediante un rayo violento e inesperado), La Muerte es un proceso orgánico, inexorable y natural: es el río de la vida que fluye hacia el mar del renacimiento bajo un sol que siempre vuelve a nacer entre las dos torres.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>El niño que mira al caballero sin miedo: Frente al caballo de la Muerte, un niño con flores en el pelo mira al jinete con inocencia y curiosidad, revelando que el alma pura no teme a la transformación.</item>
+    <item>El sol entre las dos torres: En el horizonte lejano amanece el sol de la inmortalidad, demostrando que la muerte es solo la puerta de entrada a una luz mayor.</item>
+    <item>La rosa de cinco pétalos: Alude al número cinco (el ser humano redimido) y al movimiento esotérico Rosacruz de la regeneración perpetua.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Permite que muera lo que ya no tiene vida. Limpia tu espacio, agradece lo vivido y da la bienvenida a lo nuevo con valentía.</accion_inmediata>
+    <pregunta_para_ti>¿Qué relación, hábito o creencia sabes que ya murió y aún intentas mantener con respiración artificial?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Rosa de la Quinta Puerta</titulo>
+    <relato>
+      Una anciana reina custodiaba con guardias armados un jardín donde las hojas nunca caían porque estaban talladas en esmeralda y oro. No había flores marchitas, pero tampoco había aroma ni canto de pájaros; el jardín era un sepulcro de lujo. Una noche de luna negra, el caballero de armadura oscura cruzó los portones. La reina imploró llorando: '¡No destruyas mi paraíso perfecto!'. El caballero desmontó de su caballo blanco, tomó la corona de oro de la reina y la enterró en el lodo del suelo. En el instante en que la corona tocó la tierra negra, las hojas de metal se desvanecieron y un torrente de rosas rojas y frescas brotó de la tierra húmeda inundando el aire de perfume embriagador. 'Yo no quito la vida', susurró el jinete con voz de viento suave; 'solo aparto lo que ya está muerto para que lo vivo vuelva a respirar'.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/la-muerte.mp3</archivo>
+    <titulo>La Muerte - El Fuego Sagrado del Renacimiento</titulo>
+    <duracion_estimada>4:40 min</duracion_estimada>
+  </audio>
+</arcano>

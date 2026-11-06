@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="dos-de-bastos">
+  <numero>2</numero>
+  <nombre>Dos de Bastos</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Bastos</palo>
+  <elemento>Fuego</elemento>
+  <astrologia>Elemento Fuego</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>El mundo en tus manos. Diseña el mapa de tu próxima gran conquista desde una posición segura.</esencia>
+  <palabras_clave>Planificación, Visión de futuro, Decisión, Progreso, Nuevos horizontes</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Visión de futuro, estrategia brillante, audacia controlada y liderazgo.</lado_luz>
+    <lado_sombra>Miedo a salir de la zona de confort, arrogancia o indecisión.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Globo terráqueo</nombre>
+      <descripcion>Ambición global y visión amplia.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Dos bastos</nombre>
+      <descripcion>Uno anclado en lo seguro y otro listo para avanzar.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Bastos (Fuego) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de la voluntad, la creatividad, la pasión y el impulso de acción. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Dos de Bastos en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Dos de Bastos representa la manifestación de la voluntad, la creatividad, la pasión y el impulso de acción en el grado 2. Enseña a canalizar la energía de Fuego con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de la voluntad, la creatividad, la pasión y el impulso de acción.</resumen>
+    <amor>En los vínculos afectivos, Dos de Bastos aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Fuego.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de la voluntad, la creatividad, la pasión y el impulso de acción.</resumen>
+    <palabras_clave_al_reves>Miedo a lo desconocido, Dudas, Falta de visión</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Acepta que crecer exige salir de lo seguro; da pasos medidos.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    A diferencia del 2 de Espadas (parálisis por duda) o del 2 de Copas (unión entre dos), el 2 de Bastos es el visionario que contempla el mundo desde sus almenas sopesando una gran conquista futura.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>El noble sostiene un pequeño globo terráqueo en su mano derecha, simbolizando que su visión abarca horizontes globales más allá de su territorio actual.</item>
+    <item>Una vara está fijada a la muralla (lo ya logrado) mientras la otra está sujeta en su mano (el paso hacia lo desconocido).</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Dos de Bastos se asociaba con augurios concretos relacionados con la voluntad, la creatividad, la pasión y el impulso de acción.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Planifica con audacia; no te conformes con lo que ya dominas.</accion_inmediata>
+    <pregunta_para_ti>¿Estás dispuesto a dejar la comodidad de tu castillo para descubrir nuevas tierras?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Señor de las Almenas</titulo>
+    <relato>
+      Desde la torre más alta de su castillo, el rey contemplaba el océano con un mapa entre los dedos. Sus consejeros le rogaban que se quedase disfrutando de sus riquezas acumuladas, pero sus ojos miraban hacia la línea donde el mar se une con las estrellas. 'Quien solo cuida lo que ya conquistó, pronto lo verá marchitarse', dijo mirando la esfera del mundo. Al amanecer, ordenó arriar las velas de la primera carabela.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/dos-de-bastos.mp3</archivo>
+    <titulo>Dos de Bastos - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="la-emperatriz">
+  <numero>III</numero>
+  <nombre>La Emperatriz</nombre>
+  <tipo>Arcano Mayor</tipo>
+  <palo>Ninguno</palo>
+  <elemento>Tierra</elemento>
+  <astrologia>Venus</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>La Gran Madre en plenitud. Todo lo que siembras con ternura, paciencia y cuidado florece y genera frutos abundantes.</esencia>
+  <palabras_clave>Abundancia, Fertilidad, Nutrición, Sensualidad, Creatividad floreciente</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Generosidad cálida, creatividad desbordante, prosperidad material, empatía y disfrute de los placeres sanos.</lado_luz>
+    <lado_sombra>Sobreprotección asfixiante, vanidad superficial, dependencia emocional, descuido físico o indulgencia perezosa.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Corona de doce estrellas</nombre>
+      <descripcion>Dominio sobre las doce constelaciones y los ciclos estacionales del año.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Trigo maduro</nombre>
+      <descripcion>Cosecha segura y recompensa abundante al cuidado dedicado.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Río y cascada</nombre>
+      <descripcion>Flujo continuo de emociones vivas y vitalidad que fertiliza la tierra.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Escudo de Venus</nombre>
+      <descripcion>El poder creador del amor, la armonía, la belleza y la estética.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    Históricamente vinculada a las emperatrices del Sacro Imperio Romano Germánico, en los tarots del Renacimiento se mostraba como una soberana temporal con escudo imperial de águila bicéfala. En la tradición esotérica moderna evolucionó hacia la Gran Madre, la diosa Gaia, Deméter y Afrodita. Pamela Colman Smith la retrata en un trigal dorado en plena cosecha, recostada entre cojines aterciopelados, con un vestido estampado de granadas (símbolo de fertilidad) y una corona de doce estrellas, personificando la abundancia sensorial y la fuerza nutricia de la naturaleza.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    La Emperatriz es la encarnación suprema de la fertilidad, la creación artística, la belleza sensorial y la nutrición incondicional. Es la fuerza que hace brotar las flores, fecundar las ideas y alimentar a los seres vivos. Nos enseña a conectar con el placer de estar vivos, a amar nuestro cuerpo físico y a confiar en que el universo es inherentemente abundante para quienes cultivan con paciencia y amor.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Abundancia material, fertilidad creadora, amor maternal, sensualidad y florecimiento de proyectos.</resumen>
+    <amor>Romance colmado de pasión, dulzura, ternura y placer físico. Fecundidad, armonía doméstica, consolidación de la pareja y posible gestación o nacimiento.</amor>
+    <dinero_trabajo>Crecimiento próspero en negocios y carreras profesionales. Proyectos creativos que maduran con éxito. Prosperidad económica y entorno laboral cálido y colaborativo.</dinero_trabajo>
+    <salud>Vitalidad radiante, fertilidad biológica óptima, equilibrio hormonal y conexión plena con el bienestar físico y los cinco sentidos.</salud>
+    <espiritualidad>Veneración de la naturaleza como templo sagrado. Consciencia de que el cuerpo es el vehículo divino del alma y de que la creación es un acto de amor cósmico.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo creativo, codependencia asfixiante, descuido personal, esterilidad de ideas o vanidad superficial.</resumen>
+    <palabras_clave_al_reves>Bloqueo creativo, Descuido personal, Sobrecontrol maternal, Inseguridad, Escasez</palabras_clave_al_reves>
+    <amor>Apego excesivo, manipulación maternal o abandono del autocuidado por complacer a otros. Discusiones domésticas o frialdad sensorial.</amor>
+    <dinero_trabajo>Gastos suntuosos innecesarios, pereza laboral o proyectos que se quedan estancados por falta de disciplina o exceso de comodismo.</dinero_trabajo>
+    <salud>Problemas ginecológicos, fatiga crónica, desórdenes alimenticios o descuido de la nutrición y el descanso corporal.</salud>
+    <espiritualidad>Desconexión con la tierra y el propio cuerpo. Sentimiento de escasez y desconsuelo existencial por perder la fe en los ciclos naturales.</espiritualidad>
+    <como_armonizar_desbloquear>Prioriza tu salud y descanso. Llena tu propio pozo interno antes de seguir ofreciendo agua a otros.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    Es la única soberana que gobierna desde un jardín vivo al aire libre y no encerrada en un palacio de piedra. A diferencia de La Sacerdotisa (que nutre el espíritu virgen e intangible), La Emperatriz materializa la carne, el trigo, el vino y los sentidos. Y a diferencia de El Emperador (que impone el orden mediante leyes y ejércitos), ella reina a través del florecimiento espontáneo y el cuidado maternal.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>La corona de doce estrellas: Representa las doce constelaciones zodiacales y los doce meses del año, coronándola como reina del tiempo y de las estaciones terrestres.</item>
+    <item>El símbolo de Venus en el cojín: El corazón con el glifo venusino confirma su correspondencia astrológica con el amor, el arte, la armonía y la belleza estética.</item>
+    <item>El río y la cascada: El agua que riega el campo simboliza las emociones puras que fertilizan el intelecto y dan vida a la materia.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Nútrete primero a ti mismo para poder nutrir a tus proyectos. Dale tiempo al fruto para madurar sin angustia.</accion_inmediata>
+    <pregunta_para_ti>¿Cómo puedes tratarte hoy con mayor compasión, cuidado y merecimiento de abundancia?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Canción del Trigal Dorado</titulo>
+    <relato>
+      Hubo un invierno tan largo que la gente de la comarca olvidó el color verde. Los hombres intentaban tallar espigas de piedra y las mujeres lloraban mirando la tierra helada. Entonces, llegó una mujer descalza cuyo manto arrastraba aroma a madreselva. No dio discursos ni promulgó edictos; simplemente se arrodilló, besó la tierra escarchada y cantó una antigua melodía de cuna. Bajo el calor de su voz, la nieve se derritió en riachuelos de cristal y los primeros brotes de trigo estallaron hacia el cielo. —Nada que sea forzado da fruto perdurable —dijo acariciando una espiga—. La vida solo florece cuando es amada con paciencia infinita.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/la-emperatriz.mp3</archivo>
+    <titulo>La Emperatriz - El Huerto Sagrado de la Vida</titulo>
+    <duracion_estimada>4:20 min</duracion_estimada>
+  </audio>
+</arcano>

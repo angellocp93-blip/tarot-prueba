@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="cinco-de-bastos">
+  <numero>5</numero>
+  <nombre>Cinco de Bastos</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Bastos</palo>
+  <elemento>Fuego</elemento>
+  <astrologia>Elemento Fuego</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Cinco figuras en lucha de bastos: competencia y debate acalorado que pone a prueba tus destrezas.</esencia>
+  <palabras_clave>Competencia, Disputas, Rivalidad, Debate, Tensión constructiva</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Espíritu deportivo, debate constructivo y poner a prueba habilidades.</lado_luz>
+    <lado_sombra>Conflictos estériles por ego, peleas mezquinas y desgaste inútil.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Jóvenes luchando</nombre>
+      <descripcion>Choque de fuerzas divergentes que buscan medirse.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Ropas dispares</nombre>
+      <descripcion>Diferencia de opiniones y falta de alineación.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Bastos (Fuego) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de la voluntad, la creatividad, la pasión y el impulso de acción. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Cinco de Bastos en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Cinco de Bastos representa la manifestación de la voluntad, la creatividad, la pasión y el impulso de acción en el grado 5. Enseña a canalizar la energía de Fuego con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de la voluntad, la creatividad, la pasión y el impulso de acción.</resumen>
+    <amor>En los vínculos afectivos, Cinco de Bastos aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Fuego.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de la voluntad, la creatividad, la pasión y el impulso de acción.</resumen>
+    <palabras_clave_al_reves>Conflicto destructivo, Evasión del debate, Rivalidad desleal</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Establece reglas claras o retírate de batallas que no te aportan valor.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    A diferencia del 5 de Espadas (donde hay crueldad, traición y humillación), el 5 de Bastos es una pugna o competencia deportiva: jóvenes probando sus habilidades sin intención de herir mortalmente.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>Ninguno de los cinco jóvenes viste armadura ni lleva espadas de metal: sus varas chocan en el aire en un ensayo de destreza y competencia leal.</item>
+    <item>Cada uno viste ropas de colores diferentes, representando la diversidad de ideas y perspectivas que buscan destacar en el grupo.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Cinco de Bastos se asociaba con augurios concretos relacionados con la voluntad, la creatividad, la pasión y el impulso de acción.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>No te tomes las disputas como algo personal; defiende tu postura con calma.</accion_inmediata>
+    <pregunta_para_ti>¿Estás buscando una solución real o solo quieres tener la razón?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Torneo de los Cinco Bastones</titulo>
+    <relato>
+      En la plaza mayor, cinco jóvenes practicaban con varas de madera para el festival de primavera. Cada uno quería que su estocada fuera la más aplaudida y el polvo se levantaba entre gritos y risas. Al terminar la contienda, exhaustos y sudorosos, se dieron la mano y compartieron una jarra de agua fresca: habían aprendido que el rival no es un enemigo que deba ser aniquilado, sino el espejo que nos obliga a dar lo mejor de nosotros mismos.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/cinco-de-bastos.mp3</archivo>
+    <titulo>Cinco de Bastos - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

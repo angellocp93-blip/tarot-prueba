@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="sota-de-bastos">
+  <numero>Sota</numero>
+  <nombre>Sota de Bastos</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Bastos</palo>
+  <elemento>Fuego</elemento>
+  <astrologia>Elemento Fuego</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>El joven explorador contemplando el basto florecido. La chispa del entusiasmo juvenil y las ganas de aprender.</esencia>
+  <palabras_clave>Curiosidad, Entusiasmo, Mensajes motivadores, Espíritu explorador, Nueva aventura</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Curiosidad viva, optimismo fresco, ganas de aprender y simpatía.</lado_luz>
+    <lado_sombra>Inconstancia infantil, fanfarronería, abandonar tareas al poco tiempo.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Túnica con salamandras</nombre>
+      <descripcion>Elemento fuego y capacidad de transformación.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Sombrero con pluma</nombre>
+      <descripcion>Optimismo y audacia alegre.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Bastos (Fuego) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de la voluntad, la creatividad, la pasión y el impulso de acción. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Sota de Bastos en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Sota de Bastos representa la manifestación de la voluntad, la creatividad, la pasión y el impulso de acción en el grado 11. Enseña a canalizar la energía de Fuego con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de la voluntad, la creatividad, la pasión y el impulso de acción.</resumen>
+    <amor>En los vínculos afectivos, Sota de Bastos aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Fuego.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de la voluntad, la creatividad, la pasión y el impulso de acción.</resumen>
+    <palabras_clave_al_reves>Falta de entusiasmo, Noticias decepcionantes, Inmadurez</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Madura tus intenciones; lleva el entusiasmo a hechos concretos.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    A diferencia de la Sota de Espadas (vigilante y analítica) o la Sota de Copas (soñadora y tímida), la Sota de Bastos es la curiosidad entusiasta, la chispa juvenil que explora nuevos horizontes con valentía.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>La túnica amarilla está estampada con salamandras (símbolo alquímico del fuego que no se consume en las llamas).</item>
+    <item>Lleva una pluma roja flamígera en su gorro, evocando la llama del ingenio y la inspiración espontánea.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Sota de Bastos se asociaba con augurios concretos relacionados con la voluntad, la creatividad, la pasión y el impulso de acción.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Explora sin miedo. Recibe las propuestas con mente abierta y entusiasmo.</accion_inmediata>
+    <pregunta_para_ti>¿Qué habilidad nueva te despierta curiosidad y quieres explorar?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Heraldo de la Pluma Roja</titulo>
+    <relato>
+      En un cruce de caminos del desierto, un joven explorador contemplaba con fascinación un brote verde que nacía de su cayado de madera seca. No tenía miedo a la distancia ni a las tormentas de arena: en su bolso llevaba noticias de aventura y en sus ojos brillaba el fuego de quien está a punto de descubrir el mundo. Corrió hacia el horizonte silbando, sabiendo que cada día es una página en blanco esperando ser escrita con fuego sagrado.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/sota-de-bastos.mp3</archivo>
+    <titulo>Sota de Bastos - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

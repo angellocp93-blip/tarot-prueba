@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="seis-de-copas">
+  <numero>6</numero>
+  <nombre>Seis de Copas</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Copas</palo>
+  <elemento>Agua</elemento>
+  <astrologia>Elemento Agua</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Un niño ofrece una copa llena de flores a una niña en el patio de un castillo. La inocencia recuperada, la dulzura de la infancia y recuerdos felices.</esencia>
+  <palabras_clave>Nostalgia dulce, Inocencia infantil, Memorias del pasado, Reencuentro, Ternura</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Ternura genuina, perdón al pasado, generosidad sin condiciones, dulzura.</lado_luz>
+    <lado_sombra>Atrapado en la nostalgia ('cualquier tiempo pasado fue mejor'), infantilismo.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Copas rebosantes de flores blancas</nombre>
+      <descripcion>Memorias puras, afecto desinteresado y ternura.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Guardián de espaldas</nombre>
+      <descripcion>Protección de las memorias sagradas de la niñez.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Copas (Agua) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Seis de Copas en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Seis de Copas representa la manifestación de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón en el grado 6. Enseña a canalizar la energía de Agua con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</resumen>
+    <amor>En los vínculos afectivos, Seis de Copas aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Agua.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</resumen>
+    <palabras_clave_al_reves>Superar la nostalgia, Madurar, Dejar ir el pasado</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Honra tus raíces pero enfoca tu energía en lo que estás creando hoy.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    A diferencia del pasado nostálgico amargo, el 6 de Copas es la dulzura de los recuerdos de infancia, la inocencia recuperada, el perdón y el regalo amoroso sin segundas intenciones.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>Un niño pequeño vestido como un paje medieval ofrece una copa llena de flores blancas a una niña pequeña en el patio de una villa antigua.</item>
+    <item>Un guardia de espaldas camina a lo lejos, indicando que el espacio de la infancia es seguro y protegido.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Seis de Copas se asociaba con augurios concretos relacionados con las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Agradece tu historia con ternura, pero vive y construye en el presente.</accion_inmediata>
+    <pregunta_para_ti>¿Qué sueño hermoso de tu infancia dejaste olvidado y puedes rescatar hoy?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Regalo de las Flores Blancas</titulo>
+    <relato>
+      En el patio adoquinado de la vieja casa de los abuelos, un niño llenó una copa de latón con margaritas y lirios silvestres y se la entregó a su pequeña amiga con una reverencia graciosa. No había doble intención, ni contratos, ni miedo al rechazo; solo la pureza de dos corazones que sabían quererse con la sencillez de los pájaros. Muchos años después, ya anciano y fatigado por las intrigas de la corte, el hombre recordó aquel instante y sintió que su alma volvía a sonreír con la pureza de aquel primer jardín.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/seis-de-copas.mp3</archivo>
+    <titulo>Seis de Copas - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

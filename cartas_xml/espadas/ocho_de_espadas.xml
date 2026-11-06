@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="ocho-de-espadas">
+  <numero>8</numero>
+  <nombre>Ocho de Espadas</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Espadas</palo>
+  <elemento>Aire</elemento>
+  <astrologia>Elemento Aire</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Una mujer atada y con los ojos vendados rodeada por ocho espadas en el fango. Sus ataduras están flojas y el camino detrás de ella está libre: la cárcel es mental.</esencia>
+  <palabras_clave>Prisión mental, Victimismo, Limitaciones autoimpuestas, Parálisis, Salida disponible</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Toma de consciencia del propio autoengaño; primer paso hacia la liberación.</lado_luz>
+    <lado_sombra>Victimismo crónico, culpar siempre a los demás, resignación cobarde.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Cuerdas flojas en el cuerpo</nombre>
+      <descripcion>La sumisión y el bloqueo son más mentales que reales.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Espadas rodeándola sin tocarla</nombre>
+      <descripcion>Miedos y mandatos que asustan pero no tienen poder físico.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Agua en los pies</nombre>
+      <descripcion>Emociones de culpa e impotencia que nublan el juicio.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Espadas (Aire) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Ocho de Espadas en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Ocho de Espadas representa la manifestación de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales en el grado 8. Enseña a canalizar la energía de Aire con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</resumen>
+    <amor>En los vínculos afectivos, Ocho de Espadas aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Aire.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</resumen>
+    <palabras_clave_al_reves>Liberación de la trampa, Apertura de ojos, Recuperar el poder personal</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Cree en tu fuerza. Da ese primer paso y verás cómo los barrotes imaginarios caen.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    A diferencia del Colgado (sacrificio voluntario iluminado), el 8 de Espadas es la trampa mental autoimpuesta: una mujer atada y con los ojos vendados está rodeada por ocho espadas clavadas en el suelo, pero no hay verdugos y el sendero hacia la salida está libre.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>Las cuerdas que la atan están flojas alrededor de sus brazos y sus pies no están atados, demostrando que su parálisis es puramente psicológica.</item>
+    <item>El agua del suelo moja sus pies, recordándole que la intuición y las emociones pueden ayudarla a despertar y liberarse.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Ocho de Espadas se asociaba con augurios concretos relacionados con el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Quítate la venda. Tienes el poder de liberarte en cuanto dejes de creerte tus excusas.</accion_inmediata>
+    <pregunta_para_ti>¿Qué creencia sobre tu propia impotencia te está impidiendo dar el paso hacia la libertad?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Jaula de los Pensamientos</titulo>
+    <relato>
+      La mujer lloraba creyendo que estaba en el calabozo más oscuro del reino. Sentía ocho hojas de acero rodeándola y una venda que no la dejaba ver. Estuvo inmóvil durante días temiendo que el menor movimiento la atravesase. Pero al caer una gota de lluvia en su frente, se estremeció y movió los brazos: las cuerdas se desprendieron con facilidad y al quitarse la venda descubrió que las espadas estaban clavadas a un metro de distancia y que el camino a su casa estaba completamente despejado. Su única carcelera había sido su propia mente temerosa.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/ocho-de-espadas.mp3</archivo>
+    <titulo>Ocho de Espadas - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

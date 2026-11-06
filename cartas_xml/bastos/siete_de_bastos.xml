@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="siete-de-bastos">
+  <numero>7</numero>
+  <nombre>Siete de Bastos</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Bastos</palo>
+  <elemento>Fuego</elemento>
+  <astrologia>Elemento Fuego</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>En lo alto de la colina, una sola persona resiste con valentía el embate. Tu causa es justa y vencerás.</esencia>
+  <palabras_clave>Defensa de principios, Resistencia, Posición ventajosa, Coraje, Firmeza</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Valentía indomable, defensa ética de valores, resiliencia ejemplar.</lado_luz>
+    <lado_sombra>Paranoia defensiva, terquedad agresiva, desgaste innecesario.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Hombre en la colina</nombre>
+      <descripcion>Posición de ventaja ética y estratégica.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Bastos desde abajo</nombre>
+      <descripcion>Presión del entorno que no logra quebrarte.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Bastos (Fuego) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de la voluntad, la creatividad, la pasión y el impulso de acción. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Siete de Bastos en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Siete de Bastos representa la manifestación de la voluntad, la creatividad, la pasión y el impulso de acción en el grado 7. Enseña a canalizar la energía de Fuego con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de la voluntad, la creatividad, la pasión y el impulso de acción.</resumen>
+    <amor>En los vínculos afectivos, Siete de Bastos aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Fuego.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de la voluntad, la creatividad, la pasión y el impulso de acción.</resumen>
+    <palabras_clave_al_reves>Agotamiento por luchar, Rendición prematura, Terquedad ciega</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Elige bien tus batallas; si la posición no es justa, es sabio replegarse.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    A diferencia del 5 de Bastos (donde la competencia es colectiva), en el 7 de Bastos un solo guerrero defiende una posición elevada contra seis atacantes desde abajo; es el coraje solitario de quien defiende su verdad.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>El defensor lleva zapatos disparejos (uno de cuero marrón y otro verde), revelando que la prueba lo sorprendió desprevenido pero reaccionó con valentía instantánea.</item>
+    <item>Ocupa la colina superior, lo que le otorga una ventaja estratégica moral y física decisiva sobre sus oponentes.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Siete de Bastos se asociaba con augurios concretos relacionados con la voluntad, la creatividad, la pasión y el impulso de acción.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Mantén tu terreno con firmeza. Tienes la razón y la fuerza para resistir.</accion_inmediata>
+    <pregunta_para_ti>¿Qué causa es tan valiosa para ti que vale la pena defenderla?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Bastión de la Colina Alta</titulo>
+    <relato>
+      Seis adversarios intentaron arrebatarle el estandarte que custodiaba en la cumbre del promontorio. Le gritaron que se rindiese, que estaba solo y que nadie vendría en su auxilio. El joven no retrocedió un milímetro: plantó los pies firmes en la roca y blandió su vara con tal destreza y convicción que ninguno de los atacantes se atrevió a dar el último paso. Cuando los demás huyeron al anochecer, comprendió que cuando defiendes una causa justa desde lo alto de tu integridad, un solo hombre vale por un ejército entero.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/siete-de-bastos.mp3</archivo>
+    <titulo>Siete de Bastos - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

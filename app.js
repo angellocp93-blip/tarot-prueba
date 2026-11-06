@@ -22,6 +22,8 @@
     flashcardFlipped: false
   };
 
+  let activeAudioPlayer = null;
+
   // Load persisted state
   try {
     const saved = localStorage.getItem(STORAGE_KEY);
@@ -606,6 +608,12 @@
 
   // Render the selected card according to active mode
   function renderActiveCardView() {
+    if (activeAudioPlayer) {
+      try {
+        activeAudioPlayer.pause();
+      } catch (e) {}
+      activeAudioPlayer = null;
+    }
     const card = getCardById(appState.selectedCardId);
     cardViewContainer.innerHTML = '';
 
@@ -816,50 +824,371 @@
     cardViewContainer.appendChild(wrapper);
   }
 
-  // VISTA 3: GUIA DE LECTURA PROFUNDA
+  // VISTA 3: ESTUDIO PROFUNDO & AUDIOLIBRO
   function renderGuideView(card) {
     const wrapper = document.createElement('div');
-    wrapper.style.cssText = 'max-width: 850px; margin: 0 auto; line-height: 1.7;';
+    wrapper.className = 'study-view-container';
+
+    // Formatter for time mm:ss
+    function formatTime(seconds) {
+      if (isNaN(seconds)) return '0:00';
+      const m = Math.floor(seconds / 60);
+      const s = Math.floor(seconds % 60);
+      return `${m}:${s < 10 ? '0' : ''}${s}`;
+    }
+
+    const symbolsHtml = (card.symbols || []).map(s => `
+      <div class="study-symbol-item">
+        <b>👁️ ${s.name}</b>
+        <p>${s.desc}</p>
+      </div>
+    `).join('');
+
+    const curiositiesHtml = (card.curiosities || []).map(c => `
+      <li>${c}</li>
+    `).join('');
+
+    // Formatear párrafos del relato
+    const storyText = card.inspired_story?.relato || '';
+    const storyParas = storyText.split('\n').filter(p => p.trim().length > 0).map(p => `<p>${p.trim()}</p>`).join('');
+
+    // Audio path
+    const audioSrc = card.audio?.archivo || `assets/audio/${card.id}.mp3`;
+    const audioTitle = card.audio?.titulo || `${card.name} - Audiolibro y Meditación Guiada`;
+    const audioDuration = card.audio?.duracion_estimada || '4:00 min';
 
     wrapper.innerHTML = `
-      <div style="display: flex; gap: 1.5rem; align-items: center; margin-bottom: 2rem; border-bottom: 1px solid var(--border-subtle); padding-bottom: 1.5rem;">
-        <img src="${card.img}" style="width: 100px; height: 170px; border-radius: 6px; border: 1px solid var(--gold-primary);" alt="${card.name}">
-        <div>
-          <span style="font-size: 0.8rem; color: var(--gold-light); text-transform: uppercase;">${card.type} · ${card.number}</span>
-          <h2 style="font-family: var(--font-serif); font-size: 2rem; color: var(--text-main);">${card.name}</h2>
-          <p style="color: var(--text-muted); font-size: 0.95rem;">${card.keywords.join(' · ')}</p>
+      <!-- HERO HEADER -->
+      <div class="study-hero-card">
+        <div class="study-card-img-wrap">
+          <img src="${card.img}" class="study-card-img" alt="${card.name}">
+        </div>
+        <div class="study-hero-info">
+          <div class="study-meta-badges">
+            <span class="study-badge study-badge-type">${card.type} · ${card.number}</span>
+            <span class="study-badge study-badge-element">⚡ ${card.element}</span>
+            <span class="study-badge study-badge-astro">🪐 ${card.astrology}</span>
+          </div>
+          <h1 class="study-card-title">${card.name}</h1>
+          <div class="study-keywords-row">
+            ${(card.keywords || []).map(k => `<span class="study-kw-chip">${k}</span>`).join('')}
+          </div>
+          <div class="study-essence-box">
+            <b>Esencia Primordial:</b> ${card.essence || card.fundamental_meaning}
+          </div>
         </div>
       </div>
 
-      <div style="display: flex; flex-direction: column; gap: 1.5rem;">
-        <div>
-          <h3 style="font-family: var(--font-serif); color: var(--gold-light); margin-bottom: 0.5rem;">Significado General al Derecho</h3>
-          <p style="color: var(--text-main);">${card.meaning_upright}</p>
+      <!-- REPRODUCTOR DE AUDIOLIBRO MÍSTICO -->
+      <div class="mystic-audio-card">
+        <div class="audio-card-header">
+          <div class="audio-header-title">
+            <span>🎧</span> ${audioTitle}
+          </div>
+          <span class="audio-header-pill">Duración aprox. ${audioDuration}</span>
         </div>
 
-        <div>
-          <h3 style="font-family: var(--font-serif); color: var(--gold-light); margin-bottom: 0.5rem;">La Simbología Esotérica de la Carta</h3>
-          <div style="display: flex; flex-direction: column; gap: 0.5rem;">
-            ${card.symbols.map(s => `<p><b>${s.name}:</b> ${s.desc}</p>`).join('')}
+        <audio id="card-audio-element" preload="metadata">
+          <source src="${audioSrc}" type="audio/mpeg">
+          Tu navegador no soporta el reproductor de audio.
+        </audio>
+
+        <div class="audio-controls-row">
+          <button class="audio-play-btn" id="audio-play-btn" title="Reproducir / Pausar">
+            <span id="audio-play-icon">▶</span>
+          </button>
+
+          <div class="audio-scrubber-box">
+            <div class="audio-time-row">
+              <span id="audio-current-time">0:00</span>
+              <span id="audio-total-duration">--:--</span>
+            </div>
+            <div class="audio-progress-bar" id="audio-progress-bar">
+              <div class="audio-progress-fill" id="audio-progress-fill"></div>
+            </div>
+          </div>
+
+          <button class="audio-speed-btn" id="audio-speed-btn" title="Velocidad de reproducción">1.0x</button>
+          <button class="audio-vol-btn" id="audio-vol-btn" title="Silenciar / Activar sonido">🔊</button>
+        </div>
+
+        <div class="audio-status-banner" id="audio-status-banner">
+          <span>ℹ️</span>
+          <span>Coloca tu archivo <code>${audioSrc}</code> en tu repositorio para escuchar el audiolibro.</span>
+        </div>
+      </div>
+
+      <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+      <div class="study-section">
+        <h3 class="study-section-title">
+          <span>📜</span> 1. Historia y Origen Simbólico
+        </h3>
+        <p class="study-prose">
+          ${card.history || 'Evolución iconográfica e histórica desde las cortes medievales renacentistas hasta la baraja Rider-Waite-Smith.'}
+        </p>
+      </div>
+
+      <!-- 2. SIGNIFICADO FUNDAMENTAL & POLARIDAD -->
+      <div class="study-section">
+        <h3 class="study-section-title">
+          <span>🔮</span> 2. Significado Fundamental & Polaridad
+        </h3>
+        <p class="study-prose" style="margin-bottom: 1.25rem;">
+          ${card.fundamental_meaning || card.meaning_upright}
+        </p>
+
+        <div class="polarity-grid">
+          <div class="polarity-card light">
+            <h4>☀️ Polaridad de Luz</h4>
+            <p style="margin: 0; font-size: 0.9rem; line-height: 1.5;">${card.light_side}</p>
+          </div>
+          <div class="polarity-card shadow">
+            <h4>🌑 Polaridad de Sombra</h4>
+            <p style="margin: 0; font-size: 0.9rem; line-height: 1.5;">${card.shadow_side}</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- SÍMBOLOS VISUALES CLAVE -->
+      <div class="study-section">
+        <h3 class="study-section-title">
+          <span>👁️</span> Símbolos Visuales Clave
+        </h3>
+        <div class="study-symbols-grid">
+          ${symbolsHtml}
+        </div>
+      </div>
+
+      <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+      <div class="study-section">
+        <h3 class="study-section-title">
+          <span>☀️</span> 3. La Carta en Posición Normal (Los 4 Planos)
+        </h3>
+        <p class="study-prose" style="margin-bottom: 1rem;">
+          <b>Resumen al derecho:</b> ${card.normal_position?.resumen || card.meaning_upright}
+        </p>
+
+        <div class="vital-planes-grid">
+          <div class="plane-card">
+            <div class="plane-card-header">
+              <span>💖</span> En el Amor & Relaciones
+            </div>
+            <p class="plane-card-text">${card.normal_position?.amor || card.love}</p>
+          </div>
+
+          <div class="plane-card">
+            <div class="plane-card-header">
+              <span>💼</span> En el Dinero & Trabajo
+            </div>
+            <p class="plane-card-text">${card.normal_position?.dinero_trabajo || card.work}</p>
+          </div>
+
+          <div class="plane-card">
+            <div class="plane-card-header">
+              <span>🌿</span> En la Salud & Vitalidad
+            </div>
+            <p class="plane-card-text">${card.normal_position?.salud || 'Vitalidad en equilibrio y alineamiento con la energía del arcano.'}</p>
+          </div>
+
+          <div class="plane-card">
+            <div class="plane-card-header">
+              <span>✨</span> En la Espiritualidad
+            </div>
+            <p class="plane-card-text">${card.normal_position?.espiritualidad || card.spirituality}</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+      <div class="study-section">
+        <h3 class="study-section-title" style="color: #fb7185;">
+          <span>🔄</span> 4. La Carta en Posición Invertida (Bloqueos y Sanación)
+        </h3>
+        <div style="font-size: 0.85rem; color: #fca5a5; margin-bottom: 0.6rem;">
+          <b>Palabras clave invertidas:</b> ${(card.reversed?.keywords || []).join(' · ')}
+        </div>
+        <p class="study-prose" style="margin-bottom: 1rem;">
+          <b>Resumen invertido:</b> ${card.reversed_position?.resumen || card.reversed?.meaning}
+        </p>
+
+        <div class="vital-planes-grid reversed" style="margin-bottom: 1.25rem;">
+          <div class="plane-card">
+            <div class="plane-card-header">
+              <span>💔</span> Desafío en el Amor
+            </div>
+            <p class="plane-card-text">${card.reversed_position?.amor || 'Bloqueos afectivos o desconexión emocional.'}</p>
+          </div>
+
+          <div class="plane-card">
+            <div class="plane-card-header">
+              <span>📉</span> Desafío en el Trabajo
+            </div>
+            <p class="plane-card-text">${card.reversed_position?.dinero_trabajo || 'Retrasos o dispersión de esfuerzos profesionales.'}</p>
+          </div>
+
+          <div class="plane-card">
+            <div class="plane-card-header">
+              <span>🩺</span> Desafío en la Salud
+            </div>
+            <p class="plane-card-text">${card.reversed_position?.salud || 'Fatiga acumulada o somatización de estrés.'}</p>
+          </div>
+
+          <div class="plane-card">
+            <div class="plane-card-header">
+              <span>🌪️</span> Desafío en el Espíritu
+            </div>
+            <p class="plane-card-text">${card.reversed_position?.espiritualidad || 'Desconexión momentánea de la guía interior.'}</p>
           </div>
         </div>
 
-        <div>
-          <h3 style="font-family: var(--font-serif); color: var(--gold-light); margin-bottom: 0.5rem;">Dimensiones Vitales de Consulta</h3>
-          <p><b>En el Amor:</b> ${card.love}</p>
-          <p style="margin-top: 0.5rem;"><b>En el Trabajo y Dinero:</b> ${card.work}</p>
-          <p style="margin-top: 0.5rem;"><b>En la Espiritualidad:</b> ${card.spirituality}</p>
+        <div class="heal-box">
+          <b>🌟 Cómo armonizar o desbloquear esta energía:</b><br>
+          ${card.reversed?.how_to_heal || card.reversed_position?.como_armonizar_desbloquear}
         </div>
+      </div>
 
-        <div style="background: rgba(244, 63, 94, 0.1); border-left: 3px solid var(--accent-rose); padding: 1rem; border-radius: 6px;">
-          <h3 style="font-family: var(--font-serif); color: #fb7185; margin-bottom: 0.4rem;">Interpretación en Posición Invertida</h3>
-          <p style="margin-bottom: 0.5rem;">${card.reversed.meaning}</p>
-          <p><b>Cómo sanar esta energía:</b> ${card.reversed.how_to_heal}</p>
+      <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+      <div class="study-section">
+        <h3 class="study-section-title">
+          <span>💎</span> 5. Lo que lo hace Único frente a sus Similares
+        </h3>
+        <div class="unique-box">
+          ${card.unique_differentiator || 'Diferenciación arquetípica respecto a cartas afines en la baraja.'}
+        </div>
+      </div>
+
+      <!-- 6. CURIOSIDADES DEL ARCANO -->
+      <div class="study-section">
+        <h3 class="study-section-title">
+          <span>💡</span> 6. Curiosidades del Arcano
+        </h3>
+        <ul class="curiosities-list">
+          ${curiositiesHtml}
+        </ul>
+      </div>
+
+      <!-- CONSEJO DEL ARCANO & PREGUNTA REFLEXIVA -->
+      <div class="study-section">
+        <h3 class="study-section-title">
+          <span>🎯</span> Consejo del Arcano & Pregunta Reflexiva
+        </h3>
+        <div class="advice-reflection-grid">
+          <div class="advice-card">
+            <h4>⚡ Acción Inmediata (Consejo)</h4>
+            <p style="margin: 0; font-size: 0.92rem; line-height: 1.55;">${card.advice}</p>
+          </div>
+          <div class="reflection-card">
+            <h4>❓ Pregunta para ti</h4>
+            <p style="margin: 0; font-size: 0.92rem; line-height: 1.55;">${card.reflection_question}</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 7. UNA HISTORIA INSPIRADA -->
+      <div class="parable-card">
+        <h3 class="parable-title">
+          📖 ${card.inspired_story?.titulo || 'La Parábola del Arcano'}
+        </h3>
+        <div class="parable-text">
+          ${storyParas}
         </div>
       </div>
     `;
 
     cardViewContainer.appendChild(wrapper);
+
+    // Audio Player Interactivity
+    const audioEl = wrapper.querySelector('#card-audio-element');
+    const playBtn = wrapper.querySelector('#audio-play-btn');
+    const playIcon = wrapper.querySelector('#audio-play-icon');
+    const progressBar = wrapper.querySelector('#audio-progress-bar');
+    const progressFill = wrapper.querySelector('#audio-progress-fill');
+    const currentTimeEl = wrapper.querySelector('#audio-current-time');
+    const totalDurationEl = wrapper.querySelector('#audio-total-duration');
+    const speedBtn = wrapper.querySelector('#audio-speed-btn');
+    const volBtn = wrapper.querySelector('#audio-vol-btn');
+    const statusBanner = wrapper.querySelector('#audio-status-banner');
+
+    if (audioEl) {
+      activeAudioPlayer = audioEl;
+
+      audioEl.addEventListener('loadedmetadata', () => {
+        totalDurationEl.textContent = formatTime(audioEl.duration);
+        if (statusBanner) statusBanner.style.display = 'none';
+      });
+
+      audioEl.addEventListener('timeupdate', () => {
+        if (!isNaN(audioEl.duration) && audioEl.duration > 0) {
+          const pct = (audioEl.currentTime / audioEl.duration) * 100;
+          progressFill.style.width = `${pct}%`;
+          currentTimeEl.textContent = formatTime(audioEl.currentTime);
+        }
+      });
+
+      audioEl.addEventListener('ended', () => {
+        playBtn.classList.remove('is-playing');
+        playIcon.textContent = '▶';
+        progressFill.style.width = '0%';
+        currentTimeEl.textContent = '0:00';
+      });
+
+      audioEl.addEventListener('error', () => {
+        if (statusBanner) {
+          statusBanner.style.display = 'flex';
+          statusBanner.innerHTML = `<span>ℹ️</span> <span>Audiolibro listo en la plataforma: sube <code>${audioSrc}</code> para escucharlo aquí.</span>`;
+        }
+      });
+
+      // Play/Pause Click
+      playBtn.addEventListener('click', () => {
+        if (audioEl.paused) {
+          const playPromise = audioEl.play();
+          if (playPromise !== undefined) {
+            playPromise.then(() => {
+              playBtn.classList.add('is-playing');
+              playIcon.textContent = '⏸';
+              if (statusBanner) statusBanner.style.display = 'none';
+            }).catch(() => {
+              // Audio file not yet added to repo
+              if (statusBanner) {
+                statusBanner.style.display = 'flex';
+                statusBanner.innerHTML = `<span>🎧</span> <span>Audiolibro en espera: agrega el archivo <b>${audioSrc}</b> en GitHub para reproducir.</span>`;
+              }
+              showToast('🎧', `Audiolibro en espera: agrega ${audioSrc}`);
+            });
+          }
+        } else {
+          audioEl.pause();
+          playBtn.classList.remove('is-playing');
+          playIcon.textContent = '▶';
+        }
+      });
+
+      // Seek in progress bar
+      progressBar.addEventListener('click', (e) => {
+        const rect = progressBar.getBoundingClientRect();
+        const pos = (e.clientX - rect.left) / rect.width;
+        if (!isNaN(audioEl.duration) && audioEl.duration > 0) {
+          audioEl.currentTime = pos * audioEl.duration;
+        }
+      });
+
+      // Speed button cycle
+      const speeds = [1.0, 1.25, 1.5];
+      let speedIdx = 0;
+      speedBtn.addEventListener('click', () => {
+        speedIdx = (speedIdx + 1) % speeds.length;
+        const spd = speeds[speedIdx];
+        audioEl.playbackRate = spd;
+        speedBtn.textContent = `${spd}x`;
+      });
+
+      // Volume / Mute button
+      volBtn.addEventListener('click', () => {
+        audioEl.muted = !audioEl.muted;
+        volBtn.textContent = audioEl.muted ? '🔇' : '🔊';
+      });
+    }
   }
 
   // ==========================================================================

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="el-colgado">
+  <numero>XII</numero>
+  <nombre>El Colgado</nombre>
+  <tipo>Arcano Mayor</tipo>
+  <palo>Ninguno</palo>
+  <elemento>Agua</elemento>
+  <astrologia>Neptuno</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Al cambiar la forma de mirar las cosas, las cosas cambian. Detén la lucha y observa el mundo desde otro ángulo.</esencia>
+  <palabras_clave>Nueva perspectiva, Pausa necesaria, Rendición sabia, Sacrificio voluntario, Iluminación</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Sabiduría profunda, creatividad disruptiva, capacidad de soltar el ego, paz ante la espera y paciencia.</lado_luz>
+    <lado_sombra>Victimismo crónico, pasividad cobarde, martirio innecesario, postergación eterna por miedo a actuar.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Posición invertida por el pie</nombre>
+      <descripcion>Ver el mundo al revés: subvertir las prioridades materiales del ego.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Halo de luz alrededor de la cabeza</nombre>
+      <descripcion>Iluminación espiritual alcanzada mediante la calma y la no resistencia.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Pierna formando un 4</nombre>
+      <descripcion>Anclaje de la materia a un plano superior de consciencia.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Árbol con brotes verdes</nombre>
+      <descripcion>Vida latente: aunque parezca estancamiento, el crecimiento interior es inmenso.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Rostro sereno</nombre>
+      <descripcion>Aceptación pacífica y voluntaria del momento presente, sin agonía.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    En la Italia medieval ('L'Appeso') se llamaba 'la pittura infamante', un castigo que se pintaba en los muros públicos contra los traidores, colgándolos por un pie. Sin embargo, en la tradición esotérica y en el mazo Rider-Waite-Smith, la escena se transforma en la iniciación sagrada de Odín en el árbol Yggdrasil o en la crucifixión mística voluntaria. El joven cuelga serenamente de un patíbulo de madera viva que brota hojas verdes; su rostro no muestra agonía sino beatitud absoluta, y una aureola dorada de iluminación resplandece alrededor de su cabeza invertida.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    El Colgado es el arquetipo de la pausa sagrada, el cambio radical de perspectiva, el sacrificio voluntario del ego y la rendición confiada. Enseña que cuando empujar y forcejear ya no sirve de nada, la única victoria reside en soltar el control y dejar que la vida obre. Al ver el mundo al revés, lo que antes parecía importante se vuelve trivial, y lo que parecía invisible se convierte en la única verdad eterna.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Pausa necesaria, rendición sabia, ver las cosas desde otro ángulo, soltar el control y despertar de la consciencia.</resumen>
+    <amor>Aceptar una etapa de compás de espera en la relación. Mirar el punto de vista de la otra persona con compasión. Sacrificar el orgullo para salvar el vínculo.</amor>
+    <dinero_trabajo>Proyectos en suspensión temporal que permiten corregir errores. No forzar negociaciones; dejar madurar las propuestas sin impaciencia.</dinero_trabajo>
+    <salud>Necesidad urgente de reposo, descompresión de la columna y terapias de inversión o meditación profunda. Evitar el sobreesfuerzo.</salud>
+    <espiritualidad>La iluminación que nace de la rendición. Renunciar al deseo del ego para que la voluntad del Ser Superior tome el timón.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Resistencia inútil, victimismo estéril, sacrificios inútiles por personas que no lo valoran o estancamiento por cobardía.</resumen>
+    <palabras_clave_al_reves>Resistencia inútil, Martirio fingido, Estancamiento terco, Apatía, Miedo a soltar</palabras_clave_al_reves>
+    <amor>Mártir en el amor: quedarse en relaciones destructivas por apego morboso creyendo falsamente que el sufrimiento purifica.</amor>
+    <dinero_trabajo>Parálisis profesional por miedo a tomar decisiones. Sacrificios laborales desmedidos sin recibir retribución ni reconocimiento.</dinero_trabajo>
+    <salud>Problemas circulatorios en las extremidades, mareos, estancamiento linfático o fatiga por negarse a frenar a tiempo.</salud>
+    <espiritualidad>Espiritualidad evasiva (spiritual bypassing). Usar la pasividad como excusa para no afrontar las responsabilidades del mundo terrenal.</espiritualidad>
+    <como_armonizar_desbloquear>Bájate del árbol. Si la espera ya no aporta claridad, es momento de actuar y desatarte por ti mismo.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    Es la única carta donde la figura principal está cabeza abajo, pero su rostro luce totalmente radiante con un halo divino de santo. Sus piernas forman un número cuatro (4) y sus brazos una tríada, simbolizando el descenso del espíritu a la materia. A diferencia de El Carro (que avanza a toda velocidad con la fuerza de la voluntad), El Colgado alcanza la victoria total deteniéndose por completo.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>La madera viva del patíbulo: Las ramas tienen brotes verdes de savia viva, demostrando que este aparente sacrificio es el árbol de la vida floreciendo.</item>
+    <item>La aureola solar en la cabeza: Indica que la mente que ha renunciado a la soberbia del mundo recibe la iluminación directa del espíritu.</item>
+    <item>El número 12 invertido: El 12 es el espejo del 21 (El Mundo). Lo que El Colgado experimenta en soledad interior es la antesala de la plenitud universal.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Deja de pelear contra la corriente. Quédate quieto, observa la situación desde la perspectiva contraria y espera el momento propicio.</accion_inmediata>
+    <pregunta_para_ti>¿A qué necesidad de controlar el resultado debes renunciar para hallar verdadera paz?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Árbol del Cielo Invertido</titulo>
+    <relato>
+      Un guerrero exhausto corría huyendo de sus enemigos hasta que su pie quedó atrapado en el lazo de un árbol sagrado de la colina. Quedó colgando boca abajo sobre el abismo. Primero gritó enfurecido, maldiciendo a los dioses y forcejeando con su espada; solo consiguió agotarse y sangrar. Cuando las fuerzas lo abandonaron, soltó la espada y dejó caer los brazos. En ese instante de silencio, miró hacia arriba: lo que antes era un cielo lejano ahora parecía un océano azul sobre el que flotaba, y las raíces del árbol parecían ramas que lo acunaban hacia las estrellas. Una sonrisa de dicha celestial iluminó su rostro. Cuando sus enemigos llegaron, lo encontraron riendo con los ojos resplandecientes de luz; asustados por su aura sagrada, arrojaron sus armas y se arrodillaron ante él.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/el-colgado.mp3</archivo>
+    <titulo>El Colgado - La Iluminación en la Rendición</titulo>
+    <duracion_estimada>4:35 min</duracion_estimada>
+  </audio>
+</arcano>

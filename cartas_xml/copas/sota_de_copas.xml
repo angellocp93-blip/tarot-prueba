@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="sota-de-copas">
+  <numero>Sota</numero>
+  <nombre>Sota de Copas</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Copas</palo>
+  <elemento>Agua</elemento>
+  <astrologia>Elemento Agua</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Un joven sonriente sostiene una copa de la que asoma un pez curioso. Mensajes tiernos, noticias de amor o nacimiento de una vocación artística.</esencia>
+  <palabras_clave>Mensaje de amor, Sensibilidad, Intuición tierna, Creatividad artística, Buenas noticias</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Dulzura, empatía, dones intuitivos o artísticos y nobleza de sentimientos.</lado_luz>
+    <lado_sombra>Hipersensibilidad infantil, inmadurez emocional, vivir en una burbuja.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Pez asomando en la copa</nombre>
+      <descripcion>La voz de la intuición y el subconsciente que emerge con naturalidad.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Túnica con lirios acuáticos</nombre>
+      <descripcion>Pureza sentimental y florecimiento del alma.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Copas (Agua) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Sota de Copas en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Sota de Copas representa la manifestación de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón en el grado 11. Enseña a canalizar la energía de Agua con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</resumen>
+    <amor>En los vínculos afectivos, Sota de Copas aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Agua.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</resumen>
+    <palabras_clave_al_reves>Inmadurez afectiva, Heridas por hipersensibilidad, Malas noticias</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>No te tomes todo como un ataque; fortalece tu autoestima sin endurecer el corazón.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    A diferencia de la Sota de Espadas (crítica y desconfiada), la Sota de Copas es la ternura poética, la intuición naciente y la capacidad de asombrarse ante los mensajes mágicos de la vida.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>Un pez azul asoma su cabeza desde la copa dorada que sostiene el joven paje, como si le estuviese susurrando un secreto al oído.</item>
+    <item>Su túnica está estampada con flores de loto y lirios de agua, y el mar forma olas juguetonas a sus espaldas.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Sota de Copas se asociaba con augurios concretos relacionados con las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Exprésate con ternura. No temas mostrar tu vulnerabilidad y tu sensibilidad.</accion_inmediata>
+    <pregunta_para_ti>¿Qué mensaje de cariño estás deseando expresar y te da vergüenza decir?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Mensaje del Pez Azul</titulo>
+    <relato>
+      A la orilla del mar de zafiro, un joven paje sacó su copa de agua y descubrió maravillado que un pequeño pez azul le hablaba con voz de caracola. No se asustó ni intentó atraparlo; escuchó con los ojos muy abiertos la poesía secreta que las olas cantan en el fondo del océano. Guardó el secreto en su corazón y corrió a escribirlo en un pergamino con tinta de calamar: aquel muchacho se convirtió en el poeta más amado del reino porque nunca olvidó hablar el idioma del corazón.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/sota-de-copas.mp3</archivo>
+    <titulo>Sota de Copas - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="caballo-de-oros">
+  <numero>Caballo</numero>
+  <nombre>Caballo de Oros</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Oros</palo>
+  <elemento>Tierra</elemento>
+  <astrologia>Elemento Tierra</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>El caballero sobre su corcel negro y pesado se detiene en medio de los campos arados contemplando su pentáculo. El avance lento pero seguro que nunca retrocede.</esencia>
+  <palabras_clave>Constancia inquebrantable, Trabajador incansable, Método y paciencia, Fiabilidad, Progreso seguro</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Fiabilidad total, perseverancia de hierro, honestidad intachable, puntualidad y método.</lado_luz>
+    <lado_sombra>Terquedad obsesiva, lentitud desesperante, pesadez mental, no saber descansar.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Caballo negro y robusto con pies firmes</nombre>
+      <descripcion>Poder terrenal inagotable, estabilidad y ausencia de precipitaciones.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Campos recién arados</nombre>
+      <descripcion>Trabajo minucioso de preparación que garantiza una gran cosecha.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Ramas de roble en el casco</nombre>
+      <descripcion>Fuerza, longevidad y resistencia ante las adversidades.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    El caballero sobre su corcel negro y pesado se detiene en medio de los campos arados contemplando su pentáculo. El avance lento pero seguro que nunca retrocede.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>El Caballo de Oros es el trabajador más fiable de todo el Tarot. No tiene la velocidad de Bastos ni las poesías de Copas, pero su perseverancia, paciencia y ética aseguran un triunfo indestructible.</resumen>
+    <amor>Pareja leal, comprometida y proveedora; amor seguro que se demuestra con hechos y no palabras.</amor>
+    <dinero_trabajo>Gestión financiera impecable, cumplimiento riguroso de contratos, éxito por constancia.</dinero_trabajo>
+    <salud>Vitalidad en equilibrio y alineamiento con la energía del arcano.</salud>
+    <espiritualidad>El servicio silencioso y fiel; la espiritualidad de quien cumple sus deberes sin quejarse.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Invertido indica estancamiento por rigidez mental o pereza disfrazada de prudencia.</resumen>
+    <palabras_clave_al_reves>Rutina asfixiante, Lentitud que pierde oportunidades, Terquedad estéril</palabras_clave_al_reves>
+    <amor>Desafíos o bloqueos en la comunicación afectiva.</amor>
+    <dinero_trabajo>Retrasos temporales o dispersión de esfuerzos.</dinero_trabajo>
+    <salud>Fatiga o somatización de tensiones.</salud>
+    <espiritualidad>Desconexión transitoria de la guía interior.</espiritualidad>
+    <como_armonizar_desbloquear>Acepta innovaciones en tu método; ser constante no significa ser terco e inflexible.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>No te apresures. Sigue con tu método constante y riguroso; la victoria está garantizada.</accion_inmediata>
+    <pregunta_para_ti>¿Estás teniendo la paciencia y disciplina necesarias para sostener tus compromisos diarios?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Lección de Caballo de Oros</titulo>
+    <relato>
+      
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/caballo-de-oros.mp3</archivo>
+    <titulo>Caballo de Oros - Audiolibro y Meditación Guiada</titulo>
+    <duracion_estimada>4:00 min</duracion_estimada>
+  </audio>
+</arcano>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="dos-de-oros">
+  <numero>2</numero>
+  <nombre>Dos de Oros</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Oros</palo>
+  <elemento>Tierra</elemento>
+  <astrologia>Elemento Tierra</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Un joven baila haciendo malabares con dos grandes pentáculos unidos por una cinta de infinito mientras barcos navegan olas gigantes. Fluidez en el cambio.</esencia>
+  <palabras_clave>Equilibrio dinámico, Malabares financieros, Adaptabilidad, Prioridades múltiples, Flexibilidad</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Adaptabilidad brillante, ingenio para hacer rendir los recursos, buen humor.</lado_luz>
+    <lado_sombra>Desorganización financiera, estrés por sobrecarga de tareas, deudas por descuido.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Cinta de infinito (Lemniscata)</nombre>
+      <descripcion>Capacidad infinita de adaptación a las fluctuaciones de la vida.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Barcos navegando olas altas</nombre>
+      <descripcion>Altibajos de la economía y la vida cotidiana gestionados con destreza.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Paso de danza del malabarista</nombre>
+      <descripcion>Levedad y alegría ante la complejidad del día a día.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Oros (Tierra) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Dos de Oros en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Dos de Oros representa la manifestación de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal en el grado 2. Enseña a canalizar la energía de Tierra con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</resumen>
+    <amor>En los vínculos afectivos, Dos de Oros aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Tierra.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</resumen>
+    <palabras_clave_al_reves>Descontrol financiero, Colapso por estrés, Pérdida del equilibrio</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Simplifica tu vida. Reduce compromisos y atiende un asunto a la vez hasta estabilizarte.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    El arte del equilibrio dinámico en la vida cotidiana: un joven vestido de bufón hace malabares con dos monedas de oro dentro de una lemniscata infinita, mientras al fondo barcos navegan sobre olas agitadas.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>La lemniscata de cinta verde conecta los dos oros, recordando que el flujo del dinero y la energía vital debe circular constantemente sin estancarse.</item>
+    <item>Los barcos al fondo suben y bajan sobre las olas sin zozobrar, simbolizando la capacidad de adaptarse a los altibajos económicos con flexibilidad y humor.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Dos de Oros se asociaba con augurios concretos relacionados con la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Sé flexible como el junco. Organiza tus prioridades y tómate las dificultades con deportividad.</accion_inmediata>
+    <pregunta_para_ti>¿Estás intentando abarcar demasiado a la vez descuidando lo verdaderamente importante?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Malabarista del Puerto</titulo>
+    <relato>
+      En los muelles del puerto bullicioso, el joven estibador bailaba sobre un pie mientras hacía girar dos pesadas monedas de oro en el aire sin que cayeran jamás. Los comerciantes le gritaban agobiados por las deudas y las aduanas, preguntándole cómo podía sonreír en medio de tanta crisis. 'Si intentas sostener una moneda rígida, el barco se inclina y caes al agua', contestó riendo; 'pero si acompañas el vaivén de las olas y mantienes la energía en movimiento, hasta la peor marea se convierte en una danza'.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/dos-de-oros.mp3</archivo>
+    <titulo>Dos de Oros - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

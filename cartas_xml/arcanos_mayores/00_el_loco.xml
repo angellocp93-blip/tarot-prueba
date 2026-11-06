@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="el-loco">
+  <numero>0</numero>
+  <nombre>El Loco</nombre>
+  <tipo>Arcano Mayor</tipo>
+  <palo>Ninguno</palo>
+  <elemento>Aire</elemento>
+  <astrologia>Urano</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>El inicio del viaje del alma. Confianza ciega en el universo, inocencia sabia y valentía para lanzarse a lo desconocido sin equipaje.</esencia>
+  <palabras_clave>Comienzos, Espontaneidad, Inocencia, Salto de fe, Libertad</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Optimismo inquebrantable, libertad interior, originalidad y valentía para romper viejos moldes.</lado_luz>
+    <lado_sombra>Imprudencia temeraria, actuar sin medir consecuencias, evasión de responsabilidades e ingenuidad ciega.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Precipicio</nombre>
+      <descripcion>El umbral hacia lo desconocido y el fin de la zona de confort.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Perro blanco</nombre>
+      <descripcion>Instinto leal y protección invisible que advierte sin frenar.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Rosa blanca</nombre>
+      <descripcion>Pureza de corazón e intenciones limpias sin dobleces.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Atillo pequeño</nombre>
+      <descripcion>El equipaje mínimo necesario; no cargar con lastres del pasado.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Sol brillante</nombre>
+      <descripcion>Claridad cósmica y bendición superior que acompaña tus pasos.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    En las barajas renacentistas más antiguas, como el Tarot Visconti-Sforza del siglo XV, El Loco (Il Matto) era representado como un mendigo andrajoso o un vagabundo con plumas en el pelo, una figura marginal de la sociedad medieval. En el Tarot de Marsella evolucionó hacia el bufón sagrado, aquel que tiene permiso para decir las verdades más crudas ante el rey sin perder la cabeza. A principios del siglo XX, Arthur Edward Waite y Pamela Colman Smith revolucionaron su iconografía: dejó de ser un desterrado para transformarse en un joven solar, místico y radiante, que camina con paso ligero hacia el precipicio cargando solo un fardo diminuto y una rosa blanca, encarnando el salto de fe espiritual.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    El Loco representa el potencial puro en estado virgen, la energía primigenia antes de cualquier limitación, definición o forma. Es el espíritu libre que confía ciegamente en el flujo universal. Simboliza el inicio sagrado de cualquier viaje vital, la inocencia que no teme equivocarse y el coraje espontáneo de quien sabe que para crear algo nuevo es imprescindible soltar todo equipaje del pasado.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Comienzo espontáneo, valentía inocente, libertad sin ataduras y fe ciega en el porvenir.</resumen>
+    <amor>Aparición de un nuevo romance inesperado e ilusionante. Relaciones libres de prejuicios, basadas en la diversión y la autenticidad sin ataduras rígidas ni miedos al pasado.</amor>
+    <dinero_trabajo>Emprender una nueva vocación o proyecto innovador. Disposición a asumir riesgos calculados. Salir de la zona de confort profesional con optimismo y frescura creativa.</dinero_trabajo>
+    <salud>Vitalidad desbordante, ligereza corporal y entusiasmo rejuvenecido. Es recomendable cuidar la distracción física para evitar torceduras o pequeños descuidos por imprudencia.</salud>
+    <espiritualidad>Mente de principiante, conexión directa con la intuición y el alma. Se despierta la capacidad de maravillarse ante la existencia y soltar dogmas asfixiantes.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Imprudencia desmedida, caos, irresponsabilidad o, en el polo opuesto, parálisis por miedo al qué dirán.</resumen>
+    <palabras_clave_al_reves>Temeridad, Miedo al cambio, Imprudencia, Estancamiento, Falta de rumbo</palabras_clave_al_reves>
+    <amor>Inmadurez emocional, promesas vacías, miedo irracional al compromiso o huidas impulsivas cuando la relación exige madurez y responsabilidad afectiva.</amor>
+    <dinero_trabajo>Riesgos ciegos e insensatos. Firmar acuerdos sin leer la letra pequeña, gastos descontrolados o proyectos utópicos que carecen de bases sólidas.</dinero_trabajo>
+    <salud>Agotamiento físico por excesos o desórdenes de horario. Negligencia ante síntomas médicos y tendencia a conductas temerarias.</salud>
+    <espiritualidad>Sensación de pérdida de rumbo existencial. Caer en la ingenuidad espiritual, seguir gurús sin discernimiento o desconectarse de la realidad cotidiana.</espiritualidad>
+    <como_armonizar_desbloquear>Pisa tierra firme. Calcula riesgos reales sin matar tu entusiasmo, pero asegurando un suelo antes de lanzarte.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    Es el único arcano de toda la baraja que posee el número Cero (0). Al no tener una posición fija en la secuencia numérica, puede colocarse tanto al inicio absoluto como al final supremo de los Arcanos Mayores. A diferencia de El Mago (que necesita concentrar su voluntad con herramientas sobre la mesa) o El Juicio (que evalúa minuciosamente el pasado), El Loco camina sin ataduras ni posesiones, personificando el puente infinito entre la nada y el todo.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>El Joker de la baraja común: El Loco sobrevivió a la evolución de las cartas de juego tradicionales transformándose en el Comodín (Joker). Al igual que en el Tarot, el Joker no tiene un valor fijo; puede ser cualquier carta, rompe las reglas del juego y aporta el elemento de la imprevisibilidad.</item>
+    <item>El viaje del Loco: En el estudio del Tarot, se considera que los otros 21 Arcanos Mayores son personas, lecciones y obstáculos que El Loco se encuentra en su camino. El Tarot entero es la historia de cómo El Loco evoluciona hasta convertirse en El Mundo (XXI).</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Da el salto. No esperes a tener todas las respuestas antes de caminar. Confía en el proceso vital.</accion_inmediata>
+    <pregunta_para_ti>¿Qué estás postergando por miedo a equivocarte o a lo que piensen los demás?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Reino de las Paredes de Cristal</titulo>
+    <relato>
+      En el Reino de la Constancia, todo estaba perfectamente medido. Las calles eran líneas rectas imperecederas, los ciudadanos despertaban a la misma hora y cada destino estaba escrito en pesados libros de mármol desde el día del nacimiento. En este reino vivía un joven llamado Zephyr.
+Zephyr trabajaba en el Archivo de las Vidas Pasadas, ordenando los pergaminos de los ancestros. Un día, mientras soplaba el polvo de un tomo prohibido, un mapa cayó al suelo. No tenía nombres de ciudades, ni ríos, ni fronteras. Solo tenía un dibujo en el centro: una inmensa espiral dorada que nacía en el borde de un acantilado y se perdía en las nubes, acompañada de una sola palabra escrita con tinta plateada: "VIVE".
+Esa noche, mientras todo el reino dormía el sueño predecible de los justos, Zephyr sintió un latido frenético en su pecho. Miró sus ropas grises de archivero y las rasgó. En su lugar, cosió retazos de telas de colores que guardaba en un viejo baúl: hilos amarillos del sol, verdes de las hojas de otoño y rojos de los atardeceres. Ató un pedazo de pan y un viejo cuaderno en un palo de madera, y sin mirar atrás, abrió las puertas de la ciudad.
+Un pequeño perro callejero, blanco como la espuma del mar, lo vio cruzar el umbral y comenzó a ladrar de alegría, uniéndose a su caminata.
+—¿A dónde vamos, humano loco? —parecía preguntar el perro con sus saltos.
+—No tengo la menor idea —respondió Zephyr, riendo a carcajadas, un sonido que el reino no había escuchado en siglos—. Y eso es lo más hermoso que me ha pasado jamás.
+Caminaron durante días hacia las Montañas del Olvido. A medida que subían, el aire se volvía más puro y el sol más brillante. Zephyr no sentía el cansancio. Encontró una rosa blanca en el camino y la tomó entre sus dedos; su aroma le recordaba que cada segundo era un nacimiento nuevo. El peso del pasado se había evaporado de sus hombros.
+Finalmente, llegaron a la cima del mundo. El sendero se cortaba abruptamente. Abajo, no había rocas, sino un mar espeso de niebla blanca y destellos de luces de colores que danzaban como estrellas atrapadas. Era el Vacío Primordial.
+El perro blanco tiró de su túnica colorida, lanzando un gemido de advertencia. Zephyr miró hacia abajo. Cualquiera habría visto la muerte, pero él vio un lienzo esperando a ser pintado. Miró al cielo, cerró los ojos, estiró los brazos como si fuera un ave a punto de migrar y sonrió con la pureza de quien no conoce el miedo.
+El viento sopló con fuerza, impulsándolo. Zephyr levantó el pie y dio el paso hacia el vacío.
+En el Reino de la Constancia dijeron que se había vuelto loco y que había caído al abismo. Pero en el instante en que el pie de Zephyr tocó el aire, la niebla se transformó en un camino de luz sólida. No cayó; comenzó a volar, iniciando la aventura más grande que el universo jamás hubiera presenciado.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/el-loco.mp3</archivo>
+    <titulo>El Loco - El Salto al Vacío Sagrado</titulo>
+    <duracion_estimada>4:30 min</duracion_estimada>
+  </audio>
+</arcano>

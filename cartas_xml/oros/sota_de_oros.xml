@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="sota-de-oros">
+  <numero>Sota</numero>
+  <nombre>Sota de Oros</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Oros</palo>
+  <elemento>Tierra</elemento>
+  <astrologia>Elemento Tierra</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Un joven camina por un campo verde contemplando con devoción un pentáculo dorado entre sus manos. La mente aplicada del aprendiz concienzudo.</esencia>
+  <palabras_clave>Estudiante aplicado, Nueva oportunidad de negocio, Pragmatismo joven, Ganas de aprender, Diligencia</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Diligencia metódica, ganas de aprender, fiabilidad práctica, honestidad.</lado_luz>
+    <lado_sombra>Procrastinación, pereza mental, apego a minucias, falta de visión de conjunto.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Mirada atenta fija en la moneda</nombre>
+      <descripcion>Concentración total en aprender a valorar y gestionar los recursos.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Campo arado y árboles al fondo</nombre>
+      <descripcion>Tierra lista para el trabajo metódico y la cosecha futura.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Oros (Tierra) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Sota de Oros en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Sota de Oros representa la manifestación de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal en el grado 11. Enseña a canalizar la energía de Tierra con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</resumen>
+    <amor>En los vínculos afectivos, Sota de Oros aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Tierra.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</resumen>
+    <palabras_clave_al_reves>Pereza, Falta de concentración, Oportunidad de estudio desaprovechada</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Recupera la disciplina diaria; los grandes edificios se construyen ladrillo a ladrillo.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    A diferencia de la Sota de Bastos (aventura) o de Espadas (vigilancia), la Sota de Oros es el estudiante aplicado, el joven con devoción por el estudio práctico, la naturaleza y la construcción paciente.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>Sostiene una gran moneda de oro flotando sobre las palmas de sus manos, contemplándola con reverencia como si fuera un objeto de estudio sagrado.</item>
+    <item>Camina sobre un campo recién arado donde ya brotan los primeros tallos verdes, reflejando el inicio fértil de una gran vocación profesional.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Sota de Oros se asociaba con augurios concretos relacionados con la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Aplica tu atención al estudio. Sé disciplinado y aprende bien las bases antes de apresurarte.</accion_inmediata>
+    <pregunta_para_ti>¿Qué materia o conocimiento práctico necesitas estudiar a fondo para avanzar?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Aprendiz de la Semilla de Oro</titulo>
+    <relato>
+      En la escuela de agricultura del valle, el joven estudiante no corría a jugar con los demás al terminar la clase. Se quedaba en el campo arado sosteniendo en sus manos una semilla dorada y examinándola con lupa. Sabía que dentro de aquel grano diminuto dormía un bosque entero si se le daba agua, tierra fértil y paciencia infinita. Aquel joven muchacho se convirtió con los años en el mayor botánico de su tiempo: había aprendido que para cosechar un roble centenario hay que amar primero a la pequeña semilla.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/sota-de-oros.mp3</archivo>
+    <titulo>Sota de Oros - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

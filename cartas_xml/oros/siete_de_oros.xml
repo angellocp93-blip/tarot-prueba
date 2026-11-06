@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="siete-de-oros">
+  <numero>7</numero>
+  <nombre>Siete de Oros</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Oros</palo>
+  <elemento>Tierra</elemento>
+  <astrologia>Elemento Tierra</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Un campesino apoyado en su azadón contempla pensativo las siete monedas que crecen en su vid. El fruto está madurando: ten paciencia y no arranques la planta.</esencia>
+  <palabras_clave>Paciencia, Evaluación de la cosecha, Crecimiento lento pero seguro, Inversión a largo plazo, Frutos en camino</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Paciencia sabia, perseverancia constante, visión a largo plazo, madurez agrícola.</lado_luz>
+    <lado_sombra>Impaciencia destructiva, desánimo porque las cosas tardan, abandonar antes de cosechar.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Hombre apoyado en el azadón</nombre>
+      <descripcion>Pausa reflexiva tras una intensa jornada de trabajo.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Vid con siete pentáculos</nombre>
+      <descripcion>Inversión que fructifica de forma orgánica y progresiva.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Moneda en el suelo</nombre>
+      <descripcion>Recompensa inmediata ya asegurada mientras madura el resto.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Oros (Tierra) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Siete de Oros en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Siete de Oros representa la manifestación de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal en el grado 7. Enseña a canalizar la energía de Tierra con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</resumen>
+    <amor>En los vínculos afectivos, Siete de Oros aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Tierra.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</resumen>
+    <palabras_clave_al_reves>Frustración por retrasos, Mala inversión, Cosecha descuidada</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Evalúa con frialdad si vale la pena seguir regando esa planta o si es mejor cambiar de cultivo.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    La paciencia del agricultor y la evaluación de la cosecha: un joven campesino se apoya en su azadón contemplando un arbusto donde cuelgan siete grandes monedas de oro que están madurando lentamente.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>Su postura no es de agotamiento ni de pereza, sino de contemplación meditativa: sabe que tirar de los brotes no los hace crecer más rápido.</item>
+    <item>Una de las monedas descansa a sus pies lista para el uso inmediato, mientras las otras seis continúan en la planta acumulando dulzura.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Siete de Oros se asociaba con augurios concretos relacionados con la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>No te impacientes. Tu cosecha va bien; sigue cuidando la tierra y confía en el tiempo.</accion_inmediata>
+    <pregunta_para_ti>¿Estás a punto de tirar la toalla en un proyecto valioso solo porque tarda en dar frutos?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Siembra del Viñedo Silencioso</titulo>
+    <relato>
+      El joven labrador pasó la primavera y el verano regando los sarmientos bajo el sol abrasador. Llegó el otoño y los vecinos le decían que arrancara las uvas de inmediato para venderlas antes que nadie. El muchacho se apoyó en su azadón, probó una uva y sintió que aún le faltaba un punto de acidez para alcanzar la gloria. 'Quien cosecha por codicia bebe vinagre agrio', dijo con calma; 'quien sabe esperar la última helada destila el vino de los reyes'. Esperó dos semanas más y su vino fue premiado en todas las cortes del reino.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/siete-de-oros.mp3</archivo>
+    <titulo>Siete de Oros - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

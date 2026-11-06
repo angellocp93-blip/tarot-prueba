@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="nueve-de-oros">
+  <numero>9</numero>
+  <nombre>Nueve de Oros</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Oros</palo>
+  <elemento>Tierra</elemento>
+  <astrologia>Elemento Tierra</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Una dama elegante pasea por su viñedo rebosante con un halcón adiestrado en su muñeca enjoyada. La dicha de la mujer u hombre autosuficiente que goza de su esfuerzo.</esencia>
+  <palabras_clave>Independencia económica, Autosuficiencia, Disfrute refinado, Soledad dichosa, Abundancia merecida</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Autosuficiencia serena, solvencia económica, refinamiento, disfrute de la soledad sana.</lado_luz>
+    <lado_sombra>Aislamiento elitista, esnobismo vanidoso, frialdad que no deja entrar a nadie al jardín.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Halcón encapuchado en la mano</nombre>
+      <descripcion>Instintos refinados y dominados por la elegancia y la inteligencia.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Vestido adornado con flores y conchas</nombre>
+      <descripcion>Belleza, dignidad y contacto pleno con la naturaleza fecunda.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Viñedo cargado de nueve pentáculos dorados</nombre>
+      <descripcion>Patrimonio sólido fruto del esfuerzo personal autónomo.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Oros (Tierra) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Nueve de Oros en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Nueve de Oros representa la manifestación de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal en el grado 9. Enseña a canalizar la energía de Tierra con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</resumen>
+    <amor>En los vínculos afectivos, Nueve de Oros aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Tierra.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</resumen>
+    <palabras_clave_al_reves>Dependencia económica, Ostentación superficial, Soledad amarga</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Aprende a sostenerte sobre tus propios pies; la verdadera elegancia nace de la autenticidad.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    La culminación del refinamiento material y la independencia personal: una dama aristocrática pasea elegantemente por su jardín privado rebosante de viñedos y monedas de oro, llevando un halcón encapuchado en su mano enguantada.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>El halcón domesticado representa los instintos salvajes y el intelecto entrenados para servir a la belleza y a la serenidad de la dama.</item>
+    <item>Un pequeño caracol cruza el camino a sus pies, simbolizando que la verdadera riqueza y la elegancia se forjan paso a paso sin prisas.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Nueve de Oros se asociaba con augurios concretos relacionados con la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Disfruta de lo que has ganado con tu esfuerzo. Te mereces el confort, la paz y la belleza.</accion_inmediata>
+    <pregunta_para_ti>¿Reconoces el valor de tu propia independencia y autosuficiencia sin culpa?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Dama del Viñedo y el Halcón</titulo>
+    <relato>
+      La mujer caminaba despacio por su viñedo dorado sintiendo la brisa suave del atardecer. Llevaba en su mano izquierda un halcón encapuchado que descansaba en perfecta calma sobre su guante de cuero bordado. No dependía de ningún mecenas ni de ningún pretendiente; había levantado aquella finca con su propia inteligencia, disciplina y esfuerzo continuado. Se detuvo a acariciar las plumas del halcón y sonrió: la mayor riqueza no son las joyas ni las tierras, sino la bendita libertad de ser dueña absoluta de tu propio destino.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/nueve-de-oros.mp3</archivo>
+    <titulo>Nueve de Oros - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

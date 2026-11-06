@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="siete-de-copas">
+  <numero>7</numero>
+  <nombre>Siete de Copas</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Copas</palo>
+  <elemento>Agua</elemento>
+  <astrologia>Elemento Agua</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Una silueta contempla siete copas flotando en una nube, llenas de castillos, joyas, dragones y coronas. Demasiadas fantasías: aterriza tus deseos.</esencia>
+  <palabras_clave>Opciones múltiples, Ilusiones, Fantasías, Elección necesaria, Espejismos</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Imaginación fértil, capacidad de visualizar múltiples alternativas.</lado_luz>
+    <lado_sombra>Parálisis por análisis, autoengaño, caer en estafas o fantasías tóxicas.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Siete copas en la nube</nombre>
+      <descripcion>Deseos, miedos, ambiciones e ilusiones proyectadas.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Figura en sombras</nombre>
+      <descripcion>Falta de claridad y deslumbramiento ante espejismos.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Copas (Agua) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Siete de Copas en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Siete de Copas representa la manifestación de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón en el grado 7. Enseña a canalizar la energía de Agua con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</resumen>
+    <amor>En los vínculos afectivos, Siete de Copas aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Agua.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</resumen>
+    <palabras_clave_al_reves>Claridad mental, Elegir un rumbo, Despertar del autoengaño</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Comprométete con la opción elegida y trabaja en ella con disciplina.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    A diferencia de La Luna (pesadillas y miedos del inconsciente), el 7 de Copas son los castillos en el aire, la tentación de fantasías seductoras y la confusión ante demasiadas opciones atractivas pero ilusorias.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>Siete copas emergen de una nube flotante ofreciendo diferentes dones: una cabeza de mujer, un castillo, joyas, una serpiente, una corona de laurel, un dragón y una figura radiante velada.</item>
+    <item>La silueta negra del hombre contempla las visiones asombrado pero inmóvil, advirtiendo sobre el peligro de perderse en ensueños sin pisar la realidad.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Siete de Copas se asociaba con augurios concretos relacionados con las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Deja de fantasear y elige una opción concreta. Pon los pies en el suelo.</accion_inmediata>
+    <pregunta_para_ti>¿Cuál de tus anhelos es una meta real y cuál es una simple fantasía para no actuar?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Mercado de los Sueños Flotantes</titulo>
+    <relato>
+      En la cima de la Colina de la Niebla, un vendedor invisible abrió siete copas de cristal sobre una nube. En una prometía fama eterna; en otra, riquezas sin fin; en otra, el amor de una princesa; y en otra, el poder sobre las bestias. Un joven estuvo tentado de abalanzarse sobre todas al mismo tiempo, pero al acercar la mano a la copa del castillo, vio que era solo humo que se disolvía entre los dedos. Respiró hondo y eligió la copa velada con una cruz: la que pedía trabajo y verdad, la única que tenía peso real en la tierra.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/siete-de-copas.mp3</archivo>
+    <titulo>Siete de Copas - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

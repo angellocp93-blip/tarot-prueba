@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="reina-de-bastos">
+  <numero>Reina</numero>
+  <nombre>Reina de Bastos</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Bastos</palo>
+  <elemento>Fuego</elemento>
+  <astrologia>Elemento Fuego</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>La soberana del fuego con su girasol y gato negro. Carisma arrollador, seguridad personal y calidez que ilumina a todos.</esencia>
+  <palabras_clave>Magnetismo, Confianza radiante, Calidez, Liderazgo inspirador, Independencia</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Autoconfianza magnética, calidez generosa, liderazgo empático y vitalidad.</lado_luz>
+    <lado_sombra>Celos egocéntricos, histeria melodramática, necesidad de atención.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Girasol en mano</nombre>
+      <descripcion>Vitalidad solar y amor a la luz creadora.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Gato negro</nombre>
+      <descripcion>Intuición domesticada y dominio de la sombra.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Bastos (Fuego) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de la voluntad, la creatividad, la pasión y el impulso de acción. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Reina de Bastos en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Reina de Bastos representa la manifestación de la voluntad, la creatividad, la pasión y el impulso de acción en el grado 13. Enseña a canalizar la energía de Fuego con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de la voluntad, la creatividad, la pasión y el impulso de acción.</resumen>
+    <amor>En los vínculos afectivos, Reina de Bastos aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Fuego.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de la voluntad, la creatividad, la pasión y el impulso de acción.</resumen>
+    <palabras_clave_al_reves>Inseguridad disimulada, Celos enfermizos, Tiranía doméstica</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Reconecta con tu poder interior; tu brillo es único y auténtico.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    A diferencia de la Reina de Espadas (severa y racional) o la de Copas (introspectiva y sensible), la Reina de Bastos es el fuego maduro: carismática, alegre, enérgica, cálida y soberana de su propia luz sin complejos.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>A sus pies descansa un gato negro que mira al frente, simbolizando la domesticación de las fuerzas mágicas ocultas y la protección intuitiva.</item>
+    <item>En su mano izquierda sostiene un girasol dorado, reflejando su naturaleza solar que siempre busca la luz y la vitalidad positiva.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Reina de Bastos se asociaba con augurios concretos relacionados con la voluntad, la creatividad, la pasión y el impulso de acción.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Adueñate de tu espacio y confía en tu magnetismo natural.</accion_inmediata>
+    <pregunta_para_ti>¿En qué área de tu vida estás apagando tu luz por temor a incomodar?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Señora de los Girasoles</titulo>
+    <relato>
+      En su corte no había secretos oscuros ni miradas cabizbajas. La Reina recibía a embajadores y huérfanos con la misma carcajada franca y la misma mirada luminosa. Cuando los inviernos eran crueles, su presencia llenaba el salón de un calor tan reconfortante que las flores florecían en pleno diciembre. 'La verdadera reina', solía decir mientras acariciaba a su gato negro, 'no gobierna haciendo que los demás se sientan pequeños, sino inspirándolos a brillar con tanta fuerza como ella'.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/reina-de-bastos.mp3</archivo>
+    <titulo>Reina de Bastos - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

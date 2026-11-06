@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="cinco-de-oros">
+  <numero>5</numero>
+  <nombre>Cinco de Oros</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Oros</palo>
+  <elemento>Tierra</elemento>
+  <astrologia>Elemento Tierra</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Dos mendigos heridos caminan en la nieve bajo una tormenta, sin ver la vidriera iluminada y cálida del templo arriba. La ayuda está a tu lado: búscala.</esencia>
+  <palabras_clave>Dificultad material, Sensación de exclusión, Frío y pobreza, Refugio cercano, Prueba de fe</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Humildad profunda, solidaridad entre quienes sufren, resiliencia ante la escasez.</lado_luz>
+    <lado_sombra>Victimismo desesperado, orgullo que impide pedir ayuda, autocompasión amarga.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Vidriera iluminada del templo con cinco pentáculos</nombre>
+      <descripcion>Refugio espiritual y ayuda material disponible a pocos pasos.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Mendigo con muletas y campana</nombre>
+      <descripcion>Heridas visibles y sensación de aislamiento o marginación.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Nieve fría</nombre>
+      <descripcion>Adversidad temporal que pone a prueba la humildad y la fraternidad.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Oros (Tierra) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Cinco de Oros en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Cinco de Oros representa la manifestación de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal en el grado 5. Enseña a canalizar la energía de Tierra con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</resumen>
+    <amor>En los vínculos afectivos, Cinco de Oros aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Tierra.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</resumen>
+    <palabras_clave_al_reves>Superación de la crisis, Llegada de auxilio, Fin de la escasez</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Agradece la ayuda recibida y recuerda con compasión a quienes siguen en el frío.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    La sensación de pobreza, exclusión y desamparo material: dos mendigos harapientos caminan en la nieve frente a una vidriera iluminada de iglesia sin ver que el refugio está abierto.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>Uno de los mendigos camina con muletas y lleva un cascabel al cuello (señal medieval de enfermedad o lepra), pero caminan juntos apoyándose con amor.</item>
+    <item>La vidriera de colores muestra cinco monedas de oro iluminadas con calor humano, pero los caminantes miran al suelo helado sin alzar la vista hacia la puerta abierta.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Cinco de Oros se asociaba con augurios concretos relacionados con la realidad material, el trabajo tangible, el dinero, el cuerpo y el legado terrenal.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>No te quedes en el frío de tu orgullo. Llama a la puerta del templo; la ayuda te espera.</accion_inmediata>
+    <pregunta_para_ti>¿Qué ayuda o consuelo tienes disponible a tu alcance que te niegas a pedir por vergüenza?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Ventana Cálida en la Ventisca</titulo>
+    <relato>
+      Dos peregrinos tiritaban en la tormenta de nieve con los pies congelados y las ropas desgarradas. Se quejaban con amargura de que el mundo era cruel y de que Dios los había abandonado a su suerte en la noche helada. Pasaron justo por delante de la vidriera dorada de la abadía donde se escuchaba el fuego de la chimenea y el canto de los frailes. Un niño abrió la puerta y les gritó con una vela en la mano: '¡Pasen, hermanos, que la sopa está servida y el fuego encendido!'. Solo tuvieron que levantar la mirada del suelo helado para descubrir que el cobijo siempre había estado a un metro de distancia.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/cinco-de-oros.mp3</archivo>
+    <titulo>Cinco de Oros - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

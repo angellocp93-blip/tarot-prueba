@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="la-justicia">
+  <numero>XI</numero>
+  <nombre>La Justicia</nombre>
+  <tipo>Arcano Mayor</tipo>
+  <palo>Ninguno</palo>
+  <elemento>Aire</elemento>
+  <astrologia>Libra</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>La ley inmutable de la causa y el efecto. Cosechas exactamente lo que sembraste; contempla tu realidad con honestidad implacable.</esencia>
+  <palabras_clave>Equilibrio, Verdad, Causa y efecto, Claridad moral, Decisión justa</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Honradez impecable, claridad de juicio, equidad, resolución justa de litigios, paz de conciencia.</lado_luz>
+    <lado_sombra>Severidad despiadada, prejuicios inflexibles, hipocresía legalista, culpar a otros o victimismo.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Balanza en la mano izquierda</nombre>
+      <descripcion>Equilibrio exacto, sopesar pruebas y evidencias con imparcialidad.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Espada de doble filo en la mano derecha</nombre>
+      <descripcion>La verdad tajante que corta ilusiones; castiga la falta y protege al inocente.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Trono entre dos columnas</nombre>
+      <descripcion>Firmeza de la ley cósmica y humana sustentada en cimientos inquebrantables.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Pie asomando bajo el manto</nombre>
+      <descripcion>La acción concreta: la justicia no es solo teoría, se aplica en el mundo material.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    En el Tarot de Marsella ocupaba el número VIII, pero la Orden Hermética de la Golden Dawn y Arthur Edward Waite la intercambiaron con La Fuerza para alinearla con el signo de Libra. Inspirada en la diosa griega Temis y en la romana Iustitia, aparece sentada entre dos pilares de piedra con un velo púrpura de fondo. Sostiene en su mano derecha la espada de doble filo apuntando al cielo (el discernimiento racional implacable) y en su mano izquierda la balanza de dos platillos (el peso moral exacto de cada acto humano).
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    La Justicia encarna la ley inmutable de causa y efecto, la verdad objetiva desprovista de ilusiones emocionales, la equidad y la responsabilidad kármica. No busca el castigo vengativo, sino el restablecimiento del equilibrio cósmico. Nos recuerda que cosechamos con absoluta precisión matemática lo que sembramos con nuestras decisiones conscientes e inconscientes.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Verdad revelada, equilibrio kármico, resolución legal favorable, honestidad inquebrantable y decisiones justas.</resumen>
+    <amor>Claridad y honestidad en la pareja. Acuerdos justos, reciprocidad afectiva y superación de malentendidos mediante el diálogo sincero.</amor>
+    <dinero_trabajo>Sentencias o litigios favorables, contratos equitativos, transparencia en negocios y reconocimiento justo del mérito profesional.</dinero_trabajo>
+    <salud>Equilibrio homeostático en el cuerpo. Favorable para regular la dieta, hidratación renal y hábitos que compensan excesos pasados.</salud>
+    <espiritualidad>Consciencia de la ley del karma. Aceptación serena de la propia vida como resultado de causas pasadas y siembra consciente para el futuro.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Injusticia, sesgos prejuiciosos, problemas legales turbios, deshonestidad o autoculpabilidad desmedida.</resumen>
+    <palabras_clave_al_reves>Injusticia, Falta de honestidad, Prejuicios, Litigios complicados, Evasión de culpa</palabras_clave_al_reves>
+    <amor>Desequilibrio en la relación donde uno da todo y el otro solo toma. Falta de lealtad, reproches fríos o separaciones conflictivas.</amor>
+    <dinero_trabajo>Sentencias legales desfavorables, estafas en contratos, favoritismos injustos en la empresa o penalizaciones financieras.</dinero_trabajo>
+    <salud>Descompensaciones en el sistema urinario/renal o circulatorio. Dolores de espalda por cargar con culpas o tensiones no resueltas.</salud>
+    <espiritualidad>Victimismo. Creer que el mundo o Dios son injustos en lugar de examinar la propia responsabilidad en los hechos vividos.</espiritualidad>
+    <como_armonizar_desbloquear>Asume tu parte de responsabilidad sin culpar a terceros. Corrige el rumbo antes de que las consecuencias escalen.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    Es la única figura del Tarot que sostiene simultáneamente el instrumento del intelecto (la espada alzada de dos filos) y el instrumento del pesaje moral (la balanza). A diferencia de El Juicio (que es una revelación espiritual final de redención cósmica), La Justicia juzga aquí y ahora en la tierra mediante la ley de las consecuencias cotidianas.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>La espada de dos filos: Recuerda que la verdad corta en ambas direcciones: penetra la mentira del adversario pero también exige honestidad absoluta a quien la empuña.</item>
+    <item>La piedra cuadrada en su corona: Representa la cuadratura del círculo y la estabilidad de la ley terrenal consagrada al orden divino.</item>
+    <item>El zapato blanco que asoma: El pie calzado de blanco que apenas se muestra bajo la túnica roja revela que sus decisiones proceden de una base pura y desinteresada.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Sé impecable con la verdad. Actúa con justicia aunque sea incómodo; la transparencia será tu mejor escudo.</accion_inmediata>
+    <pregunta_para_ti>¿Estás siendo 100% justo y honesto contigo mismo y con los involucrados en esta situación?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Balanza de Plumas y Plomo</titulo>
+    <relato>
+      En el pórtico de la Gran Ciudad, dos mercaderes acudieron ante la jueza ciega. Uno la acusaba de haberle robado una bolsa de oro; el otro juraba por los dioses que la bolsa era suya. La jueza no escuchó sus juramentos ni sus lágrimas. Pidió una pluma de lechuza y una lámina de plomo. Colocó la pluma en un platillo y el plomo en el otro, y ordenó a los mercaderes colocar las manos sobre la balanza. Bajo el peso de la mano del primer mercader, la balanza tembló con pulso agitado y culpable; bajo la mano del segundo, la balanza permaneció serena como el agua de un pozo. La jueza desenvainó la hoja de acero y dividió la bolsa: 'El oro vuelve a quien tiene la paz en las entrañas; las mentiras siempre pesan más que el plomo ante la luz'.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/la-justicia.mp3</archivo>
+    <titulo>La Justicia - La Balanza de la Causa y el Efecto</titulo>
+    <duracion_estimada>4:30 min</duracion_estimada>
+  </audio>
+</arcano>

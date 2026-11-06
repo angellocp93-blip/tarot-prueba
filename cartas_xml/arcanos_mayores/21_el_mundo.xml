@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="el-mundo">
+  <numero>XXI</numero>
+  <nombre>El Mundo</nombre>
+  <tipo>Arcano Mayor</tipo>
+  <palo>Ninguno</palo>
+  <elemento>Tierra</elemento>
+  <astrologia>Saturno</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>El viaje del Loco ha concluido con maestría. La danza triunfal de la totalidad, donde espíritu y materia se funden en victoria.</esencia>
+  <palabras_clave>Culminación exitosa, Plenitud, Integración, Viajes, Cierre maestro de ciclo</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Éxito total, culminación dichosa, sabiduría integrada, satisfacción profunda, apertura al mundo entero.</lado_luz>
+    <lado_sombra>Sentimiento de vacío al terminar una meta, procrastinar el último paso por miedo a cerrar, apego al éxito pasado.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Danzante en el centro de la corona</nombre>
+      <descripcion>La integración perfecta de los opuestos en éxtasis creador y libertad absoluta.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Corona de laurel ovalada</nombre>
+      <descripcion>Símbolo de triunfo perdurable, eternidad y la matriz cósmica del universo.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Cintas rojas en forma de infinito</nombre>
+      <descripcion>La energía continua que conecta el principio con el fin del viaje del alma.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Cuatro querubines en las esquinas</nombre>
+      <descripcion>Los cuatro elementos completamente dominados y armonizados en la materia.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    La culminación suprema del viaje del Tarot, presente desde las barajas milanesas del siglo XV como la representación de la Jerusalén Celeste o el Triunfo de la Eternidad sobre el Tiempo. Arthur Edward Waite y Pamela Colman Smith coronaron la baraja con una imagen de júbilo cósmico: una figura andrógina danzante (que representa la totalidad del alma integrada) flota ingrávida en el centro de una gran corona elíptica de laurel verde atada con cintas rojas en forma de lemniscata. Sostiene dos varas mágicas en sus manos, mientras en las cuatro esquinas del cielo reposan los cuatro seres sagrados (el Ángel de Acuario, el Águila de Escorpio, el León de Leo y el Toro de Tauro), que han dejado los libros de estudio para contemplar la danza triunfal.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    El Mundo es el arquetipo de la realización total, el éxito supremo, la plenitud, la integración perfecta de todas las lecciones del viaje y el fin glorioso de un gran ciclo vital. El Loco (0), que comenzó su viaje desnudo e inconsciente al borde del abismo, llega ahora al Mundo (21) desnudo pero plenamente consciente, danzando en el centro del cosmos en perfecta armonía con todas las leyes universales. Es el hogar espiritual alcanzado y la libertad absoluta.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Culminación exitosa, plenitud total, metas alcanzadas, viajes internacionales felices, realización del propósito y celebración gozosa.</resumen>
+    <amor>Amor pleno, armonía conyugal duradera, realización de los sueños compartidos y sensación de plenitud y bendición en el vínculo.</amor>
+    <dinero_trabajo>Consagración profesional, culminación brillante de grandes proyectos, expansión internacional de negocios y éxito financiero consolidado.</dinero_trabajo>
+    <salud>Salud integral radiante, bienestar holístico entre cuerpo, mente y alma, y longevidad plena.</salud>
+    <espiritualidad>Iluminación e integración cósmica. La consciencia de la unidad absoluta de todo lo que existe y la danza armónica con el universo.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Último obstáculo antes de la meta, retraso en el cierre de un ciclo, procrastinación en el tramo final o sensación de vacío a pesar del éxito exterior.</resumen>
+    <palabras_clave_al_reves>Ciclo inconcluso, Falta el paso final, Sensación de vacío, Retraso en la coronación, Miedo al cierre</palabras_clave_al_reves>
+    <amor>Falta de cierre definitivo con el pasado que impide disfrutar plenamente de la relación actual, o posponer un paso importante hacia el compromiso.</amor>
+    <dinero_trabajo>Proyectos que están al 99% pero a los que les falta el último empujón para completarse con éxito. Falta de foco en los detalles finales.</dinero_trabajo>
+    <salud>Agotamiento en la recta final de un tratamiento o convalecencia. Necesidad de culminar los procesos de descanso sin precipitaciones.</salud>
+    <espiritualidad>Miedo a la plenitud. Quedarse en la antesala de la iluminación por apego a las viejas luchas del ego.</espiritualidad>
+    <como_armonizar_desbloquear>Da ese último esfuerzo necesario para cerrar el ciclo. Ata los cabos sueltos para poder disfrutar de la victoria completa.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    Es la última carta de los Arcanos Mayores y la única donde la figura sostiene dos varas de mando al mismo tiempo (a diferencia de El Mago que solo tenía una), simbolizando la doble maestría sobre el mundo interior y el mundo exterior. Danza dentro de una corona de laurel atada con lazos en forma de ocho infinito, demostrando que el final del viaje es al mismo tiempo el inicio de una nueva espiral infinita de evolución.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>La corona elíptica de laurel: Representa la mandorla o vulva cósmica de la que nace el nuevo ser iluminado, símbolo de victoria y gloria eterna.</item>
+    <item>Los cuatro querubines en las esquinas: En La Rueda de la Fortuna (X) estudiaban textos; aquí, en El Mundo (XXI), ya no necesitan leer libros porque la sabiduría se ha integrado en la propia danza.</item>
+    <item>Las dos varas mágicas: Una canaliza la energía descendente del cielo y la otra la energía ascendente de la tierra, convirtiendo al danzante en el centro del cosmos.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Celebra tu triunfo con humildad y alegría. Has completado el ciclo con honores; disfruta del mundo que has co-creado.</accion_inmediata>
+    <pregunta_para_ti>¿Qué gran ciclo de tu vida estás listo para cerrar y celebrar con gratitud antes de dar el siguiente paso?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Danza en el Centro del Universo</titulo>
+    <relato>
+      Tras caminar por desiertos, subir montañas nevadas, atravesar tormentas y enfrentar dragones en cavernas oscuras, aquel que una vez fue llamado El Loco llegó a la Puerta de las Cuatro Esquinas. Los cuatro guardianes del cielo —el ángel, el águila, el león y el toro— cerraban el paso con sus alas inmensas. '¿Qué traes en tus alforjas para merecer entrar en la Jerusalén de Oro?', rugió el león. El viajero sonrió con la misma inocencia con la que había comenzado su viaje; abrió las manos vacías y no mostró gemas, ni espadas, ni pergaminos de leyes. 'No traigo nada que me pertenezca a mí solo', susurró con voz de viento puro; 'traigo el abrazo de la tierra, la lágrima del mar, el fuego de las pasiones vencidas y el aliento del cielo que todo lo une'. Los cuatro guardianes plegaron sus alas y se inclinaron reverentes. La corona de laurel del portal se abrió de par en par: en el centro no había un trono de piedra donde sentarse a mandar, sino un espacio infinito de luz donde la música de las estrellas invitaba a danzar. El viajero comenzó a bailar, y en su danza el universo entero encontró su hogar.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/el-mundo.mp3</archivo>
+    <titulo>El Mundo - La Danza Cósmica de la Plenitud</titulo>
+    <duracion_estimada>4:45 min</duracion_estimada>
+  </audio>
+</arcano>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="diez-de-copas">
+  <numero>10</numero>
+  <nombre>Diez de Copas</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Copas</palo>
+  <elemento>Agua</elemento>
+  <astrologia>Elemento Agua</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Una pareja abrazada contempla un arcoíris de diez copas mientras sus hijos bailan alegres. La dicha hogareña y la plenitud emocional duradera.</esencia>
+  <palabras_clave>Felicidad familiar, Paz duradera, Arcoíris de bendiciones, Hogar dichoso, Amor pleno</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Amor incondicional, concordia familiar, paz compartida y estabilidad.</lado_luz>
+    <lado_sombra>Falsa imagen de familia perfecta hacia afuera, hipocresía doméstica.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Arcoíris de diez copas</nombre>
+      <descripcion>Pacto cósmico de bendición y dicha duradera.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Pareja abrazada y niños jugando</nombre>
+      <descripcion>Amor conyugal pleno y futuro asegurado.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Casa junto al río</nombre>
+      <descripcion>Refugio seguro cimentado en el afecto mutuo.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Copas (Agua) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Diez de Copas en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Diez de Copas representa la manifestación de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón en el grado 10. Enseña a canalizar la energía de Agua con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</resumen>
+    <amor>En los vínculos afectivos, Diez de Copas aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Agua.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</resumen>
+    <palabras_clave_al_reves>Conflictos domésticos, Distanciamiento familiar, Idealización rota</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Prioriza el diálogo amoroso y sana viejos resentimientos en el núcleo familiar.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    La cumbre de la felicidad emocional: una familia feliz contempla un arcoíris formado por diez copas doradas sobre su casa de campo, representando el amor verdadero, la paz doméstica y la realización afectiva suprema.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>El esposo y la esposa alzan sus brazos hacia el cielo en agradecimiento mientras dos niños pequeños bailan tomados de la mano a su lado.</item>
+    <item>El río serpentea por un paisaje verde idílico, confirmando que la armonía fluye con naturalidad y permanencia.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Diez de Copas se asociaba con augurios concretos relacionados con las emociones profundas, el amor, los vínculos afectivos y la intuición del corazón.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Cultiva los lazos afectivos de tu hogar. El verdadero tesoro está en el amor que das.</accion_inmediata>
+    <pregunta_para_ti>¿Qué puedes hacer hoy para llenar tu hogar de armonía y palabras cariñosas?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Arcoíris de las Diez Copas</titulo>
+    <relato>
+      Tras la última lluvia de otoño, la pareja salió al porche de su granja campestre abrazada por la cintura. Sus dos hijos saltaban sobre los charcos riendo a carcajadas. En el cielo azul se dibujó un arcoíris resplandeciente del que parecían brotar diez copas de luz líquida bendiciendo sus campos y su ganado. 'Muchos reyes darían sus coronas por un solo día de esta paz', murmuró el hombre besando la frente de su esposa. Habían hallado el verdadero paraíso terrenal: amarse con lealtad y ver crecer a los suyos en paz.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/diez-de-copas.mp3</archivo>
+    <titulo>Diez de Copas - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

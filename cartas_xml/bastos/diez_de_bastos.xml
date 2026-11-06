@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="diez-de-bastos">
+  <numero>10</numero>
+  <nombre>Diez de Bastos</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Bastos</palo>
+  <elemento>Fuego</elemento>
+  <astrologia>Elemento Fuego</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Un hombre carga penosamente diez bastos que le tapan la vista. Llevas demasiado sobre tus hombros: delega.</esencia>
+  <palabras_clave>Sobrecarga, Responsabilidades excesivas, Cansancio, Delegar, Culminación pesada</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Capacidad titánica de trabajo, culminación de grandes esfuerzos.</lado_luz>
+    <lado_sombra>Síndrome de 'burnout', martirio inútil, incapacidad de pedir auxilio.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Hombre encorvado bajo el peso</nombre>
+      <descripcion>Sobrecarga de deberes y estrés acumulado.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Pueblo al fondo</nombre>
+      <descripcion>El descanso está cerca si logras llegar al destino.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Bastos (Fuego) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de la voluntad, la creatividad, la pasión y el impulso de acción. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Diez de Bastos en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Diez de Bastos representa la manifestación de la voluntad, la creatividad, la pasión y el impulso de acción en el grado 10. Enseña a canalizar la energía de Fuego con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de la voluntad, la creatividad, la pasión y el impulso de acción.</resumen>
+    <amor>En los vínculos afectivos, Diez de Bastos aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Fuego.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de la voluntad, la creatividad, la pasión y el impulso de acción.</resumen>
+    <palabras_clave_al_reves>Colapso por estrés, Incapacidad de delegar, Liberación forzada</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Di basta sin culpa. Reconocer los propios límites es señal de sabiduría.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    A diferencia del 10 de Espadas (ruina absoluta) o del 10 de Oros (plenitud familiar), el 10 de Bastos es la sobrecarga voluntaria: querer llevar las diez varas uno mismo hasta doblarse por el peso del exceso de responsabilidades.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>El hombre camina encorvado mirando al suelo sin ver que la ciudad y su destino están a solo unos metros frente a él.</item>
+    <item>Lleva las diez varas todas juntas en un solo haz abrazado, simbolizando la incapacidad de delegar o priorizar tareas.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Diez de Bastos se asociaba con augurios concretos relacionados con la voluntad, la creatividad, la pasión y el impulso de acción.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Suelta lo que no es tuyo. Pide apoyo y prioriza tu salud integral.</accion_inmediata>
+    <pregunta_para_ti>¿Qué cargas ajenas estás llevando sobre tu espalda innecesariamente?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Carga de las Diez Vigas</titulo>
+    <relato>
+      Un leñador quiso impresionar al maestro del pueblo cargando él solo las diez vigas para el techo de la ermita. A mitad del camino, su espalda crujía y el sudor le cegaba los ojos; apenas podía dar un paso sin tambalearse. Una anciana que pasaba con un cántaro le dijo: 'Hijo mío, el orgullo te hace cargar diez vigas para que todos te miren; la sabiduría te pide llevar dos ahora y pedirle ayuda a tus hermanos para las demás'. El hombre soltó el haz, descansó bajo un olivo y aprendió que soltar el exceso no es fracasar, sino ser inteligente.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/diez-de-bastos.mp3</archivo>
+    <titulo>Diez de Bastos - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

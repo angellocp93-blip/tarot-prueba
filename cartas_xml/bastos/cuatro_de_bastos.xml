@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="cuatro-de-bastos">
+  <numero>4</numero>
+  <nombre>Cuatro de Bastos</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Bastos</palo>
+  <elemento>Fuego</elemento>
+  <astrologia>Elemento Fuego</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Momento de festejar la llegada a un puerto seguro, la armonía hogareña y el éxito compartido.</esencia>
+  <palabras_clave>Celebración, Hogar, Comunidad, Armonía, Consolidación</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Alegría sincera, gratitud, paz hogareña y sentido de pertenencia.</lado_luz>
+    <lado_sombra>Excesos en fiestas, superficialidad o incomodidad en reuniones.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Pérgola floral</nombre>
+      <descripcion>Consolidación festiva y abundancia.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Figuras festejando</nombre>
+      <descripcion>Alegría compartida y hospitalidad.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Bastos (Fuego) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de la voluntad, la creatividad, la pasión y el impulso de acción. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Cuatro de Bastos en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Cuatro de Bastos representa la manifestación de la voluntad, la creatividad, la pasión y el impulso de acción en el grado 4. Enseña a canalizar la energía de Fuego con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de la voluntad, la creatividad, la pasión y el impulso de acción.</resumen>
+    <amor>En los vínculos afectivos, Cuatro de Bastos aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Fuego.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de la voluntad, la creatividad, la pasión y el impulso de acción.</resumen>
+    <palabras_clave_al_reves>Tensiones familiares, Celebración cancelada, Incomodidad</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Cultiva la paciencia en el hogar y no magnifiques detalles menores.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    A diferencia del 4 de Oros (donde la estabilidad se convierte en tacañería y encierro), el 4 de Bastos celebra la estabilidad con fiesta al aire libre, puertas abiertas y bienvenida a la comunidad.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>Las cuatro varas forman una 'jupá' o palio nupcial decorado con flores y frutos, aludiendo a la consagración sagrada del hogar.</item>
+    <item>Al fondo se vislumbra un castillo amurallado, pero la celebración se realiza afuera, demostrando que la verdadera seguridad no se esconde tras muros.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Cuatro de Bastos se asociaba con augurios concretos relacionados con la voluntad, la creatividad, la pasión y el impulso de acción.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Abre tu casa y tu corazón para festejar con los seres que amas.</accion_inmediata>
+    <pregunta_para_ti>¿Qué bendición reciente merece ser celebrada con gratitud?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Fiesta bajo el Emparrado</titulo>
+    <relato>
+      Tras meses de arduo trabajo levantando los cimientos de la nueva aldea, los pioneros clavaron cuatro vigas de roble y las unieron con una guirnalda de parras y rosas. No esperaron a pintar las paredes para festejar: invitaron a los vecinos, descorcharon el vino nuevo y bailaron descalzos sobre la hierba. 'Una casa se construye con piedras', dijo el anciano del pueblo, 'pero solo se convierte en hogar cuando sus puertas están abiertas para compartir la dicha'.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/cuatro-de-bastos.mp3</archivo>
+    <titulo>Cuatro de Bastos - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

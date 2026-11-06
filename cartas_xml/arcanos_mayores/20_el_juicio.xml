@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="el-juicio">
+  <numero>XX</numero>
+  <nombre>El Juicio</nombre>
+  <tipo>Arcano Mayor</tipo>
+  <palo>Ninguno</palo>
+  <elemento>Fuego</elemento>
+  <astrologia>Plutón</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>La trompeta de la resurrección. Deja atrás la tumba del pasado y responde con valentía al verdadero llamado de tu vocación.</esencia>
+  <palabras_clave>Despertar, Llamado del alma, Redención, Renovación total, Liberación del pasado</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Claridad de propósito, perdón liberador, absolución moral, vocación clara y renacimiento triunfante.</lado_luz>
+    <lado_sombra>Juicios severos y condenatorios hacia uno mismo o los demás, negarse al llamado, culpa paralizante.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Ángel Gabriel con trompeta</nombre>
+      <descripcion>El llamado cósmico irresistible que despierta las almas dormidas a la verdad.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Estandarte con cruz roja</nombre>
+      <descripcion>El punto de encuentro entre lo vertical (espiritual) y lo horizontal (terrenal).</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Personas emergiendo de tumbas de piedra</nombre>
+      <descripcion>Resurrección de la consciencia, liberación de viejos patrones limitantes.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Agua y montañas de hielo de fondo</nombre>
+      <descripcion>La disolución de los bloqueos emocionales cristalizados en el pasado.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    Inspirado en el Juicio Final bíblico y en el Apocalipsis de San Juan, presente en todos los tarots occidentales desde el siglo XV. El arcángel Gabriel desciende entre las nubes celestiales haciendo sonar su trompeta dorada adornada con un estandarte con una cruz roja (la bandera de San Jorge y el símbolo del renacimiento de la vida). Abajo, sobre un mar rodeado de montañas nevadas, tumbas de piedra se abren: un hombre, una mujer y un niño emergen desnudos con los brazos abiertos en actitud de adoración y júbilo, simbolizando la resurrección del alma y la llamada ineludible al despertar de la consciencia suprema.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    El Juicio es el arquetipo del despertar espiritual, la llamada de la vocación superior, el perdón redentor y la elevación a un nuevo nivel de consciencia. No representa una condena punitiva, sino el momento supremo en que el alma escucha su verdad más profunda, se levanta de las tumbas del pasado y comprende el propósito global de todas las experiencias vividas. Es la segunda oportunidad que la vida nos otorga para renacer libres de culpas.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Despertar de la consciencia, llamada de la verdadera vocación, perdón liberador, renovación absoluta y toma de decisiones trascendentales.</resumen>
+    <amor>Renovación total en la pareja, superación de viejos rencores con madurez o decisión definitiva y liberadora sobre el futuro sentimental.</amor>
+    <dinero_trabajo>Descubrimiento de la verdadera vocación profesional. Momento culminante de evaluación con resultados brillantes y ascensos basados en el mérito real.</dinero_trabajo>
+    <salud>Recuperación milagrosa de la vitalidad física, superación de secuelas y sensación de haber nacido de nuevo.</salud>
+    <espiritualidad>La llamada irresistible del alma. Despertar de la consciencia que transforma para siempre las prioridades de vida.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Sordera ante la llamada del alma, autocondena paralizante, culpa injustificada, miedo al cambio o negarse a perdonar.</resumen>
+    <palabras_clave_al_reves>Miedo a cambiar, Autocrítica despiadada, Negarse al llamado, Culpa estéril, Dudas vocacionales</palabras_clave_al_reves>
+    <amor>Rencores pasados que se niegan a morir, reproches constantes o miedo a afrontar una conversación decisiva sobre el futuro.</amor>
+    <dinero_trabajo>Dudas ante una gran oportunidad por sentirse indigno o poco preparado. Errores de juicio por ignorar advertencias evidentes.</dinero_trabajo>
+    <salud>Sentimiento de culpabilidad que somatiza en el cuerpo. Resistencia a admitir que se necesita ayuda profesional.</salud>
+    <espiritualidad>Miedo al juicio ajeno o a la mirada de Dios. Vivir atrapado en la culpa moralista sin permitirse la redención y el perdón.</espiritualidad>
+    <como_armonizar_desbloquear>Perdónate. Nadie puede avanzar si sigue cargando con las lápidas de su pasado; acepta la gracia de empezar de cero.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    Es la única carta donde los muertos se levantan de sus tumbas flotantes en el mar no con horror ni miedo, sino con beatitud y los brazos abiertos al cielo. A diferencia de La Justicia (que mide y pesa las acciones terrenales de causa y efecto), El Juicio es la gracia divina: trasciende la condena para ofrecer una resurrección total y definitiva a quien escucha la llamada del despertar.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>La trompeta de siete rayos sonoros: Representa los siete tonos sagrados de la creación y los siete chakras que se activan con el despertar de la kundalini.</item>
+    <item>La cruz roja sobre el estandarte blanco: Símbolo de la unión del espíritu con la materia y la victoria de la vida inmortal sobre la muerte biológica.</item>
+    <item>La familia (hombre, mujer y niño): Representa la trinidad psicológica: el consciente, el inconsciente y el nuevo ser integrado que renace.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Escucha la llamada de tu corazón y no mires atrás. Perdónate por los errores del pasado: hoy naces a una nueva vida.</accion_inmediata>
+    <pregunta_para_ti>¿Qué llamado interior estás ignorando por miedo a dejar atrás tu vieja identidad?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Clamor en la Cripta de Mármol</titulo>
+    <relato>
+      En el cementerio de las Oportunidades Perdidas, los hombres yacían dentro de pesadas losas de mármol grabadas con sus propios fracasos pasados: 'Aquí yace el cobarde', 'Aquí yace el culpable', 'Aquí yace el que no se atrevió'. Al amanecer de un día sin calendario, un ángel de fuego lila descendió sobre las montañas y tocó una trompeta de plata con tal fuerza que el sonido no vibró en los oídos, sino en el centro exacto del corazón de cada difunto. Las losas de mármol se partieron en mil pedazos. Un hombre abrió los ojos cubierto de polvo y miró sus manos heridas: no estaban muertas, estaban llenas de sangre caliente. —¿Acaso no vas a castigar mis pecados? —preguntó temblando hacia el ángel. El arcángel bajó la trompeta y lo miró con una sonrisa que abrazaba a todo el universo: —Tu único castigo fue haber creído que tus errores del pasado eran más grandes que el amor que te creó. Levántate y vive, que el mundo aún está esperando tu verdadera canción.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/el-juicio.mp3</archivo>
+    <titulo>El Juicio - La Llamada Ineludible del Despertar</titulo>
+    <duracion_estimada>4:45 min</duracion_estimada>
+  </audio>
+</arcano>

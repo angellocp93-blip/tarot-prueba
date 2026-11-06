@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="tres-de-bastos">
+  <numero>3</numero>
+  <nombre>Tres de Bastos</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Bastos</palo>
+  <elemento>Fuego</elemento>
+  <astrologia>Elemento Fuego</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Tus barcos han zarpado y ya ves sus velas en el horizonte. Tu visión se consolida y rinde frutos.</esencia>
+  <palabras_clave>Expansión, Esperanza, Barcos regresando, Crecimiento, Resultados iniciales</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Apertura a nuevas oportunidades, confianza serena, expansión exitosa.</lado_luz>
+    <lado_sombra>Ansiedad por los frutos, impaciencia por demoras, desilusión si tarda.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Barcos en el mar</nombre>
+      <descripcion>Proyectos en marcha que traen beneficios.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Mirada al horizonte</nombre>
+      <descripcion>Confianza serena en el porvenir.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Bastos (Fuego) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de la voluntad, la creatividad, la pasión y el impulso de acción. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Tres de Bastos en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Tres de Bastos representa la manifestación de la voluntad, la creatividad, la pasión y el impulso de acción en el grado 3. Enseña a canalizar la energía de Fuego con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de la voluntad, la creatividad, la pasión y el impulso de acción.</resumen>
+    <amor>En los vínculos afectivos, Tres de Bastos aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Fuego.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de la voluntad, la creatividad, la pasión y el impulso de acción.</resumen>
+    <palabras_clave_al_reves>Retrasos, Frustración, Horizontes cerrados</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Revisa la logística y ten paciencia; las mejores cosechas toman su tiempo.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    A diferencia del 2 de Bastos (donde los planes aún se gestan en la mente), en el 3 de Bastos los barcos ya han zarpado y navegan con viento a favor; es la confirmación del éxito expansivo.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>El comerciante mira al mar de espaldas al espectador, indicando que su atención está plenamente enfocada en el futuro y no en el pasado.</item>
+    <item>Las aguas tienen un tono dorado brillante que presagia prosperidad y retorno multiplicado de lo invertido.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Tres de Bastos se asociaba con augurios concretos relacionados con la voluntad, la creatividad, la pasión y el impulso de acción.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Mantén la mirada en el horizonte. Tus esfuerzos darán fruto.</accion_inmediata>
+    <pregunta_para_ti>¿Qué nuevas fronteras estás listo para explorar hoy?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>Las Tres Naves en la Bahía Dorada</titulo>
+    <relato>
+      Tres años esperó el mercader en el acantilado mirando el horizonte vacío. Muchos se burlaron de su paciencia. Pero en una mañana de verano, tres velas de lino blanco aparecieron cortando las olas doradas por el sol: sus naves regresaban cargadas de especias y telas de reinos lejanos. Comprendió que la verdadera grandeza exige no solo tener coraje para enviar los barcos, sino la serenidad para esperar su regreso.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/tres-de-bastos.mp3</archivo>
+    <titulo>Tres de Bastos - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

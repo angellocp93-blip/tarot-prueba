@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="siete-de-espadas">
+  <numero>7</numero>
+  <nombre>Siete de Espadas</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Espadas</palo>
+  <elemento>Aire</elemento>
+  <astrologia>Elemento Aire</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Un hombre se aleja de puntillas de un campamento militar llevándose cinco espadas y mirando atrás, dejando dos clavadas. Astucia o traición.</esencia>
+  <palabras_clave>Estrategia furtiva, Engaño, Plan secreto, Astucia, Fuga de responsabilidades</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Inteligencia táctica, evitar confrontaciones directas inútiles, discreción prudente.</lado_luz>
+    <lado_sombra>Mentiras, robo intelectual, infidelidad, hipocresía y cobardía moral.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Ladrón de puntillas</nombre>
+      <descripcion>Acción clandestina, astucia o deshonestidad.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Mirada furtiva hacia atrás</nombre>
+      <descripcion>Miedo a ser descubierto o remordimiento de conciencia.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Dos espadas abandonadas</nombre>
+      <descripcion>Planes incompletos o dejar cabos sueltos comprometedores.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Espadas (Aire) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Siete de Espadas en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Siete de Espadas representa la manifestación de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales en el grado 7. Enseña a canalizar la energía de Aire con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</resumen>
+    <amor>En los vínculos afectivos, Siete de Espadas aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Aire.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</resumen>
+    <palabras_clave_al_reves>Mentiras descubiertas, Confesión honesta, Arrepentimiento</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Sé valiente y di la verdad. Es preferible pasar la vergüenza que vivir con el temor a ser descubierto.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    Conocida como la carta de la astucia, el sigilo o la evasión. Un hombre se aleja puntillas del campamento enemigo llevándose cinco espadas en sus brazos y dejando dos clavadas en el suelo.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>Mira hacia atrás con una sonrisa pícara, confiando en que no ha sido descubierto, aunque su huida revela falta de confrontación directa.</item>
+    <item>Al fondo se ven las tiendas de campaña militares con los soldados desprevenidos, simbolizando que la estrategia evitó un derramamiento de sangre.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Siete de Espadas se asociaba con augurios concretos relacionados con el intelecto, el pensamiento analítico, la verdad implacable y los dilemas morales.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Actúa con inteligencia pero sin perder tu integridad. Las mentiras siempre salen a la luz.</accion_inmediata>
+    <pregunta_para_ti>¿Estás intentando tomar un atajo deshonesto para evitar una confrontación necesaria?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Ladrón de las Cinco Hojas</titulo>
+    <relato>
+      El espía del rey entró a medianoche en el campamento de los invasores. En lugar de quemar las tiendas o despertar a los guardias, desarmó en silencio cinco de sus mejores espadas y se las llevó bajo el brazo caminando de puntillas entre la hierba. Cuando los invasores despertaron por la mañana, descubrieron que no podían combatir sin sus armas principales y tuvieron que retirarse sin derramar una gota de sangre. Hay batallas que no se ganan con fuerza bruta, sino con astucia silenciosa.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/siete-de-espadas.mp3</archivo>
+    <titulo>Siete de Espadas - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

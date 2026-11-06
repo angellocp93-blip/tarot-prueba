@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="nueve-de-bastos">
+  <numero>9</numero>
+  <nombre>Nueve de Bastos</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Bastos</palo>
+  <elemento>Fuego</elemento>
+  <astrologia>Elemento Fuego</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>El centinela vendado en la cabeza no abandona su puesto. Has recibido golpes, pero estás a punto de vencer.</esencia>
+  <palabras_clave>Resiliencia, Última guardia, Perseverancia, Fuerza residual, A un paso de la meta</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Resistencia indomable, fidelidad al deber, entereza bajo presión.</lado_luz>
+    <lado_sombra>Hipervigilancia desgastante, paranoia de ataque constante, rigidez.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Centinela vendado</nombre>
+      <descripcion>Cicatrices de batallas que forjaron madurez.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Empalizada de bastos</nombre>
+      <descripcion>Logros previos que sostienen tu posición.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Bastos (Fuego) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de la voluntad, la creatividad, la pasión y el impulso de acción. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Nueve de Bastos en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Nueve de Bastos representa la manifestación de la voluntad, la creatividad, la pasión y el impulso de acción en el grado 9. Enseña a canalizar la energía de Fuego con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de la voluntad, la creatividad, la pasión y el impulso de acción.</resumen>
+    <amor>En los vínculos afectivos, Nueve de Bastos aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Fuego.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de la voluntad, la creatividad, la pasión y el impulso de acción.</resumen>
+    <palabras_clave_al_reves>Agotamiento total, Bajar los brazos, Paranoia destructiva</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Date un respiro merecido; relaja las defensas con quien te ama.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    A diferencia del 9 de Espadas (angustia mental nocturna), el 9 de Bastos es el guerrero veterano vendado en la cabeza que, a pesar de estar herido y cansado, permanece en pie defendiendo la empalizada.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>El vendaje blanco en su cabeza indica que ha sobrevivido a batallas previas y posee cicatrices que se han convertido en sabiduría y fortaleza.</item>
+    <item>Las ocho varas detrás de él forman un muro sólido, mientras él sostiene la novena vara con ambas manos alerta ante el último asalto.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Nueve de Bastos se asociaba con augurios concretos relacionados con la voluntad, la creatividad, la pasión y el impulso de acción.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Aguanta un poco más. La meta está muy cerca y tienes la fuerza necesaria.</accion_inmediata>
+    <pregunta_para_ti>¿Estás confundiendo la prudencia con una desconfianza que te aísla?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>La Última Guardia del Veterano</titulo>
+    <relato>
+      La noche era gélida y la herida de la frente aún le palpitaba. Sus compañeros dormían agotados en el campamento mientras él montaba guardia apoyado en su cayado de roble. Sus ojos escudriñaban la oscuridad con la agudeza del águila. Sabía que el amanecer estaba a solo una hora de distancia y que rendirse en el último tramo arruinaría todo el esfuerzo del viaje. Apretó los dientes, respiró hondo y sonrió: el sol asomó por el este disipando las sombras; había vencido a la noche más larga.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/nueve-de-bastos.mp3</archivo>
+    <titulo>Nueve de Bastos - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>

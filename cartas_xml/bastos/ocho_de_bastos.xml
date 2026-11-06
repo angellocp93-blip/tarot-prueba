@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arcano id="ocho-de-bastos">
+  <numero>8</numero>
+  <nombre>Ocho de Bastos</nombre>
+  <tipo>Arcano Menor</tipo>
+  <palo>Bastos</palo>
+  <elemento>Fuego</elemento>
+  <astrologia>Elemento Fuego</astrologia>
+
+  <!-- ESENCIA Y PALABRAS CLAVE -->
+  <esencia>Ocho bastos vuelan coordinados por el aire libre. Los acontecimientos se aceleran vertiginosamente.</esencia>
+  <palabras_clave>Velocidad, Noticias rápidas, Acontecimientos acelerados, Avance veloz, Sincronía</palabras_clave>
+
+  <!-- POLARIDAD: LUZ Y SOMBRA -->
+  <polaridad>
+    <lado_luz>Rapidez mental, decisiones certeras, noticias favorables y dinamismo.</lado_luz>
+    <lado_sombra>Precipitación imprudente, saturación de información, prisa ciega.</lado_sombra>
+  </polaridad>
+
+  <!-- SÍMBOLOS VISUALES CLAVE -->
+  <simbolos_visuales>
+    <simbolo>
+      <nombre>Bastos en vuelo alineado</nombre>
+      <descripcion>Dirección clara y alineación sin obstáculos.</descripcion>
+    </simbolo>
+    <simbolo>
+      <nombre>Cielo abierto</nombre>
+      <descripcion>Canal despejado para que fluya la energía veloz.</descripcion>
+    </simbolo>
+  </simbolos_visuales>
+
+  <!-- 1. HISTORIA Y ORIGEN SIMBÓLICO -->
+  <historia>
+    El palo de Bastos (Fuego) tiene su origen en las barajas mamelucas del siglo XIV y fue incorporado a los tarots renacentistas italianos como símbolo de la voluntad, la creatividad, la pasión y el impulso de acción. En la baraja Rider-Waite-Smith de 1909, Pamela Colman Smith ilustró por primera vez escenas narrativas completas para esta carta, transformando Ocho de Bastos en un mapa psicológico vivo de las experiencias humanas cotidianas.
+  </historia>
+
+  <!-- 2. SIGNIFICADO FUNDAMENTAL -->
+  <significado_fundamental>
+    Ocho de Bastos representa la manifestación de la voluntad, la creatividad, la pasión y el impulso de acción en el grado 8. Enseña a canalizar la energía de Fuego con consciencia, equilibrio y propósito práctico en la vida cotidiana.
+  </significado_fundamental>
+
+  <!-- 3. LA CARTA EN POSICIÓN NORMAL -->
+  <posicion_normal>
+    <resumen>Expresión constructiva, fluida y armónica de la voluntad, la creatividad, la pasión y el impulso de acción.</resumen>
+    <amor>En los vínculos afectivos, Ocho de Bastos aporta lealtad, comunicación constructiva y comprensión profunda de las necesidades mutuas.</amor>
+    <dinero_trabajo>En el plano profesional y financiero, favorece el avance metódico, la resolución de tareas y el logro de metas mediante el esfuerzo honesto.</dinero_trabajo>
+    <salud>Bienestar físico y equilibrio energético alineado con el elemento Fuego.</salud>
+    <espiritualidad>Lección de vida que integra la experiencia cotidiana con la evolución del alma.</espiritualidad>
+  </posicion_normal>
+
+  <!-- 4. LA CARTA EN POSICIÓN INVERTIDA -->
+  <posicion_invertida>
+    <resumen>Bloqueo, exceso o distorsión temporal en la energía de la voluntad, la creatividad, la pasión y el impulso de acción.</resumen>
+    <palabras_clave_al_reves>Retrasos frustrantes, Mensajes cruzados, Prisa perjudicial</palabras_clave_al_reves>
+    <amor>Malentendidos, impaciencia o falta de empatía en las relaciones que requieren diálogo sincero y reconciliación.</amor>
+    <dinero_trabajo>Retrasos transitorios, distracciones o necesidad de revisar planes y presupuestos antes de actuar.</dinero_trabajo>
+    <salud>Agotamiento o desequilibrio en los hábitos diarios; necesidad de descansar y escuchar las señales del cuerpo.</salud>
+    <espiritualidad>Oportunidad de aprendizaje kármico: reconocer errores de juicio para corregir el rumbo con humildad.</espiritualidad>
+    <como_armonizar_desbloquear>Revisa tus mensajes y no te desesperes si el ritmo baja temporalmente.</como_armonizar_desbloquear>
+  </posicion_invertida>
+
+  <!-- 5. LO QUE LO HACE ÚNICO FRENTE A SUS SIMILARES -->
+  <lo_que_lo_hace_unico>
+    Es una de las pocas cartas menores sin figuras humanas: ocho varas vuelan veloces por el aire en formación paralela, representando la velocidad fulgurante de los acontecimientos y la comunicación instantánea.
+  </lo_que_lo_hace_unico>
+
+  <!-- 6. CURIOSIDADES DEL ARCANO -->
+  <curiosidades>
+    <item>Las varas apuntan hacia abajo en dirección a un valle verde y fértil regado por un río, indicando que el vuelo culminará en un aterrizaje muy fructífero.</item>
+    <item>El cielo está totalmente despejado de nubes, confirmando que no hay obstáculos para la aceleración del proceso.</item>
+    <item>Tradicionalmente, en la adivinación cartomántica clásica europea, Ocho de Bastos se asociaba con augurios concretos relacionados con la voluntad, la creatividad, la pasión y el impulso de acción.</item>
+  </curiosidades>
+
+  <!-- CONSEJO Y PREGUNTA REFLEXIVA -->
+  <consejo_y_reflexion>
+    <accion_inmediata>Aprovecha el viento a favor y responde con prontitud sin dispersarte.</accion_inmediata>
+    <pregunta_para_ti>¿Estás listo para recibir el avance rápido que has pedido?</pregunta_para_ti>
+  </consejo_y_reflexion>
+
+  <!-- 7. UNA HISTORIA INSPIRADA -->
+  <historia_inspirada>
+    <titulo>El Vuelo de las Ocho Flechas de Madera</titulo>
+    <relato>
+      El arquero mayor tensó el arco cósmico y soltó las ocho flechas hacia el valle al mismo tiempo. No iban a la guerra: llevaban mensajes de boda, contratos firmados y noticias de esperanza a las ciudades lejanas. En pocas horas, lo que había estado bloqueado durante meses comenzó a moverse a la velocidad de la luz. Cuando el viento sopla a tu favor y la intención es clara, los milagros no tardan años: ocurren en un parpadeo.
+    </relato>
+  </historia_inspirada>
+
+  <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
+  <audio>
+    <archivo>assets/audio/ocho-de-bastos.mp3</archivo>
+    <titulo>Ocho de Bastos - Sabiduría y Reflexión</titulo>
+    <duracion_estimada>3:45 min</duracion_estimada>
+  </audio>
+</arcano>
