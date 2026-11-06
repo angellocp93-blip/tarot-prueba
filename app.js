@@ -908,6 +908,14 @@
         possibleSources.push(s);
       }
     });
+
+    // Fallback ultra-fiable a CDN Raw de GitHub en caso de retraso en GitHub Pages
+    const rawGithubBase = 'https://raw.githubusercontent.com/angellocp93-blip/tarot-prueba/main/';
+    if (audioSrc && !audioSrc.startsWith('http')) {
+      possibleSources.push({ src: rawGithubBase + audioSrc, type: getMimeType(audioSrc) });
+    }
+    possibleSources.push({ src: `${rawGithubBase}assets/audio/${card.id}.mp3`, type: 'audio/mpeg' });
+    possibleSources.push({ src: `${rawGithubBase}assets/audio/${card.id}.wav`, type: 'audio/wav' });
     const sourcesHtml = possibleSources
       .map(s => `<source src="${s.src}" type="${s.type}">`)
       .join('\n          ');
