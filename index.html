@@ -56,6 +56,33 @@
 
       <!-- Header Utilities -->
       <div class="header-actions">
+        <!-- Mystic Background Soundtrack Widget -->
+        <div class="soundtrack-widget" id="soundtrack-widget">
+          <div class="soundtrack-btn-group" id="soundtrack-btn-group">
+            <button class="soundtrack-btn is-playing" id="btn-soundtrack" title="Música mística de fondo (Clic para activar/silenciar)">
+              <span class="soundtrack-equalizer">
+                <span class="eq-bar bar-1"></span>
+                <span class="eq-bar bar-2"></span>
+                <span class="eq-bar bar-3"></span>
+              </span>
+              <span class="soundtrack-text" id="soundtrack-text">Música</span>
+            </button>
+            <button class="soundtrack-vol-toggle" id="btn-soundtrack-vol" title="Ajustar volumen" aria-label="Ajustar volumen de fondo">▾</button>
+          </div>
+          <div class="soundtrack-popover" id="soundtrack-popover">
+            <div class="soundtrack-popover-header">
+              <span>🎵 Música de Fondo</span>
+              <span id="soundtrack-vol-label">18%</span>
+            </div>
+            <input type="range" class="soundtrack-slider" id="soundtrack-vol-slider" min="0" max="100" value="18" title="Ajustar volumen">
+            <div class="soundtrack-popover-footer">
+              <button type="button" class="soundtrack-preset-btn" data-vol="0.10">10%</button>
+              <button type="button" class="soundtrack-preset-btn" data-vol="0.18">18%</button>
+              <button type="button" class="soundtrack-preset-btn" data-vol="0.35">35%</button>
+            </div>
+          </div>
+        </div>
+
         <div class="header-search">
           <span class="search-icon">🔍</span>
           <input type="text" id="global-search-input" placeholder="Buscar carta, símbolo..." autocomplete="off">

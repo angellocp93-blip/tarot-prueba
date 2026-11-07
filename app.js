@@ -627,6 +627,9 @@
       } catch (e) {}
       activeAudioPlayer = null;
     }
+    if (window.mysticSoundtrack) {
+      window.mysticSoundtrack.duck(false);
+    }
     syncModeButtonsUI();
     const card = getCardById(appState.selectedCardId);
     cardViewContainer.innerHTML = '';
@@ -1249,6 +1252,14 @@
         if (statusBanner) statusBanner.style.display = 'none';
       });
 
+      audioEl.addEventListener('play', () => {
+        if (window.mysticSoundtrack) window.mysticSoundtrack.duck(true);
+      });
+
+      audioEl.addEventListener('pause', () => {
+        if (window.mysticSoundtrack) window.mysticSoundtrack.duck(false);
+      });
+
       audioEl.addEventListener('timeupdate', () => {
         if (!isNaN(audioEl.duration) && audioEl.duration > 0) {
           const pct = (audioEl.currentTime / audioEl.duration) * 100;
@@ -1259,6 +1270,7 @@
       });
 
       audioEl.addEventListener('ended', () => {
+        if (window.mysticSoundtrack) window.mysticSoundtrack.duck(false);
         playBtn.classList.remove('is-playing');
         playIcon.textContent = '▶';
         progressFill.style.width = '0%';
@@ -2206,6 +2218,352 @@
   }
 
   // ==========================================================================
+  // MYSTIC BACKGROUND SOUNDTRACK (Seamless Loop Crossfade & Ducking)
+  // ==========================================================================
+  class MysticSoundtrackManager {
+    constructor() {
+      this.SOUNDTRACK_SOURCES = [
+        'assets/audio/Soundtrack.mp3',
+        'assets/audio/Soundtrack.wav',
+        'https://raw.githubusercontent.com/angellocp93-blip/tarot-prueba/main/assets/audio/Soundtrack.mp3',
+        'https://raw.githubusercontent.com/angellocp93-blip/tarot-prueba/main/assets/audio/Soundtrack.wav'
+      ];
+
+      // Persistence
+      const savedVol = localStorage.getItem('tarot_soundtrack_vol');
+      this.baseVolume = (savedVol !== null && !isNaN(parseFloat(savedVol))) ? parseFloat(savedVol) : 0.18;
+      this.isMuted = localStorage.getItem('tarot_soundtrack_muted') === 'true';
+      this.isDucked = false;
+      this.crossfadeDuration = 4.0; // 4 seconds crossfade between loops
+      this.isCrossfading = false;
+      this.hasUserInteracted = false;
+      this.fadeInterval = null;
+
+      // Dual players for seamless crossfade on loop
+      this.playerA = new Audio();
+      this.playerB = new Audio();
+      this.playerA.preload = 'auto';
+      this.playerB.preload = 'auto';
+
+      this.activePlayer = this.playerA;
+      this.standbyPlayer = this.playerB;
+
+      this.sourceIndexA = 0;
+      this.sourceIndexB = 0;
+      this.initPlayer(this.playerA, 'A');
+      this.initPlayer(this.playerB, 'B');
+
+      // UI Elements
+      this.widgetEl = document.getElementById('soundtrack-widget');
+      this.btnEl = document.getElementById('btn-soundtrack');
+      this.volToggleEl = document.getElementById('btn-soundtrack-vol');
+      this.textEl = document.getElementById('soundtrack-text');
+      this.sliderEl = document.getElementById('soundtrack-vol-slider');
+      this.labelEl = document.getElementById('soundtrack-vol-label');
+      this.popoverEl = document.getElementById('soundtrack-popover');
+      this.presetBtns = document.querySelectorAll('.soundtrack-preset-btn');
+
+      this.bindUI();
+      this.setupLoopMonitoring();
+      this.setupAutoplayGesture();
+      this.updateUI();
+    }
+
+    initPlayer(player, id) {
+      const src = this.SOUNDTRACK_SOURCES[0];
+      player.src = src;
+
+      player.addEventListener('error', () => {
+        let idx = (id === 'A') ? ++this.sourceIndexA : ++this.sourceIndexB;
+        if (idx < this.SOUNDTRACK_SOURCES.length) {
+          player.src = this.SOUNDTRACK_SOURCES[idx];
+          if (!this.isMuted && this.hasUserInteracted && player === this.activePlayer) {
+            player.play().catch(() => {});
+          }
+        }
+      });
+    }
+
+    getEffectiveVolume() {
+      if (this.isMuted) return 0;
+      if (this.isDucked) return Math.min(this.baseVolume * 0.25, 0.05); // Whisper ambient during narration
+      return this.baseVolume;
+    }
+
+    bindUI() {
+      // Toggle Mute on button click
+      if (this.btnEl) {
+        this.btnEl.addEventListener('click', (e) => {
+          e.stopPropagation();
+          this.hasUserInteracted = true;
+          this.toggleMute();
+        });
+      }
+
+      // Popover toggle button
+      if (this.volToggleEl && this.popoverEl) {
+        this.volToggleEl.addEventListener('click', (e) => {
+          e.stopPropagation();
+          this.popoverEl.classList.toggle('is-visible');
+        });
+      }
+
+      // Close popover when clicking outside
+      document.addEventListener('click', (e) => {
+        if (this.popoverEl && !this.widgetEl?.contains(e.target)) {
+          this.popoverEl.classList.remove('is-visible');
+        }
+      });
+
+      // Slider input
+      if (this.sliderEl) {
+        this.sliderEl.value = Math.round(this.baseVolume * 100);
+        this.sliderEl.addEventListener('input', (e) => {
+          const val = parseFloat(e.target.value) / 100;
+          this.hasUserInteracted = true;
+          this.setVolume(val);
+        });
+      }
+
+      // Preset buttons (10%, 18%, 35%)
+      if (this.presetBtns) {
+        this.presetBtns.forEach(btn => {
+          btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const val = parseFloat(btn.dataset.vol);
+            if (!isNaN(val)) {
+              this.hasUserInteracted = true;
+              this.setVolume(val);
+            }
+          });
+        });
+      }
+    }
+
+    updateUI() {
+      const pct = Math.round(this.baseVolume * 100);
+
+      if (this.sliderEl) this.sliderEl.value = pct;
+      if (this.labelEl) this.labelEl.textContent = `${pct}%`;
+
+      if (this.btnEl) {
+        if (this.isMuted || this.baseVolume <= 0) {
+          this.btnEl.classList.remove('is-playing');
+          this.btnEl.classList.add('is-muted');
+          this.btnEl.title = 'Música silenciada (Clic para activar)';
+          if (this.textEl) this.textEl.textContent = 'Silencio';
+        } else {
+          this.btnEl.classList.remove('is-muted');
+          this.btnEl.classList.add('is-playing');
+          this.btnEl.title = 'Música ambiental mística activa (Clic para silenciar)';
+          if (this.textEl) this.textEl.textContent = 'Música';
+        }
+      }
+    }
+
+    setVolume(vol) {
+      this.baseVolume = Math.max(0, Math.min(1, vol));
+      localStorage.setItem('tarot_soundtrack_vol', this.baseVolume.toString());
+
+      if (this.baseVolume > 0 && this.isMuted) {
+        this.isMuted = false;
+        localStorage.setItem('tarot_soundtrack_muted', 'false');
+      }
+
+      if (!this.isCrossfading) {
+        this.activePlayer.volume = this.getEffectiveVolume();
+      }
+      this.updateUI();
+
+      if (!this.isMuted && this.activePlayer.paused && this.hasUserInteracted) {
+        this.activePlayer.play().catch(() => {});
+      }
+    }
+
+    toggleMute() {
+      this.isMuted = !this.isMuted;
+      localStorage.setItem('tarot_soundtrack_muted', this.isMuted ? 'true' : 'false');
+
+      if (this.isMuted) {
+        this.fadeTo(0, 350, () => {
+          this.activePlayer.pause();
+          this.standbyPlayer.pause();
+        });
+      } else {
+        if (this.baseVolume <= 0.02) {
+          this.baseVolume = 0.18;
+          localStorage.setItem('tarot_soundtrack_vol', '0.18');
+        }
+        this.activePlayer.volume = 0;
+        const playPromise = this.activePlayer.play();
+        if (playPromise !== undefined) {
+          playPromise.then(() => {
+            this.fadeTo(this.getEffectiveVolume(), 800);
+          }).catch(() => {});
+        }
+      }
+      this.updateUI();
+    }
+
+    duck(enabled) {
+      this.isDucked = !!enabled;
+      if (this.isMuted) return;
+      this.fadeTo(this.getEffectiveVolume(), 600);
+    }
+
+    fadeTo(targetVol, durationMs = 500, onComplete = null) {
+      if (this.fadeInterval) clearInterval(this.fadeInterval);
+      const startVol = this.activePlayer.volume;
+      const diff = targetVol - startVol;
+      const steps = 20;
+      const stepTime = durationMs / steps;
+      let currentStep = 0;
+
+      this.fadeInterval = setInterval(() => {
+        currentStep++;
+        const progress = currentStep / steps;
+        const newVol = Math.max(0, Math.min(1, startVol + diff * progress));
+        try {
+          this.activePlayer.volume = newVol;
+        } catch (e) {}
+
+        if (currentStep >= steps) {
+          clearInterval(this.fadeInterval);
+          this.fadeInterval = null;
+          try {
+            this.activePlayer.volume = Math.max(0, Math.min(1, targetVol));
+          } catch (e) {}
+          if (onComplete) onComplete();
+        }
+      }, stepTime);
+    }
+
+    setupLoopMonitoring() {
+      const checkLoop = () => {
+        if (this.isMuted || this.activePlayer.paused) return;
+
+        const dur = this.activePlayer.duration;
+        const cur = this.activePlayer.currentTime;
+
+        if (dur && !isNaN(dur) && dur > this.crossfadeDuration) {
+          const timeLeft = dur - cur;
+          if (timeLeft <= this.crossfadeDuration && !this.isCrossfading) {
+            this.triggerCrossfade();
+          }
+        }
+      };
+
+      this.playerA.addEventListener('timeupdate', checkLoop);
+      this.playerB.addEventListener('timeupdate', checkLoop);
+
+      // Interval fallback check every 250ms
+      setInterval(checkLoop, 250);
+
+      // In case a track ends abruptly
+      const handleEnded = () => {
+        if (!this.isCrossfading && !this.isMuted) {
+          this.triggerCrossfade(true);
+        }
+      };
+      this.playerA.addEventListener('ended', handleEnded);
+      this.playerB.addEventListener('ended', handleEnded);
+    }
+
+    triggerCrossfade(immediate = false) {
+      if (this.isCrossfading) return;
+      this.isCrossfading = true;
+      const outgoing = this.activePlayer;
+      const incoming = this.standbyPlayer;
+
+      const targetVol = this.getEffectiveVolume();
+      incoming.currentTime = 0;
+      incoming.volume = 0;
+
+      const startPlay = incoming.play();
+      if (startPlay !== undefined) {
+        startPlay.catch(() => {});
+      }
+
+      const fadeDuration = immediate ? 1500 : this.crossfadeDuration * 1000;
+      const startTime = performance.now();
+
+      const crossfadeStep = (now) => {
+        const elapsed = now - startTime;
+        const progress = Math.min(1, elapsed / fadeDuration);
+
+        // Sinusoidal equal-power crossfade curve: constant perceived loudness, zero gap
+        const currentTarget = this.getEffectiveVolume();
+        const outVol = Math.max(0, currentTarget * Math.cos(progress * 0.5 * Math.PI));
+        const inVol = Math.min(1, currentTarget * Math.sin(progress * 0.5 * Math.PI));
+
+        try {
+          outgoing.volume = isNaN(outVol) ? 0 : outVol;
+          incoming.volume = isNaN(inVol) ? 0 : inVol;
+        } catch (e) {}
+
+        if (progress < 1) {
+          requestAnimationFrame(crossfadeStep);
+        } else {
+          try {
+            outgoing.pause();
+            outgoing.currentTime = 0;
+            incoming.volume = this.getEffectiveVolume();
+          } catch (e) {}
+
+          // Swap active and standby
+          this.activePlayer = incoming;
+          this.standbyPlayer = outgoing;
+          this.isCrossfading = false;
+        }
+      };
+
+      requestAnimationFrame(crossfadeStep);
+    }
+
+    setupAutoplayGesture() {
+      if (this.isMuted) return;
+
+      const tryStart = () => {
+        this.activePlayer.volume = 0;
+        const playPromise = this.activePlayer.play();
+        if (playPromise !== undefined) {
+          playPromise.then(() => {
+            this.hasUserInteracted = true;
+            this.fadeTo(this.getEffectiveVolume(), 1500);
+            removeGestureListeners();
+          }).catch(() => {
+            // Autoplay blocked until gesture
+          });
+        }
+      };
+
+      const onUserGesture = () => {
+        this.hasUserInteracted = true;
+        if (!this.isMuted && this.activePlayer.paused) {
+          this.activePlayer.volume = 0;
+          this.activePlayer.play().then(() => {
+            this.fadeTo(this.getEffectiveVolume(), 1500);
+          }).catch(() => {});
+        }
+        removeGestureListeners();
+      };
+
+      const removeGestureListeners = () => {
+        ['click', 'touchstart', 'keydown'].forEach(evt => {
+          document.removeEventListener(evt, onUserGesture);
+        });
+      };
+
+      ['click', 'touchstart', 'keydown'].forEach(evt => {
+        document.addEventListener(evt, onUserGesture, { once: true, passive: true });
+      });
+
+      // Attempt automatic initial play
+      tryStart();
+    }
+  }
+
+  // ==========================================================================
   // INITIALIZATION ON LOAD
   // ==========================================================================
   function init() {
@@ -2221,6 +2579,13 @@
     renderQuiz();
     renderFlashcard();
     updateProgressDisplay();
+
+    // Initialize Mystic Ambient Soundtrack
+    try {
+      window.mysticSoundtrack = new MysticSoundtrackManager();
+    } catch (err) {
+      console.warn('Soundtrack initialization error:', err);
+    }
   }
 
   // Run init when DOM is ready
