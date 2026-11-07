@@ -97,9 +97,10 @@ Cada archivo `.xml` cuenta con las siguientes etiquetas limpias y fáciles de ed
 
   <!-- 8. AUDIOLIBRO Y CAPÍTULOS INTERACTIVOS -->
   <audio>
-    <archivo>assets/audio/el-loco.wav</archivo>
+    <archivo>assets/audio/00_el_loco.wav</archivo>
+    <!-- NOTA SOBRE LA RUTA: Es relativa a la raíz. Puedes escribir "assets/audio/00_el_loco.wav", "assets\audio\00_el_loco.wav" o simplemente "00_el_loco.wav" (el sincronizador lo normaliza automáticamente) -->
     <titulo>El Salto al Vacío Sagrado - Audio Guía</titulo>
-    <!-- NOTA: La duración se calcula automáticamente desde el archivo de audio (.wav o .mp3) -->
+    <!-- NOTA SOBRE LA DURACIÓN: Se calcula automáticamente desde el archivo de audio (.wav o .mp3) -->
     <capitulos>
       <capitulo tiempo="0:00">Introducción y Simbolismo del Precipicio</capitulo>
       <capitulo tiempo="2:45">Significado en Posición Normal</capitulo>
