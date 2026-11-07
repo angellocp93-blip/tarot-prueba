@@ -279,7 +279,14 @@ def sync():
                 # Audio & Chapters (con cálculo automático de duración)
                 audio_node = root.find("audio")
                 if audio_node is not None:
-                    audio_file = get_tag_text(audio_node, "archivo", f"assets/audio/{card_id}.mp3").replace('\\', '/')
+                    raw_audio = get_tag_text(audio_node, "archivo", "").strip().replace('\\', '/')
+                    if not raw_audio:
+                        audio_file = f"assets/audio/{card_id}.wav"
+                    elif not raw_audio.startswith("assets/") and not raw_audio.startswith("http"):
+                        audio_file = f"assets/audio/{raw_audio.lstrip('/')}"
+                    else:
+                        audio_file = raw_audio.lstrip('/')
+
                     audio_title = get_tag_text(audio_node, "titulo", f"{card['name']} - Audiolibro")
                     est_duration = get_tag_text(audio_node, "duracion_estimada", "")
                     

@@ -109,7 +109,7 @@
 
   <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
   <audio>
-    <archivo>assets/audio/01_el_mago.wav</archivo>
+    <archivo>assets\audio\01_el_mago.wav</archivo>
     <titulo>El Mago - La Voluntad Creadora y la Alquimia Mental</titulo>
     <!-- Capítulos con marcas de tiempo (mm:ss) para navegación directa -->
     <capitulos>

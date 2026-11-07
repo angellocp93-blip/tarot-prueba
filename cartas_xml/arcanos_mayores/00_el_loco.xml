@@ -109,7 +109,7 @@
 
   <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
   <audio>
-    <archivo>assets/audio/00_el_loco.wav</archivo>
+    <archivo>assets\audio\00_el_loco.wav</archivo>
     <titulo>El Loco - El Salto al Vacío Sagrado</titulo>
     <!-- Capítulos con marcas de tiempo (mm:ss) para navegación directa -->
     <capitulos>

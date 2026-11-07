@@ -56,43 +56,33 @@ def run():
         has_changes = True
 
     if not has_changes:
-        print("ℹ️ No hay cambios pendientes por subir a GitHub. Todo está al día.")
+        print("ℹ️ No hay archivos nuevos por subir. Tu plataforma ya está 100% al día.")
         print()
         print("Puedes revisar tu plataforma en vivo en:")
         print("👉 https://angellocp93-blip.github.io/tarot-prueba/")
         return
 
-    # Preguntar al usuario si desea subir a GitHub
+    print("[3/3] Subiendo cambios a GitHub...")
     try:
-        resp = input("¿Deseas subir estos cambios a tu GitHub ahora mismo? (S/N) [S]: ").strip()
-    except EOFError:
-        resp = "S"
-
-    if resp == "" or resp.upper() in ["S", "SI", "Y", "YES"]:
-        print()
-        print("[3/3] Subiendo cambios a GitHub...")
-        try:
-            subprocess.run(["git", "add", "."], check=True)
-            subprocess.run(["git", "commit", "-m", "Actualizacion de textos XML y audiolibros con capitulos"], check=True)
-            push_res = subprocess.run(["git", "push", "origin", "main"], capture_output=True, text=True, encoding="utf-8")
-            if push_res.returncode == 0:
-                print()
-                print("=" * 72)
-                print(" ✅ ¡CAMBIOS SUBIDOS EXITOSAMENTE A GITHUB!")
-                print()
-                print(" Tu plataforma en línea estará lista en 1 a 2 minutos en:")
-                print(" 👉 https://angellocp93-blip.github.io/tarot-prueba/")
-                print()
-                print(" 💡 Consejo: Si abres la página y aún ves la versión previa,")
-                print("    presiona Ctrl + F5 o abre una pestaña de Incógnito.")
-                print("=" * 72)
-            else:
-                print(f"⚠️ Aviso al hacer push: {push_res.stderr or push_res.stdout}")
-        except subprocess.CalledProcessError as err:
-            print(f"❌ Error al ejecutar comando git: {err}")
-    else:
-        print()
-        print("ℹ️ Cambios guardados localmente. Puedes probar abriendo index.html.")
+        subprocess.run(["git", "add", "."], check=True)
+        subprocess.run(["git", "commit", "-m", "Actualizacion automatica de cartas XML y audiolibros"], check=True)
+        push_res = subprocess.run(["git", "push", "origin", "main"], capture_output=True, text=True, encoding="utf-8")
+        if push_res.returncode == 0:
+            print()
+            print("=" * 72)
+            print(" ✅ ¡CAMBIOS SUBIDOS EXITOSAMENTE A GITHUB!")
+            print()
+            print(" Tu plataforma en línea se actualizará en 1 a 2 minutos en:")
+            print(" 👉 https://angellocp93-blip.github.io/tarot-prueba/")
+            print()
+            print(" 💡 Consejo: Para ver los cambios de inmediato en tu navegador:")
+            print("    - En PC: Presiona Ctrl + F5 (o Ctrl + Shift + R).")
+            print("    - En Celular: Abre en pestaña de incógnito o privada.")
+            print("=" * 72)
+        else:
+            print(f"⚠️ Aviso al hacer push: {push_res.stderr or push_res.stdout}")
+    except subprocess.CalledProcessError as err:
+        print(f"❌ Error al ejecutar comando git: {err}")
 
 if __name__ == '__main__':
     run()

@@ -109,7 +109,7 @@
 
   <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
   <audio>
-    <archivo>assets/audio/02_la_sacerdotisa.wav</archivo>
+    <archivo>assets\audio\02_la_sacerdotisa.wav</archivo>
     <titulo>La Sacerdotisa - Los Secretos del Agua Silenciosa</titulo>
     <duracion_estimada>4:40 min</duracion_estimada>
   </audio>

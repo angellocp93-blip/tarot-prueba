@@ -109,7 +109,7 @@
 
   <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
   <audio>
-    <archivo>assets/audio/03_la_emperatriz.wav</archivo>
+    <archivo>assets\audio\03_la_emperatriz.wav</archivo>
     <titulo>La Emperatriz - El Huerto Sagrado de la Vida</titulo>
     <duracion_estimada>4:20 min</duracion_estimada>
   </audio>
