@@ -579,11 +579,11 @@ window.TAROT_DB = {
         "relato": "En un valle asolado por las crecidas violentas de los ríos y las incursiones de bandas nómadas, un hombre de mirada severa y barba blanca decidió hincar estacas de hierro en la tierra reseca. Los habitantes del lugar protestaban, cansados de su insistencia en medir los terrenos, trazar caminos rectos y exigir la construcción de muros de piedra labrada. «Déjanos vivir libres como el viento», le suplicaban agotados. El Emperador, ajustándose la armadura bajo su manto carmesí, replicó sin vacilar: «La libertad sin estructura es pasto del caos. Quien no edifica su propia casa sobre roca firme termina siendo esclavo de las tormentas». Pasaron los años y una gran inundación barrió las chozas endebles de los reacios. Solo el dominio del anciano, protegido por sus sólidos bastiones y un sistema de leyes justas, resistió la embestida implacable de la naturaleza. Los supervivientes, refugiados tras los muros seguros, comprendieron al fin que la severidad de aquel monarca no era tiranía, sino el acto supremo de amor que garantizaba la supervivencia y el futuro del reino."
       },
       "audio": {
-        "archivo": "assets/audio/el-emperador.mp3",
+        "archivo": "assets/audio/04_El_Emperador.wav",
         "titulo": "El Emperador - El Trono de la Firmeza",
         "duracion_estimada": "4:25 min",
-        "duracion_calculada": "",
-        "duracion_segundos": 0,
+        "duracion_calculada": "10:29 min",
+        "duracion_segundos": 629,
         "capitulos": []
       }
     },

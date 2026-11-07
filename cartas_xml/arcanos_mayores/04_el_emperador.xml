@@ -109,7 +109,7 @@
 
   <!-- 8. AUDIOLIBRO / GUÍA DE AUDIO -->
   <audio>
-    <archivo>assets/audio/el-emperador.mp3</archivo>
+    <archivo>04_El_Emperador.wav</archivo>
     <titulo>El Emperador - El Trono de la Firmeza</titulo>
     <duracion_estimada>4:25 min</duracion_estimada>
   </audio>
